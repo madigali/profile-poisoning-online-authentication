@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "sensor_columns_zero_based": [
+    3,
+    4,
+    5
+  ],
+  "window_size": 100,
+  "windows_per_session": 20,
+  "window_offset": 500,
+  "sequence_length": 10,
+  "sequence_step": 10,
+  "fold_rule": "(session_number - 1) modulo 5",
+  "agent_alpha": 0.05,
+  "agent_k": "per-subject value induced by validation EER threshold",
+  "agent_effective_memory": 20.0,
+  "drift_levels_l2": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "balanced_stream_repeats": 10,
+  "n_subjects": 100,
+  "n_sequences": 4784
+}
