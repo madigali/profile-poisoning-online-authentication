@@ -1,0 +1,32 @@
+{
+  "asr_practical_threshold": null,
+  "asr_threshold_reason": "No retrospective universal cutoff added; report percentage-point effects.",
+  "attack_budgets": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "attacks": [
+    "random",
+    "boundary"
+  ],
+  "clean_drift_uncertainty": "paired subject bootstrap after averaging subjects across available folds",
+  "cohort_and_exclusions_frozen": true,
+  "complete_case_sensitivity": "99 subjects with all five folds",
+  "drift_security_constraints_pp": {
+    "max_far_increase": 1.0,
+    "max_hter_degradation": 0.5
+  },
+  "fold_intervals": "descriptive only",
+  "freeze_tag": "paper3-method-freeze-2026-10-02",
+  "hypotheses_and_endpoints_frozen": true,
+  "multiplicity": "no new hypothesis tests; secondary contrasts labeled exploratory",
+  "paper1_paper2_note": "Exact inherited facts still require checking against primary manuscripts before submission.",
+  "paper1_paper2_primary_facts_verified": false,
+  "primary_drift_display": "Claimant-only D=2 late FRR gain versus Frozen",
+  "primary_security_display": "Boundary attack at K=8; post-poison ASR and change from K=0",
+  "prospective_confirmatory_status": false,
+  "status": "paper3_hmog_experiments_frozen"
+}

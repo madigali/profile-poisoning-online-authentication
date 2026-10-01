@@ -576,6 +576,128 @@ branch after seeing these validation results.  A subsequent method must receive
 a new protocol identifier and should change the state/threshold dynamics for a
 scientifically motivated reason rather than tune this failed specification.
 
+### D018 — Paper 3 experimental freeze and final-analysis protocol
+
+Date: 2026-10-02  
+Freeze commit: `476cf91`  
+Freeze tag: `paper3-method-freeze-2026-10-02`  
+Status: experimental development on HMOG stopped; reporting package authorized
+
+No additional HMOG adaptation algorithm, tuning sweep, combined drift-plus-
+attack run, or stopped outer evaluation will be launched for the current paper.
+The final analysis is a read-only aggregation of completed authoritative runs:
+
+- attack v2: `paper3_attack_v2_summary.csv` and
+  `paper3_attack_v2_by_fold.csv`;
+- guarded poisoning: `results/paper3_guarded_20260930/`;
+- clean claimant-only drift and Oracle-all diagnostic:
+  `results/paper3_oracle_all_drift_20261001_v2/`;
+- TQ-EMA v1: `results/paper3_tq_clean_drift_20261001_v1/`;
+- TQ-EMA v2 validation stop:
+  `results/paper3_tq_v2_validation_failed_20261001/`;
+- Adaptive Quantile validation stop:
+  `results/paper3_quantile_validation_failed_20261001_v1/`.
+
+The manuscript hypotheses/claims are now fixed as follows.  H1: Blind EMA is
+vulnerable to held-out profile poisoning, with post-poison ASR increasing with
+budget and the score-informed boundary strategy providing the strongest tested
+benchmark.  H2: the guarded update gate reduces malicious incorporation and
+post-poison ASR relative to Blind EMA, with a measurable genuine-update cost.
+H3: accepted-only gating creates selective-update bias under downward genuine-
+score drift; Oracle-all is diagnostic evidence that uncensored feedback restores
+some FRR tracking but moves FAR in the unsafe direction.  H4: neither TQ-EMA v1,
+TQ-EMA v2, nor the frozen `q20/q50` quantile branch established deployable clean
+drift recovery under their prespecified gates.  These hypotheses summarize an
+exploratory sequence and were not all prospectively preregistered before the
+first HMOG results; the manuscript must not label them confirmatory.
+
+The central completed security endpoint is post-poison ASR (and within-method
+change from `K=0`) at the fixed budgets `K={0,1,2,4,8}`, emphasizing boundary
+`K=8`.  The primary comparisons shown in the final package are Frozen versus
+Blind EMA and Blind EMA versus Guarded EMA with the already carried-forward
+exploratory `lambda=0.25`.  Random attack and the full lambda sweep remain
+secondary/exploratory.  The central drift endpoint is claimant-only `D=2` late
+FRR gain versus Frozen.  Late FAR and HTER are paired safety endpoints.  TQ-v1
+and the stopped validation branches retain their already frozen success rules:
+the late-FRR-gain 95% subject-bootstrap interval must be above zero, late FAR
+may increase by at most `+1.0` percentage point, and HTER may degrade by at most
+`+0.5` point, with the complete-five-fold sensitivity conclusion preserved.
+
+Do not add a retrospective universal practical threshold for poisoning ASR.
+Report ASR and MUR effects in percentage points with explicit budgets and
+denominators.  The `+1.0` FAR and `+0.5` HTER constraints are experiment-specific
+engineering thresholds frozen before the corresponding validation selections,
+not universal biometric standards.
+
+Exclusions remain exactly those saved by each authoritative run.  Attack-v2
+feasibility exclusions and source-session-group poison/probe separation are not
+recomputed.  Clean-drift paths retain the recorded incomplete-session exclusion
+for `sid=57`; validation runs retain their own recorded fold/path exclusions.
+No complete-case set is silently substituted for the primary all-available-
+subject analysis.
+
+For attack runs, fold summaries, standard deviations, and t intervals are
+descriptive protocol-stability summaries because folds overlap and Monte Carlo
+repeats are not independent observations.  For clean drift, the primary
+uncertainty analysis averages each subject across available folds and applies a
+paired subject bootstrap; the 99-subject complete-five-fold result is a
+sensitivity analysis.  FAR two-way victim/impostor-source bootstrap remains a
+secondary robustness analysis.  No new null-hypothesis tests or post-result
+multiplicity procedure will be introduced in the final aggregation.
+
+The final analysis must not retrain, rescore, tune, or write into authoritative
+run directories.  It must verify expected manifest statuses and stopped-outer
+flags, cross-check duplicated Frozen/Blind values across result families, hash
+every consumed input, and write a new immutable output directory containing
+three figures, plot-data tables, the summary decision table, and a provenance
+manifest.
+
+### D019 — Final Paper 3 result package
+
+Date: 2026-10-02  
+Run: `results/paper3_final_analysis_20261002_v2/`  
+Status: complete; read-only aggregation
+
+`paper3_final_analysis.py` consumed 26 frozen inputs from commit `476cf91` and
+performed no training, rescoring, adaptation, or tuning.  Its manifest confirms
+that attack-v2 and guarded-run Frozen/Blind baselines match, Guarded
+`lambda=0` reproduces Blind EMA, clean-drift baselines match the TQ-v1 export,
+and both stopped branches retain `outer_test_loaded=false`.  All consumed inputs
+and generated outputs are SHA-256 hashed.
+
+The final poisoning figure shows random and boundary attacks with the nested
+budgets `K={0,1,2,4,8}`.  Under boundary `K=8`, Blind EMA post-poison ASR was
+approximately `53.96%`, versus `22.92%` for Frozen and `22.93%` for Guarded
+`lambda=0.25`.  Blind MUR was `100%`; Guarded MUR was approximately `1.63%`.
+The lambda sweep remains an exploratory supporting table rather than a selected
+confirmatory comparison.
+
+The final security-adaptation trade-off figure uses claimant-only `D=2` and
+plots late FAR against late FRR after subject-level fold averaging.  Frozen was
+`22.86%` FAR / `32.53%` FRR; Blind was `23.80%` / `32.20%`; Guarded was `21.73%`
+/ `34.60%`; Oracle-all was `28.94%` / `25.93%`; and TQ-v1 was `20.92%` /
+`33.43%`.  The figure therefore presents a trade-off frontier rather than a
+free improvement claim.
+
+The final mechanism figure averages each subject across available folds before
+bootstrapping.  Across the five session checkpoints, Guarded profile mean and
+threshold move upward while Oracle-all moves both downward.  Guarded update
+rates fall from approximately `63.47%` to `51.68%`, whereas Oracle-all remains
+at `100%`.  This is the central visual evidence for selective-update bias.
+
+The summary decision table freezes six interpretations: reject Blind EMA as a
+deployable adaptive policy; retain Guarded EMA only as the security baseline;
+use Oracle-all only as a diagnostic; stop TQ-v1; stop TQ-v2 after validation;
+and stop the frozen `q20/q50` quantile representation after validation.  TQ-v1
+is not described as directly attack-validated because the combined
+drift-plus-attack experiment was never run.
+
+This package closes HMOG algorithm development for Paper 3.  The next allowed
+work is manuscript drafting from the frozen package or a separately justified
+decision about an untouched external dataset.  Exact inherited Paper 1/Paper 2
+facts still require verification from their primary manuscripts before
+submission and remain the only unchecked item in the reporting checklist.
+
 ## Information to recover from Paper 1/Paper 2
 
 - Exact titles, venues, publication status, DOI, and citation records.
@@ -604,14 +726,14 @@ scientifically motivated reason rather than tune this failed specification.
 ## Pre-registration checklist
 
 - [ ] Verify Paper 1/Paper 2 facts from primary materials.
-- [ ] Freeze hypotheses and primary endpoint.
-- [ ] Freeze cohort/exclusion rules.
-- [ ] Freeze attack budgets and attacker feedback.
-- [ ] Freeze TQ-EMA parameters or tuning ranges.
-- [ ] Freeze primary attacker knowledge and probe-identity regime.
-- [ ] Freeze statistical tests and multiplicity handling.
-- [ ] Define practical effect thresholds for ASR and FRR.
-- [ ] Hash the final configuration before full runs.
+- [x] Freeze hypotheses and central reporting endpoints (D018; explicitly post-result/exploratory).
+- [x] Freeze cohort/exclusion rules (authoritative manifests and exclusions files).
+- [x] Freeze attack budgets and attacker feedback (`K={0,1,2,4,8}`; random and score-informed boundary).
+- [x] Freeze TQ-EMA parameters or tuning ranges (D012, D014; both branches closed).
+- [x] Freeze primary attacker knowledge and probe-identity regime (source-session-group split; boundary is not binary-feedback-only).
+- [x] Freeze statistical analyses and multiplicity handling (D018; descriptive folds, paired subject bootstrap, no new tests).
+- [x] Define practical-effect handling (pre-existing `+1.0` FAR/`+0.5` HTER constraints; no retrospective universal ASR cutoff).
+- [x] Hash completed configurations and consumed inputs (authoritative manifests; final aggregator must emit input hashes).
 
 ## Decision log template
 

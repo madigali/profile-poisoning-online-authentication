@@ -1,0 +1,11 @@
+{
+  "bootstrap_replicates": 10000,
+  "freeze_tag": "paper3-method-freeze-2026-10-02",
+  "output_dir": "/Users/madigali/.codex/.chatgpt-projects/g-p-6abba505c7a0819184b45c7f142edb0d/q1-third-article/results/paper3_final_analysis_20261002_v2",
+  "read_only_aggregation": true,
+  "rescoring": false,
+  "retraining": false,
+  "seed": 4242,
+  "source_dir": "/Users/madigali/Documents/PythoProjects/q1",
+  "tuning": false
+}

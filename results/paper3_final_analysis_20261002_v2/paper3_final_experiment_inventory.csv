@@ -1,0 +1,7 @@
+Experiment,Status,Outer evaluation,Role
+Attack v2,complete,completed,Frozen versus Blind vulnerability
+Guarded poisoning,complete,completed,Guarded lambda sweep; lambda=0.25 final security baseline
+Clean drift and Oracle-all,complete,exploratory reuse,Drift trade-off and selection-bias diagnostic
+TQ-EMA v1,complete,exploratory reuse,Recovery attempt; primary late-FRR criterion failed
+TQ-EMA v2,validation_failed,not loaded,Stopped after failed folds [4]
+Adaptive Quantile,validation_failed,not loaded,"Stopped after failed folds [1, 2, 3, 4, 5]"
