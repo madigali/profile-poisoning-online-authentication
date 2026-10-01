@@ -1,0 +1,26 @@
+{
+  "status": "validation_failed",
+  "reason": "At least one fold had no configuration satisfying validation Delta-FAR <= +1pp and HTER degradation <= +0.5pp",
+  "failed_folds": [
+    4
+  ],
+  "fold_diagnostics": [
+    {
+      "fold": 4,
+      "validation_drift": 2.0,
+      "validation_drift_seed": 45,
+      "selection_status": "no_feasible_config",
+      "selected_config_id": "",
+      "best_unconstrained_config_id": "b0.75_m2_a0.025_A0.10",
+      "best_unconstrained_late_FRR_gain": -0.045454545454545456,
+      "best_unconstrained_late_FAR_change": -0.026731966125905518,
+      "best_unconstrained_HTER_change": 0.00936128966431997,
+      "minimum_validation_late_FAR_change": -0.02765023977145189,
+      "minimum_validation_HTER_change": 0.008902152841546785,
+      "n_feasible_configs": 0,
+      "n_validation_subjects": 99,
+      "n_validation_exclusions": 1
+    }
+  ],
+  "outer_test_loaded": false
+}

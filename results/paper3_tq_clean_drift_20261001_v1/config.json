@@ -1,0 +1,269 @@
+{
+  "source_dir": "/Users/madigali/Documents/PythoProjects/q1",
+  "cache_dir": "/Users/madigali/Documents/PythoProjects/q1/paper3_cache",
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "max_subjects": null,
+  "drifts": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "scenario": "claimant_only",
+  "validation_drift": 2.0,
+  "validation_split": "first 2 complete sessions enrollment; remaining sessions tuning",
+  "validation_far_limit": 0.01,
+  "tq_grid": [
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    }
+  ],
+  "selection_rule": "maximize validation late-FRR gain among configs with Delta FAR <= 0.01; exact ties prefer larger m, narrower band, lower alpha, tighter anchor",
+  "primary_test": "claimant-only D=2, TQ-EMA versus Frozen late-FRR gain",
+  "test_hter_degradation_limit": 0.005,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 4242,
+  "two_way_far_bootstrap": "independent victim and impostor-source resampling"
+}

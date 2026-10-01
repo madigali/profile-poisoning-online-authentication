@@ -1,0 +1,29 @@
+{
+  "source_dir": "/Users/madigali/Documents/PythoProjects/q1",
+  "cache_dir": "/Users/madigali/Documents/PythoProjects/q1/paper3_cache",
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "max_subjects": null,
+  "rhos": [
+    0.8,
+    0.9,
+    0.95
+  ],
+  "q_low": 0.2,
+  "q_center": 0.5,
+  "minimum_initial_span": 1e-08,
+  "weighted_quantile": "minimum observed score with cumulative normalized weight >= p",
+  "threshold": "q50 - c*(q50-q20), c frozen to reproduce validation EER tau0",
+  "validation_replay": "D=0 validation enrollment/calibration; D=2 claimant replay; D=0 impostors",
+  "validation_far_limit": 0.01,
+  "validation_hter_degradation_limit": 0.005,
+  "outer_inferential_status": "exploratory reuse if validation passes",
+  "validation_only": true,
+  "bootstrap_replicates": 10000,
+  "seed": 4242
+}

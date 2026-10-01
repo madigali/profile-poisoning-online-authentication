@@ -1,0 +1,15 @@
+{
+  "scenario": "claimant_only",
+  "D": 2.0,
+  "primary_comparison": "TQ-EMA versus Frozen",
+  "late_FRR_gain": -0.8999999999999999,
+  "late_FRR_gain_ci95_low": -1.8000000000000003,
+  "late_FRR_gain_ci95_high": 8.326672684688674e-17,
+  "late_FAR_change": -1.9389392203825195,
+  "HTER_change": -0.5194696101912598,
+  "complete_case_late_FRR_gain_ci95_low": -1.9191919191919187,
+  "criterion_frr_ci_above_zero": false,
+  "criterion_far_change_at_most_1pp": true,
+  "criterion_hter_degradation_at_most_0_5pp": true,
+  "criterion_complete_case_preserved": false
+}

@@ -1,0 +1,6 @@
+fold,validation_drift,validation_drift_seed,selection_status,selected_config_id,selected_validation_late_FRR_gain,selected_validation_late_FAR_change,selected_validation_HTER_change,n_validation_subjects,n_validation_exclusions,band_sigma,confirmation_sessions,recovery_alpha,anchor_sigma,dispersion_sigma,mean_cap_sigma,threshold_cap_sigma,trusted_lambda
+1,2.0,42,feasible,b0.25_m3_a0.025_A0.10,0.0,-0.3787878787878787,-0.1893939393939391,100,0,0.25,3,0.025,0.1,0.5,0.1,0.05,0.25
+2,2.0,43,feasible,b0.50_m2_a0.025_A0.10,-0.5,-0.29292929292929293,0.10353535353535334,100,0,0.5,2,0.025,0.1,0.5,0.1,0.05,0.25
+3,2.0,44,feasible,b0.25_m2_a0.050_A0.10,-1.0101010101010102,0.06516271745887496,0.5376318637799424,99,1,0.25,2,0.05,0.1,0.5,0.1,0.05,0.25
+4,2.0,45,feasible,b0.25_m3_a0.025_A0.10,0.0,-1.219263340475462,-0.6096316702377308,99,1,0.25,3,0.025,0.1,0.5,0.1,0.05,0.25
+5,2.0,46,feasible,b0.25_m2_a0.025_A0.10,-2.0,0.0757575757575757,1.0378787878787876,100,0,0.25,2,0.025,0.1,0.5,0.1,0.05,0.25

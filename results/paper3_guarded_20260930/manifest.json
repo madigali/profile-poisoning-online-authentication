@@ -1,0 +1,24 @@
+{
+  "cache_hashes": {
+    "fold1_D0.0.npz": "969cbad2e13dc656ddf69c1ea9e5584e58a532a8744a16adaefc25e99ce172d4",
+    "fold1_base.npz": "90c426e7151d863acea5f18c431afd0d075a0e604df06116b4f8729737b1a3f9",
+    "fold2_D0.0.npz": "32a3df6253465601eb01de6ad6a0f48556662c991a97a813a638a25d2b314152",
+    "fold2_base.npz": "81d001122bdd34126e1280f697f80dca9ca2b6014955fdeaa5a87542fdb6fb8a",
+    "fold3_D0.0.npz": "cbb47f41feb0cb79495184cd0e9b279c9b69de0a182242701f78cc8badafb23b",
+    "fold3_base.npz": "ffbc06e89c4b456e74dd1bdc9fc7088d781f26156e8edf19c62545dc5942ff1d",
+    "fold4_D0.0.npz": "1f3c7f3fd8e623223d0a7d26ea8cab334ba1a568af7ca336233b80eb7d51facf",
+    "fold4_base.npz": "ca09afa025d49da943cff0d3d528a20ae253f67912d12eea723a281c92297db0",
+    "fold5_D0.0.npz": "601c0486b77b23d3b896e4abdea12a96004ee303d8af5c80975f35c9d9ff2dc4",
+    "fold5_base.npz": "89fe8aeff078a4eb30196618121870ae8376a223e81aa17e24e29810cbda1b3d"
+  },
+  "command": "paper3_guarded_adaptation.py --source-dir /Users/madigali/Documents/PythoProjects/q1 --repeats 100 --output-dir results/20260930-guarded-full-r100",
+  "created_utc": "2026-09-30T18:14:14.680849+00:00",
+  "platform": "macOS-14.3-arm64-arm-64bit-Mach-O",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+  "source_hashes": {
+    "hmog_revised_experiment.py": "3468a5a8c6d7e0e9a6ee61da1b7c4312ce46c46fc2ff1167457e1cd5be8e2210",
+    "paper3_guarded_adaptation.py": "fb0fd872bd2aff62fe20dc12042fac95b167580a108eaf40b1a30dc3eb5eedd5",
+    "paper3_poisoning_attack_v2.py": "9243278b41f26400004a2ceaee3f0e83a9999e411b03e2dcfa3ab953ed8c1ee4"
+  },
+  "status": "complete"
+}

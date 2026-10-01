@@ -1,0 +1,79 @@
+{
+  "status": "validation_failed",
+  "reason": "At least one fold had no feasible Accepted-only Quantile rho",
+  "failed_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "fold_diagnostics": [
+    {
+      "fold": 1,
+      "selection_status": "no_feasible_rho",
+      "selected_rho": NaN,
+      "best_unconstrained_rho": 0.95,
+      "best_unconstrained_late_FRR_gain": -0.12,
+      "best_unconstrained_late_FAR_change": -0.05186868686868687,
+      "best_unconstrained_HTER_change": 0.03406565656565656,
+      "n_feasible_rhos": 0,
+      "validation_drift_seed": 42,
+      "n_validation_subjects": 100,
+      "n_validation_exclusions": 0
+    },
+    {
+      "fold": 2,
+      "selection_status": "no_feasible_rho",
+      "selected_rho": NaN,
+      "best_unconstrained_rho": 0.95,
+      "best_unconstrained_late_FRR_gain": -0.12,
+      "best_unconstrained_late_FAR_change": -0.06237373737373737,
+      "best_unconstrained_HTER_change": 0.028813131313131318,
+      "n_feasible_rhos": 0,
+      "validation_drift_seed": 43,
+      "n_validation_subjects": 100,
+      "n_validation_exclusions": 0
+    },
+    {
+      "fold": 3,
+      "selection_status": "no_feasible_rho",
+      "selected_rho": NaN,
+      "best_unconstrained_rho": 0.95,
+      "best_unconstrained_late_FRR_gain": -0.10101010101010101,
+      "best_unconstrained_late_FAR_change": -0.06238107409616313,
+      "best_unconstrained_HTER_change": 0.01931451345696894,
+      "n_feasible_rhos": 0,
+      "validation_drift_seed": 44,
+      "n_validation_subjects": 99,
+      "n_validation_exclusions": 1
+    },
+    {
+      "fold": 4,
+      "selection_status": "no_feasible_rho",
+      "selected_rho": NaN,
+      "best_unconstrained_rho": 0.95,
+      "best_unconstrained_late_FRR_gain": -0.08585858585858586,
+      "best_unconstrained_late_FAR_change": -0.02346699316396286,
+      "best_unconstrained_HTER_change": 0.031195796347311493,
+      "n_feasible_rhos": 0,
+      "validation_drift_seed": 45,
+      "n_validation_subjects": 99,
+      "n_validation_exclusions": 1
+    },
+    {
+      "fold": 5,
+      "selection_status": "no_feasible_rho",
+      "selected_rho": NaN,
+      "best_unconstrained_rho": 0.95,
+      "best_unconstrained_late_FRR_gain": -0.105,
+      "best_unconstrained_late_FAR_change": -0.044393939393939395,
+      "best_unconstrained_HTER_change": 0.030303030303030304,
+      "n_feasible_rhos": 0,
+      "validation_drift_seed": 46,
+      "n_validation_subjects": 100,
+      "n_validation_exclusions": 0
+    }
+  ],
+  "outer_test_loaded": false
+}

@@ -12,3 +12,10 @@ __pycache__/
 
 tmp/
 release/continuous-mobile-authentication-hmog/
+
+# Local Paper 3 score/model caches are regenerated and are not versioned.
+paper3_cache/
+
+# Superseded exploratory runs; authoritative successors are versioned.
+results/paper3_guarded_drift_20260930/
+results/paper3_oracle_all_drift_20261001/

@@ -1,0 +1,271 @@
+{
+  "source_dir": "/Users/madigali/Documents/PythoProjects/q1",
+  "cache_dir": "/Users/madigali/Documents/PythoProjects/q1/paper3_cache",
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "max_subjects": null,
+  "drifts": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "scenario": "claimant_only",
+  "method": "TQ-EMA v2 recovery episode",
+  "episode_horizon_sessions": 3,
+  "conflict_rule": "suppress trusted proposal if proposed mean OR threshold increases",
+  "validation_replay": "all clean D=0 validation scores initialize/calibrate; D=2 transformed validation scores are replayed; impostor checkpoints remain D=0",
+  "validation_far_limit": 0.01,
+  "validation_hter_degradation_limit": 0.005,
+  "tq_grid": [
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.25,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.5,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 2,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.025,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.1,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    },
+    {
+      "band_sigma": 0.75,
+      "confirmation_sessions": 3,
+      "recovery_alpha": 0.05,
+      "anchor_sigma": 0.25,
+      "dispersion_sigma": 0.5,
+      "mean_cap_sigma": 0.1,
+      "threshold_cap_sigma": 0.05,
+      "trusted_lambda": 0.25
+    }
+  ],
+  "v1_selection_csv": "/Users/madigali/Documents/PythoProjects/q1/results/paper3_tq_clean_drift_20261001_v1/paper3_tq_selected_by_fold.csv",
+  "primary_test": "claimant-only D=2, TQ-EMA v2 versus Frozen late-FRR gain",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 4242,
+  "inferential_status": "exploratory reuse of outer caches already inspected for v1"
+}

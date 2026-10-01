@@ -1,0 +1,97 @@
+cohort,scenario,D,policy_id,method,lambda,lambda_value,effect,n_subjects,n_bootstrap,estimate,ci95_low,ci95_high
+all_available_folds,claimant_only,0.0,blind,Blind EMA,,-1.0,late_FRR_gain,100,10000,0.03333333333333313,-1.5666666666666669,1.5333333333333332
+all_available_folds,claimant_only,0.0,blind,Blind EMA,,-1.0,HTER_gain,100,10000,-0.4276217713993852,-1.145781374301256,0.2190101617550073
+all_available_folds,claimant_only,0.0,blind,Blind EMA,,-1.0,late_FAR_change,100,10000,0.8885768761321052,-0.6275154580732628,2.5779785060436744
+all_available_folds,claimant_only,0.0,blind,Blind EMA,,-1.0,GUR_change,100,10000,74.16333333333333,72.20333333333333,76.10008333333336
+all_available_folds,claimant_only,0.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FRR_gain,100,10000,-1.866666666666667,-3.3666666666666663,-0.5666666666666667
+all_available_folds,claimant_only,0.0,guarded_0.25,Guarded EMA,0.25,0.25,HTER_gain,100,10000,-0.16237653553559275,-0.8453287264609066,0.4557044461020901
+all_available_folds,claimant_only,0.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FAR_change,100,10000,-1.54191359559548,-2.5326587717769593,-0.5003039733544151
+all_available_folds,claimant_only,0.0,guarded_0.25,Guarded EMA,0.25,0.25,GUR_change,100,10000,62.10333333333333,60.18666666666667,64.01675
+all_available_folds,claimant_only,0.0,oracle_all,Oracle-all-genuine,,-1.0,late_FRR_gain,100,10000,4.733333333333332,3.166666666666667,6.333333333333332
+all_available_folds,claimant_only,0.0,oracle_all,Oracle-all-genuine,,-1.0,HTER_gain,100,10000,-0.39048717060499083,-1.2151817260018654,0.42367012620418376
+all_available_folds,claimant_only,0.0,oracle_all,Oracle-all-genuine,,-1.0,late_FAR_change,100,10000,5.514307674543314,3.791847258793135,7.404108421510852
+all_available_folds,claimant_only,0.0,oracle_all,Oracle-all-genuine,,-1.0,GUR_change,100,10000,100.0,100.0,100.0
+all_available_folds,claimant_only,0.0,tq_ema,TQ-EMA,0.25,0.25,late_FRR_gain,100,10000,-1.6666666666666667,-2.8,-0.6666666666666666
+all_available_folds,claimant_only,0.0,tq_ema,TQ-EMA,0.25,0.25,HTER_gain,100,10000,0.31627616369884415,-0.20097938144329822,0.7671994428824325
+all_available_folds,claimant_only,0.0,tq_ema,TQ-EMA,0.25,0.25,late_FAR_change,100,10000,-2.2992189940643546,-2.6993848276580223,-1.926138446318859
+all_available_folds,claimant_only,0.0,tq_ema,TQ-EMA,0.25,0.25,GUR_change,100,10000,64.00333333333333,62.18991666666667,65.80008333333335
+all_available_folds,claimant_only,1.0,blind,Blind EMA,,-1.0,late_FRR_gain,100,10000,-1.166666666666667,-2.7675,0.33333333333333326
+all_available_folds,claimant_only,1.0,blind,Blind EMA,,-1.0,HTER_gain,100,10000,-1.042504875531385,-1.9078490826456584,-0.23894891610189867
+all_available_folds,claimant_only,1.0,blind,Blind EMA,,-1.0,late_FAR_change,100,10000,0.9183430843961042,-0.5699124405567699,2.5826459462781264
+all_available_folds,claimant_only,1.0,blind,Blind EMA,,-1.0,GUR_change,100,10000,73.34333333333332,71.38333333333334,75.32008333333333
+all_available_folds,claimant_only,1.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FRR_gain,100,10000,-3.066666666666667,-4.666666666666666,-1.666666666666667
+all_available_folds,claimant_only,1.0,guarded_0.25,Guarded EMA,0.25,0.25,HTER_gain,100,10000,-0.9057073469812792,-1.6821997151719164,-0.1654282515880455
+all_available_folds,claimant_only,1.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FAR_change,100,10000,-1.2552519727041076,-2.394700614391336,-0.01785555428044359
+all_available_folds,claimant_only,1.0,guarded_0.25,Guarded EMA,0.25,0.25,GUR_change,100,10000,61.160000000000004,59.309999999999995,63.000000000000014
+all_available_folds,claimant_only,1.0,oracle_all,Oracle-all-genuine,,-1.0,late_FRR_gain,100,10000,5.099999999999999,3.4000000000000004,6.799999999999999
+all_available_folds,claimant_only,1.0,oracle_all,Oracle-all-genuine,,-1.0,HTER_gain,100,10000,-0.2848107805029745,-1.255010841106201,0.6526229632746562
+all_available_folds,claimant_only,1.0,oracle_all,Oracle-all-genuine,,-1.0,late_FAR_change,100,10000,5.6696215610059495,3.852187644556938,7.705511913971044
+all_available_folds,claimant_only,1.0,oracle_all,Oracle-all-genuine,,-1.0,GUR_change,100,10000,100.0,100.0,100.0
+all_available_folds,claimant_only,1.0,tq_ema,TQ-EMA,0.25,0.25,late_FRR_gain,100,10000,-2.1999999999999997,-3.4000000000000004,-1.1
+all_available_folds,claimant_only,1.0,tq_ema,TQ-EMA,0.25,0.25,HTER_gain,100,10000,0.03168280745600341,-0.5310343121941061,0.5531609913568676
+all_available_folds,claimant_only,1.0,tq_ema,TQ-EMA,0.25,0.25,late_FAR_change,100,10000,-2.263365614912006,-2.7252496615640935,-1.838790221805685
+all_available_folds,claimant_only,1.0,tq_ema,TQ-EMA,0.25,0.25,GUR_change,100,10000,63.019999999999996,61.27000000000001,64.69025
+all_available_folds,claimant_only,2.0,blind,Blind EMA,,-1.0,late_FRR_gain,100,10000,0.33333333333333326,-1.2000000000000002,1.9333333333333333
+all_available_folds,claimant_only,2.0,blind,Blind EMA,,-1.0,HTER_gain,100,10000,-0.3006603130682659,-1.0158279964594399,0.40065426602797743
+all_available_folds,claimant_only,2.0,blind,Blind EMA,,-1.0,late_FAR_change,100,10000,0.9346539594698656,-0.5768590624315949,2.6445344177450214
+all_available_folds,claimant_only,2.0,blind,Blind EMA,,-1.0,GUR_change,100,10000,70.90333333333334,68.99666666666667,72.86349999999999
+all_available_folds,claimant_only,2.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FRR_gain,100,10000,-2.066666666666667,-3.533333333333334,-0.6333333333333335
+all_available_folds,claimant_only,2.0,guarded_0.25,Guarded EMA,0.25,0.25,HTER_gain,100,10000,-0.4639669186429124,-1.1623445058800355,0.20941958242215952
+all_available_folds,claimant_only,2.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FAR_change,100,10000,-1.138732829380841,-2.292275819418677,0.12042919906690079
+all_available_folds,claimant_only,2.0,guarded_0.25,Guarded EMA,0.25,0.25,GUR_change,100,10000,59.050000000000004,57.22000000000001,60.88
+all_available_folds,claimant_only,2.0,oracle_all,Oracle-all-genuine,,-1.0,late_FRR_gain,100,10000,6.599999999999999,4.8999999999999995,8.399999999999999
+all_available_folds,claimant_only,2.0,oracle_all,Oracle-all-genuine,,-1.0,HTER_gain,100,10000,0.26018205053551163,-0.5881265221646295,1.0885790199137027
+all_available_folds,claimant_only,2.0,oracle_all,Oracle-all-genuine,,-1.0,late_FAR_change,100,10000,6.079635898928979,4.195745082319089,8.15867504645303
+all_available_folds,claimant_only,2.0,oracle_all,Oracle-all-genuine,,-1.0,GUR_change,100,10000,100.0,100.0,100.0
+all_available_folds,claimant_only,2.0,tq_ema,TQ-EMA,0.25,0.25,late_FRR_gain,100,10000,-0.8999999999999999,-1.8000000000000003,8.326672684688674e-17
+all_available_folds,claimant_only,2.0,tq_ema,TQ-EMA,0.25,0.25,HTER_gain,100,10000,0.5194696101912598,0.09727819431427673,0.9446993127147774
+all_available_folds,claimant_only,2.0,tq_ema,TQ-EMA,0.25,0.25,late_FAR_change,100,10000,-1.9389392203825195,-2.455757141865389,-1.434431427678851
+all_available_folds,claimant_only,2.0,tq_ema,TQ-EMA,0.25,0.25,GUR_change,100,10000,60.940000000000005,59.25,62.62025
+complete_case_5_folds,claimant_only,0.0,blind,Blind EMA,,-1.0,late_FRR_gain,99,10000,0.20202020202020188,-1.4141414141414141,1.7171717171717171
+complete_case_5_folds,claimant_only,0.0,blind,Blind EMA,,-1.0,HTER_gain,99,10000,-0.4123853555950665,-1.1198532390403226,0.25978479473480987
+complete_case_5_folds,claimant_only,0.0,blind,Blind EMA,,-1.0,late_FAR_change,99,10000,1.0267909132103359,-0.45976144237290273,2.7517181137757283
+complete_case_5_folds,claimant_only,0.0,blind,Blind EMA,,-1.0,GUR_change,99,10000,74.32323232323232,72.35353535353536,76.2628787878788
+complete_case_5_folds,claimant_only,0.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FRR_gain,99,10000,-1.7171717171717176,-3.2323232323232323,-0.40404040404040403
+complete_case_5_folds,claimant_only,0.0,guarded_0.25,Guarded EMA,0.25,0.25,HTER_gain,99,10000,-0.14446087492456908,-0.8347688590581434,0.4900412432098959
+complete_case_5_folds,claimant_only,0.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FAR_change,99,10000,-1.4282499673225781,-2.376970428656285,-0.38610299515373747
+complete_case_5_folds,claimant_only,0.0,guarded_0.25,Guarded EMA,0.25,0.25,GUR_change,99,10000,62.141414141414145,60.232070707070704,64.02045454545454
+complete_case_5_folds,claimant_only,0.0,oracle_all,Oracle-all-genuine,,-1.0,late_FRR_gain,99,10000,4.949494949494948,3.4343434343434343,6.565656565656565
+complete_case_5_folds,claimant_only,0.0,oracle_all,Oracle-all-genuine,,-1.0,HTER_gain,99,10000,-0.357020336937327,-1.210310059732115,0.440102334800421
+complete_case_5_folds,claimant_only,0.0,oracle_all,Oracle-all-genuine,,-1.0,late_FAR_change,99,10000,5.663535623369604,3.954421058702088,7.598806320466962
+complete_case_5_folds,claimant_only,0.0,oracle_all,Oracle-all-genuine,,-1.0,GUR_change,99,10000,100.0,100.0,100.0
+complete_case_5_folds,claimant_only,0.0,tq_ema,TQ-EMA,0.25,0.25,late_FRR_gain,99,10000,-1.5151515151515151,-2.626262626262626,-0.5050505050505052
+complete_case_5_folds,claimant_only,0.0,tq_ema,TQ-EMA,0.25,0.25,HTER_gain,99,10000,0.3577322743208405,-0.1504156950111336,0.8000839121192134
+complete_case_5_folds,claimant_only,0.0,tq_ema,TQ-EMA,0.25,0.25,late_FAR_change,99,10000,-2.230616063793195,-2.6139264139888945,-1.8835685817878887
+complete_case_5_folds,claimant_only,0.0,tq_ema,TQ-EMA,0.25,0.25,GUR_change,99,10000,64.06060606060606,62.212121212121204,65.87878787878788
+complete_case_5_folds,claimant_only,1.0,blind,Blind EMA,,-1.0,late_FRR_gain,99,10000,-1.0101010101010104,-2.6262626262626263,0.505050505050505
+complete_case_5_folds,claimant_only,1.0,blind,Blind EMA,,-1.0,HTER_gain,99,10000,-1.033479400172844,-1.9015724980016273,-0.1945302072466571
+complete_case_5_folds,claimant_only,1.0,blind,Blind EMA,,-1.0,late_FAR_change,99,10000,1.056857790244679,-0.463098333568499,2.7858416385718097
+complete_case_5_folds,claimant_only,1.0,blind,Blind EMA,,-1.0,GUR_change,99,10000,73.49494949494951,71.54545454545456,75.50505050505052
+complete_case_5_folds,claimant_only,1.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FRR_gain,99,10000,-2.92929292929293,-4.444444444444445,-1.5151515151515151
+complete_case_5_folds,claimant_only,1.0,guarded_0.25,Guarded EMA,0.25,0.25,HTER_gain,99,10000,-0.8970005851560721,-1.699699006280097,-0.14790898151566742
+complete_case_5_folds,claimant_only,1.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FAR_change,99,10000,-1.1352917589807843,-2.261117895607117,0.07362308111515958
+complete_case_5_folds,claimant_only,1.0,guarded_0.25,Guarded EMA,0.25,0.25,GUR_change,99,10000,61.27272727272728,59.424242424242436,63.141666666666666
+complete_case_5_folds,claimant_only,1.0,oracle_all,Oracle-all-genuine,,-1.0,late_FRR_gain,99,10000,5.15151515151515,3.4343434343434343,6.8686868686868685
+complete_case_5_folds,claimant_only,1.0,oracle_all,Oracle-all-genuine,,-1.0,HTER_gain,99,10000,-0.33530184610204217,-1.2894509413426487,0.6170064326918214
+complete_case_5_folds,claimant_only,1.0,oracle_all,Oracle-all-genuine,,-1.0,late_FAR_change,99,10000,5.8221188437192355,4.018734286636057,7.8577755803566935
+complete_case_5_folds,claimant_only,1.0,oracle_all,Oracle-all-genuine,,-1.0,GUR_change,99,10000,100.0,100.0,100.0
+complete_case_5_folds,claimant_only,1.0,tq_ema,TQ-EMA,0.25,0.25,late_FRR_gain,99,10000,-2.2222222222222223,-3.4343434343434343,-1.1111111111111112
+complete_case_5_folds,claimant_only,1.0,tq_ema,TQ-EMA,0.25,0.25,HTER_gain,99,10000,-0.01901236671620915,-0.572210572874428,0.4956994710196838
+complete_case_5_folds,claimant_only,1.0,tq_ema,TQ-EMA,0.25,0.25,late_FAR_change,99,10000,-2.1841974887898035,-2.615925999556115,-1.7849611916309822
+complete_case_5_folds,claimant_only,1.0,tq_ema,TQ-EMA,0.25,0.25,GUR_change,99,10000,63.151515151515156,61.37373737373738,64.8888888888889
+complete_case_5_folds,claimant_only,2.0,blind,Blind EMA,,-1.0,late_FRR_gain,99,10000,0.5050505050505051,-1.0101010101010102,2.121212121212121
+complete_case_5_folds,claimant_only,2.0,blind,Blind EMA,,-1.0,HTER_gain,99,10000,-0.2849917116664115,-0.9996693497357351,0.41469154086583904
+complete_case_5_folds,claimant_only,2.0,blind,Blind EMA,,-1.0,late_FAR_change,99,10000,1.0750339283833281,-0.40824832910453446,2.781108572479572
+complete_case_5_folds,claimant_only,2.0,blind,Blind EMA,,-1.0,GUR_change,99,10000,71.03030303030303,69.13131313131314,72.95959595959594
+complete_case_5_folds,claimant_only,2.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FRR_gain,99,10000,-1.9191919191919191,-3.333333333333334,-0.5050505050505051
+complete_case_5_folds,claimant_only,2.0,guarded_0.25,Guarded EMA,0.25,0.25,HTER_gain,99,10000,-0.451648385664541,-1.1521412831633964,0.2298096616138962
+complete_case_5_folds,claimant_only,2.0,guarded_0.25,Guarded EMA,0.25,0.25,late_FAR_change,99,10000,-1.0158951478628364,-2.1141740867328855,0.20372164972066714
+complete_case_5_folds,claimant_only,2.0,guarded_0.25,Guarded EMA,0.25,0.25,GUR_change,99,10000,59.14141414141414,57.31313131313133,60.949494949494955
+complete_case_5_folds,claimant_only,2.0,oracle_all,Oracle-all-genuine,,-1.0,late_FRR_gain,99,10000,6.666666666666665,4.94949494949495,8.484848484848486
+complete_case_5_folds,claimant_only,2.0,oracle_all,Oracle-all-genuine,,-1.0,HTER_gain,99,10000,0.21859697652976554,-0.6393037134323342,1.0602892119772995
+complete_case_5_folds,claimant_only,2.0,oracle_all,Oracle-all-genuine,,-1.0,late_FAR_change,99,10000,6.229472713607137,4.370928172720024,8.296901413555807
+complete_case_5_folds,claimant_only,2.0,oracle_all,Oracle-all-genuine,,-1.0,GUR_change,99,10000,100.0,100.0,100.0
+complete_case_5_folds,claimant_only,2.0,tq_ema,TQ-EMA,0.25,0.25,late_FRR_gain,99,10000,-0.9090909090909091,-1.9191919191919187,5.607186993056347e-17
+complete_case_5_folds,claimant_only,2.0,tq_ema,TQ-EMA,0.25,0.25,HTER_gain,99,10000,0.47455182881612146,0.05407072390046457,0.8942475888742683
+complete_case_5_folds,claimant_only,2.0,tq_ema,TQ-EMA,0.25,0.25,late_FAR_change,99,10000,-1.8581945667231519,-2.353909289710602,-1.3858613732871778
+complete_case_5_folds,claimant_only,2.0,tq_ema,TQ-EMA,0.25,0.25,GUR_change,99,10000,61.05050505050505,59.333333333333336,62.727272727272734

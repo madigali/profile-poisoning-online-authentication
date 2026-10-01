@@ -1,0 +1,28 @@
+{
+  "source_dir": "/Users/madigali/Documents/PythoProjects/q1",
+  "cache_dir": "/Users/madigali/Documents/PythoProjects/q1/paper3_cache",
+  "drifts": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "scenarios": [
+    "global",
+    "claimant_only"
+  ],
+  "lambdas": [
+    0.25
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 4242,
+  "genuine_roles": "per session within=0 adaptation, within=10 probe checkpoint",
+  "far_definition": "source-macro FAR at temporally matched checkpoint sessions",
+  "hter_definition": "0.5 * (late_FRR + late_FAR)",
+  "adaptation_gain_definition": "Frozen late_FRR - method late_FRR",
+  "statistical_unit": "subject after averaging folds",
+  "oracle_all_definition": "force canonical EMA update for every genuine candidate",
+  "bootstrap_cohorts": [
+    "all_available_folds",
+    "complete_case_5_folds"
+  ]
+}

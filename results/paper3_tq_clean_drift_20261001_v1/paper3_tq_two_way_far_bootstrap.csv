@@ -1,0 +1,2 @@
+scenario,D,contrast,n_victims,n_impostor_sources,n_victim_source_pairs,n_bootstrap,estimate,ci95_low,ci95_high
+claimant_only,2.0,TQ-EMA minus Frozen late FAR,100,100,9900,10000,-1.9390572390572391,-2.4759517209371578,-1.4197913410249894

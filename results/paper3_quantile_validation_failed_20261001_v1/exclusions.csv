@@ -1,0 +1,3 @@
+stage,fold,sid,reason
+validation,3,57,Need at least four complete within=0/within=10 session pairs
+validation,4,57,Need at least four complete within=0/within=10 session pairs
