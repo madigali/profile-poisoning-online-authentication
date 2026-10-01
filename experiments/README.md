@@ -1,6 +1,9 @@
 # Experimental Protocol
 
-This file is the operational specification for Paper 3. `AGENTS.md` contains the full scientific context.
+This file preserves the operational specification used during Paper 3 method
+development. The completed decisions and stopping rules are recorded in
+[`paper/notes.md`](../paper/notes.md), and the authoritative retained runs are
+listed in [`results/README.md`](../results/README.md).
 
 ## Phase 0 — Recover and freeze the foundation
 

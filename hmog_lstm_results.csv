@@ -1,3 +1,0 @@
-Model,EER_mean,EER_std,FAR_mean,FAR_std,FRR_mean,FRR_std,Accuracy_mean,Accuracy_std
-LSTM-only,0.0102,0.0021,0.0121,0.0024,0.0082,0.002,0.9879,0.0024
-LSTM+Agent,0.0196,0.0045,0.0274,0.0045,0.0118,0.0045,0.9728,0.0045

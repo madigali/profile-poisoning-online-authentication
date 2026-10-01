@@ -1,7 +1,16 @@
 .DS_Store
-__pycache__/
-*.pyc
+.idea/
+.vscode/
+.venv/
+venv/
 
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# LaTeX build products
 *.aux
 *.blg
 *.fdb_latexmk
@@ -10,12 +19,14 @@ __pycache__/
 *.spl
 *.synctex.gz
 
-tmp/
-release/continuous-mobile-authentication-hmog/
-
-# Local Paper 3 score/model caches are regenerated and are not versioned.
+# Local datasets, model artifacts, and regenerated score caches
+data/*
+!data/README.md
+cache_probas/
 paper3_cache/
+revised_results/
+*.pt
 
-# Superseded exploratory runs; authoritative successors are versioned.
-results/paper3_guarded_drift_20260930/
-results/paper3_oracle_all_drift_20261001/
+# Scratch and local run output
+tmp/
+results/*/run.log
