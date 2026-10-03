@@ -901,6 +901,36 @@ Paper 3.
 - Is the proposed mechanism strictly score-profile adaptation, or will later experiments update model weights?
 - What minimum clean utility must the defense preserve?
 
+### D023 — Prospective operating-point sensitivity protocol
+
+**Date:** 2026-10-04  
+**Status:** frozen before inspection of the new 5%/1% outcomes
+
+**Decision.** Run one additional, narrowly scoped operating-point sensitivity
+analysis on the already inspected frozen HMOG and McGill score caches.  The
+analysis changes only each claimant's initial validation-calibrated threshold:
+the original reference rule, nominal pooled calibration FAR 5%, and nominal
+pooled calibration FAR 1%.  It retains Frozen, Blind EMA, Guarded EMA
+(`lambda=0.25`), `alpha=0.05`, random/boundary attacks, `K={0,1,2,4,8}`, the
+existing pool semantics, 100 repeats, and seed 4242.  The new primary contrast
+is HMOG nominal 1%, boundary K=8, Blind-minus-Frozen post-poison ASR; the
+Guarded-minus-Blind effect on the same paths is the key secondary contrast.
+
+Threshold candidates, empirical weighting, cohort/feasibility rules,
+hierarchical victim bootstrap, source-level sensitivity analysis, and technical
+stopping conditions are frozen in
+`experiments/paper3_operating_point_sensitivity.{md,json}`.  Reference results
+must reproduce before either new target is evaluated.  This is labelled a
+“Prospectively specified operating-point sensitivity analysis on previously
+inspected score caches,” not an untouched confirmation or external
+preregistration.  Existing result packages remain immutable, and the manuscript
+will not be updated automatically.
+
+**Reason.** Reviewer audit identified dependence of the poisoning claim on the
+initial operating point as the most important remaining scope question.  The
+analysis tests applicability of the existing mechanism without training,
+rescoring, method tuning, or reopening stopped algorithm branches.
+
 ## Pre-registration checklist
 
 - [x] Verify Paper 1/Paper 2 facts from primary materials (`paper/paper1_paper2_fact_check.md`; completed 2026-10-03).

@@ -1,0 +1,107 @@
+{
+  "protocol_id": "paper3-operating-point-sensitivity-v1",
+  "inferential_label": "Prospectively specified operating-point sensitivity analysis on previously inspected score caches.",
+  "frozen_date": "2026-10-04",
+  "base_code_revision": "1db5d38b2a7012d0e78a24e9b1e28e4df3fe021f",
+  "datasets": {
+    "HMOG": {
+      "cache_dir": "paper3_cache",
+      "calibration_partition": "canonical validation partition",
+      "reference_rule": "canonical approximate EER via sklearn roc_curve, minimum absolute FAR-FRR difference",
+      "pool_rule": "source-session-group-disjoint",
+      "cache_sha256": {
+        "fold1_base.npz": "90c426e7151d863acea5f18c431afd0d075a0e604df06116b4f8729737b1a3f9",
+        "fold1_D0.0.npz": "969cbad2e13dc656ddf69c1ea9e5584e58a532a8744a16adaefc25e99ce172d4",
+        "fold2_base.npz": "81d001122bdd34126e1280f697f80dca9ca2b6014955fdeaa5a87542fdb6fb8a",
+        "fold2_D0.0.npz": "32a3df6253465601eb01de6ad6a0f48556662c991a97a813a638a25d2b314152",
+        "fold3_base.npz": "ffbc06e89c4b456e74dd1bdc9fc7088d781f26156e8edf19c62545dc5942ff1d",
+        "fold3_D0.0.npz": "cbb47f41feb0cb79495184cd0e9b279c9b69de0a182242701f78cc8badafb23b",
+        "fold4_base.npz": "ca09afa025d49da943cff0d3d528a20ae253f67912d12eea723a281c92297db0",
+        "fold4_D0.0.npz": "1f3c7f3fd8e623223d0a7d26ea8cab334ba1a568af7ca336233b80eb7d51facf",
+        "fold5_base.npz": "89fe8aeff078a4eb30196618121870ae8376a223e81aa17e24e29810cbda1b3d",
+        "fold5_D0.0.npz": "601c0486b77b23d3b896e4abdea12a96004ee303d8af5c80975f35c9d9ff2dc4"
+      }
+    },
+    "McGill": {
+      "cache_path_default": "/Users/madigali/Downloads/McGillGait/paper3_external_cache_v1/scores_mcgill_day2.npz",
+      "calibration_partition": "Day-1 enrollment/calibration partition in frozen cache",
+      "reference_rule": "minimum pooled HTER with higher-threshold tie break",
+      "pool_rule": "source-identity-disjoint; poison first temporal half; probe second temporal half",
+      "cache_sha256": "3f390ab19fbea15582fbb5a646cf7e631b77b744ab101e97d83edb533717a79b"
+    }
+  },
+  "authoritative_source_sha256": {
+    "src/hmog_revised_experiment.py": "3468a5a8c6d7e0e9a6ee61da1b7c4312ce46c46fc2ff1167457e1cd5be8e2210",
+    "src/paper3_poisoning_attack_v2.py": "9243278b41f26400004a2ceaee3f0e83a9999e411b03e2dcfa3ab953ed8c1ee4",
+    "src/paper3_guarded_adaptation.py": "3ae2127ba4d4d2131e79a9a8f68096d574734c216946998836c1b2822a8e783b",
+    "src/paper3_external_mcgill.py": "077412a02b4bda0e5a2461aa689703c623925f1a0ec6967c32fd01dfe5a53c1f",
+    "experiments/external_replication_mcgill.json": "69aa325074a42dd02eb74fdec4ca0ae53ecc90b9f855c46e522a7b1bbcadb06b"
+  },
+  "operating_points": [
+    {"id": "reference", "nominal_calibration_far": null},
+    {"id": "far_5pct", "nominal_calibration_far": 0.05},
+    {"id": "far_1pct", "nominal_calibration_far": 0.01}
+  ],
+  "profile": {
+    "alpha": 0.05,
+    "min_sigma": 0.0001,
+    "guarded_lambda": 0.25,
+    "authentication_comparator": "score >= threshold",
+    "recompute_k": true,
+    "clip_negative_k": false
+  },
+  "calibration": {
+    "weighting": "pooled observations",
+    "dtype": "float64",
+    "candidate_rule": "tau_ref union nextafter(unique_impostor_score,+inf) candidates not below tau_ref",
+    "selection_rule": "minimum finite candidate with empirical pooled FAR <= target",
+    "retain_reference_when_already_compliant": true,
+    "test_scores_permitted": false
+  },
+  "attack": {
+    "strategies": ["random", "boundary"],
+    "budgets": [0, 1, 2, 4, 8],
+    "repeats": 100,
+    "probe_fraction": 0.5,
+    "master_seed": 4242,
+    "random_order_threshold_independent": true,
+    "boundary_rule": "score >= tau0; ascending non-negative margin; index tie break",
+    "boundary_curve_cohort": "condition-specific K8-feasible paths",
+    "random_cohort": "all structurally valid paths"
+  },
+  "inference": {
+    "primary": "HMOG far_1pct boundary K8 Blind EMA minus Frozen post_ASR",
+    "key_secondary": "Guarded EMA minus Blind EMA post_ASR on the same paths",
+    "bootstrap_unit": "victim",
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261004,
+    "ci": "percentile 95%",
+    "sparse_descriptive_below_n_victims": 10,
+    "hmog_aggregation": "repeat mean within victim/fold; fold mean within victim",
+    "mcgill_aggregation": "repeat mean within victim",
+    "two_way_primary": "independent multinomial victim and impostor-source multiplicities; source-count-weighted path ASR; original hierarchical aggregation"
+  },
+  "reference_reproduction": {
+    "absolute_tolerance_export_units": 1e-9,
+    "hmog_expected": "results/paper3_guarded_20260930/paper3_guarded_by_fold.csv",
+    "hmog_cohort": "legacy common boundary-K8-feasible paths for both strategies",
+    "mcgill_expected": "results/paper3_external_mcgill_20261003_v1/attack_subject_repeat.csv",
+    "mcgill_cohort": "all random paths and boundary-K8-feasible paths",
+    "must_pass_before_sensitivity": true
+  },
+  "outputs": {
+    "granular_rates": "fractions",
+    "summary_rates": "percent",
+    "path_file": "outcomes_by_path.parquet",
+    "source_file": "probe_outcomes_by_source.parquet",
+    "source_scope": "HMOG far_1pct boundary K8 primary comparison when feasible"
+  },
+  "technical_stopping_rules": [
+    "missing or hash-mismatched input cache",
+    "unresolved pool split semantics",
+    "reference reproduction outside tolerance or path-count mismatch",
+    "detected calibration/test leakage",
+    "failed implementation invariant",
+    "profile or Guarded equation mismatch"
+  ]
+}
