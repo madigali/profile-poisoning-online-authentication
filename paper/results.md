@@ -2,11 +2,13 @@
 
 ## 4.1. Poisoning Vulnerability of Blind EMA
 
-Under the HMOG boundary attack at \(K=8\), post-poison ASR was 22.92% for Frozen and 53.96% for Blind EMA, a Blind-minus-Frozen increase of +31.04 percentage points. Blind ASR increased monotonically across the nested boundary budgets: 22.92%, 27.50%, 33.68%, 44.31%, and 53.96% at \(K=0,1,2,4,8\), respectively. The random attack produced a smaller increase over the same budgets, from 22.92% at \(K=0\) to 23.38%, 23.88%, 25.09%, and 27.55%. These attack-budget results are shown in Fig. [POISONING] and summarized in Table [MAIN_RESULTS].
+Under the HMOG boundary attack at \(K=8\), post-poison ASR was 22.92% for Frozen and 53.96% for Blind EMA, a Blind-minus-Frozen increase of +31.04 percentage points. After averaging repeats within each fold and victim and then folds within victim, the paired subject-bootstrap 95% CI was [+26.95, +35.20] across 100 victims. The analysis contained 500 contributing fold-victim units and 49,889 eligible fold-victim-repeat paths; 111 of 50,000 possible paths lacked eight initially accepted boundary candidates. Blind ASR increased monotonically across the nested boundary budgets: 22.92%, 27.50%, 33.68%, 44.31%, and 53.96% at \(K=0,1,2,4,8\), respectively. The random attack produced a smaller increase over the same budgets, from 22.92% at \(K=0\) to 23.38%, 23.88%, 25.09%, and 27.55%. The non-primary budgets and random comparisons were exploratory. These attack-budget results are shown in Fig. [POISONING] and summarized in Table [MAIN_RESULTS].
+
+The 22.92% Frozen value is the baseline held-out impostor acceptance at the validation-calibrated, approximately equal-error operating point. The comparison establishes additional acceptance caused by Blind adaptation under the tested protocol; it does not establish that the underlying operating point meets deployment-grade security requirements.
 
 ## 4.2. Guarded Update Authorization Suppresses Poisoning
 
-At boundary \(K=8\), post-poison ASR was 22.92% for Frozen, 53.96% for Blind EMA, and 22.93% for Guarded EMA with \(\lambda=0.25\). Blind EMA incorporated all presented boundary poisons (MUR 100.00%), whereas Guarded EMA incorporated 1.63%. Guarded \(\lambda=0\) reproduced Blind EMA in the frozen consistency check.
+At boundary \(K=8\), post-poison ASR was 22.92% for Frozen, 53.96% for Blind EMA, and 22.93% for Guarded EMA with \(\lambda=0.25\). Blind EMA incorporated all presented boundary poisons (MUR 100.00%), whereas Guarded EMA incorporated 1.63%. Guarded \(\lambda=0\) reproduced Blind EMA in the frozen consistency check. Guarded returning ASR near Frozen indicates suppression of the additional Blind poisoning amplification; it does not make the high-baseline operating point secure.
 
 The complete lambda sweep was exploratory. At boundary \(K=8\), MUR decreased from 100.00% at \(\lambda=0\) to 0.13% at \(\lambda=1\), while genuine update availability in the separate replay decreased from 85.96% to 41.78%. The carried-forward \(\lambda=0.25\) result was therefore reported as a fixed security comparison rather than as a universally optimal setting (Fig. [POISONING]; Table [MAIN_RESULTS]).
 
@@ -22,7 +24,9 @@ Oracle-all-genuine reduced claimant-only late FRR relative to Frozen at every HM
 
 The corresponding late-FAR changes were +5.51 points (95% CI [+3.79, +7.40]), +5.67 points (95% CI [+3.85, +7.71]), and +6.08 points (95% CI [+4.20, +8.16]). HTER gains remained small: −0.39 points at \(D=0\) (95% CI [−1.22, +0.42]), −0.28 points at \(D=1\) (95% CI [−1.26, +0.65]), and +0.26 points at \(D=2\) (95% CI [−0.59, +1.09]). Each HTER interval included zero.
 
-The claimant-only \(D=2\) trajectories also differed in direction. Across the five retained checkpoints, the Guarded profile mean and threshold moved upward, while both Oracle-all quantities moved downward. Guarded update rate decreased from 63.47% at the first checkpoint to 51.68% at the fifth; Oracle-all update rate remained 100%. These trajectories are shown in Fig. [TRAJECTORY]. Oracle-all improved genuine tracking in this diagnostic comparison while incurring a higher FAR; it was not evaluated as a deployable method.
+The Oracle-all effect was already present at \(D=0\): late FRR was 4.73 percentage points lower than Frozen while late FAR was 5.51 points higher. Thus, part of the Oracle contrast reflects movement of the operating point when all genuine observations are allowed to lower the profile, rather than recovery uniquely attributable to synthetic drift.
+
+The claimant-only \(D=2\) trajectories also differed in direction. Across the five retained checkpoints, the Guarded profile mean and threshold moved upward, while both Oracle-all quantities moved downward. Guarded update rate decreased from 63.47% at the first checkpoint to 51.68% at the fifth; Oracle-all update rate remained 100%. These trajectories are shown in Fig. [TRAJECTORY]. Oracle-all changed genuine tracking in this label-aware diagnostic while incurring a higher FAR; it was not evaluated as a deployable method or a formally optimal adaptation path.
 
 ## 4.5. TQ-EMA v1
 
@@ -44,7 +48,9 @@ At the same \(\rho\), Oracle-all Quantile had mean late-FRR gain −4.62 points,
 
 The fixed Day-1 McGill classifier attained 58.12% validation top-1 accuracy and passed the prespecified 20% viability gate before Day 2 was loaded.
 
-Under the Day-2 boundary attack at \(K=8\), held-out ASR was 12.37% for Frozen, 32.09% for Blind EMA, and 12.48% for Guarded EMA. The paired Blind-minus-Frozen effect was +19.72 percentage points (95% CI [+5.58, +37.34]), and the Guarded-minus-Blind effect was −19.62 points (95% CI [−37.17, −5.60]). Blind MUR was 100.00%, whereas Guarded MUR was 32.22%; the paired Guarded-minus-Blind MUR difference was −67.78 points (95% CI [−84.30, −49.47]). Boundary \(K=8\) included 18 victims with at least one eligible repeat. Of 2,000 victim-repeat paths, 544 lacked eight initially accepted boundary candidates and were recorded as feasibility exclusions.
+Under the Day-2 boundary attack at \(K=8\), held-out ASR was 12.37% for Frozen, 32.09% for Blind EMA, and 12.48% for Guarded EMA. The paired Blind-minus-Frozen effect was +19.72 percentage points (95% CI [+5.58, +37.34]), and the Guarded-minus-Blind effect was −19.62 points (95% CI [−37.17, −5.60]). Blind MUR was 100.00%, whereas Guarded MUR was 32.22%; the paired Guarded-minus-Blind MUR difference was −67.78 points (95% CI [−84.30, −49.47]). Boundary \(K=8\) retained 1,456 of 2,000 possible victim-repeat paths across 18 victims; 544 paths lacked eight initially accepted boundary candidates and were recorded as feasibility exclusions. The boundary \(K=0\) baseline used the same maximum-budget-feasible cohort. Random selection retained all 2,000 paths across all 20 subjects.
+
+The 12.37% Frozen boundary baseline was produced by the fixed Day-1 validation-calibrated minimum-HTER threshold. As in HMOG, Guarded returning ASR near this baseline indicates suppression of additional poisoning amplification, not deployment security at a prespecified low-FAR target.
 
 The random \(K=8\) effect was smaller. Blind-minus-Frozen ASR was +1.51 points across 20 subjects, and its 95% CI [−0.09, +4.43] included zero. The poisoning results are shown in Fig. [MCGILL_POISONING] and Table [MCGILL].
 
@@ -52,4 +58,4 @@ For the Day-2 temporal analysis, Frozen late FRR/FAR were 78.00%/11.46%, Guarded
 
 ## 4.9. Summary Across Datasets
 
-Across HMOG and McGill, the score-informed boundary attack increased Blind EMA post-poison ASR, and the transferred Guarded update-authorization rule reduced post-poison ASR toward the corresponding Frozen value. In the temporal evaluations, accepted-only Guarded adaptation did not produce lower late FRR than Frozen. Oracle-all substantially changed genuine tracking in both datasets, together with higher FAR. Table [MAIN_RESULTS] and Table [MCGILL] summarize the observed within-dataset effects and their stated inferential status.
+Across HMOG and McGill, the score-informed boundary benchmark increased Blind EMA post-poison ASR, and the transferred Guarded update-authorization rule reduced the additional post-poison ASR toward the corresponding Frozen value. These comparisons were made at validation-calibrated operating points and do not establish low-FAR deployment performance. In the temporal evaluations, accepted-only Guarded adaptation did not produce lower late FRR than Frozen. The label-aware Oracle-all intervention changed genuine tracking in both datasets, together with higher FAR. Table [MAIN_RESULTS] and Table [MCGILL] summarize the observed within-dataset effects and their stated inferential status.
