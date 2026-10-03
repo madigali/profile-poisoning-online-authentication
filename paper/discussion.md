@@ -46,7 +46,7 @@ TQ-EMA v2 addressed that specific imbalance by suppressing trusted updates that 
 
 The quantile branch tested whether changing the adaptive state, rather than only its admission gate, would improve recovery. Oracle-all Quantile reduced the gap associated with accepted-only censoring, but neither information regime outperformed Frozen on the validation recovery endpoint. This pattern indicates that censoring was an additional cost but not the only difficulty for the tested q20/q50 representation. The combined evidence suggests that both update admission and score-state dynamics matter when adaptation is based on short, noisy temporal streams.
 
-These negative branches strengthen the scope of the conclusion by ruling out several prespecified explanations within the tested design space. They do not reject quarantine, temporal evidence, or robust distribution tracking as general method families. They show that the frozen implementations did not provide evidence of useful recovery under the stated security and HTER constraints.
+These negative branches narrow the set of explanations supported by the tested implementations and prespecified parameter ranges. They do not reject quarantine, temporal evidence, or robust distribution tracking as general method families. They show that the frozen implementations did not provide evidence of useful recovery under the stated security and HTER constraints.
 
 ## 5.7. Security–Adaptation Trade-off
 
@@ -60,13 +60,13 @@ HTER is useful as a balanced summary, but it can obscure the security meaning of
 
 McGill altered several conditions simultaneously: it contained fewer subjects, used accelerometer-derived channels without gyroscope, used a different fixed classifier, and provided a natural separation between collection days rather than synthetic feature drift. Despite these differences, the main effects reproduced directionally. Boundary poisoning increased Blind EMA ASR relative to Frozen, and the transferred Guarded rule reduced both contamination and post-poison ASR toward Frozen (Fig. [MCGILL_POISONING]).
 
-The temporal comparison showed the same qualitative tension. Guarded did not improve late FRR relative to Frozen, whereas Oracle-all changed genuine tracking substantially and incurred a very large FAR cost (Fig. [MCGILL_TRADEOFF]; Fig. [MCGILL_TRAJECTORY]). This replication supports the portability of the observed mechanisms beyond one HMOG score cache and one synthetic-drift construction.
+The temporal comparison showed the same qualitative tension. Guarded did not improve late FRR relative to Frozen, whereas Oracle-all changed genuine tracking substantially and incurred a very large FAR cost (Fig. [MCGILL_TRADEOFF]; Fig. [MCGILL_TRAJECTORY]). This replication provides independent evidence that the same directional mechanisms can arise outside the HMOG protocol.
 
 The replication does not support direct comparison of absolute HMOG and McGill error rates. Day-2 Frozen FRR on McGill was high, indicating a severe cross-day shift and weak absolute transfer of the fixed Day-1 classifier. The small cohort, missing gyroscope, boundary feasibility exclusions, and dataset-specific preprocessing further limit performance generalization. McGill is therefore evidence of mechanism-level reproducibility under a difficult two-day setting, not a benchmark claim about classifier quality.
 
 ## 5.9. Implications for Adaptive Behavioral Authentication
 
-First, authentication confidence should not automatically grant permission to learn. A separate update-authorization layer can reduce contamination even when the access rule itself is unchanged. This separation should be treated as a security boundary in adaptive-system design.
+First, authentication confidence and update authorization should be treated as distinct design decisions. A separate update-authorization layer can reduce contamination even when the access rule itself is unchanged. This separation should be treated as a security boundary in adaptive-system design.
 
 Second, the data observed by an online updater may be endogenous to its current threshold. Monitoring only accepted observations can hide the genuine behavior that the system most needs to recover. Evaluation should therefore audit rejected near-boundary genuine observations, update eligibility, and profile trajectories rather than reporting only aggregate acceptance rates.
 
