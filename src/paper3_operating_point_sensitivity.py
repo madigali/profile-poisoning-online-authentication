@@ -1150,7 +1150,12 @@ def make_figures(
             y = part["mean_effect"].to_numpy(dtype=float)
             low = part["ci_low"].to_numpy(dtype=float)
             high = part["ci_high"].to_numpy(dtype=float)
-            axis.errorbar(x, y, yerr=np.vstack([y - low, high - y]), marker=marker, capsize=3, label=contrast)
+            # Operating points can have different boundary-feasible cohorts;
+            # separate markers avoid implying a paired cross-target trajectory.
+            axis.errorbar(
+                x, y, yerr=np.vstack([y - low, high - y]), marker=marker,
+                linestyle="none", capsize=3, label=contrast,
+            )
         axis.axhline(0, color="black", linewidth=0.8)
         axis.set_xticks(np.arange(3), labels)
         axis.set_title(dataset)
@@ -1189,7 +1194,7 @@ def make_figures(
         axes[0].plot(labels, 100 * part["gate_stricter_state_fraction"], marker="o", label=dataset)
         axes[1].plot(labels, 100 * part["tau_auth_ge_mu_fraction"], marker="o", label=dataset)
     axes[0].set_title("Guarded gate stricter than authentication")
-    axes[1].set_title("States with authentication threshold >= enrollment mean")
+    axes[1].set_title(r"States with $\tau_{auth} \geq \mu_{enroll}$")
     for axis in axes:
         axis.set_ylabel("Poisoning states (%)")
         axis.grid(alpha=0.25)
