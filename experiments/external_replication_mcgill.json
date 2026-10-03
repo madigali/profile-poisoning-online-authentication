@@ -1,0 +1,60 @@
+{
+  "protocol_id": "paper3-external-mcgill-v1",
+  "frozen_date": "2026-10-03",
+  "dataset": {
+    "name": "McGill Gait Dataset",
+    "archive_sha256": "0e2da09c2d10fb5658c79d362e9e043a2f2822715723238b30cbebd2e7b425d9",
+    "subjects": 20,
+    "days": [1, 2],
+    "channels": ["accel_x", "accel_y", "accel_z", "accel_mag"],
+    "observed_median_interval_ms": 40,
+    "window_samples": 128,
+    "overlap_samples": 0
+  },
+  "day1_split": [0.6, 0.2, 0.2],
+  "temporal": {
+    "selected_day2_windows": 160,
+    "units": 80,
+    "early_units": 20,
+    "late_units": 20
+  },
+  "model": {
+    "type": "single_layer_lstm",
+    "input_size": 4,
+    "hidden_size": 64,
+    "classes": 20,
+    "batch_size": 128,
+    "max_epochs": 30,
+    "patience": 5,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "class_weighted_loss": true
+  },
+  "profile": {
+    "alpha": 0.05,
+    "min_sigma": 0.0001,
+    "guarded_lambda": 0.25,
+    "threshold_calibration": "minimum_hter_high_tie"
+  },
+  "attack": {
+    "budgets": [0, 1, 2, 4, 8],
+    "strategies": ["random", "boundary"],
+    "repeats": 100,
+    "probe_fraction": 0.5,
+    "source_identity_disjoint": true,
+    "poison_temporal_half": "first",
+    "probe_temporal_half": "second"
+  },
+  "bootstrap_samples": 10000,
+  "seeds": {
+    "model": 4242,
+    "attack": 4242,
+    "bootstrap": 20261003
+  },
+  "test_gate": {
+    "minimum_validation_top1": 0.2,
+    "minimum_validation_classes": 16,
+    "require_invariant_tests": true,
+    "require_smoke_test": true
+  }
+}

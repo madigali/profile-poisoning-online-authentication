@@ -698,6 +698,43 @@ decision about an untouched external dataset.  Exact inherited Paper 1/Paper 2
 facts still require verification from their primary manuscripts before
 submission and remain the only unchecked item in the reporting checklist.
 
+### D020 — External replication dataset and locked protocol
+
+Date: 2026-10-03
+
+Protocol: `experiments/external_replication_mcgill.md`
+
+Status: frozen before model training and before any Day-2 endpoint
+
+whuGAIT was audited first.  Its official processed Dataset #2 has the desired
+20 high-volume subjects, accelerometer plus gyroscope, two-step sequences, and
+no overlap.  However, the distributed train/test matrices retain only subject
+labels: day/session identifiers, timestamps, and original order are absent, and
+the subject-label sequence is heavily shuffled.  It can support an attack-only
+replication, but it cannot support the required real-day chronological
+selective-update experiment without inventing a temporal axis.  It was
+therefore rejected for the unified three-mechanism replication rather than
+quietly approximated with shuffled order.
+
+The closest directly accessible alternative is the McGill Gait Dataset.  It
+contains 20 subjects, two separate days per subject, raw timestamps, and an
+explicit subject/day filename scheme.  A pre-result structural audit confirmed
+40 expected files, finite accelerometer channels, strictly increasing
+timestamps, a 40 ms median interval in every file, no gaps above 500 ms, and
+enough non-overlapping 128-sample windows for the frozen partitions.  The
+archive SHA-256 is
+`0e2da09c2d10fb5658c79d362e9e043a2f2822715723238b30cbebd2e7b425d9`.
+
+The cost of this choice is explicit: McGill has triaxial accelerometer but no
+gyroscope.  The replication prioritizes genuine two-day chronology over sensor
+modality equality.  It uses a fixed, modest LSTM and repeats only Frozen,
+Blind, Guarded (`lambda=0.25`), and Oracle-all mechanisms.  TQ-EMA, adaptive
+quantiles, new methods, synthetic drift, and dataset-specific tuning remain out
+of scope.  The 23 frozen protocol fields, endpoints, subject-bootstrap plan,
+exclusions, stopping rules, and seeds are recorded in the protocol file and its
+machine-readable JSON companion.  Any null or reversed Day-2 result will be
+reported as a negative external replication without changing this protocol.
+
 ## Information to recover from Paper 1/Paper 2
 
 - Exact titles, venues, publication status, DOI, and citation records.
