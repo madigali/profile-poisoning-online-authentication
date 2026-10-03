@@ -5,16 +5,35 @@
 - Created from the ChatGPT project “q1 second article” and the linked conversation “Перенос проекта в Codex”.
 - The synced `sources/` directory was empty at creation time.
 - A local prototype named `paper3_poisoning_attack_v2.py` supplied protocol details, but its required canonical module and score cache were not present.
-- No numerical Paper 1/Paper 2 result has been transferred.
+- Paper 1 and Paper 2 were subsequently audited against their primary PDFs,
+  Paper 1 supplementary materials, and the canonical Paper 2 code/results on
+  2026-10-03.  The authoritative record is
+  [`paper/paper1_paper2_fact_check.md`](paper1_paper2_fact_check.md).
 
-## Confirmed only as inherited project context
+## Primary-source-verified prior-work context
 
-- Dissertation focus: behavioral-biometric continuous authentication for mobile devices with an intelligent personal agent.
-- Paper 1 is a systematic review with adversarial/privacy, benchmark, integration, and longitudinal gaps.
-- Paper 2 uses HMOG accelerometer and gyroscope signals with LSTM/RF/SVM and session-disjoint evaluation.
-- Paper 2's EMA adaptation did not outperform a frozen threshold.
-- Accepted impostors can poison a label-blind adaptive profile.
-- Paper 2 evaluated synthetic drift.
+- Project-level dissertation focus, retained as context rather than as a claim
+  established by either paper: behavioral-biometric continuous authentication
+  for mobile devices with an intelligent personal agent.
+- Paper 1 is a systematic review of 80 included works: 53 empirical/system-level
+  studies and 27 reviews.  It identifies gaps in standardized adversarial
+  evaluation, joint adversarial/privacy pipeline testing, longitudinal and
+  ecologically valid evidence, empirical BBCA–IPA integration, and
+  user-centered privacy/consent evaluation.  “No study” statements apply to
+  the review's searched corpus and protocol.
+- Paper 2 evaluates 100-subject, closed-set HMOG verification using only the
+  physical accelerometer and gyroscope axes.  Linear SVM, random forest, and
+  LSTM receive the same non-overlapping 10-second endpoint under a
+  leakage-resistant, session-disjoint protocol with fitting-only scaling.
+- Under that protocol, the prespecified accepted-only EMA did not outperform
+  the validation-calibrated frozen threshold: HTER was `23.19%` Frozen versus
+  `24.53%` EMA at `D=0`, and `24.89%` versus `26.39%` at `D=2`.
+- Paper 2's label-blind rule allows an accepted impostor score to update the
+  profile, establishing a poisoning pathway but not a dedicated poisoning
+  attack result; Paper 3 supplies the attack experiment.
+- Paper 2 evaluates global synthetic standardized-feature shift at
+  `D={0,1,2}` using one direction per fold, applied to all test samples.  It is
+  a sensitivity analysis, not natural behavioral drift.
 
 ## Decisions made for this scaffold
 
@@ -846,17 +865,28 @@ include the 20-subject McGill cohort, accelerometer-only modality, high Day-2
 Frozen FRR, boundary feasibility exclusions, synthetic HMOG drift, and the
 non-deployable nature of Oracle-all.
 
-## Information to recover from Paper 1/Paper 2
+## Paper 1/Paper 2 source audit
 
-- Exact titles, venues, publication status, DOI, and citation records.
-- Paper 1 search dates, databases, screening counts, and exact conclusions.
-- HMOG subset, user/session counts, sensor channels, sampling rates, window size, overlap, and normalization.
-- Fold construction and train/validation/test proportions.
-- LSTM/RF/SVM architectures and hyperparameters.
-- Score orientation and calibration procedure.
-- Exact EMA equations, coefficient, `k`, initialization, and update trigger.
-- Paper 2 numerical results and statistical tests.
-- Synthetic drift definition and magnitude.
+Status: complete on 2026-10-03.  See
+[`paper/paper1_paper2_fact_check.md`](paper1_paper2_fact_check.md) for the
+claim-by-claim evidence table, source locations, approved wording, hashes, and
+recorded discrepancies.
+
+- [x] Exact titles, authors, venues, dates, DOI/publication status, and citation records.
+- [x] Paper 1 search dates, databases, PRISMA counts, corpus composition, research questions, and stated gaps.
+- [x] HMOG subjects/sessions, sensor columns, nominal sampling assumption, exclusions, windows, sequences, and normalization.
+- [x] Fold construction and realized fit/validation/test counts.
+- [x] LSTM/RF/SVM architectures and fixed hyperparameters.
+- [x] Score orientation, validation calibration, and EER definition.
+- [x] Exact EMA equations, `alpha`, claimant-specific `k`, initialization, and accepted-only update trigger.
+- [x] Paper 2 PDF numbers cross-checked against revised summary and fold CSVs; no inferential significance test was reported.
+- [x] Synthetic drift definition, magnitudes, chronology, scope, and fold-level direction.
+
+Recorded caveats: Paper 1 supplementary files disagree on the per-year
+distribution and contain two unresolved extraction-table/quality-workbook
+cross-references.  Paper 2's supplied PDF has placeholder Procedia volume/page
+metadata and no final DOI.  Neither caveat changes the critical claims used by
+Paper 3.
 
 ## Open design questions
 
@@ -873,7 +903,7 @@ non-deployable nature of Oracle-all.
 
 ## Pre-registration checklist
 
-- [ ] Verify Paper 1/Paper 2 facts from primary materials.
+- [x] Verify Paper 1/Paper 2 facts from primary materials (`paper/paper1_paper2_fact_check.md`; completed 2026-10-03).
 - [x] Freeze hypotheses and central reporting endpoints (D018; explicitly post-result/exploratory).
 - [x] Freeze cohort/exclusion rules (authoritative manifests and exclusions files).
 - [x] Freeze attack budgets and attacker feedback (`K={0,1,2,4,8}`; random and score-informed boundary).
