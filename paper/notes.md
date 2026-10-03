@@ -799,6 +799,53 @@ because Matplotlib embeds creation metadata.  The committed run manifest
 verifies every retained output hash.  No TQ-EMA, quantile, synthetic-drift, or
 new-method experiment was opened.
 
+### D022 — Experimental closure and manuscript transition
+
+Date: 2026-10-03
+
+Status: all Paper 3 experiments closed before manuscript drafting
+
+The HMOG mechanism study and the independent McGill two-day replication are
+sufficient for the first journal submission.  No third dataset, new TQ-EMA
+variant, new adaptive-state representation, additional model, or retrospective
+parameter sweep will be added before that submission.  Further experiments
+would require a new decision entry and a separate scientific motivation; they
+must not revise the frozen HMOG or McGill packages.
+
+The manuscript contributions are fixed as follows:
+
+1. **Poisoning vulnerability.** Label-blind accepted-only EMA permits
+   near-boundary impostors to contaminate the adaptive profile and increase
+   held-out future ASR.
+2. **Security defense.** A separate confidence-gated update authorization rule
+   sharply reduces malicious incorporation and post-poison ASR without changing
+   the authentication decision rule.
+3. **Selective-update bias.** The same accepted-only feedback structure censors
+   lower-scoring genuine observations and prevents the profile from adequately
+   following downward legitimate score drift.
+4. **Mechanistic evidence.** Oracle-all-genuine controls show that removing
+   censoring restores genuine-score tracking, but moves the operating point to
+   substantially higher FAR and is therefore diagnostic rather than deployable.
+5. **External replication.** The poisoning, defense, and selective-feedback
+   mechanisms reproduce on the independent two-day McGill Gait dataset under a
+   locked protocol and transferred Guarded parameter.
+
+MUR must not be interpreted as contamination severity by itself.  Guarded MUR
+on McGill (`32.22%`) is much higher than in the frozen HMOG result, yet McGill
+post-poison ASR remains essentially at Frozen.  The security impact therefore
+depends on which malicious observations enter the profile and how far they move
+the mean, variance, and threshold, not only on the fraction incorporated.  This
+cross-dataset contrast belongs in Discussion and does not motivate a new metric
+or experiment after closure.
+
+The writing order is now fixed operationally as Methods, Results, Discussion,
+Related Work/Introduction, Limitations, Abstract, journal selection, and
+submission preparation.  Methods and Results must be written directly from the
+authoritative HMOG and McGill manifests/tables.  Limitations must prominently
+include the 20-subject McGill cohort, accelerometer-only modality, high Day-2
+Frozen FRR, boundary feasibility exclusions, synthetic HMOG drift, and the
+non-deployable nature of Oracle-all.
+
 ## Information to recover from Paper 1/Paper 2
 
 - Exact titles, venues, publication status, DOI, and citation records.

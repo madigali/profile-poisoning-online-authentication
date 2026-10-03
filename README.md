@@ -26,6 +26,10 @@ was weaker and its central confidence interval included zero. McGill contains
 accelerometer but no gyroscope, so this is a mechanism replication under a
 different sensor setting rather than a numerically identical HMOG reproduction.
 
+The experimental phase is closed for the first submission. No third dataset,
+new adaptation method, or post-result parameter sweep is planned; active work
+has moved to manuscript Methods and Results from the frozen packages.
+
 ## Repository layout
 
 ```text
