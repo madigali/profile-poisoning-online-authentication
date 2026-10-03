@@ -1,0 +1,9 @@
+contrast,strategy,K,metric,method_a,method_b,effect_definition,n_subjects,mean_effect,ci_low,ci_high
+Blind minus Frozen ASR,boundary,8.0,post_ASR,Blind EMA,Frozen,method_a_minus_method_b,18,19.721769166867155,5.5791730621677,37.34406896825432
+Guarded minus Blind ASR,boundary,8.0,post_ASR,Guarded EMA,Blind EMA,method_a_minus_method_b,18,-19.616456738521805,-37.16512153099239,-5.596611626994272
+Guarded minus Blind MUR,boundary,8.0,MUR,Guarded EMA,Blind EMA,method_a_minus_method_b,18,-67.77719776882148,-84.30178958732975,-49.4667815980316
+Blind minus Frozen ASR (random),random,8.0,post_ASR,Blind EMA,Frozen,method_a_minus_method_b,20,1.5103514148660564,-0.08583126695851548,4.427689189888411
+Guarded minus Frozen late FRR,,,late_FRR,Guarded EMA,Frozen,method_a_minus_method_b,20,3.0,0.0,6.999999999999999
+Oracle-all minus Frozen late FRR,,,late_FRR,Oracle-all-genuine,Frozen,method_a_minus_method_b,20,-65.25000000000001,-83.75,-45.49999999999999
+Guarded minus Oracle-all late FRR,,,late_FRR,Guarded EMA,Oracle-all-genuine,method_a_minus_method_b,20,68.25,49.25000000000001,85.25000000000003
+Oracle-all minus Guarded late FAR,,,late_FAR,Oracle-all-genuine,Guarded EMA,method_a_minus_method_b,20,64.76315789473685,48.934210526315795,79.23717105263157

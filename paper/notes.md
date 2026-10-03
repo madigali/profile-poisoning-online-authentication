@@ -735,6 +735,70 @@ exclusions, stopping rules, and seeds are recorded in the protocol file and its
 machine-readable JSON companion.  Any null or reversed Day-2 result will be
 reported as a negative external replication without changing this protocol.
 
+### D021 — McGill external replication result
+
+Date: 2026-10-03
+
+Run: `results/paper3_external_mcgill_20261003_v1/`
+
+Status: complete; locked protocol; no tuning after Day-2 scoring
+
+The fixed Day-1 LSTM passed its prespecified viability gate before Day 2 was
+loaded: validation top-1 accuracy was `58.12%`, compared with the locked `20%`
+minimum.  The score cache contains 958 Day-1 enrollment windows and 4,976
+Day-2 windows and has SHA-256
+`3f390ab19fbea15582fbb5a646cf7e631b77b744ab101e97d83edb533717a79b`.
+All 20 subjects passed the structural inclusion rules.
+
+The main boundary-poisoning mechanism replicated.  At `K=8`, Frozen held-out
+ASR was `12.37%`, Blind EMA ASR was `32.09%`, and Guarded EMA ASR was `12.48%`.
+The paired Blind-minus-Frozen effect was `+19.72` percentage points with a 95%
+subject-bootstrap interval of `[+5.58, +37.34]`.  The Guarded-minus-Blind ASR
+effect was `-19.62` points `[-37.17, -5.60]`.  Blind incorporated every
+presented boundary poison (`100%` MUR), whereas Guarded MUR was `32.22%`; the
+paired reduction was `-67.78` points `[-84.30, -49.47]`.
+
+Boundary feasibility is an important limitation rather than a hidden
+exclusion.  Of 2,000 victim-repeat paths, 544 lacked eight initially accepted
+near-boundary candidates.  Eighteen victims contributed at least one feasible
+path to the boundary `K=8` subject analysis, with repeats averaged within
+victim before the 10,000-resample subject bootstrap.  The random attack was
+weaker: at `K=8`, Blind-minus-Frozen ASR was `+1.51` points with interval
+`[-0.09, +4.43]`; this secondary effect is directionally positive but
+inconclusive.
+
+The real two-day temporal analysis also reproduced the selective-update
+mechanism, although absolute cross-day authentication performance was poor.
+Frozen late FRR/FAR were `78.00%/11.46%`.  Guarded late FRR/FAR were
+`81.00%/10.29%`, with GUR `19.06%`; its late-FRR difference from Frozen was
+`+3.00` points `[0.00, +7.00]`.  Guarded mean and threshold moved upward, with
+mean threshold displacement `+0.0226` score units.
+
+Oracle-all-genuine, which receives every genuine adaptation observation,
+moved in the opposite direction.  Its late FRR was `12.75%`, `65.25` points
+below Frozen `[-83.75, -45.50]`, and `68.25` points below Guarded
+`[-85.25, -49.25]`.  Its mean threshold displacement was `-0.2426`.  This
+tracking gain was insecure: Oracle late FAR rose to `75.05%`, `64.76` points
+above Guarded `[+48.93, +79.24]`.  Late HTER remained similar across Frozen,
+Guarded, and Oracle (`44.73%`, `45.64%`, and `43.90%`), so Oracle is evidence
+about recoverability and feedback censoring, not a deployable improvement.
+
+The retained interpretation is therefore mechanism-level external support:
+score-informed boundary poisoning contaminates Blind EMA; the transferred
+Guarded gate sharply reduces contamination and removes almost all of the ASR
+increase; and accepted-only gating fails to follow a large real cross-day
+genuine-score shift that Oracle-all can track only by paying an extreme FAR
+cost.  Do not generalize the absolute rates beyond this 20-subject,
+accelerometer-only dataset.  The random-attack result, high Day-2 FRR, large
+boundary feasibility exclusion, and missing gyroscope must be reported
+prominently.
+
+The locked analysis was rerun from the same score cache.  All 10 CSV/Markdown
+tables and all three PNG figures were byte-identical; PDF hashes differed only
+because Matplotlib embeds creation metadata.  The committed run manifest
+verifies every retained output hash.  No TQ-EMA, quantile, synthetic-drift, or
+new-method experiment was opened.
+
 ## Information to recover from Paper 1/Paper 2
 
 - Exact titles, venues, publication status, DOI, and citation records.

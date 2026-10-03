@@ -14,5 +14,6 @@ data were not loaded.
 | `paper3_tq_v2_validation_failed_20261001/` | Recovery-episode v2 | Validation failed; outer test not loaded |
 | `paper3_quantile_validation_failed_20261001_v1/` | Adaptive quantile branch | Validation failed; outer test not loaded |
 | `paper3_final_analysis_20261002_v2/` | Final tables and three article figures | Complete |
+| `paper3_external_mcgill_20261003_v1/` | Locked two-day McGill external replication | Complete; no tuning after Day-2 scoring |
 
 Do not overwrite these directories. New diagnostic runs must use a new run ID.

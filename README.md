@@ -1,6 +1,6 @@
 # Poisoning-Resistant Online Adaptation for Mobile Authentication
 
-Research code and frozen HMOG results for Paper 3 of a PhD project on
+Research code, frozen HMOG results, and a locked external replication for Paper 3 of a PhD project on
 behavioral-biometric continuous authentication.
 
 The repository studies a central security–adaptation trade-off: an online
@@ -19,8 +19,12 @@ The HMOG method-development phase is frozen. The completed evidence shows:
 - TQ-EMA v1 does not recover FRR; TQ-EMA v2 and the adaptive-quantile branch
   failed their validation gates, so their outer tests were not run.
 
-These statements describe the completed HMOG experiments; they are not claims
-of generalization to other datasets.
+The independent McGill Gait replication is also complete. It reproduced the
+boundary-poisoning vulnerability, the contamination reduction from the fixed
+Guarded gate, and the accepted-only selection-bias mechanism. Random poisoning
+was weaker and its central confidence interval included zero. McGill contains
+accelerometer but no gyroscope, so this is a mechanism replication under a
+different sensor setting rather than a numerically identical HMOG reproduction.
 
 ## Repository layout
 
@@ -30,11 +34,13 @@ tests/        unit and protocol-invariant tests
 experiments/  experimental protocol
 paper/        research notes and decision log
 results/      frozen authoritative tables, manifests, and figures
-data/         instructions for local-only HMOG data and caches
+data/         instructions for local-only datasets and caches
 ```
 
 The three publication figures and final summary table are in
 [`results/paper3_final_analysis_20261002_v2`](results/paper3_final_analysis_20261002_v2).
+The external-replication tables, manifest, and three figures are in
+[`results/paper3_external_mcgill_20261003_v1`](results/paper3_external_mcgill_20261003_v1).
 
 ## Environment
 
@@ -48,6 +54,20 @@ python -m pip install -r requirements.txt
 
 Raw HMOG data, trained weights, and score caches are intentionally not stored
 in Git. See [`data/README.md`](data/README.md).
+
+The McGill replication is staged so that Day 2 cannot affect model selection:
+
+```bash
+python src/paper3_external_mcgill.py audit
+python src/paper3_external_mcgill.py smoke
+python src/paper3_external_mcgill.py train
+python src/paper3_external_mcgill.py score
+python src/paper3_external_mcgill.py test \
+  --output-dir results/local-mcgill-replication-check
+```
+
+The locked protocol is
+[`experiments/external_replication_mcgill.md`](experiments/external_replication_mcgill.md).
 
 ## Verification
 
@@ -73,6 +93,9 @@ directory and refuses to overwrite a non-empty directory.
 
 - Method freeze tag: `paper3-method-freeze-2026-10-02`
 - Default random seed for Paper 3 score-level experiments: `4242`
+- McGill protocol freeze commit: `f5ef301`
+- McGill locked score-cache SHA-256:
+  `3f390ab19fbea15582fbb5a646cf7e631b77b744ab101e97d83edb533717a79b`
 - TQ-EMA v2 and adaptive quantile have `validation_failed` status with
   `outer_test_loaded=false` in their saved records.
 - Historical and superseded development artifacts remain recoverable from Git

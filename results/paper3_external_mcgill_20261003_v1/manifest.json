@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-03T16:44:27.350284+00:00",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "platform": "macOS-14.3-arm64-arm-64bit-Mach-O",
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+    "torch": "2.12.0",
+    "torch_threads": 4
+  },
+  "figures": [
+    "figures/external_poisoning_asr.png",
+    "figures/external_poisoning_asr.pdf",
+    "figures/external_temporal_tradeoff.png",
+    "figures/external_temporal_tradeoff.pdf",
+    "figures/external_selection_bias_trajectory.png",
+    "figures/external_selection_bias_trajectory.pdf"
+  ],
+  "generated_files": {
+    "attack_by_subject.csv": "f1a28694384f0b5343316a6ba5f02732035817fb3dede219c2c585369c5ada7e",
+    "attack_subject_repeat.csv": "c71c51fd23587d85eeeb9f8d40240d33fe31ab05136b69380a1ecf05631f427c",
+    "attack_summary_bootstrap.csv": "9ae4d4becf313261ba63d7e43c0deb32a8bb0967eb9d1d12db5c5932168ab487",
+    "exclusions.csv": "36d0450e554a1540fa2f7b5612cb4518705777c07bd69b2bff8ca93cbc6c1669",
+    "external_replication_summary.csv": "a03da3ff220de68f277e2e6af9b10f06640df4e61478e6596eb5a38ba4531b28",
+    "external_replication_summary.md": "c58e4264fe53e04d2879b639b9c2a3537b6785bcc2ed2e1410859f6226f0d435",
+    "figures/external_poisoning_asr.pdf": "62da00ef4d38fbe3f6bb5a31d0bc2f46e8a1ca86ec162b090925a7f3283c7531",
+    "figures/external_poisoning_asr.png": "5769a03f7cefeeb652c86db66832bae25090cf811e23fb4ae6e0f58eb6767abb",
+    "figures/external_selection_bias_trajectory.pdf": "e7e81b055d9ef6a33b525508c9fd157bbea021773ee2b0c1bf6e09948fe3c8a3",
+    "figures/external_selection_bias_trajectory.png": "67f8fc50d3c6520fabffeb96baa1d05a8989563c7067097f47024e4206196c01",
+    "figures/external_temporal_tradeoff.pdf": "1be4e784fb101a46409c1e7372ab0ae34ad953786b1b6b2d1c6e490728cf3be7",
+    "figures/external_temporal_tradeoff.png": "70dbd40af3d2679d3aa09b36e3aff5fb370d30fa26833a733af9d69a6b81368d",
+    "paired_effects.csv": "9b16a5c61ff862d750a711855576c81692102e21f9659ea63a15c04cb2d80633",
+    "temporal_by_subject.csv": "df0a42f77b8c6e0bb765aa7703b4f70253c742f252eb70c742879c13550fa625",
+    "temporal_checkpoints.csv": "4483810fcbda1ee67fa2bc5584a54012ec3e7e6fb5c7fefa329ddb84d053cd60",
+    "temporal_summary_bootstrap.csv": "04807cc7e6d072675323f6ccec57a0c01b92f90361bc4daa96e485d1bc9256e9"
+  },
+  "git_revision": "1c0eeb8fb9dbbc1113d9aa0faa48cee07c72cce9",
+  "n_attack_subject_repeat_rows": 51840,
+  "n_boundary_exclusions": 544,
+  "n_temporal_subject_rows": 60,
+  "outer_test_loaded": true,
+  "protocol_id": "paper3-external-mcgill-v1",
+  "protocol_sha256": "69aa325074a42dd02eb74fdec4ca0ae53ecc90b9f855c46e522a7b1bbcadb06b",
+  "score_cache_sha256": "3f390ab19fbea15582fbb5a646cf7e631b77b744ab101e97d83edb533717a79b",
+  "status": "complete",
+  "tuning_performed": false
+}

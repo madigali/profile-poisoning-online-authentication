@@ -1,0 +1,9 @@
+contrast,mean_effect_pp,ci_low_pp,ci_high_pp,direction,n_subjects
+Blind minus Frozen ASR,19.721769166867155,5.5791730621677,37.34406896825432,positive,18
+Guarded minus Blind ASR,-19.616456738521805,-37.16512153099239,-5.596611626994272,negative,18
+Guarded minus Blind MUR,-67.77719776882148,-84.30178958732975,-49.4667815980316,negative,18
+Blind minus Frozen ASR (random),1.5103514148660564,-0.08583126695851548,4.427689189888411,positive,20
+Guarded minus Frozen late FRR,3.0,0.0,6.999999999999999,positive,20
+Oracle-all minus Frozen late FRR,-65.25000000000001,-83.75,-45.49999999999999,negative,20
+Guarded minus Oracle-all late FRR,68.25,49.25000000000001,85.25000000000003,positive,20
+Oracle-all minus Guarded late FAR,64.76315789473685,48.934210526315795,79.23717105263157,positive,20
