@@ -931,6 +931,47 @@ initial operating point as the most important remaining scope question.  The
 analysis tests applicability of the existing mechanism without training,
 rescoring, method tuning, or reopening stopped algorithm branches.
 
+### D024 — Operating-point sensitivity result
+
+**Date:** 2026-10-04  
+**Status:** complete; manuscript integration deferred
+
+**Reference gate.** The new runner reproduced the authoritative HMOG
+fold-level common-cohort results and all 51,840 authoritative McGill path rows
+within the frozen absolute tolerance (`1e-9`; observed maximum numerical
+differences were approximately `1e-14`).  Only after this pass were the 5% and
+1% calibration targets evaluated.
+
+**Observed scope.** HMOG boundary K=8 Blind-minus-Frozen ASR amplification was
+`+2.49` percentage points at nominal calibration FAR 5% (victim-bootstrap 95%
+CI `[+0.95,+4.38]`) but `-0.45` points at nominal 1% (`[-0.50,-0.39]`).  McGill
+showed `+0.20` points at nominal 5% (`[-0.05,+0.53]`) and `-0.35` points at
+nominal 1% (`[-0.55,-0.19]`).  Thus the large reference-operating-point
+amplification is not operating-point invariant: it is strongly attenuated at
+5% and reverses under the conditional 1% K=8 cohort.
+
+This does not provide a free security improvement.  Full-path Frozen FRR rose
+from `24.95%` (reference) to `57.88%` (5%) and `80.79%` (1%) on HMOG, and from
+`78.81%` to `82.43%` and `90.25%` on McGill.  HMOG boundary K=8 feasibility
+fell from 49,889/50,000 paths at reference to 49,753/50,000 at 5% and
+9,088/50,000 at 1%; McGill fell from 1,456/2,000 to 1,369/2,000 and
+1,001/2,000.
+
+**Mechanistic diagnostic.** At nominal 1%, initial `k` was negative for 88.6%
+of HMOG claimant-fold profiles and 75% of McGill claimants.  Along conditional
+boundary K=8 Guarded paths, `tau_auth >= mu_enroll` in 80.78% of HMOG and
+86.51% of McGill poisoning states, so the original Guarded rule was actually
+stricter than authentication in only 19.22% and 13.49% of states.  Accepted
+updates generally moved strict-point thresholds upward, explaining the loss
+and reversal of ASR amplification while worsening FRR.  This is an
+operating-point limitation of the already studied EMA/Guarded equations, not a
+new defense claim.
+
+The complete frozen package is
+`results/paper3_operating_point_sensitivity_20261004_v1/`.  Its primary
+victim-by-source sensitivity bootstrap confirms the HMOG 1% conclusion.  No
+Paper 3 manuscript file was updated; integration requires a separate review.
+
 ## Pre-registration checklist
 
 - [x] Verify Paper 1/Paper 2 facts from primary materials (`paper/paper1_paper2_fact_check.md`; completed 2026-10-03).

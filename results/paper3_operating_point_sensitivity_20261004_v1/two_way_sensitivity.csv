@@ -1,0 +1,4 @@
+dataset,condition,strategy,K,contrast,n_victims,n_paths,n_sources,draws_requested,draws_valid,mean_effect,ci_low,ci_high,status
+HMOG,far_1pct,boundary,8,Blind EMA minus Frozen,100,9088,100,10000,10000,-0.44747248451770677,-0.5151421097236356,-0.3834248946187981,complete_product_weight_victim_source_bootstrap
+HMOG,far_1pct,boundary,8,Guarded EMA minus Blind EMA,100,9088,100,10000,10000,-0.00894532728145251,-0.021965543810302267,-0.0013239154825277733,complete_product_weight_victim_source_bootstrap
+HMOG,far_1pct,boundary,8,Guarded EMA minus Frozen,100,9088,100,10000,10000,-0.45641781180823066,-0.522304682665189,-0.39523882430356533,complete_product_weight_victim_source_bootstrap

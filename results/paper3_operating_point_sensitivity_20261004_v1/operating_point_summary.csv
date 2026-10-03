@@ -1,0 +1,1621 @@
+dataset,condition,strategy,K,nominal_calibration_far,method,metric,n_victims,mean,ci_low,ci_high,unit,inference_status
+HMOG,far_1pct,boundary,0,0.01,Frozen,post_ASR,100,0.8264105885389345,0.7541654650438797,0.9011647656670795,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Frozen,post_FRR,100,80.18236111111112,76.98804513888889,83.17571527777778,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Frozen,HTER,100,40.50438584982503,38.95065454227568,41.95679572074294,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Frozen,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Blind EMA,post_ASR,100,0.8264105885389345,0.7553735667120804,0.9001201064140487,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Blind EMA,post_FRR,100,80.18236111111112,77.10304166666667,83.13283680555557,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Blind EMA,HTER,100,40.50438584982503,38.9835379663372,41.971958083072,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Blind EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Blind EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Blind EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Blind EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Blind EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Blind EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Guarded EMA,post_ASR,100,0.8264105885389345,0.7530738123308307,0.9028200057625231,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Guarded EMA,post_FRR,100,80.18236111111112,77.09122916666665,83.12889583333335,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Guarded EMA,HTER,100,40.50438584982503,38.97078917123418,42.0058697847235,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Guarded EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Guarded EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,0,0.01,Guarded EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Guarded EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Guarded EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,0,0.01,Guarded EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Frozen,post_ASR,100,0.8264105885389345,0.7539365794346463,0.901847904603335,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Frozen,post_FRR,100,80.18236111111112,77.0479027777778,83.24113541666665,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Frozen,HTER,100,40.50438584982503,38.961643746046605,41.97374899275566,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Blind EMA,post_ASR,100,0.6878634732704185,0.614031265094187,0.7649157204640659,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Blind EMA,post_FRR,100,81.97145499108736,78.89891280451576,84.97211857546048,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Blind EMA,HTER,100,41.329659232178884,39.79524749550822,42.79866471725568,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Blind EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Blind EMA,MUR,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Blind EMA,malicious_updates,100,1.0,1.0,1.0,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Blind EMA,mean_delta,100,0.0014630769486203247,0.0012210934405200075,0.001689781629397791,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Blind EMA,sigma_delta,100,0.0008143422434879086,0.0004785445575086806,0.001169290066717057,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Blind EMA,threshold_delta,100,0.008383542811533501,0.005090752094106092,0.01340323603205795,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Guarded EMA,post_ASR,100,0.684478316554852,0.6108896184521023,0.7608701769417496,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Guarded EMA,post_FRR,100,81.97145499108736,78.8827930221331,84.93023694667261,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Guarded EMA,HTER,100,41.3279666538211,39.7979882021135,42.76910378154415,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Guarded EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Guarded EMA,MUR,100,90.76271413942104,86.38435267276748,94.5914632423913,percent,estimable
+HMOG,far_1pct,boundary,1,0.01,Guarded EMA,malicious_updates,100,0.9076271413942103,0.8642999146082392,0.9468120520427175,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Guarded EMA,mean_delta,100,0.0016592160352562862,0.001502025387299973,0.001815171237950031,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Guarded EMA,sigma_delta,100,0.0009430236766501602,0.0006254915969280796,0.0012760363370693366,score_or_count,estimable
+HMOG,far_1pct,boundary,1,0.01,Guarded EMA,threshold_delta,100,0.008531841897379714,0.005231055662693403,0.013648798127224226,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Frozen,post_ASR,100,0.8264105885389345,0.7529084689365098,0.9006898251614758,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Frozen,post_FRR,100,80.18236111111112,77.04707986111111,83.21009375,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Frozen,HTER,100,40.50438584982503,38.990520479542354,41.98766378904828,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Blind EMA,post_ASR,100,0.6604604178645643,0.5894066276875838,0.73575463361699,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Blind EMA,post_FRR,100,82.27958585338695,79.16473971157963,85.24600463986052,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Blind EMA,HTER,100,41.47002313562575,39.94163063394019,42.95576067077694,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Blind EMA,poison_accept_rate,100,82.1744884890277,78.78980050120678,85.48537914436596,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Blind EMA,MUR,100,82.1744884890277,78.78808863761151,85.54288425460966,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Blind EMA,malicious_updates,100,1.643489769780554,1.5761592870851393,1.7106265127985205,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Blind EMA,mean_delta,100,0.0022479605332074585,0.0018623465607517829,0.0026140218190059076,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Blind EMA,sigma_delta,100,0.000631880033167948,0.00017695076918508557,0.0010800854973922207,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Blind EMA,threshold_delta,100,0.009681976136638957,0.006402397774118827,0.014792667748928345,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Guarded EMA,post_ASR,100,0.6552760785698535,0.5846739777019807,0.7313849302815307,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Guarded EMA,post_FRR,100,82.35752702985754,79.28500651690284,85.28979551059554,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Guarded EMA,HTER,100,41.506401554213696,39.97484761871803,42.96707482093065,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Guarded EMA,poison_accept_rate,100,82.1744884890277,78.83535035901129,85.42075871972547,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Guarded EMA,MUR,100,74.96630026879382,71.31745268610989,78.52539438170432,percent,estimable
+HMOG,far_1pct,boundary,2,0.01,Guarded EMA,malicious_updates,100,1.4993260053758763,1.4258342910036674,1.5697336026520499,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Guarded EMA,mean_delta,100,0.002562045676033896,0.0023204795010539764,0.0028037070801451417,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Guarded EMA,sigma_delta,100,0.0008265406510461002,0.00041694855478181884,0.0012375863968355,score_or_count,estimable
+HMOG,far_1pct,boundary,2,0.01,Guarded EMA,threshold_delta,100,0.009918257158591723,0.006663600101783635,0.014985695863848595,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Frozen,post_ASR,100,0.8264105885389345,0.7538539349212845,0.9014138995534943,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Frozen,post_FRR,100,80.18236111111112,77.04893402777779,83.21091666666668,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Frozen,HTER,100,40.50438584982503,38.969537943061,41.991108685485074,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Blind EMA,post_ASR,100,0.580033203448169,0.5062280095395422,0.6581102452256301,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Blind EMA,post_FRR,100,83.31799968562555,80.19706917683466,86.32772023900044,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Blind EMA,HTER,100,41.94901644453687,40.40426764525001,43.413997666659505,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Blind EMA,poison_accept_rate,100,76.82648642827523,72.50363259104887,81.0910481133484,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Blind EMA,MUR,100,76.82648642827523,72.57572005259041,81.04391241693703,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Blind EMA,malicious_updates,100,3.0730594571310093,2.8994595214902903,3.2404543391568876,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Blind EMA,mean_delta,100,0.004524389708763707,0.003830891367426376,0.005148607187450615,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Blind EMA,sigma_delta,100,0.0006998566218432959,-1.2826704033224477e-05,0.0014016911448895717,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Blind EMA,threshold_delta,100,0.01383234553999371,0.010323776398173092,0.018964200241801354,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Guarded EMA,post_ASR,100,0.5685143565569601,0.4984914515792881,0.642529184632743,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Guarded EMA,post_FRR,100,83.47960583420354,80.35439878202632,86.46970749700847,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Guarded EMA,HTER,100,42.02406009538026,40.516962472362415,43.47448622559359,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Guarded EMA,poison_accept_rate,100,76.82648642827523,72.47297071450383,80.9832358971319,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Guarded EMA,MUR,100,71.94046671005181,68.01022263328728,75.86045719633712,percent,estimable
+HMOG,far_1pct,boundary,4,0.01,Guarded EMA,malicious_updates,100,2.8776186684020724,2.721156821280274,3.0283383827677235,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Guarded EMA,mean_delta,100,0.004966617313375294,0.004479707189234001,0.005453042747775056,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Guarded EMA,sigma_delta,100,0.0009614700587829508,0.00031830303795431594,0.0015895208268485689,score_or_count,estimable
+HMOG,far_1pct,boundary,4,0.01,Guarded EMA,threshold_delta,100,0.014153998741868843,0.010742417074905574,0.01923401196116091,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Frozen,post_ASR,100,0.8264105885389345,0.75328250013108,0.902475792830598,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Frozen,post_FRR,100,80.18236111111112,77.05693055555557,83.17641666666667,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Frozen,HTER,100,40.50438584982503,38.974092794737246,41.97230217058932,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Blind EMA,post_ASR,100,0.37893810420612634,0.30865546166589763,0.4543185526276953,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Blind EMA,post_FRR,100,87.07329193628884,84.09429051695703,89.90459758990214,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Blind EMA,HTER,100,43.726115020247484,42.23345854556667,45.12499498027232,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Blind EMA,poison_accept_rate,100,77.00020684015948,72.49818964158572,81.16598562195905,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Blind EMA,MUR,100,77.00020684015948,72.6840284749391,81.2229110116555,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Blind EMA,malicious_updates,100,6.160016547212758,5.8113783296036585,6.509462271436423,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Blind EMA,mean_delta,100,0.012670199769914032,0.011362410288000932,0.013917420012852722,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Blind EMA,sigma_delta,100,0.004040513976818923,0.0027118405119459068,0.005332788121045467,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Blind EMA,threshold_delta,100,0.03031935592176887,0.025633915175945064,0.03629890114983412,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Guarded EMA,post_ASR,100,0.3699927767343013,0.30293421403019355,0.44240482811683735,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Guarded EMA,post_FRR,100,87.23626049309601,84.29021585222478,90.02245945062222,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Guarded EMA,HTER,100,43.80312663491517,42.364750893814566,45.16392435979032,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Guarded EMA,poison_accept_rate,100,77.00020684015948,72.56127923480746,81.16210549499331,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Guarded EMA,MUR,100,74.33075359887046,70.2533343103812,78.136404957463,percent,estimable
+HMOG,far_1pct,boundary,8,0.01,Guarded EMA,malicious_updates,100,5.946460287909637,5.618286024907337,6.265069392308225,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Guarded EMA,mean_delta,100,0.013093239985218155,0.011936121932021022,0.014294826058989173,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Guarded EMA,sigma_delta,100,0.004290227262935688,0.003051249707231782,0.005539358179892875,score_or_count,estimable
+HMOG,far_1pct,boundary,8,0.01,Guarded EMA,threshold_delta,100,0.030611067021503492,0.02597032827083623,0.036599221551170985,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Frozen,post_ASR,100,1.0371183691014938,1.0012782973125482,1.0723092282148572,percent,estimable
+HMOG,far_1pct,random,0,0.01,Frozen,post_FRR,100,80.79,78.065,83.46512499999999,percent,estimable
+HMOG,far_1pct,random,0,0.01,Frozen,HTER,100,40.913559184550756,39.528402125722664,42.210359972963815,percent,estimable
+HMOG,far_1pct,random,0,0.01,Frozen,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,0,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,0,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Blind EMA,post_ASR,100,1.0371183691014938,1.001610125673765,1.0723677216904688,percent,estimable
+HMOG,far_1pct,random,0,0.01,Blind EMA,post_FRR,100,80.79,77.97487499999998,83.41024999999999,percent,estimable
+HMOG,far_1pct,random,0,0.01,Blind EMA,HTER,100,40.913559184550756,39.52446401009976,42.251091855833444,percent,estimable
+HMOG,far_1pct,random,0,0.01,Blind EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,0,0.01,Blind EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,0,0.01,Blind EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Blind EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Blind EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Blind EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Guarded EMA,post_ASR,100,1.0371183691014938,1.001314990233398,1.0730437829525705,percent,estimable
+HMOG,far_1pct,random,0,0.01,Guarded EMA,post_FRR,100,80.79,77.97987499999999,83.445125,percent,estimable
+HMOG,far_1pct,random,0,0.01,Guarded EMA,HTER,100,40.913559184550756,39.53638787168081,42.25751071848718,percent,estimable
+HMOG,far_1pct,random,0,0.01,Guarded EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,0,0.01,Guarded EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,0,0.01,Guarded EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Guarded EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Guarded EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,0,0.01,Guarded EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Frozen,post_ASR,100,1.0371183691014938,1.0012980136964986,1.0731011889998963,percent,estimable
+HMOG,far_1pct,random,1,0.01,Frozen,post_FRR,100,80.79,77.975,83.395125,percent,estimable
+HMOG,far_1pct,random,1,0.01,Frozen,HTER,100,40.913559184550756,39.548653433968504,42.245601379914916,percent,estimable
+HMOG,far_1pct,random,1,0.01,Frozen,poison_accept_rate,100,0.966,0.868,1.066,percent,estimable
+HMOG,far_1pct,random,1,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,1,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Blind EMA,post_ASR,100,1.034187367901819,0.9989725960248059,1.0696881069139403,percent,estimable
+HMOG,far_1pct,random,1,0.01,Blind EMA,post_FRR,100,80.81805,78.0416375,83.49460499999999,percent,estimable
+HMOG,far_1pct,random,1,0.01,Blind EMA,HTER,100,40.92611868395091,39.561817766603596,42.26307561980267,percent,estimable
+HMOG,far_1pct,random,1,0.01,Blind EMA,poison_accept_rate,100,0.966,0.8700000000000001,1.066,percent,estimable
+HMOG,far_1pct,random,1,0.01,Blind EMA,MUR,100,0.966,0.8700000000000001,1.066,percent,estimable
+HMOG,far_1pct,random,1,0.01,Blind EMA,malicious_updates,100,0.00966,0.008700000000000001,0.01068,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Blind EMA,mean_delta,100,2.5534423024999812e-05,2.175696495322631e-05,2.9305575400690085e-05,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Blind EMA,sigma_delta,100,2.6757538292700766e-05,1.9595903393582222e-05,3.484939856632669e-05,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Blind EMA,threshold_delta,100,0.00017797345632863647,9.402849473808821e-05,0.0003159810303050528,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Guarded EMA,post_ASR,100,1.0341508977395462,0.9989917587133232,1.070168423467996,percent,estimable
+HMOG,far_1pct,random,1,0.01,Guarded EMA,post_FRR,100,80.81805,78.08235874999998,83.45450125,percent,estimable
+HMOG,far_1pct,random,1,0.01,Guarded EMA,HTER,100,40.926100448869775,39.5294200147161,42.24699823474886,percent,estimable
+HMOG,far_1pct,random,1,0.01,Guarded EMA,poison_accept_rate,100,0.966,0.8700000000000001,1.068,percent,estimable
+HMOG,far_1pct,random,1,0.01,Guarded EMA,MUR,100,0.936,0.8459500000000002,1.0300499999999995,percent,estimable
+HMOG,far_1pct,random,1,0.01,Guarded EMA,malicious_updates,100,0.00936,0.00846,0.010320000000000001,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Guarded EMA,mean_delta,100,2.6394202425180373e-05,2.3004541833744005e-05,2.9972581033425905e-05,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Guarded EMA,sigma_delta,100,2.703478486610042e-05,1.9938066735451507e-05,3.486891667042619e-05,score_or_count,estimable
+HMOG,far_1pct,random,1,0.01,Guarded EMA,threshold_delta,100,0.00017871846573724154,9.545001285391344e-05,0.00031003294734542673,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Frozen,post_ASR,100,1.0371183691014938,1.0017532885123321,1.0726225072740596,percent,estimable
+HMOG,far_1pct,random,2,0.01,Frozen,post_FRR,100,80.79,78.035,83.39999999999999,percent,estimable
+HMOG,far_1pct,random,2,0.01,Frozen,HTER,100,40.913559184550756,39.53151464621099,42.25044810624997,percent,estimable
+HMOG,far_1pct,random,2,0.01,Frozen,poison_accept_rate,100,0.983,0.909,1.0609999999999997,percent,estimable
+HMOG,far_1pct,random,2,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,2,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Blind EMA,post_ASR,100,1.0315664494823864,0.9966911102323397,1.0675354145460658,percent,estimable
+HMOG,far_1pct,random,2,0.01,Blind EMA,post_FRR,100,80.84185,78.06524249999998,83.49805875,percent,estimable
+HMOG,far_1pct,random,2,0.01,Blind EMA,HTER,100,40.936708224741196,39.55261289171455,42.296590694623035,percent,estimable
+HMOG,far_1pct,random,2,0.01,Blind EMA,poison_accept_rate,100,0.9820000000000001,0.907975,1.057,percent,estimable
+HMOG,far_1pct,random,2,0.01,Blind EMA,MUR,100,0.9820000000000001,0.9079999999999999,1.0579999999999998,percent,estimable
+HMOG,far_1pct,random,2,0.01,Blind EMA,malicious_updates,100,0.01964,0.01818,0.021179999999999994,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Blind EMA,mean_delta,100,5.184430387546876e-05,4.5852222390910626e-05,5.799370993087858e-05,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Blind EMA,sigma_delta,100,4.7802736693082806e-05,3.728454097620377e-05,5.9959247336938263e-05,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Blind EMA,threshold_delta,100,0.0003146500176965881,0.00017145984946798838,0.0005569604623681198,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Guarded EMA,post_ASR,100,1.031509703355477,0.9958399341419965,1.0660234513663456,percent,estimable
+HMOG,far_1pct,random,2,0.01,Guarded EMA,post_FRR,100,80.84185,78.13293,83.45409374999998,percent,estimable
+HMOG,far_1pct,random,2,0.01,Guarded EMA,HTER,100,40.93667985167774,39.56966436842543,42.25462200002866,percent,estimable
+HMOG,far_1pct,random,2,0.01,Guarded EMA,poison_accept_rate,100,0.9820000000000001,0.909,1.059,percent,estimable
+HMOG,far_1pct,random,2,0.01,Guarded EMA,MUR,100,0.955,0.885,1.0279999999999998,percent,estimable
+HMOG,far_1pct,random,2,0.01,Guarded EMA,malicious_updates,100,0.0191,0.01768,0.020559999999999995,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Guarded EMA,mean_delta,100,5.333598209766775e-05,4.7757068030821655e-05,5.9245526512987945e-05,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Guarded EMA,sigma_delta,100,4.8299847058573273e-05,3.789084967897775e-05,6.0001376964262076e-05,score_or_count,estimable
+HMOG,far_1pct,random,2,0.01,Guarded EMA,threshold_delta,100,0.0003159731688612822,0.00017242002443842167,0.0005706407471652487,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Frozen,post_ASR,100,1.0371183691014938,1.001032810500658,1.0727999955422622,percent,estimable
+HMOG,far_1pct,random,4,0.01,Frozen,post_FRR,100,80.79,78.02499999999999,83.43512500000001,percent,estimable
+HMOG,far_1pct,random,4,0.01,Frozen,HTER,100,40.913559184550756,39.56161820900076,42.22375740096905,percent,estimable
+HMOG,far_1pct,random,4,0.01,Frozen,poison_accept_rate,100,1.0045,0.9415,1.0699999999999998,percent,estimable
+HMOG,far_1pct,random,4,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,4,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Blind EMA,post_ASR,100,1.0258780328927748,0.9916056316050742,1.0605370166517292,percent,estimable
+HMOG,far_1pct,random,4,0.01,Blind EMA,post_FRR,100,80.8914,78.19429875,83.55204125,percent,estimable
+HMOG,far_1pct,random,4,0.01,Blind EMA,HTER,100,40.9586390164464,39.576984798162655,42.29159728535005,percent,estimable
+HMOG,far_1pct,random,4,0.01,Blind EMA,poison_accept_rate,100,1.0005,0.9364999999999999,1.0649999999999997,percent,estimable
+HMOG,far_1pct,random,4,0.01,Blind EMA,MUR,100,1.0005,0.9365,1.0649999999999997,percent,estimable
+HMOG,far_1pct,random,4,0.01,Blind EMA,malicious_updates,100,0.04002,0.03757999999999999,0.04258,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Blind EMA,mean_delta,100,0.00010572433021266906,9.530059827768122e-05,0.00011688118165092386,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Blind EMA,sigma_delta,100,9.551624370833683e-05,7.632356137327734e-05,0.00011666982557895847,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Blind EMA,threshold_delta,100,0.0005880375183371428,0.00035773250729551173,0.0009627305988344365,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Guarded EMA,post_ASR,100,1.0257969788102352,0.9903872174387022,1.059801958121007,percent,estimable
+HMOG,far_1pct,random,4,0.01,Guarded EMA,post_FRR,100,80.8914,78.12143124999999,83.55904375,percent,estimable
+HMOG,far_1pct,random,4,0.01,Guarded EMA,HTER,100,40.95859848940512,39.610328818127336,42.271686232177416,percent,estimable
+HMOG,far_1pct,random,4,0.01,Guarded EMA,poison_accept_rate,100,1.0005,0.9379999999999997,1.0655,percent,estimable
+HMOG,far_1pct,random,4,0.01,Guarded EMA,MUR,100,0.9759999999999998,0.914,1.039,percent,estimable
+HMOG,far_1pct,random,4,0.01,Guarded EMA,malicious_updates,100,0.03903999999999999,0.03665999999999999,0.04143999999999999,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Guarded EMA,mean_delta,100,0.00010842632663883113,9.838480038150758e-05,0.0001188403308383181,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Guarded EMA,sigma_delta,100,9.669112596677965e-05,7.763030600813474e-05,0.00011729314700062758,score_or_count,estimable
+HMOG,far_1pct,random,4,0.01,Guarded EMA,threshold_delta,100,0.0005902702121777741,0.0003640616231900125,0.0009793793124378044,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Frozen,post_ASR,100,1.0371183691014938,1.0013691993741156,1.0717900313770934,percent,estimable
+HMOG,far_1pct,random,8,0.01,Frozen,post_FRR,100,80.79,78.02,83.51025,percent,estimable
+HMOG,far_1pct,random,8,0.01,Frozen,HTER,100,40.913559184550756,39.54813036847541,42.23523691759152,percent,estimable
+HMOG,far_1pct,random,8,0.01,Frozen,poison_accept_rate,100,1.022,0.97125,1.07425,percent,estimable
+HMOG,far_1pct,random,8,0.01,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_1pct,random,8,0.01,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Blind EMA,post_ASR,100,1.0137363580431615,0.9794586215932181,1.0487789209459237,percent,estimable
+HMOG,far_1pct,random,8,0.01,Blind EMA,post_FRR,100,80.9968,78.24628249999998,83.64112874999998,percent,estimable
+HMOG,far_1pct,random,8,0.01,Blind EMA,HTER,100,41.00526817902158,39.63971047008204,42.33931331988303,percent,estimable
+HMOG,far_1pct,random,8,0.01,Blind EMA,poison_accept_rate,100,1.01275,0.9622499999999999,1.064,percent,estimable
+HMOG,far_1pct,random,8,0.01,Blind EMA,MUR,100,1.01275,0.9614999999999998,1.06475,percent,estimable
+HMOG,far_1pct,random,8,0.01,Blind EMA,malicious_updates,100,0.08102000000000001,0.0769995,0.08523999999999997,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Blind EMA,mean_delta,100,0.00021513461378056423,0.00019642363260848135,0.00023406398632177638,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Blind EMA,sigma_delta,100,0.0001896096481153099,0.00015529433947953757,0.00022680599088038112,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Blind EMA,threshold_delta,100,0.0011089225422555515,0.0007357886013898622,0.0017164015921205696,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Guarded EMA,post_ASR,100,1.0136268482730246,0.9786007016428578,1.0489292942138977,percent,estimable
+HMOG,far_1pct,random,8,0.01,Guarded EMA,post_FRR,100,80.9978,78.25459124999999,83.6538875,percent,estimable
+HMOG,far_1pct,random,8,0.01,Guarded EMA,HTER,100,41.00571342413651,39.62658941314299,42.34445027684846,percent,estimable
+HMOG,far_1pct,random,8,0.01,Guarded EMA,poison_accept_rate,100,1.0125,0.9604999999999999,1.0635000000000001,percent,estimable
+HMOG,far_1pct,random,8,0.01,Guarded EMA,MUR,100,0.9884999999999998,0.9384999999999999,1.038,percent,estimable
+HMOG,far_1pct,random,8,0.01,Guarded EMA,malicious_updates,100,0.07907999999999998,0.07516,0.0831805,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Guarded EMA,mean_delta,100,0.00021999170094192066,0.00020270340309613136,0.00023867011501970932,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Guarded EMA,sigma_delta,100,0.00019196135199509557,0.00015756283540082505,0.00022752667110942802,score_or_count,estimable
+HMOG,far_1pct,random,8,0.01,Guarded EMA,threshold_delta,100,0.0011128663288521982,0.0007398677167697247,0.0017274111630593623,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Frozen,post_ASR,100,5.064188381683871,4.973720778917001,5.153820661577779,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Frozen,post_FRR,100,57.885,54.31487500000001,61.419999999999995,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Frozen,HTER,100,31.47459419084193,29.61018242411396,33.28837965289588,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Frozen,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Blind EMA,post_ASR,100,5.064188381683871,4.976548846599426,5.152647773502165,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Blind EMA,post_FRR,100,57.885,54.28000000000001,61.475125,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Blind EMA,HTER,100,31.47459419084193,29.64964456012777,33.28507799407962,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Blind EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Blind EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Blind EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Blind EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Blind EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Blind EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Guarded EMA,post_ASR,100,5.064188381683871,4.976206182661712,5.152864870926378,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Guarded EMA,post_FRR,100,57.885,54.269875,61.44,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Guarded EMA,HTER,100,31.47459419084193,29.624556159669467,33.25260099336585,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Guarded EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Guarded EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,0,0.05,Guarded EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Guarded EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Guarded EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,0,0.05,Guarded EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Frozen,post_ASR,100,5.064188381683871,4.974958313440624,5.152081007061872,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Frozen,post_FRR,100,57.885,54.284875,61.45512499999999,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Frozen,HTER,100,31.47459419084193,29.612187594228224,33.256585235064776,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Blind EMA,post_ASR,100,5.0912951913143525,4.987612993534187,5.198928782111311,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Blind EMA,post_FRR,100,57.680358163265296,53.885494668367365,61.43472270408164,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Blind EMA,HTER,100,31.38582667728983,29.453922124731047,33.212778706947184,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Blind EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Blind EMA,MUR,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Blind EMA,malicious_updates,100,1.0,1.0,1.0,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Blind EMA,mean_delta,100,-0.0005732653079781465,-0.0008703534033163767,-0.0003056411393459919,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Blind EMA,sigma_delta,100,-0.0004173315416650928,-0.0005159160229391357,-0.000316040717441113,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Blind EMA,threshold_delta,100,-0.0002665933614230531,-0.000637603591260368,8.555284019985092e-05,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Guarded EMA,post_ASR,100,4.922549965911465,4.829242214618349,5.0114872129248695,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Guarded EMA,post_FRR,100,58.26625614306328,54.64726303030304,61.80626706684188,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Guarded EMA,HTER,100,31.59440305448737,29.734449986146128,33.41422957795287,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Guarded EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Guarded EMA,MUR,100,54.85271175409216,47.93945306909961,61.72482212945785,percent,estimable
+HMOG,far_5pct,boundary,1,0.05,Guarded EMA,malicious_updates,100,0.5485271175409216,0.47802480643397977,0.6180380011708463,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Guarded EMA,mean_delta,100,0.0003058122067722178,0.00024832039753857124,0.00036626797630704805,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Guarded EMA,sigma_delta,100,-0.0001253042415868959,-0.00018099659438282093,-6.802025280045963e-05,score_or_count,estimable
+HMOG,far_5pct,boundary,1,0.05,Guarded EMA,threshold_delta,100,0.000552139789302491,0.00039061950528360227,0.0007339750385859733,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Frozen,post_ASR,100,5.064188381683871,4.978376949051406,5.150493667069592,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Frozen,post_FRR,100,57.885,54.20987500000001,61.42499999999998,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Frozen,HTER,100,31.47459419084193,29.63335125262595,33.22939804923028,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Blind EMA,post_ASR,100,5.439808488651632,5.099419601877307,5.99555958604432,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Blind EMA,post_FRR,100,57.162296477378824,53.242177058823536,61.07791661828368,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Blind EMA,HTER,100,31.301052483015233,29.361496346043886,33.14846809320291,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Blind EMA,poison_accept_rate,100,93.74099422799422,91.92116987734488,95.45924632034632,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Blind EMA,MUR,100,93.74099422799422,91.86594274891775,95.44557651515152,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Blind EMA,malicious_updates,100,1.8748198845598845,1.8376739704184706,1.90963018037518,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Blind EMA,mean_delta,100,-0.0011792703365015884,-0.0017232558065307156,-0.000682820194319145,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Blind EMA,sigma_delta,100,-0.0009492566668754305,-0.0011224688324488526,-0.0007764066784691501,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Blind EMA,threshold_delta,100,-0.0007555865103971097,-0.0013633160311070584,-0.00019323917889225805,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Guarded EMA,post_ASR,100,4.880156592149324,4.784920432942282,4.973245743157747,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Guarded EMA,post_FRR,100,58.39478599293426,54.67664907511072,62.09920545566503,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Guarded EMA,HTER,100,31.637471292541797,29.760735799694192,33.41859533509851,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Guarded EMA,poison_accept_rate,100,93.74099422799422,91.88173841991343,95.43416309523809,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Guarded EMA,MUR,100,51.27084542792497,45.59037745896688,57.03997227291337,percent,estimable
+HMOG,far_5pct,boundary,2,0.05,Guarded EMA,malicious_updates,100,1.0254169085584994,0.9092111317316074,1.138314887311547,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Guarded EMA,mean_delta,100,0.0004882086158672442,0.00039330095591252033,0.0005788133652640871,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Guarded EMA,sigma_delta,100,-0.00036580138760877853,-0.00045720420509123654,-0.00027293714404026453,score_or_count,estimable
+HMOG,far_5pct,boundary,2,0.05,Guarded EMA,threshold_delta,100,0.0007379660294487486,0.0005570593444142177,0.0009408795767028725,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Frozen,post_ASR,100,5.064188381683871,4.975858003932115,5.149895973217719,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Frozen,post_FRR,100,57.885,54.20987500000001,61.41525,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Frozen,HTER,100,31.47459419084193,29.628361065433623,33.246636023464816,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Blind EMA,post_ASR,100,6.34258576053978,5.447746050864242,7.525910657070164,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Blind EMA,post_FRR,100,56.68853277594498,52.32978897999991,60.85052839213887,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Blind EMA,HTER,100,31.515559268242377,29.554048140026808,33.40957038770419,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Blind EMA,poison_accept_rate,100,92.05803298289011,89.61512098794063,94.33745905225727,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Blind EMA,MUR,100,92.05803298289011,89.62458540249433,94.32150921717172,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Blind EMA,malicious_updates,100,3.6823213193156046,3.584498989486704,3.7721921161616163,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Blind EMA,mean_delta,100,-0.002078986822750269,-0.0030645397751552414,-0.0011574889682503784,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Blind EMA,sigma_delta,100,-0.0020930353452134655,-0.0024139194880976756,-0.0017809451266297656,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Blind EMA,threshold_delta,100,-0.0011972137393164357,-0.0021522192936007487,-0.0003023298787922986,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Guarded EMA,post_ASR,100,4.7662032334913755,4.664930758466535,4.863955294562262,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Guarded EMA,post_FRR,100,58.78929798327193,54.96658897939578,62.443409771346005,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Guarded EMA,HTER,100,31.777750608381645,29.90301506686467,33.634593018255046,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Guarded EMA,poison_accept_rate,100,92.05803298289011,89.62664736652238,94.28621561791383,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Guarded EMA,MUR,100,54.73662003861751,49.61009677335015,59.827950529363996,percent,estimable
+HMOG,far_5pct,boundary,4,0.05,Guarded EMA,malicious_updates,100,2.1894648015447005,1.977883448925749,2.3925095823011104,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Guarded EMA,mean_delta,100,0.0008714110492503492,0.0006939701723901521,0.0010514807506191628,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Guarded EMA,sigma_delta,100,-0.0009560214461111477,-0.0011263980192176908,-0.0007840288357372934,score_or_count,estimable
+HMOG,far_5pct,boundary,4,0.05,Guarded EMA,threshold_delta,100,0.001210228511789055,0.000961123086478823,0.001478043403386924,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Frozen,post_ASR,100,5.064188381683871,4.97399033210899,5.150477666074265,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Frozen,post_FRR,100,57.885,54.144999999999996,61.48499999999999,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Frozen,HTER,100,31.47459419084193,29.65130886705441,33.27256425283508,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Blind EMA,post_ASR,100,7.555223704246558,6.040239502703696,9.405958349497848,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Blind EMA,post_FRR,100,56.96169021686961,52.26625946779061,61.477003614174784,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Blind EMA,HTER,100,32.25845696055808,30.356018008007407,34.13841862134096,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Blind EMA,poison_accept_rate,100,91.87995781479087,89.26071484487734,94.27454932343383,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Blind EMA,MUR,100,91.87995781479087,89.294139830705,94.16724150831,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Blind EMA,malicious_updates,100,7.3503966251832695,7.141429882034052,7.536916998763141,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Blind EMA,mean_delta,100,-0.0026918191829692377,-0.0044188404846280185,-0.001083307555078361,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Blind EMA,sigma_delta,100,-0.004427717598624258,-0.005058384924160515,-0.0038022361861473593,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Blind EMA,threshold_delta,100,-0.00027919963801176657,-0.0016159786693556969,0.0009893505325970595,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Guarded EMA,post_ASR,100,4.468500549447956,4.345863142452571,4.5916930103454074,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Guarded EMA,post_FRR,100,59.87246907068467,55.964553868433065,63.67648562969551,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Guarded EMA,HTER,100,32.170484810066306,30.210792690020185,34.06093415889073,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Guarded EMA,poison_accept_rate,100,91.87995781479087,89.29636559036537,94.24968687009108,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Guarded EMA,MUR,100,63.776551625794184,59.36969032248882,68.12694002980611,percent,estimable
+HMOG,far_5pct,boundary,8,0.05,Guarded EMA,malicious_updates,100,5.102124130063535,4.743796439596246,5.450390992724154,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Guarded EMA,mean_delta,100,0.0016503474882755289,0.0012082426277083326,0.0020867182807955188,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Guarded EMA,sigma_delta,100,-0.0024413621648567557,-0.002831774868264925,-0.0020602146348047343,score_or_count,estimable
+HMOG,far_5pct,boundary,8,0.05,Guarded EMA,threshold_delta,100,0.0026472074134862,0.002182941407980173,0.003132695722827443,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Frozen,post_ASR,100,5.069950284947887,4.980975390813985,5.157275452934301,percent,estimable
+HMOG,far_5pct,random,0,0.05,Frozen,post_FRR,100,57.885,54.184875,61.475125,percent,estimable
+HMOG,far_5pct,random,0,0.05,Frozen,HTER,100,31.477475142473942,29.671251390714115,33.29710050473819,percent,estimable
+HMOG,far_5pct,random,0,0.05,Frozen,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,0,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,0,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Blind EMA,post_ASR,100,5.069950284947887,4.98097090826628,5.156816420932203,percent,estimable
+HMOG,far_5pct,random,0,0.05,Blind EMA,post_FRR,100,57.885,54.249875,61.44,percent,estimable
+HMOG,far_5pct,random,0,0.05,Blind EMA,HTER,100,31.477475142473942,29.678114192287346,33.29592954193035,percent,estimable
+HMOG,far_5pct,random,0,0.05,Blind EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,0,0.05,Blind EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,0,0.05,Blind EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Blind EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Blind EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Blind EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Guarded EMA,post_ASR,100,5.069950284947887,4.981748210701875,5.154722793334009,percent,estimable
+HMOG,far_5pct,random,0,0.05,Guarded EMA,post_FRR,100,57.885,54.27475,61.56999999999999,percent,estimable
+HMOG,far_5pct,random,0,0.05,Guarded EMA,HTER,100,31.477475142473942,29.627450791928695,33.26428086510692,percent,estimable
+HMOG,far_5pct,random,0,0.05,Guarded EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,0,0.05,Guarded EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,0,0.05,Guarded EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Guarded EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Guarded EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,0,0.05,Guarded EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Frozen,post_ASR,100,5.069950284947887,4.98229414426569,5.155955413030994,percent,estimable
+HMOG,far_5pct,random,1,0.05,Frozen,post_FRR,100,57.885,54.254875000000006,61.40512499999999,percent,estimable
+HMOG,far_5pct,random,1,0.05,Frozen,HTER,100,31.477475142473942,29.67280903041519,33.30949465024426,percent,estimable
+HMOG,far_5pct,random,1,0.05,Frozen,poison_accept_rate,100,4.859999999999999,4.664000000000001,5.048,percent,estimable
+HMOG,far_5pct,random,1,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,1,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Blind EMA,post_ASR,100,5.05220658917664,4.9653154689510925,5.1367099435664665,percent,estimable
+HMOG,far_5pct,random,1,0.05,Blind EMA,post_FRR,100,57.945899999999995,54.250876250000005,61.50616375,percent,estimable
+HMOG,far_5pct,random,1,0.05,Blind EMA,HTER,100,31.499053294588318,29.679636283534755,33.29707653867649,percent,estimable
+HMOG,far_5pct,random,1,0.05,Blind EMA,poison_accept_rate,100,4.859999999999999,4.668,5.052,percent,estimable
+HMOG,far_5pct,random,1,0.05,Blind EMA,MUR,100,4.859999999999999,4.671949999999999,5.046000000000001,percent,estimable
+HMOG,far_5pct,random,1,0.05,Blind EMA,malicious_updates,100,0.0486,0.04669999999999999,0.050499999999999996,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Blind EMA,mean_delta,100,3.136705907591321e-05,1.8879865829777724e-05,4.288266688564753e-05,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Blind EMA,sigma_delta,100,1.7617237144263808e-05,6.580877576833394e-06,2.9543652234210988e-05,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Blind EMA,threshold_delta,100,9.485402708504174e-05,6.906170823337968e-05,0.00012410265610418556,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Guarded EMA,post_ASR,100,5.048816948667429,4.962388094381446,5.130458475112614,percent,estimable
+HMOG,far_5pct,random,1,0.05,Guarded EMA,post_FRR,100,57.955,54.28570625,61.50805374999999,percent,estimable
+HMOG,far_5pct,random,1,0.05,Guarded EMA,HTER,100,31.50190847433371,29.656237950356118,33.30127104806516,percent,estimable
+HMOG,far_5pct,random,1,0.05,Guarded EMA,poison_accept_rate,100,4.859999999999999,4.673949999999998,5.054,percent,estimable
+HMOG,far_5pct,random,1,0.05,Guarded EMA,MUR,100,4.29,4.056,4.5200000000000005,percent,estimable
+HMOG,far_5pct,random,1,0.05,Guarded EMA,malicious_updates,100,0.0429,0.040519999999999994,0.0452,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Guarded EMA,mean_delta,100,4.738642123967303e-05,4.0477791422893555e-05,5.438691438389115e-05,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Guarded EMA,sigma_delta,100,2.216293954484149e-05,1.1498542816795467e-05,3.317591008467194e-05,score_or_count,estimable
+HMOG,far_5pct,random,1,0.05,Guarded EMA,threshold_delta,100,0.00010880625480791118,8.562962278182103e-05,0.00013616361541342193,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Frozen,post_ASR,100,5.069950284947887,4.983504264859275,5.15497524312283,percent,estimable
+HMOG,far_5pct,random,2,0.05,Frozen,post_FRR,100,57.885,54.28000000000001,61.47024999999999,percent,estimable
+HMOG,far_5pct,random,2,0.05,Frozen,HTER,100,31.477475142473942,29.612890797978547,33.2116018644496,percent,estimable
+HMOG,far_5pct,random,2,0.05,Frozen,poison_accept_rate,100,4.924,4.755999999999999,5.094999999999999,percent,estimable
+HMOG,far_5pct,random,2,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,2,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Blind EMA,post_ASR,100,5.0347727517004275,4.950044703325261,5.116772882141127,percent,estimable
+HMOG,far_5pct,random,2,0.05,Blind EMA,post_FRR,100,58.00245,54.265429999999995,61.56932250000001,percent,estimable
+HMOG,far_5pct,random,2,0.05,Blind EMA,HTER,100,31.518611375850213,29.71623918997889,33.3158261311685,percent,estimable
+HMOG,far_5pct,random,2,0.05,Blind EMA,poison_accept_rate,100,4.919000000000001,4.754974999999999,5.087000000000001,percent,estimable
+HMOG,far_5pct,random,2,0.05,Blind EMA,MUR,100,4.919000000000001,4.748000000000001,5.088,percent,estimable
+HMOG,far_5pct,random,2,0.05,Blind EMA,malicious_updates,100,0.09838000000000002,0.09508,0.1018,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Blind EMA,mean_delta,100,6.407535181268083e-05,4.1644073001412115e-05,8.441000553699052e-05,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Blind EMA,sigma_delta,100,2.8030483541389215e-05,9.196035932823494e-06,4.737775252515052e-05,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Blind EMA,threshold_delta,100,0.00018037618328167732,0.0001346539622515419,0.00023118714967761242,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Guarded EMA,post_ASR,100,5.028539923409596,4.942126186210008,5.11298975363774,percent,estimable
+HMOG,far_5pct,random,2,0.05,Guarded EMA,post_FRR,100,58.02195,54.315226249999995,61.63945874999999,percent,estimable
+HMOG,far_5pct,random,2,0.05,Guarded EMA,HTER,100,31.5252449617048,29.67482397318965,33.30227014692472,percent,estimable
+HMOG,far_5pct,random,2,0.05,Guarded EMA,poison_accept_rate,100,4.917000000000001,4.751999999999999,5.082,percent,estimable
+HMOG,far_5pct,random,2,0.05,Guarded EMA,MUR,100,4.327,4.114,4.537025,percent,estimable
+HMOG,far_5pct,random,2,0.05,Guarded EMA,malicious_updates,100,0.08654,0.08223999999999998,0.09076000000000001,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Guarded EMA,mean_delta,100,9.557545715815029e-05,8.349027428151204e-05,0.00010729669835581935,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Guarded EMA,sigma_delta,100,3.719208842068923e-05,1.9951007585687116e-05,5.572887027071477e-05,score_or_count,estimable
+HMOG,far_5pct,random,2,0.05,Guarded EMA,threshold_delta,100,0.00020786097077245827,0.00016727730458085543,0.0002543970872777315,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Frozen,post_ASR,100,5.069950284947887,4.982765712666909,5.154935765926969,percent,estimable
+HMOG,far_5pct,random,4,0.05,Frozen,post_FRR,100,57.885,54.254999999999995,61.495,percent,estimable
+HMOG,far_5pct,random,4,0.05,Frozen,HTER,100,31.477475142473942,29.658887762094864,33.24357817748797,percent,estimable
+HMOG,far_5pct,random,4,0.05,Frozen,poison_accept_rate,100,4.957,4.817000000000001,5.094,percent,estimable
+HMOG,far_5pct,random,4,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,4,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Blind EMA,post_ASR,100,5.003168592685805,4.920763074397317,5.085716252330887,percent,estimable
+HMOG,far_5pct,random,4,0.05,Blind EMA,post_FRR,100,58.12245,54.4074325,61.664767499999996,percent,estimable
+HMOG,far_5pct,random,4,0.05,Blind EMA,HTER,100,31.562809296342902,29.722890118782768,33.34077065287332,percent,estimable
+HMOG,far_5pct,random,4,0.05,Blind EMA,poison_accept_rate,100,4.932,4.792987500000001,5.0714999999999995,percent,estimable
+HMOG,far_5pct,random,4,0.05,Blind EMA,MUR,100,4.932,4.797,5.068999999999999,percent,estimable
+HMOG,far_5pct,random,4,0.05,Blind EMA,malicious_updates,100,0.19728,0.19184,0.20288050000000002,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Blind EMA,mean_delta,100,0.000134133673778686,9.22061428133667e-05,0.0001734597532316163,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Blind EMA,sigma_delta,100,5.8756547349718776e-05,2.411938977612011e-05,9.523493342340455e-05,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Blind EMA,threshold_delta,100,0.00036555987994549294,0.00027958303866628206,0.0004574825392830648,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Guarded EMA,post_ASR,100,4.98645363596398,4.902771963880418,5.069036441906644,percent,estimable
+HMOG,far_5pct,random,4,0.05,Guarded EMA,post_FRR,100,58.16255,54.48860875,61.73430125,percent,estimable
+HMOG,far_5pct,random,4,0.05,Guarded EMA,HTER,100,31.574501817981993,29.76678620873531,33.34407464490625,percent,estimable
+HMOG,far_5pct,random,4,0.05,Guarded EMA,poison_accept_rate,100,4.927,4.790500000000001,5.068,percent,estimable
+HMOG,far_5pct,random,4,0.05,Guarded EMA,MUR,100,4.337499999999999,4.139,4.533999999999998,percent,estimable
+HMOG,far_5pct,random,4,0.05,Guarded EMA,malicious_updates,100,0.17349999999999993,0.1655195,0.18144,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Guarded EMA,mean_delta,100,0.00019525603811813526,0.00017216237831800763,0.00021841376388621458,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Guarded EMA,sigma_delta,100,7.649566872444998e-05,4.3210496515340725e-05,0.00011138692476898396,score_or_count,estimable
+HMOG,far_5pct,random,4,0.05,Guarded EMA,threshold_delta,100,0.0004186091535346429,0.0003445156898695568,0.0004994342933637193,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Frozen,post_ASR,100,5.069950284947887,4.981825248605743,5.156522187319108,percent,estimable
+HMOG,far_5pct,random,8,0.05,Frozen,post_FRR,100,57.885,54.239875000000005,61.42999999999999,percent,estimable
+HMOG,far_5pct,random,8,0.05,Frozen,HTER,100,31.477475142473942,29.63578286289255,33.27450525128616,percent,estimable
+HMOG,far_5pct,random,8,0.05,Frozen,poison_accept_rate,100,5.029,4.91225,5.1465,percent,estimable
+HMOG,far_5pct,random,8,0.05,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,far_5pct,random,8,0.05,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Blind EMA,post_ASR,100,4.944939465281502,4.862111543619339,5.027515759437256,percent,estimable
+HMOG,far_5pct,random,8,0.05,Blind EMA,post_FRR,100,58.35521666666668,54.65426375,61.97908125,percent,estimable
+HMOG,far_5pct,random,8,0.05,Blind EMA,HTER,100,31.650078065974085,29.83705583005604,33.479476021142915,percent,estimable
+HMOG,far_5pct,random,8,0.05,Blind EMA,poison_accept_rate,100,4.96875,4.849493749999999,5.08875625,percent,estimable
+HMOG,far_5pct,random,8,0.05,Blind EMA,MUR,100,4.96875,4.8514937499999995,5.087506250000001,percent,estimable
+HMOG,far_5pct,random,8,0.05,Blind EMA,malicious_updates,100,0.3975,0.38798,0.407,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Blind EMA,mean_delta,100,0.0002619680831122406,0.00017623958317827958,0.0003414862194160114,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Blind EMA,sigma_delta,100,0.00011240394997887997,4.427091278354123e-05,0.00018127868001728816,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Blind EMA,threshold_delta,100,0.0007195116087163456,0.000553047693034093,0.0008938935636145758,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Guarded EMA,post_ASR,100,4.902868161219144,4.820135915703598,4.981235170400084,percent,estimable
+HMOG,far_5pct,random,8,0.05,Guarded EMA,post_FRR,100,58.44081666666667,54.760327499999995,62.01436125000001,percent,estimable
+HMOG,far_5pct,random,8,0.05,Guarded EMA,HTER,100,31.671842413942908,29.844013876725928,33.465792452322255,percent,estimable
+HMOG,far_5pct,random,8,0.05,Guarded EMA,poison_accept_rate,100,4.95575,4.839000000000001,5.07350625,percent,estimable
+HMOG,far_5pct,random,8,0.05,Guarded EMA,MUR,100,4.364500000000001,4.18124375,4.538256250000001,percent,estimable
+HMOG,far_5pct,random,8,0.05,Guarded EMA,malicious_updates,100,0.34916000000000014,0.33467949999999996,0.36356,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Guarded EMA,mean_delta,100,0.0003890389348070758,0.00034386430850524635,0.0004328357611492257,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Guarded EMA,sigma_delta,100,0.00014609820929801484,8.407729855450743e-05,0.0002104616273256857,score_or_count,estimable
+HMOG,far_5pct,random,8,0.05,Guarded EMA,threshold_delta,100,0.0008298231008049239,0.0006864668412882304,0.0009888355804793295,score_or_count,estimable
+HMOG,reference,boundary,0,,Frozen,post_ASR,100,22.91961570510898,21.384385347519473,24.465255947417752,percent,estimable
+HMOG,reference,boundary,0,,Frozen,post_FRR,100,24.951666666666664,23.301625000000005,26.580000000000005,percent,estimable
+HMOG,reference,boundary,0,,Frozen,HTER,100,23.935641185887828,22.55391050713004,25.34566477458445,percent,estimable
+HMOG,reference,boundary,0,,Frozen,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,0,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,0,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Blind EMA,post_ASR,100,22.91961570510898,21.381848578394006,24.45537311748193,percent,estimable
+HMOG,reference,boundary,0,,Blind EMA,post_FRR,100,24.951666666666664,23.34829166666666,26.553375000000003,percent,estimable
+HMOG,reference,boundary,0,,Blind EMA,HTER,100,23.935641185887828,22.550750129776027,25.327570022465146,percent,estimable
+HMOG,reference,boundary,0,,Blind EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,0,,Blind EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,0,,Blind EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Blind EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Blind EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Blind EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Guarded EMA,post_ASR,100,22.91961570510898,21.37318983255486,24.466118531335006,percent,estimable
+HMOG,reference,boundary,0,,Guarded EMA,post_FRR,100,24.951666666666664,23.324875000000002,26.604999999999997,percent,estimable
+HMOG,reference,boundary,0,,Guarded EMA,HTER,100,23.935641185887828,22.507213303164367,25.359924167763374,percent,estimable
+HMOG,reference,boundary,0,,Guarded EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,0,,Guarded EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,0,,Guarded EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Guarded EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Guarded EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,0,,Guarded EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,1,,Frozen,post_ASR,100,22.91961570510898,21.41008605203692,24.473141021645066,percent,estimable
+HMOG,reference,boundary,1,,Frozen,post_FRR,100,24.951666666666664,23.32829166666666,26.540000000000003,percent,estimable
+HMOG,reference,boundary,1,,Frozen,HTER,100,23.935641185887828,22.53384378442993,25.36793076101635,percent,estimable
+HMOG,reference,boundary,1,,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,1,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,1,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,1,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,1,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,1,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,1,,Blind EMA,post_ASR,100,27.501646119961613,25.851791615901277,29.151531233535145,percent,estimable
+HMOG,reference,boundary,1,,Blind EMA,post_FRR,100,21.693166666666663,19.932720833333338,23.41725,percent,estimable
+HMOG,reference,boundary,1,,Blind EMA,HTER,100,24.59740639331414,23.309211102241342,25.93824275504345,percent,estimable
+HMOG,reference,boundary,1,,Blind EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,1,,Blind EMA,MUR,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,1,,Blind EMA,malicious_updates,100,1.0,1.0,1.0,score_or_count,estimable
+HMOG,reference,boundary,1,,Blind EMA,mean_delta,100,-0.0018419483262882045,-0.00210657433659137,-0.0015956033418209345,score_or_count,estimable
+HMOG,reference,boundary,1,,Blind EMA,sigma_delta,100,-5.9659563857001345e-05,-0.00013885551080022225,3.0451834747215625e-05,score_or_count,estimable
+HMOG,reference,boundary,1,,Blind EMA,threshold_delta,100,-0.0019189722103151042,-0.002257347980992283,-0.001599831115197323,score_or_count,estimable
+HMOG,reference,boundary,1,,Guarded EMA,post_ASR,100,22.91961975369198,21.396195165652163,24.48853279059128,percent,estimable
+HMOG,reference,boundary,1,,Guarded EMA,post_FRR,100,24.951666666666664,23.310000000000002,26.57666666666667,percent,estimable
+HMOG,reference,boundary,1,,Guarded EMA,HTER,100,23.935643210179325,22.511613481883437,25.34248927396953,percent,estimable
+HMOG,reference,boundary,1,,Guarded EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,1,,Guarded EMA,MUR,100,0.05800000000000001,0.0,0.168,percent,estimable
+HMOG,reference,boundary,1,,Guarded EMA,malicious_updates,100,0.0005800000000000001,0.0,0.0016800000000000003,score_or_count,estimable
+HMOG,reference,boundary,1,,Guarded EMA,mean_delta,100,-2.6736435561906975e-08,-7.18371776631111e-08,0.0,score_or_count,estimable
+HMOG,reference,boundary,1,,Guarded EMA,sigma_delta,100,-1.0300870580818875e-07,-3.188298169910641e-07,1.0183755315518565e-08,score_or_count,estimable
+HMOG,reference,boundary,1,,Guarded EMA,threshold_delta,100,-2.90221259453095e-08,-8.611229738835328e-08,0.0,score_or_count,estimable
+HMOG,reference,boundary,2,,Frozen,post_ASR,100,22.91961570510898,21.398306625230994,24.51499364906389,percent,estimable
+HMOG,reference,boundary,2,,Frozen,post_FRR,100,24.951666666666664,23.314999999999998,26.575,percent,estimable
+HMOG,reference,boundary,2,,Frozen,HTER,100,23.935641185887828,22.52267872072292,25.367789137610675,percent,estimable
+HMOG,reference,boundary,2,,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,2,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,2,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,2,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,2,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,2,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,2,,Blind EMA,post_ASR,100,33.68245025305533,31.445217749679134,36.01268644959196,percent,estimable
+HMOG,reference,boundary,2,,Blind EMA,post_FRR,100,19.045273389355746,17.078826358543417,20.990610238095236,percent,estimable
+HMOG,reference,boundary,2,,Blind EMA,HTER,100,26.363861821205536,25.082029817712385,27.627240829166638,percent,estimable
+HMOG,reference,boundary,2,,Blind EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,2,,Blind EMA,MUR,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,2,,Blind EMA,malicious_updates,100,2.0,2.0,2.0,score_or_count,estimable
+HMOG,reference,boundary,2,,Blind EMA,mean_delta,100,-0.0035780840355040893,-0.004074333285321514,-0.0030903387192462353,score_or_count,estimable
+HMOG,reference,boundary,2,,Blind EMA,sigma_delta,100,-0.00022617007951156734,-0.0003704052596211018,-7.042996719902222e-05,score_or_count,estimable
+HMOG,reference,boundary,2,,Blind EMA,threshold_delta,100,-0.0034571145088961044,-0.004041026729891322,-0.0029142127519188087,score_or_count,estimable
+HMOG,reference,boundary,2,,Guarded EMA,post_ASR,100,22.919906757294203,21.378067403447886,24.45810324573909,percent,estimable
+HMOG,reference,boundary,2,,Guarded EMA,post_FRR,100,24.946068965517238,23.311311781609195,26.564035057471262,percent,estimable
+HMOG,reference,boundary,2,,Guarded EMA,HTER,100,23.932987861405724,22.496420866787812,25.3188319626192,percent,estimable
+HMOG,reference,boundary,2,,Guarded EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,2,,Guarded EMA,MUR,100,0.14913793103448278,0.015000000000000001,0.3852758620689656,percent,estimable
+HMOG,reference,boundary,2,,Guarded EMA,malicious_updates,100,0.0029827586206896558,0.00028000000000000003,0.007766017241379305,score_or_count,estimable
+HMOG,reference,boundary,2,,Guarded EMA,mean_delta,100,-1.583108353273064e-06,-4.3270497839223605e-06,-9.815412936266574e-08,score_or_count,estimable
+HMOG,reference,boundary,2,,Guarded EMA,sigma_delta,100,-8.799279837785239e-08,-1.1974945945978158e-06,9.452578281831789e-07,score_or_count,estimable
+HMOG,reference,boundary,2,,Guarded EMA,threshold_delta,100,-2.250219623970877e-06,-6.312440546928228e-06,-6.396596567145092e-08,score_or_count,estimable
+HMOG,reference,boundary,4,,Frozen,post_ASR,100,22.91961570510898,21.37446063790495,24.47988433196178,percent,estimable
+HMOG,reference,boundary,4,,Frozen,post_FRR,100,24.951666666666664,23.278333333333336,26.539999999999996,percent,estimable
+HMOG,reference,boundary,4,,Frozen,HTER,100,23.935641185887828,22.504281984353987,25.380419020545947,percent,estimable
+HMOG,reference,boundary,4,,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,4,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,4,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,4,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,4,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,4,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,4,,Blind EMA,post_ASR,100,44.31193208924058,41.17385030882916,47.64898388834399,percent,estimable
+HMOG,reference,boundary,4,,Blind EMA,post_FRR,100,15.430538253033172,13.483032589943198,17.4291215577004,percent,estimable
+HMOG,reference,boundary,4,,Blind EMA,HTER,100,29.871235171136878,28.47570010120572,31.271590101545037,percent,estimable
+HMOG,reference,boundary,4,,Blind EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,4,,Blind EMA,MUR,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,4,,Blind EMA,malicious_updates,100,4.0,4.0,4.0,score_or_count,estimable
+HMOG,reference,boundary,4,,Blind EMA,mean_delta,100,-0.0067510006818067405,-0.007690790571669341,-0.005851604039889514,score_or_count,estimable
+HMOG,reference,boundary,4,,Blind EMA,sigma_delta,100,-0.0008125448125208837,-0.0010451456804255164,-0.0005643424904069846,score_or_count,estimable
+HMOG,reference,boundary,4,,Blind EMA,threshold_delta,100,-0.005414991949969686,-0.006260231194053114,-0.004655624591589585,score_or_count,estimable
+HMOG,reference,boundary,4,,Guarded EMA,post_ASR,100,22.92165282231753,21.37194738684164,24.507754841804037,percent,estimable
+HMOG,reference,boundary,4,,Guarded EMA,post_FRR,100,24.921841844198493,23.290081384428376,26.55388027957264,percent,estimable
+HMOG,reference,boundary,4,,Guarded EMA,HTER,100,23.921747333258015,22.507332241930275,25.34595253245296,percent,estimable
+HMOG,reference,boundary,4,,Guarded EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,4,,Guarded EMA,MUR,100,0.4543550347610098,0.1596623987152203,0.8702948757873225,percent,estimable
+HMOG,reference,boundary,4,,Guarded EMA,malicious_updates,100,0.018174201390440393,0.0062690001958559775,0.03399872703869212,score_or_count,estimable
+HMOG,reference,boundary,4,,Guarded EMA,mean_delta,100,-1.8227676267404228e-05,-3.775087443769806e-05,-5.020503057113804e-06,score_or_count,estimable
+HMOG,reference,boundary,4,,Guarded EMA,sigma_delta,100,-1.4130804559132216e-06,-5.161871079064446e-06,2.2206719754913887e-06,score_or_count,estimable
+HMOG,reference,boundary,4,,Guarded EMA,threshold_delta,100,-1.9481361172278014e-05,-4.428491631405109e-05,-4.247456483555448e-06,score_or_count,estimable
+HMOG,reference,boundary,8,,Frozen,post_ASR,100,22.91961570510898,21.369287758812366,24.467348219612777,percent,estimable
+HMOG,reference,boundary,8,,Frozen,post_FRR,100,24.951666666666664,23.31491666666667,26.59170833333333,percent,estimable
+HMOG,reference,boundary,8,,Frozen,HTER,100,23.935641185887828,22.508278079898908,25.349437780962162,percent,estimable
+HMOG,reference,boundary,8,,Frozen,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,8,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,boundary,8,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,8,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,8,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,8,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,boundary,8,,Blind EMA,post_ASR,100,53.957254011869495,50.53674828234962,57.462587567187896,percent,estimable
+HMOG,reference,boundary,8,,Blind EMA,post_FRR,100,12.177581914735322,10.437102440376615,14.00760977393072,percent,estimable
+HMOG,reference,boundary,8,,Blind EMA,HTER,100,33.067417963302404,31.734307996225574,34.38644873223575,percent,estimable
+HMOG,reference,boundary,8,,Blind EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,8,,Blind EMA,MUR,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,8,,Blind EMA,malicious_updates,100,8.0,8.0,8.0,score_or_count,estimable
+HMOG,reference,boundary,8,,Blind EMA,mean_delta,100,-0.012004696871131128,-0.013690213703752062,-0.010440164235645935,score_or_count,estimable
+HMOG,reference,boundary,8,,Blind EMA,sigma_delta,100,-0.0026727251833191835,-0.0030549212871129636,-0.0023017910646098414,score_or_count,estimable
+HMOG,reference,boundary,8,,Blind EMA,threshold_delta,100,-0.007222566822442069,-0.008157542396858007,-0.0063511210196752835,score_or_count,estimable
+HMOG,reference,boundary,8,,Guarded EMA,post_ASR,100,22.933284398976095,21.410474078389875,24.494738483511398,percent,estimable
+HMOG,reference,boundary,8,,Guarded EMA,post_FRR,100,24.88534965743926,23.243056951057056,26.528877901712413,percent,estimable
+HMOG,reference,boundary,8,,Guarded EMA,HTER,100,23.90931702820768,22.487753140351355,25.326957813854317,percent,estimable
+HMOG,reference,boundary,8,,Guarded EMA,poison_accept_rate,100,100.0,100.0,100.0,percent,estimable
+HMOG,reference,boundary,8,,Guarded EMA,MUR,100,1.632408742593917,0.9684879813229014,2.3963342068234956,percent,estimable
+HMOG,reference,boundary,8,,Guarded EMA,malicious_updates,100,0.13059269940751336,0.07708400570316933,0.19262316958504236,score_or_count,estimable
+HMOG,reference,boundary,8,,Guarded EMA,mean_delta,100,-0.00013485522752961103,-0.00021637452895647812,-6.844202932676556e-05,score_or_count,estimable
+HMOG,reference,boundary,8,,Guarded EMA,sigma_delta,100,-4.093360502421783e-05,-7.42893092564091e-05,-1.7643668836672106e-05,score_or_count,estimable
+HMOG,reference,boundary,8,,Guarded EMA,threshold_delta,100,-9.003858483823487e-05,-0.00014991518358189874,-4.241117509398199e-05,score_or_count,estimable
+HMOG,reference,random,0,,Frozen,post_ASR,100,22.92157981555484,21.38999526328499,24.506606370987516,percent,estimable
+HMOG,reference,random,0,,Frozen,post_FRR,100,24.951666666666664,23.344916666666663,26.561708333333335,percent,estimable
+HMOG,reference,random,0,,Frozen,HTER,100,23.936623241110755,22.536005886758474,25.308795886896117,percent,estimable
+HMOG,reference,random,0,,Frozen,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,0,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,0,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Blind EMA,post_ASR,100,22.92157981555484,21.36695586698985,24.500604161670548,percent,estimable
+HMOG,reference,random,0,,Blind EMA,post_FRR,100,24.951666666666664,23.338083333333337,26.570041666666665,percent,estimable
+HMOG,reference,random,0,,Blind EMA,HTER,100,23.936623241110755,22.530394787698015,25.395544149012604,percent,estimable
+HMOG,reference,random,0,,Blind EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,0,,Blind EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,0,,Blind EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Blind EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Blind EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Blind EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Guarded EMA,post_ASR,100,22.92157981555484,21.369314847122784,24.48031070961806,percent,estimable
+HMOG,reference,random,0,,Guarded EMA,post_FRR,100,24.951666666666664,23.310000000000002,26.589999999999996,percent,estimable
+HMOG,reference,random,0,,Guarded EMA,HTER,100,23.936623241110755,22.51550975318035,25.3740911609516,percent,estimable
+HMOG,reference,random,0,,Guarded EMA,poison_accept_rate,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,0,,Guarded EMA,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,0,,Guarded EMA,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Guarded EMA,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Guarded EMA,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,0,,Guarded EMA,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,1,,Frozen,post_ASR,100,22.92157981555484,21.38942291116823,24.4756384933185,percent,estimable
+HMOG,reference,random,1,,Frozen,post_FRR,100,24.951666666666664,23.308333333333337,26.580000000000005,percent,estimable
+HMOG,reference,random,1,,Frozen,HTER,100,23.936623241110755,22.518483031407502,25.3766497787842,percent,estimable
+HMOG,reference,random,1,,Frozen,poison_accept_rate,100,22.618000000000002,21.02795,24.203999999999997,percent,estimable
+HMOG,reference,random,1,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,1,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,1,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,1,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,1,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,1,,Blind EMA,post_ASR,100,23.386707092461354,21.883634601466788,24.935395277572063,percent,estimable
+HMOG,reference,random,1,,Blind EMA,post_FRR,100,24.700066666666668,23.080647500000005,26.36180458333334,percent,estimable
+HMOG,reference,random,1,,Blind EMA,HTER,100,24.04338687956401,22.65167887622239,25.4378758304534,percent,estimable
+HMOG,reference,random,1,,Blind EMA,poison_accept_rate,100,22.618000000000002,21.002000000000002,24.240000000000002,percent,estimable
+HMOG,reference,random,1,,Blind EMA,MUR,100,22.618000000000002,21.037999999999997,24.192099999999996,percent,estimable
+HMOG,reference,random,1,,Blind EMA,malicious_updates,100,0.22618000000000002,0.21065949999999997,0.24238099999999993,score_or_count,estimable
+HMOG,reference,random,1,,Blind EMA,mean_delta,100,-0.00013746554734947735,-0.00017597459141249842,-0.00010238449626630252,score_or_count,estimable
+HMOG,reference,random,1,,Blind EMA,sigma_delta,100,-5.7978629136828e-05,-7.497060014026135e-05,-4.1901264125288214e-05,score_or_count,estimable
+HMOG,reference,random,1,,Blind EMA,threshold_delta,100,-8.70802759668253e-05,-0.00011633485688471588,-5.966365371574414e-05,score_or_count,estimable
+HMOG,reference,random,1,,Guarded EMA,post_ASR,100,22.846283144642626,21.291179784318473,24.428455581507784,percent,estimable
+HMOG,reference,random,1,,Guarded EMA,post_FRR,100,25.01196666666667,23.39567625,26.641806666666668,percent,estimable
+HMOG,reference,random,1,,Guarded EMA,HTER,100,23.929124905654646,22.551448532306868,25.311535397414815,percent,estimable
+HMOG,reference,random,1,,Guarded EMA,poison_accept_rate,100,22.618000000000002,21.012000000000004,24.215999999999998,percent,estimable
+HMOG,reference,random,1,,Guarded EMA,MUR,100,14.526,13.029950000000001,16.052,percent,estimable
+HMOG,reference,random,1,,Guarded EMA,malicious_updates,100,0.14526,0.13068000000000002,0.16046,score_or_count,estimable
+HMOG,reference,random,1,,Guarded EMA,mean_delta,100,1.3278156605682324e-05,3.0868829013702827e-06,2.3386409944817058e-05,score_or_count,estimable
+HMOG,reference,random,1,,Guarded EMA,sigma_delta,100,-2.578519440472141e-05,-3.738149355417433e-05,-1.3377172779248817e-05,score_or_count,estimable
+HMOG,reference,random,1,,Guarded EMA,threshold_delta,100,3.8850618347549835e-05,3.127107063538327e-05,4.6458291376913904e-05,score_or_count,estimable
+HMOG,reference,random,2,,Frozen,post_ASR,100,22.92157981555484,21.38482349547695,24.478393523915155,percent,estimable
+HMOG,reference,random,2,,Frozen,post_FRR,100,24.951666666666664,23.356624999999998,26.591666666666665,percent,estimable
+HMOG,reference,random,2,,Frozen,HTER,100,23.936623241110755,22.557503231847615,25.33319811169019,percent,estimable
+HMOG,reference,random,2,,Frozen,poison_accept_rate,100,22.918999999999997,21.299974999999996,24.538025,percent,estimable
+HMOG,reference,random,2,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,2,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,2,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,2,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,2,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,2,,Blind EMA,post_ASR,100,23.881738353469377,22.377876451768497,25.40901655105531,percent,estimable
+HMOG,reference,random,2,,Blind EMA,post_FRR,100,24.49311666666667,22.8990575,26.13965875,percent,estimable
+HMOG,reference,random,2,,Blind EMA,HTER,100,24.187427510068023,22.808137239744436,25.535868898591247,percent,estimable
+HMOG,reference,random,2,,Blind EMA,poison_accept_rate,100,23.133000000000003,21.609975000000002,24.678025,percent,estimable
+HMOG,reference,random,2,,Blind EMA,MUR,100,23.133000000000003,21.574949999999998,24.70805,percent,estimable
+HMOG,reference,random,2,,Blind EMA,malicious_updates,100,0.46266000000000007,0.43213949999999995,0.49394,score_or_count,estimable
+HMOG,reference,random,2,,Blind EMA,mean_delta,100,-0.00029838479136432076,-0.00038465893963591147,-0.0002208737713970401,score_or_count,estimable
+HMOG,reference,random,2,,Blind EMA,sigma_delta,100,-0.00012692772414715133,-0.00016094320765875516,-9.50211464247614e-05,score_or_count,estimable
+HMOG,reference,random,2,,Blind EMA,threshold_delta,100,-0.00017241467170964151,-0.00022813458623204417,-0.00012022055046595855,score_or_count,estimable
+HMOG,reference,random,2,,Guarded EMA,post_ASR,100,22.74519981082139,21.21982942980116,24.270556633702654,percent,estimable
+HMOG,reference,random,2,,Guarded EMA,post_FRR,100,25.09791666666667,23.465159166666666,26.711602916666667,percent,estimable
+HMOG,reference,random,2,,Guarded EMA,HTER,100,23.92155823874403,22.496530890096146,25.335028041871954,percent,estimable
+HMOG,reference,random,2,,Guarded EMA,poison_accept_rate,100,22.874,21.292899999999996,24.459000000000003,percent,estimable
+HMOG,reference,random,2,,Guarded EMA,MUR,100,14.704,13.245999999999999,16.227074999999996,percent,estimable
+HMOG,reference,random,2,,Guarded EMA,malicious_updates,100,0.29408,0.2645595,0.324182,score_or_count,estimable
+HMOG,reference,random,2,,Guarded EMA,mean_delta,100,2.751146373848929e-05,8.381931352687e-06,4.689343998184386e-05,score_or_count,estimable
+HMOG,reference,random,2,,Guarded EMA,sigma_delta,100,-6.038747343209112e-05,-8.031111249780949e-05,-3.942111383971379e-05,score_or_count,estimable
+HMOG,reference,random,2,,Guarded EMA,threshold_delta,100,8.560647102777262e-05,7.243735323462788e-05,9.853833999580291e-05,score_or_count,estimable
+HMOG,reference,random,4,,Frozen,post_ASR,100,22.92157981555484,21.411967098917884,24.5136603104859,percent,estimable
+HMOG,reference,random,4,,Frozen,post_FRR,100,24.951666666666664,23.321624999999997,26.561708333333335,percent,estimable
+HMOG,reference,random,4,,Frozen,HTER,100,23.936623241110755,22.536337240946658,25.395682905899157,percent,estimable
+HMOG,reference,random,4,,Frozen,poison_accept_rate,100,22.869500000000002,21.3064125,24.406012500000003,percent,estimable
+HMOG,reference,random,4,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,4,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,4,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,4,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,4,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,4,,Blind EMA,post_ASR,100,25.08963020002326,23.565630981823833,26.617599263955547,percent,estimable
+HMOG,reference,random,4,,Blind EMA,post_FRR,100,24.083166666666667,22.440741666666664,25.762767499999995,percent,estimable
+HMOG,reference,random,4,,Blind EMA,HTER,100,24.586398433344964,23.23894211215542,25.911282688214893,percent,estimable
+HMOG,reference,random,4,,Blind EMA,poison_accept_rate,100,23.615499999999997,22.0913625,25.112062499999993,percent,estimable
+HMOG,reference,random,4,,Blind EMA,MUR,100,23.615499999999997,22.1059875,25.128524999999996,percent,estimable
+HMOG,reference,random,4,,Blind EMA,malicious_updates,100,0.9446199999999999,0.8852189999999999,1.0053609999999997,score_or_count,estimable
+HMOG,reference,random,4,,Blind EMA,mean_delta,100,-0.0006684313998536841,-0.0008877812793053741,-0.0004841136808611642,score_or_count,estimable
+HMOG,reference,random,4,,Blind EMA,sigma_delta,100,-0.0002606989203632676,-0.00033071404081094107,-0.00019590295373633898,score_or_count,estimable
+HMOG,reference,random,4,,Blind EMA,threshold_delta,100,-0.0003440891521193799,-0.00045157470596027136,-0.00024462227732041517,score_or_count,estimable
+HMOG,reference,random,4,,Guarded EMA,post_ASR,100,22.567257063007965,21.120795843906848,24.03828758610401,percent,estimable
+HMOG,reference,random,4,,Guarded EMA,post_FRR,100,25.259966666666667,23.621585000000007,26.912623749999998,percent,estimable
+HMOG,reference,random,4,,Guarded EMA,HTER,100,23.91361186483731,22.52350262322115,25.313010368594043,percent,estimable
+HMOG,reference,random,4,,Guarded EMA,poison_accept_rate,100,22.738000000000003,21.238825,24.248512499999993,percent,estimable
+HMOG,reference,random,4,,Guarded EMA,MUR,100,14.649000000000001,13.202487500000002,16.1280125,percent,estimable
+HMOG,reference,random,4,,Guarded EMA,malicious_updates,100,0.58596,0.527799,0.6450599999999999,score_or_count,estimable
+HMOG,reference,random,4,,Guarded EMA,mean_delta,100,6.100349332199466e-05,2.4224959002492486e-05,9.93631084650791e-05,score_or_count,estimable
+HMOG,reference,random,4,,Guarded EMA,sigma_delta,100,-0.0001148575862690041,-0.00015375191463291418,-7.622037362263362e-05,score_or_count,estimable
+HMOG,reference,random,4,,Guarded EMA,threshold_delta,100,0.00017200679867055728,0.00014659823177535226,0.00019658022256399563,score_or_count,estimable
+HMOG,reference,random,8,,Frozen,post_ASR,100,22.92157981555484,21.360757604924878,24.472756812185974,percent,estimable
+HMOG,reference,random,8,,Frozen,post_FRR,100,24.951666666666664,23.343333333333334,26.566750000000006,percent,estimable
+HMOG,reference,random,8,,Frozen,HTER,100,23.936623241110755,22.489133607874027,25.3403912330923,percent,estimable
+HMOG,reference,random,8,,Frozen,poison_accept_rate,100,22.900750000000006,21.346975,24.46760625,percent,estimable
+HMOG,reference,random,8,,Frozen,MUR,100,0.0,0.0,0.0,percent,estimable
+HMOG,reference,random,8,,Frozen,malicious_updates,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,8,,Frozen,mean_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,8,,Frozen,sigma_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,8,,Frozen,threshold_delta,100,0.0,0.0,0.0,score_or_count,estimable
+HMOG,reference,random,8,,Blind EMA,post_ASR,100,27.54994276948915,25.80838803039211,29.305006309831956,percent,estimable
+HMOG,reference,random,8,,Blind EMA,post_FRR,100,23.44871666666667,21.679692083333336,25.201969999999996,percent,estimable
+HMOG,reference,random,8,,Blind EMA,HTER,100,25.499329718077906,24.212189240879475,26.753451091534618,percent,estimable
+HMOG,reference,random,8,,Blind EMA,poison_accept_rate,100,24.840999999999998,23.337975,26.339768749999998,percent,estimable
+HMOG,reference,random,8,,Blind EMA,MUR,100,24.840999999999998,23.367237499999998,26.358112499999997,percent,estimable
+HMOG,reference,random,8,,Blind EMA,malicious_updates,100,1.9872799999999997,1.8695585000000001,2.107164,score_or_count,estimable
+HMOG,reference,random,8,,Blind EMA,mean_delta,100,-0.0016392297272438796,-0.0021947929215869163,-0.0011557336577550411,score_or_count,estimable
+HMOG,reference,random,8,,Blind EMA,sigma_delta,100,-0.0005872324843079831,-0.0007507130380197682,-0.00043541605023715417,score_or_count,estimable
+HMOG,reference,random,8,,Blind EMA,threshold_delta,100,-0.0006532434717274288,-0.0008495503610648045,-0.0004623935820606625,score_or_count,estimable
+HMOG,reference,random,8,,Guarded EMA,post_ASR,100,22.221954285344545,20.814709214427285,23.6323410519148,percent,estimable
+HMOG,reference,random,8,,Guarded EMA,post_FRR,100,25.601166666666668,23.954909999999995,27.248647500000008,percent,estimable
+HMOG,reference,random,8,,Guarded EMA,HTER,100,23.911560476005608,22.526007125104066,25.33062619278219,percent,estimable
+HMOG,reference,random,8,,Guarded EMA,poison_accept_rate,100,22.590749999999996,21.065993749999997,24.042312499999998,percent,estimable
+HMOG,reference,random,8,,Guarded EMA,MUR,100,14.6645,13.26475,16.13455625,percent,estimable
+HMOG,reference,random,8,,Guarded EMA,malicious_updates,100,1.17316,1.0560795,1.29276,score_or_count,estimable
+HMOG,reference,random,8,,Guarded EMA,mean_delta,100,0.00012391341466171156,5.1114736972626614e-05,0.0001963483321379689,score_or_count,estimable
+HMOG,reference,random,8,,Guarded EMA,sigma_delta,100,-0.00023237740651402194,-0.00030325353548978085,-0.0001605522931849046,score_or_count,estimable
+HMOG,reference,random,8,,Guarded EMA,threshold_delta,100,0.0003493280689256411,0.0003026204600588376,0.00039650426750633544,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Frozen,post_ASR,17,1.4879600824481753,0.5629489510162713,2.714955658751725,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Frozen,post_FRR,17,88.60549871927755,77.36957359674707,97.17016122761991,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Frozen,HTER,17,45.04672940086286,39.81346155065773,49.08772747352517,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Frozen,poison_accept_rate,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Frozen,MUR,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Frozen,malicious_updates,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Frozen,mean_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Frozen,sigma_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Frozen,threshold_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Blind EMA,post_ASR,17,1.4879600824481753,0.5606963765726924,2.71667009184649,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Blind EMA,post_FRR,17,88.60549871927755,77.41369575300484,97.20385288239643,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Blind EMA,HTER,17,45.04672940086286,39.67604173678726,49.23890186411629,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Blind EMA,poison_accept_rate,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Blind EMA,MUR,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Blind EMA,malicious_updates,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Blind EMA,mean_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Blind EMA,sigma_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Blind EMA,threshold_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Guarded EMA,post_ASR,17,1.4879600824481753,0.5532079660388717,2.7013997107374816,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Guarded EMA,post_FRR,17,88.60549871927755,77.21938890666593,97.22082740005371,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Guarded EMA,HTER,17,45.04672940086286,39.9131411537773,49.134917987951106,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Guarded EMA,poison_accept_rate,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Guarded EMA,MUR,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,0,0.01,Guarded EMA,malicious_updates,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Guarded EMA,mean_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Guarded EMA,sigma_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,0,0.01,Guarded EMA,threshold_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Frozen,post_ASR,17,1.4879600824481753,0.5554514805806104,2.702463165629082,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Frozen,post_FRR,17,88.60549871927755,77.93434067441635,97.10214118689177,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Frozen,HTER,17,45.04672940086286,39.67195239948756,49.102590593104146,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Frozen,poison_accept_rate,17,100.0,100.0,100.0,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Frozen,MUR,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Frozen,malicious_updates,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Frozen,mean_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Frozen,sigma_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Frozen,threshold_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Blind EMA,post_ASR,17,1.3893443936712602,0.5015517032890355,2.574105489144396,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Blind EMA,post_FRR,17,89.30779788580743,78.39765301940882,97.75359355498246,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Blind EMA,HTER,17,45.34857113973935,40.17195903113893,49.421060459212605,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Blind EMA,poison_accept_rate,17,100.0,100.0,100.0,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Blind EMA,MUR,17,100.0,100.0,100.0,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Blind EMA,malicious_updates,17,1.0,1.0,1.0,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Blind EMA,mean_delta,17,0.0027577757966926082,0.0008252872205123702,0.005521630574962895,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Blind EMA,sigma_delta,17,0.0011783106646920181,-0.002369264086500075,0.007102822329523847,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Blind EMA,threshold_delta,17,0.01928876885062685,0.0007398191106248729,0.05438119988931294,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Guarded EMA,post_ASR,17,1.3893443936712602,0.4846559470247442,2.570895218907833,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Guarded EMA,post_FRR,17,89.30779788580743,78.41680858082948,97.65958277157561,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Guarded EMA,HTER,17,45.34857113973935,40.02176100954299,49.338812354595596,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Guarded EMA,poison_accept_rate,17,100.0,100.0,100.0,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Guarded EMA,MUR,17,89.90196078431373,75.58823529411765,100.0,percent,estimable
+McGill,far_1pct,boundary,1,0.01,Guarded EMA,malicious_updates,17,0.8990196078431373,0.7558823529411764,1.0,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Guarded EMA,mean_delta,17,0.00291489134809518,0.0010370079200332,0.005648078821159834,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Guarded EMA,sigma_delta,17,0.001464600085472607,-0.002037612980135397,0.007475593002435185,score_or_count,estimable
+McGill,far_1pct,boundary,1,0.01,Guarded EMA,threshold_delta,17,0.019368085894082628,0.0008617277458358013,0.054362062894167985,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Frozen,post_ASR,17,1.4879600824481753,0.5461970364389827,2.7177675635876324,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Frozen,post_FRR,17,88.60549871927755,77.34030185067407,97.05288456069174,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Frozen,HTER,17,45.04672940086286,39.71131659906662,49.207183408744996,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Frozen,poison_accept_rate,17,100.0,100.0,100.0,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Frozen,MUR,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Frozen,malicious_updates,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Frozen,mean_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Frozen,sigma_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Frozen,threshold_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Blind EMA,post_ASR,17,1.3425154937540629,0.4559071654322051,2.52275212617543,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Blind EMA,post_FRR,17,89.4578856004354,78.32422174998058,97.76613638203419,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Blind EMA,HTER,17,45.400200547094734,39.95904823799256,49.33514236224007,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Blind EMA,poison_accept_rate,17,81.47666220819536,71.98859189913544,90.61548560788988,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Blind EMA,MUR,17,81.47666220819536,71.80427407431925,90.48931373089508,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Blind EMA,malicious_updates,17,1.6295332441639072,1.4428193996506804,1.8099681625227408,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Blind EMA,mean_delta,17,0.0033234600755269322,0.000959962744006422,0.006155558611069241,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Blind EMA,sigma_delta,17,-0.0002711310948093197,-0.004249833508021565,0.006042091034270846,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Blind EMA,threshold_delta,17,0.019779498105383805,0.0011419394928514198,0.05473213858601861,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Guarded EMA,post_ASR,17,1.3425154937540629,0.46524639491195363,2.485413087772302,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Guarded EMA,post_FRR,17,89.4578856004354,78.40318436316402,97.7773541388833,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Guarded EMA,HTER,17,45.400200547094734,40.21466306375435,49.41561280508063,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Guarded EMA,poison_accept_rate,17,81.47666220819536,71.77245973090156,90.73199565122924,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Guarded EMA,MUR,17,71.3786229925091,57.152720548118005,84.16743821405291,percent,estimable
+McGill,far_1pct,boundary,2,0.01,Guarded EMA,malicious_updates,17,1.4275724598501818,1.1421406311288371,1.6794752951263103,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Guarded EMA,mean_delta,17,0.003618940536548716,0.0014175996740547964,0.0063562590953504024,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Guarded EMA,sigma_delta,17,0.00029834845676715327,-0.003704034661708039,0.0065136704698749905,score_or_count,estimable
+McGill,far_1pct,boundary,2,0.01,Guarded EMA,threshold_delta,17,0.01992019868054855,0.0013744338554932687,0.05476818978753195,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Frozen,post_ASR,17,1.4879600824481753,0.5625326946425506,2.7088303268132394,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Frozen,post_FRR,17,88.60549871927755,77.4865941632553,97.09047065016783,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Frozen,HTER,17,45.04672940086286,39.85835370741426,49.125921413109175,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Frozen,poison_accept_rate,17,100.0,100.0,100.0,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Frozen,MUR,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Frozen,malicious_updates,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Frozen,mean_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Frozen,sigma_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Frozen,threshold_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Blind EMA,post_ASR,17,1.2751413050961462,0.4201560885522126,2.3947310546699505,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Blind EMA,post_FRR,17,89.70672724307902,79.0048434634723,98.01235511472704,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Blind EMA,HTER,17,45.49093427408758,40.11285996316566,49.43812720726828,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Blind EMA,poison_accept_rate,17,72.3879419267591,59.17146728151119,85.00907320520461,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Blind EMA,MUR,17,72.3879419267591,59.06643609522292,85.09886655577668,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Blind EMA,malicious_updates,17,2.8955176770703637,2.362895135494802,3.411815062954955,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Blind EMA,mean_delta,17,0.004721274143427047,0.0015341061133838083,0.00808043453221753,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Blind EMA,sigma_delta,17,-0.003183134344988065,-0.008242663962061888,0.0037909811240866434,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Blind EMA,threshold_delta,17,0.021027835442533633,0.0023435737855515906,0.055582288316596874,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Guarded EMA,post_ASR,17,1.2751413050961462,0.42379803856539033,2.3952361367728625,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Guarded EMA,post_FRR,17,89.75366126515618,78.90200444517657,97.97522897103454,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Guarded EMA,HTER,17,45.51440128512617,40.23535501723391,49.3637692554216,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Guarded EMA,poison_accept_rate,17,72.3879419267591,58.818041224010045,85.2709903895012,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Guarded EMA,MUR,17,62.289902711072834,47.4679495469694,77.3342178279353,percent,estimable
+McGill,far_1pct,boundary,4,0.01,Guarded EMA,malicious_updates,17,2.4915961084429132,1.8880656151206263,3.091126097023751,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Guarded EMA,mean_delta,17,0.005248406197002076,0.0024795235882678415,0.008346593973552805,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Guarded EMA,sigma_delta,17,-0.002059931150343978,-0.007149995532008395,0.005008982959758834,score_or_count,estimable
+McGill,far_1pct,boundary,4,0.01,Guarded EMA,threshold_delta,17,0.021249581402130128,0.0026589555780385317,0.05578644378085905,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Frozen,post_ASR,17,1.4879600824481753,0.5576363443699718,2.703559054240081,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Frozen,post_FRR,17,88.60549871927755,77.52453809393872,97.13762171010347,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Frozen,HTER,17,45.04672940086286,39.76168785725151,49.03721115042522,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Frozen,poison_accept_rate,17,100.0,100.0,100.0,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Frozen,MUR,17,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Frozen,malicious_updates,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Frozen,mean_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Frozen,sigma_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Frozen,threshold_delta,17,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Blind EMA,post_ASR,17,1.133523205034924,0.3240988281143806,2.160320525903494,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Blind EMA,post_FRR,17,90.32132852488989,79.49676375009086,98.69957746422679,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Blind EMA,HTER,17,45.7274258649624,40.53779231534407,49.61987647009564,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Blind EMA,poison_accept_rate,17,69.36465606841429,55.551030389381275,82.94518523663726,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Blind EMA,MUR,17,69.36465606841429,55.81714857484401,82.91304392770881,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Blind EMA,malicious_updates,17,5.549172485473143,4.4136385167921315,6.634642872760349,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Blind EMA,mean_delta,17,0.009280471444302104,0.005083374989818107,0.01378787028995145,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Blind EMA,sigma_delta,17,-0.007889644615776022,-0.015510210627638667,0.0010319892322544547,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Blind EMA,threshold_delta,17,0.026748349908082527,0.005853947576241179,0.062339063331961334,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Guarded EMA,post_ASR,17,1.133523205034924,0.3444842849901118,2.182342233334521,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Guarded EMA,post_FRR,17,90.3586354830714,79.61824221188382,98.76236564893709,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Guarded EMA,HTER,17,45.74607934405316,40.38688745628906,49.68845858133521,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Guarded EMA,poison_accept_rate,17,69.36465606841429,55.3530422487598,82.99787229984572,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Guarded EMA,MUR,17,62.31808744096331,48.85519201793292,75.87350872917308,percent,estimable
+McGill,far_1pct,boundary,8,0.01,Guarded EMA,malicious_updates,17,4.985446995277065,3.9048775576417634,6.069858975547568,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Guarded EMA,mean_delta,17,0.009880549204660943,0.006315550176011898,0.014040133581839512,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Guarded EMA,sigma_delta,17,-0.00642894596859768,-0.013789653250321348,0.0021562535356365138,score_or_count,estimable
+McGill,far_1pct,boundary,8,0.01,Guarded EMA,threshold_delta,17,0.026954092900812816,0.006158983420058648,0.06208079948156733,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Frozen,post_ASR,20,2.142469235290064,1.228291996454458,3.2167267303111027,percent,estimable
+McGill,far_1pct,random,0,0.01,Frozen,post_FRR,20,90.25467391138588,80.47494127130899,97.64752616965035,percent,estimable
+McGill,far_1pct,random,0,0.01,Frozen,HTER,20,46.198571573337986,41.483798564921976,49.81516421405838,percent,estimable
+McGill,far_1pct,random,0,0.01,Frozen,poison_accept_rate,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,0,0.01,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,0,0.01,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Blind EMA,post_ASR,20,2.142469235290064,1.2149682946697926,3.218052338589819,percent,estimable
+McGill,far_1pct,random,0,0.01,Blind EMA,post_FRR,20,90.25467391138588,80.7397510538269,97.57098310335766,percent,estimable
+McGill,far_1pct,random,0,0.01,Blind EMA,HTER,20,46.198571573337986,41.75340256865087,49.736633632003716,percent,estimable
+McGill,far_1pct,random,0,0.01,Blind EMA,poison_accept_rate,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,0,0.01,Blind EMA,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,0,0.01,Blind EMA,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Blind EMA,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Blind EMA,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Blind EMA,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Guarded EMA,post_ASR,20,2.142469235290064,1.2000288351582467,3.209455495772244,percent,estimable
+McGill,far_1pct,random,0,0.01,Guarded EMA,post_FRR,20,90.25467391138588,80.50159286320225,97.6039389399534,percent,estimable
+McGill,far_1pct,random,0,0.01,Guarded EMA,HTER,20,46.198571573337986,41.56339816107551,49.70356657567726,percent,estimable
+McGill,far_1pct,random,0,0.01,Guarded EMA,poison_accept_rate,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,0,0.01,Guarded EMA,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,0,0.01,Guarded EMA,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Guarded EMA,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Guarded EMA,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,0,0.01,Guarded EMA,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Frozen,post_ASR,20,2.142469235290064,1.2402284204396417,3.2125407112973132,percent,estimable
+McGill,far_1pct,random,1,0.01,Frozen,post_FRR,20,90.25467391138588,80.40651743190936,97.61975141216345,percent,estimable
+McGill,far_1pct,random,1,0.01,Frozen,HTER,20,46.198571573337986,41.54408776876885,49.70962484461511,percent,estimable
+McGill,far_1pct,random,1,0.01,Frozen,poison_accept_rate,20,2.0999999999999996,1.0,3.400000000000001,percent,estimable
+McGill,far_1pct,random,1,0.01,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,1,0.01,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Blind EMA,post_ASR,20,2.1353199230521276,1.2234771491493244,3.193599825901478,percent,estimable
+McGill,far_1pct,random,1,0.01,Blind EMA,post_FRR,20,90.2735990526457,80.45633701991463,97.61368428077134,percent,estimable
+McGill,far_1pct,random,1,0.01,Blind EMA,HTER,20,46.204459487848915,41.49460424241103,49.78848644447707,percent,estimable
+McGill,far_1pct,random,1,0.01,Blind EMA,poison_accept_rate,20,2.0999999999999996,1.0,3.4000000000000004,percent,estimable
+McGill,far_1pct,random,1,0.01,Blind EMA,MUR,20,2.0999999999999996,1.0,3.4000000000000004,percent,estimable
+McGill,far_1pct,random,1,0.01,Blind EMA,malicious_updates,20,0.020999999999999998,0.010000000000000002,0.034,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Blind EMA,mean_delta,20,8.23161274096094e-05,1.7510842856371482e-05,0.0001811136376208218,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Blind EMA,sigma_delta,20,6.252554744796961e-05,-4.939925728500091e-05,0.0002646856796371088,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Blind EMA,threshold_delta,20,0.0006388687287732088,2.029848077739351e-05,0.0018508738240253205,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Guarded EMA,post_ASR,20,2.1353199230521276,1.2288600665586364,3.214820550607166,percent,estimable
+McGill,far_1pct,random,1,0.01,Guarded EMA,post_FRR,20,90.2735990526457,80.76240690562595,97.52517876244688,percent,estimable
+McGill,far_1pct,random,1,0.01,Guarded EMA,HTER,20,46.204459487848915,41.61353299762031,49.640124288297244,percent,estimable
+McGill,far_1pct,random,1,0.01,Guarded EMA,poison_accept_rate,20,2.0999999999999996,1.0000000000000002,3.4000000000000004,percent,estimable
+McGill,far_1pct,random,1,0.01,Guarded EMA,MUR,20,2.0500000000000003,0.9500000000000002,3.3499999999999996,percent,estimable
+McGill,far_1pct,random,1,0.01,Guarded EMA,malicious_updates,20,0.0205,0.009500000000000001,0.0335,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Guarded EMA,mean_delta,20,8.302297894868997e-05,1.8592463218393995e-05,0.00018109033559736358,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Guarded EMA,sigma_delta,20,6.398994978726948e-05,-4.709566053589849e-05,0.00026481628600089573,score_or_count,estimable
+McGill,far_1pct,random,1,0.01,Guarded EMA,threshold_delta,20,0.0006391417065838824,2.0333626023292944e-05,0.0018487148410399987,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Frozen,post_ASR,20,2.142469235290064,1.200285594193354,3.2544073228593104,percent,estimable
+McGill,far_1pct,random,2,0.01,Frozen,post_FRR,20,90.25467391138588,80.49126288221366,97.70746983512942,percent,estimable
+McGill,far_1pct,random,2,0.01,Frozen,HTER,20,46.198571573337986,41.51125488643251,49.76039160977247,percent,estimable
+McGill,far_1pct,random,2,0.01,Frozen,poison_accept_rate,20,2.0500000000000003,1.1250000000000002,3.175,percent,estimable
+McGill,far_1pct,random,2,0.01,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,2,0.01,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Blind EMA,post_ASR,20,2.131466404607316,1.2114493370200814,3.227243685984533,percent,estimable
+McGill,far_1pct,random,2,0.01,Blind EMA,post_FRR,20,90.29828556866528,80.89600291736348,97.65027444707671,percent,estimable
+McGill,far_1pct,random,2,0.01,Blind EMA,HTER,20,46.2148759866363,41.75354158248939,49.75096134416096,percent,estimable
+McGill,far_1pct,random,2,0.01,Blind EMA,poison_accept_rate,20,2.0500000000000003,1.125,3.175,percent,estimable
+McGill,far_1pct,random,2,0.01,Blind EMA,MUR,20,2.0500000000000003,1.15,3.175,percent,estimable
+McGill,far_1pct,random,2,0.01,Blind EMA,malicious_updates,20,0.041,0.022500000000000003,0.0635,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Blind EMA,mean_delta,20,0.0001538480732932601,5.266086924281375e-05,0.00030601974299784406,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Blind EMA,sigma_delta,20,8.251064210037106e-05,-9.67924044594974e-05,0.00039435647105214694,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Blind EMA,threshold_delta,20,0.0010045840342397423,5.3527125889104856e-05,0.0028602484861436723,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Guarded EMA,post_ASR,20,2.131466404607316,1.1971509584537476,3.1750596614496316,percent,estimable
+McGill,far_1pct,random,2,0.01,Guarded EMA,post_FRR,20,90.29828556866528,80.63932212120926,97.57779342118765,percent,estimable
+McGill,far_1pct,random,2,0.01,Guarded EMA,HTER,20,46.2148759866363,41.59234136166396,49.748646946012634,percent,estimable
+McGill,far_1pct,random,2,0.01,Guarded EMA,poison_accept_rate,20,2.0500000000000003,1.1250000000000002,3.150000000000001,percent,estimable
+McGill,far_1pct,random,2,0.01,Guarded EMA,MUR,20,2.025,1.125,3.150000000000001,percent,estimable
+McGill,far_1pct,random,2,0.01,Guarded EMA,malicious_updates,20,0.0405,0.022500000000000003,0.06299999999999999,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Guarded EMA,mean_delta,20,0.00015455492483234064,5.5706474965332545e-05,0.00030172179055032797,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Guarded EMA,sigma_delta,20,8.397504443967093e-05,-9.435151485652087e-05,0.0003975011465347697,score_or_count,estimable
+McGill,far_1pct,random,2,0.01,Guarded EMA,threshold_delta,20,0.001004857012050416,5.4067213749164e-05,0.0028570047939988096,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Frozen,post_ASR,20,2.142469235290064,1.209155324929494,3.2319003344166277,percent,estimable
+McGill,far_1pct,random,4,0.01,Frozen,post_FRR,20,90.25467391138588,80.67847213772005,97.5412464308741,percent,estimable
+McGill,far_1pct,random,4,0.01,Frozen,HTER,20,46.198571573337986,41.62263688266828,49.796906032424594,percent,estimable
+McGill,far_1pct,random,4,0.01,Frozen,poison_accept_rate,20,2.1999999999999997,1.2625000000000002,3.3125,percent,estimable
+McGill,far_1pct,random,4,0.01,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,4,0.01,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Blind EMA,post_ASR,20,2.117109438851782,1.204574550697956,3.175772152049762,percent,estimable
+McGill,far_1pct,random,4,0.01,Blind EMA,post_FRR,20,90.35876291380752,80.63450919005476,97.73841788352875,percent,estimable
+McGill,far_1pct,random,4,0.01,Blind EMA,HTER,20,46.237936176329654,41.69440459927106,49.709788579183076,percent,estimable
+McGill,far_1pct,random,4,0.01,Blind EMA,poison_accept_rate,20,2.1875,1.2375000000000003,3.3125,percent,estimable
+McGill,far_1pct,random,4,0.01,Blind EMA,MUR,20,2.1875,1.2500000000000002,3.3125,percent,estimable
+McGill,far_1pct,random,4,0.01,Blind EMA,malicious_updates,20,0.08750000000000001,0.049,0.1325,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Blind EMA,mean_delta,20,0.00033462103063382,0.00011889917612694877,0.0006536746356134608,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Blind EMA,sigma_delta,20,0.0001763468925818846,-0.00021718225513661814,0.0008564062270601247,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Blind EMA,threshold_delta,20,0.00217897042107583,0.00011672266611332801,0.006198252482947571,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Guarded EMA,post_ASR,20,2.117109438851782,1.226885429776458,3.1807337872803307,percent,estimable
+McGill,far_1pct,random,4,0.01,Guarded EMA,post_FRR,20,90.35876291380752,80.65262159858567,97.76434493157478,percent,estimable
+McGill,far_1pct,random,4,0.01,Guarded EMA,HTER,20,46.237936176329654,41.68668777196212,49.71118382966609,percent,estimable
+McGill,far_1pct,random,4,0.01,Guarded EMA,poison_accept_rate,20,2.1875,1.2500000000000002,3.325,percent,estimable
+McGill,far_1pct,random,4,0.01,Guarded EMA,MUR,20,2.1625,1.225,3.2749999999999995,percent,estimable
+McGill,far_1pct,random,4,0.01,Guarded EMA,malicious_updates,20,0.08650000000000001,0.0495,0.132,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Guarded EMA,mean_delta,20,0.0003361306927197211,0.00012503700112654047,0.0006635038924864947,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Guarded EMA,sigma_delta,20,0.0001792525803457849,-0.00020800818274960118,0.0008570508886283481,score_or_count,estimable
+McGill,far_1pct,random,4,0.01,Guarded EMA,threshold_delta,20,0.0021796191847939287,0.00011408835056854427,0.006206186636028801,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Frozen,post_ASR,20,2.142469235290064,1.19323196587281,3.2253316143836446,percent,estimable
+McGill,far_1pct,random,8,0.01,Frozen,post_FRR,20,90.25467391138588,80.57048132198574,97.5741891782638,percent,estimable
+McGill,far_1pct,random,8,0.01,Frozen,HTER,20,46.198571573337986,41.57519448392593,49.748843328138506,percent,estimable
+McGill,far_1pct,random,8,0.01,Frozen,poison_accept_rate,20,2.13125,1.2250000000000003,3.2125,percent,estimable
+McGill,far_1pct,random,8,0.01,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_1pct,random,8,0.01,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Blind EMA,post_ASR,20,2.0926978427894727,1.193291090284098,3.1326686463109765,percent,estimable
+McGill,far_1pct,random,8,0.01,Blind EMA,post_FRR,20,90.47388659757871,81.17845187970019,97.80102239391518,percent,estimable
+McGill,far_1pct,random,8,0.01,Blind EMA,HTER,20,46.283292220184094,41.678176890155314,49.78073484417312,percent,estimable
+McGill,far_1pct,random,8,0.01,Blind EMA,poison_accept_rate,20,2.09375,1.2125000000000001,3.125000000000001,percent,estimable
+McGill,far_1pct,random,8,0.01,Blind EMA,MUR,20,2.09375,1.2185937500000001,3.1437499999999994,percent,estimable
+McGill,far_1pct,random,8,0.01,Blind EMA,malicious_updates,20,0.1675,0.09598750000000002,0.24899999999999994,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Blind EMA,mean_delta,20,0.000635523776659723,0.00025797692393990656,0.0011829671982423599,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Blind EMA,sigma_delta,20,0.00029780521080975247,-0.00037230366560620073,0.0014544835610836107,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Blind EMA,threshold_delta,20,0.0038069479313565134,0.0002705412429521826,0.010696744759644224,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Guarded EMA,post_ASR,20,2.0926978427894727,1.183933340456475,3.1211231233217838,percent,estimable
+McGill,far_1pct,random,8,0.01,Guarded EMA,post_FRR,20,90.47410783651677,81.00473241356,97.74465666547549,percent,estimable
+McGill,far_1pct,random,8,0.01,Guarded EMA,HTER,20,46.28340283965312,41.699318057289396,49.81834243666528,percent,estimable
+McGill,far_1pct,random,8,0.01,Guarded EMA,poison_accept_rate,20,2.09375,1.2185937500000001,3.1125,percent,estimable
+McGill,far_1pct,random,8,0.01,Guarded EMA,MUR,20,2.0812500000000003,1.2,3.131249999999999,percent,estimable
+McGill,far_1pct,random,8,0.01,Guarded EMA,malicious_updates,20,0.1665,0.096,0.25149999999999995,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Guarded EMA,mean_delta,20,0.000636957955641329,0.0002573234028989789,0.0011980874649231833,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Guarded EMA,sigma_delta,20,0.00030062089613466716,-0.00036843094833369184,0.0014611293431475033,score_or_count,estimable
+McGill,far_1pct,random,8,0.01,Guarded EMA,threshold_delta,20,0.0038075478779300196,0.0002769692000089645,0.010682788826583686,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Frozen,post_ASR,18,6.850994924667181,3.367541406190654,10.832616064591681,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Frozen,post_FRR,18,80.54590983749573,65.39149537184637,93.25695560031268,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Frozen,HTER,18,43.69845238108146,36.3251418649257,50.14423051702288,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Frozen,poison_accept_rate,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Blind EMA,post_ASR,18,6.850994924667181,3.3158756666244953,10.736504610019113,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Blind EMA,post_FRR,18,80.54590983749573,65.20314196978273,93.58427700271312,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Blind EMA,HTER,18,43.69845238108146,36.359977274454316,50.205599904087286,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Blind EMA,poison_accept_rate,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Blind EMA,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Blind EMA,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Blind EMA,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Blind EMA,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Blind EMA,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Guarded EMA,post_ASR,18,6.850994924667181,3.3358562352306014,10.637122612830284,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Guarded EMA,post_FRR,18,80.54590983749573,65.79249871824099,93.3259769268381,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Guarded EMA,HTER,18,43.69845238108146,36.21801561238796,50.09753022304365,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Guarded EMA,poison_accept_rate,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Guarded EMA,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,0,0.05,Guarded EMA,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Guarded EMA,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Guarded EMA,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,0,0.05,Guarded EMA,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Frozen,post_ASR,18,6.850994924667181,3.336713734891309,10.763653828404465,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Frozen,post_FRR,18,80.54590983749573,65.94546578577315,93.23014404227261,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Frozen,HTER,18,43.69845238108146,36.342534599081866,50.11606624316415,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Frozen,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Blind EMA,post_ASR,18,6.883896594659292,3.3484955396395955,10.818221965053777,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Blind EMA,post_FRR,18,80.45338026432847,65.68047030385354,93.0857954531546,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Blind EMA,HTER,18,43.66863842949388,36.24496208740592,50.19479855762893,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Blind EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Blind EMA,MUR,18,100.0,100.0,100.0,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Blind EMA,malicious_updates,18,1.0,1.0,1.0,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Blind EMA,mean_delta,18,-0.001116515082458019,-0.0029984808128246396,0.0008365646185983566,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Blind EMA,sigma_delta,18,-0.0005283429058775301,-0.0019532093257890407,0.0012184924533667956,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Blind EMA,threshold_delta,18,0.0007669923236705025,-0.0033973126115028622,0.0060008946347235356,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Guarded EMA,post_ASR,18,6.8276609503325165,3.3578843977366843,10.746622532737412,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Guarded EMA,post_FRR,18,80.57049194172383,65.61563317023423,93.20386313537449,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Guarded EMA,HTER,18,43.69907644602818,36.259141973052074,50.161617848956865,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Guarded EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Guarded EMA,MUR,18,40.722664127426036,21.39156441537394,61.52934311862883,percent,estimable
+McGill,far_5pct,boundary,1,0.05,Guarded EMA,malicious_updates,18,0.40722664127426034,0.21423496347305873,0.6122636038707466,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Guarded EMA,mean_delta,18,0.0006534369945456178,-0.00040025965217506084,0.0020437846825819123,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Guarded EMA,sigma_delta,18,-3.13256021671081e-06,-0.0012102935476983653,0.0015282105271082359,score_or_count,estimable
+McGill,far_5pct,boundary,1,0.05,Guarded EMA,threshold_delta,18,0.002733087170945656,-0.00013132819050171038,0.007455033169434663,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Frozen,post_ASR,18,6.850994924667181,3.3515599466651573,10.734583262500976,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Frozen,post_FRR,18,80.54590983749573,65.63770665153366,93.23129923372741,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Frozen,HTER,18,43.69845238108146,36.32220105886644,50.135521790561434,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Frozen,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Blind EMA,post_ASR,18,6.920753721880889,3.4064517169182804,10.834870788651548,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Blind EMA,post_FRR,18,80.40977108537093,65.41462138541111,93.32818765632341,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Blind EMA,HTER,18,43.665262403625924,36.18260301706023,50.241511503712346,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Blind EMA,poison_accept_rate,18,92.08937198067633,83.33333333333334,100.0,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Blind EMA,MUR,18,92.08937198067633,83.33333333333334,100.0,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Blind EMA,malicious_updates,18,1.8417874396135265,1.6666666666666667,2.0,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Blind EMA,mean_delta,18,-0.0028177371041370634,-0.0059244336908701135,9.364202084551875e-05,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Blind EMA,sigma_delta,18,-0.0019371285505536307,-0.004072486986953464,0.00047347098294831175,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Blind EMA,threshold_delta,18,-0.0007130820222658794,-0.006452527599821971,0.005136072324748889,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Guarded EMA,post_ASR,18,6.829439634634235,3.3675813586848657,10.748817110075798,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Guarded EMA,post_FRR,18,80.58753658228537,66.256170012452,93.27446988219094,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Guarded EMA,HTER,18,43.708488108459804,36.27787969268273,50.137958437437646,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Guarded EMA,poison_accept_rate,18,92.08937198067633,83.75603864734299,100.0,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Guarded EMA,MUR,18,41.201445830845415,25.32963261581274,57.49125450789529,percent,estimable
+McGill,far_5pct,boundary,2,0.05,Guarded EMA,malicious_updates,18,0.8240289166169084,0.5086588368896858,1.1545615453586469,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Guarded EMA,mean_delta,18,0.00012201078281603406,-0.0012946612164721877,0.0017195551666501076,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Guarded EMA,sigma_delta,18,-0.0011160269992330383,-0.0028494345540261896,0.0007618861460328922,score_or_count,estimable
+McGill,far_5pct,boundary,2,0.05,Guarded EMA,threshold_delta,18,0.002597201403722329,-0.0003617873972224237,0.007273210362305211,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Frozen,post_ASR,18,6.850994924667181,3.3894638676956816,10.68035033198955,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Frozen,post_FRR,18,80.54590983749573,65.39574471188288,93.09456321915121,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Frozen,HTER,18,43.69845238108146,36.222958784206696,50.053313198716076,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Frozen,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Blind EMA,post_ASR,18,6.985009923541391,3.370330854801251,11.059270058305696,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Blind EMA,post_FRR,18,80.46180800732,65.92098609323548,93.20574485243827,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Blind EMA,HTER,18,43.72340896543069,36.35888538914607,50.24074490620154,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Blind EMA,poison_accept_rate,18,92.27053140096619,82.3671497584541,100.0,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Blind EMA,MUR,18,92.27053140096619,81.94444444444444,100.0,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Blind EMA,malicious_updates,18,3.6908212560386477,3.2777777777777777,4.0,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Blind EMA,mean_delta,18,-0.0035910865072760565,-0.010141643501443774,0.0032973325447777186,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Blind EMA,sigma_delta,18,-0.0029791736411721855,-0.00842162604789351,0.004677737155071261,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Blind EMA,threshold_delta,18,0.005163211789115924,-0.010155658045139501,0.027319560656373105,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Guarded EMA,post_ASR,18,6.824312461747057,3.346160151501169,10.730695830930891,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Guarded EMA,post_FRR,18,80.72259669676708,65.7267430577322,93.23752584440776,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Guarded EMA,HTER,18,43.77345457925708,36.45585983880512,50.092031095937315,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Guarded EMA,poison_accept_rate,18,92.27053140096619,81.7632850241546,100.0,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Guarded EMA,MUR,18,49.11956919643254,31.890956603146048,66.69792121880631,percent,estimable
+McGill,far_5pct,boundary,4,0.05,Guarded EMA,malicious_updates,18,1.9647827678573018,1.2925264382942951,2.6639888849081395,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Guarded EMA,mean_delta,18,0.0008559171894936221,-0.003048714722176957,0.006439117760436105,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Guarded EMA,sigma_delta,18,-0.001575993767669168,-0.006579562193185834,0.005493315983473778,score_or_count,estimable
+McGill,far_5pct,boundary,4,0.05,Guarded EMA,threshold_delta,18,0.010143945461343064,-0.000311577344356519,0.029770977047795986,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Frozen,post_ASR,18,6.850994924667181,3.432088089868615,10.743092556800343,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Frozen,post_FRR,18,80.54590983749573,65.70079653587212,93.44590464984628,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Frozen,HTER,18,43.69845238108146,36.03820097232711,50.095110599858714,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Frozen,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Blind EMA,post_ASR,18,7.048812877125722,3.419728928260525,11.17026353357322,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Blind EMA,post_FRR,18,80.62126317045596,65.80906625537104,93.2620816737341,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Blind EMA,HTER,18,43.83503802379084,36.47965896126436,50.28852267887911,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Blind EMA,poison_accept_rate,18,91.2130530129672,79.64832824815663,100.0,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Blind EMA,MUR,18,91.2130530129672,79.47328693109586,100.0,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Blind EMA,malicious_updates,18,7.2970442410373755,6.3492620137299784,8.0,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Blind EMA,mean_delta,18,-0.004278037897252913,-0.014246946059949575,0.006049617039850732,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Blind EMA,sigma_delta,18,-0.008906853146828507,-0.01726087639644778,0.0021375578873855947,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Blind EMA,threshold_delta,18,0.009602001595455496,-0.012295179475984845,0.040231747548218746,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Guarded EMA,post_ASR,18,6.788782254642492,3.243077622899493,10.558009755831726,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Guarded EMA,post_FRR,18,80.97279820760419,67.09837117336038,93.42757628345551,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Guarded EMA,HTER,18,43.88079023112334,36.79706197566407,50.26556336897063,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Guarded EMA,poison_accept_rate,18,91.2130530129672,79.47328693109586,100.0,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Guarded EMA,MUR,18,55.755276736738544,38.12369823081351,72.97461819856682,percent,estimable
+McGill,far_5pct,boundary,8,0.05,Guarded EMA,malicious_updates,18,4.460422138939084,3.0111648038547494,5.865625914214425,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Guarded EMA,mean_delta,18,0.002180281278225431,-0.0031589222819818717,0.009766220371907743,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Guarded EMA,sigma_delta,18,-0.006591648014048421,-0.014561946277908099,0.004282057757484661,score_or_count,estimable
+McGill,far_5pct,boundary,8,0.05,Guarded EMA,threshold_delta,18,0.01638302860879148,0.0023208947933611238,0.04207147567383533,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Frozen,post_ASR,20,7.368754012568321,4.486385901983554,10.608104525110404,percent,estimable
+McGill,far_5pct,random,0,0.05,Frozen,post_FRR,20,82.43131885374615,68.72088262366722,94.18094980074419,percent,estimable
+McGill,far_5pct,random,0,0.05,Frozen,HTER,20,44.90003643315723,38.08102887085859,50.820838999817376,percent,estimable
+McGill,far_5pct,random,0,0.05,Frozen,poison_accept_rate,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,0,0.05,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,0,0.05,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Blind EMA,post_ASR,20,7.368754012568321,4.4020691984303575,10.696570423864255,percent,estimable
+McGill,far_5pct,random,0,0.05,Blind EMA,post_FRR,20,82.43131885374615,68.76386781352211,94.320720231858,percent,estimable
+McGill,far_5pct,random,0,0.05,Blind EMA,HTER,20,44.90003643315723,38.19207760591166,50.780537810890806,percent,estimable
+McGill,far_5pct,random,0,0.05,Blind EMA,poison_accept_rate,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,0,0.05,Blind EMA,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,0,0.05,Blind EMA,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Blind EMA,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Blind EMA,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Blind EMA,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Guarded EMA,post_ASR,20,7.368754012568321,4.430503639559363,10.721308731372025,percent,estimable
+McGill,far_5pct,random,0,0.05,Guarded EMA,post_FRR,20,82.43131885374615,68.69118133666689,94.04591486443964,percent,estimable
+McGill,far_5pct,random,0,0.05,Guarded EMA,HTER,20,44.90003643315723,38.09428490720476,50.770351748738584,percent,estimable
+McGill,far_5pct,random,0,0.05,Guarded EMA,poison_accept_rate,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,0,0.05,Guarded EMA,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,0,0.05,Guarded EMA,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Guarded EMA,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Guarded EMA,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,0,0.05,Guarded EMA,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Frozen,post_ASR,20,7.368754012568321,4.416037345837137,10.639795834414306,percent,estimable
+McGill,far_5pct,random,1,0.05,Frozen,post_FRR,20,82.43131885374615,68.87647722107997,94.23053718570932,percent,estimable
+McGill,far_5pct,random,1,0.05,Frozen,HTER,20,44.90003643315723,37.9586247473711,50.662268312150374,percent,estimable
+McGill,far_5pct,random,1,0.05,Frozen,poison_accept_rate,20,8.05,4.8500000000000005,11.400000000000002,percent,estimable
+McGill,far_5pct,random,1,0.05,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,1,0.05,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Blind EMA,post_ASR,20,7.352915343435265,4.428067605379049,10.665338116394029,percent,estimable
+McGill,far_5pct,random,1,0.05,Blind EMA,post_FRR,20,82.45544509156055,68.74684670928424,94.20243189022037,percent,estimable
+McGill,far_5pct,random,1,0.05,Blind EMA,HTER,20,44.9041802174979,38.129201581897235,50.689167445380015,percent,estimable
+McGill,far_5pct,random,1,0.05,Blind EMA,poison_accept_rate,20,8.05,4.9,11.399999999999999,percent,estimable
+McGill,far_5pct,random,1,0.05,Blind EMA,MUR,20,8.05,4.9,11.300000000000002,percent,estimable
+McGill,far_5pct,random,1,0.05,Blind EMA,malicious_updates,20,0.0805,0.0495,0.1155,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Blind EMA,mean_delta,20,0.00010535740895525222,2.6408657797466523e-05,0.00020829996719337306,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Blind EMA,sigma_delta,20,-4.38293079521908e-05,-0.0001958413961592892,0.00019596431734907193,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Blind EMA,threshold_delta,20,0.000422191463607281,7.833241722925449e-05,0.0010298130248429644,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Guarded EMA,post_ASR,20,7.352003569688688,4.397914510474191,10.584363756858263,percent,estimable
+McGill,far_5pct,random,1,0.05,Guarded EMA,post_FRR,20,82.45631089242636,68.55258502336667,94.03897192906652,percent,estimable
+McGill,far_5pct,random,1,0.05,Guarded EMA,HTER,20,44.90415723105752,38.12881526162915,50.63710768316867,percent,estimable
+McGill,far_5pct,random,1,0.05,Guarded EMA,poison_accept_rate,20,8.05,4.95,11.400000000000002,percent,estimable
+McGill,far_5pct,random,1,0.05,Guarded EMA,MUR,20,7.450000000000001,4.550000000000001,10.65,percent,estimable
+McGill,far_5pct,random,1,0.05,Guarded EMA,malicious_updates,20,0.07450000000000001,0.045500000000000006,0.10600000000000001,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Guarded EMA,mean_delta,20,0.00011496326680957745,3.833237451656337e-05,0.00021652739279309153,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Guarded EMA,sigma_delta,20,-3.651761550979383e-05,-0.00018701042578762108,0.00019571985283745098,score_or_count,estimable
+McGill,far_5pct,random,1,0.05,Guarded EMA,threshold_delta,20,0.0004323912009088642,9.251300378448107e-05,0.00103053891752686,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Frozen,post_ASR,20,7.368754012568321,4.4732703348508,10.70320545183099,percent,estimable
+McGill,far_5pct,random,2,0.05,Frozen,post_FRR,20,82.43131885374615,68.46526486882598,94.06119735237274,percent,estimable
+McGill,far_5pct,random,2,0.05,Frozen,HTER,20,44.90003643315723,38.247761732805735,50.823539003285056,percent,estimable
+McGill,far_5pct,random,2,0.05,Frozen,poison_accept_rate,20,8.275,5.074999999999999,11.774999999999999,percent,estimable
+McGill,far_5pct,random,2,0.05,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,2,0.05,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Blind EMA,post_ASR,20,7.3389777270055605,4.346232756203997,10.52907377550772,percent,estimable
+McGill,far_5pct,random,2,0.05,Blind EMA,post_FRR,20,82.47484527224266,69.00009623684225,93.90965028831137,percent,estimable
+McGill,far_5pct,random,2,0.05,Blind EMA,HTER,20,44.9069114996241,38.06890759096872,50.758111741560406,percent,estimable
+McGill,far_5pct,random,2,0.05,Blind EMA,poison_accept_rate,20,8.249999999999998,5.075,11.699999999999996,percent,estimable
+McGill,far_5pct,random,2,0.05,Blind EMA,MUR,20,8.249999999999998,5.1000000000000005,11.75,percent,estimable
+McGill,far_5pct,random,2,0.05,Blind EMA,malicious_updates,20,0.16499999999999998,0.10200000000000001,0.2355,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Blind EMA,mean_delta,20,0.00021531745039261163,7.422878258242494e-05,0.0003951048627000456,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Blind EMA,sigma_delta,20,-0.00012297196055569449,-0.0004215208328602685,0.0003011319316793649,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Blind EMA,threshold_delta,20,0.0008051191054922992,0.00017662375140811972,0.0018598520155060146,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Guarded EMA,post_ASR,20,7.337238487000013,4.427944158925546,10.654946083344571,percent,estimable
+McGill,far_5pct,random,2,0.05,Guarded EMA,post_FRR,20,82.4776407037615,68.7365251741987,94.13561414548072,percent,estimable
+McGill,far_5pct,random,2,0.05,Guarded EMA,HTER,20,44.90743959538075,38.29387237555145,50.73327608417917,percent,estimable
+McGill,far_5pct,random,2,0.05,Guarded EMA,poison_accept_rate,20,8.249999999999998,5.075,11.774999999999999,percent,estimable
+McGill,far_5pct,random,2,0.05,Guarded EMA,MUR,20,7.6,4.65,10.8,percent,estimable
+McGill,far_5pct,random,2,0.05,Guarded EMA,malicious_updates,20,0.152,0.093,0.2165,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Guarded EMA,mean_delta,20,0.000235224525433905,0.00010371727549919724,0.000410814132806927,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Guarded EMA,sigma_delta,20,-0.00010920080197701195,-0.00040903520983157017,0.00031016462715583923,score_or_count,estimable
+McGill,far_5pct,random,2,0.05,Guarded EMA,threshold_delta,20,0.0008258209644061093,0.00020738157718649752,0.0018763425760096918,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Frozen,post_ASR,20,7.368754012568321,4.400711760114324,10.68236403165526,percent,estimable
+McGill,far_5pct,random,4,0.05,Frozen,post_FRR,20,82.43131885374615,68.96769926550081,94.32177621629685,percent,estimable
+McGill,far_5pct,random,4,0.05,Frozen,HTER,20,44.90003643315723,38.189548936754235,50.665452797822915,percent,estimable
+McGill,far_5pct,random,4,0.05,Frozen,poison_accept_rate,20,8.075,5.137499999999999,11.174999999999999,percent,estimable
+McGill,far_5pct,random,4,0.05,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,4,0.05,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Blind EMA,post_ASR,20,7.306207636442193,4.430274864711788,10.62832132716533,percent,estimable
+McGill,far_5pct,random,4,0.05,Blind EMA,post_FRR,20,82.52782022148554,68.80058842698745,93.94355620714268,percent,estimable
+McGill,far_5pct,random,4,0.05,Blind EMA,HTER,20,44.917013928963875,38.13969945078609,50.70106863994395,percent,estimable
+McGill,far_5pct,random,4,0.05,Blind EMA,poison_accept_rate,20,8.0125,5.15,11.075,percent,estimable
+McGill,far_5pct,random,4,0.05,Blind EMA,MUR,20,8.0125,5.15,11.075,percent,estimable
+McGill,far_5pct,random,4,0.05,Blind EMA,malicious_updates,20,0.3205,0.2049875,0.44299999999999995,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Blind EMA,mean_delta,20,0.000496450126530361,0.00020151889136999288,0.0008898285588308073,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Blind EMA,sigma_delta,20,-0.0001531860760161286,-0.0007610603888079801,0.0007447938719544011,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Blind EMA,threshold_delta,20,0.001788310215919859,0.0004203306961035874,0.004074774196410209,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Guarded EMA,post_ASR,20,7.303351302684788,4.394241400337822,10.538610969451593,percent,estimable
+McGill,far_5pct,random,4,0.05,Guarded EMA,post_FRR,20,82.53060828448638,68.79883229080636,94.14872034003155,percent,estimable
+McGill,far_5pct,random,4,0.05,Guarded EMA,HTER,20,44.91697979358559,38.27471560885474,50.72581248082925,percent,estimable
+McGill,far_5pct,random,4,0.05,Guarded EMA,poison_accept_rate,20,8.0125,5.175,11.012812499999995,percent,estimable
+McGill,far_5pct,random,4,0.05,Guarded EMA,MUR,20,7.549999999999998,4.8125,10.387499999999998,percent,estimable
+McGill,far_5pct,random,4,0.05,Guarded EMA,malicious_updates,20,0.30199999999999994,0.19050000000000003,0.418,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Guarded EMA,mean_delta,20,0.0005214320662231616,0.00023108008166942357,0.0009121131394025139,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Guarded EMA,sigma_delta,20,-0.00013181554160083075,-0.0007337163326312461,0.0007592170919846657,score_or_count,estimable
+McGill,far_5pct,random,4,0.05,Guarded EMA,threshold_delta,20,0.0018121134093596013,0.0004460766999039373,0.004141909188778308,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Frozen,post_ASR,20,7.368754012568321,4.391260585723536,10.72524229577588,percent,estimable
+McGill,far_5pct,random,8,0.05,Frozen,post_FRR,20,82.43131885374615,68.76946949911596,94.11339119627253,percent,estimable
+McGill,far_5pct,random,8,0.05,Frozen,HTER,20,44.90003643315723,37.83110066300979,50.80885593468971,percent,estimable
+McGill,far_5pct,random,8,0.05,Frozen,poison_accept_rate,20,8.1,5.04375,11.162656249999998,percent,estimable
+McGill,far_5pct,random,8,0.05,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,far_5pct,random,8,0.05,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Blind EMA,post_ASR,20,7.23925232631337,4.381910371037774,10.478875582057947,percent,estimable
+McGill,far_5pct,random,8,0.05,Blind EMA,post_FRR,20,82.65047329270934,69.15796279520346,94.42511560433418,percent,estimable
+McGill,far_5pct,random,8,0.05,Blind EMA,HTER,20,44.944862809511356,38.21754820364319,50.58494841162757,percent,estimable
+McGill,far_5pct,random,8,0.05,Blind EMA,poison_accept_rate,20,8.04375,5.018750000000001,11.225,percent,estimable
+McGill,far_5pct,random,8,0.05,Blind EMA,MUR,20,8.04375,5.0875,11.174999999999999,percent,estimable
+McGill,far_5pct,random,8,0.05,Blind EMA,malicious_updates,20,0.6435,0.4059875,0.8939999999999999,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Blind EMA,mean_delta,20,0.001017788727660785,0.0003731620345673873,0.0018855106583441864,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Blind EMA,sigma_delta,20,-0.000223260405978614,-0.001461431927812815,0.001665764816917377,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Blind EMA,threshold_delta,20,0.003653630917210761,0.0007810975157899754,0.00861244790894869,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Guarded EMA,post_ASR,20,7.231165716201168,4.295166925586048,10.456955251110626,percent,estimable
+McGill,far_5pct,random,8,0.05,Guarded EMA,post_FRR,20,82.65619979918493,68.92086525365148,94.45197724426254,percent,estimable
+McGill,far_5pct,random,8,0.05,Guarded EMA,HTER,20,44.94368275769306,38.16226948274628,50.68318591936145,percent,estimable
+McGill,far_5pct,random,8,0.05,Guarded EMA,poison_accept_rate,20,8.04375,5.100000000000001,11.21875,percent,estimable
+McGill,far_5pct,random,8,0.05,Guarded EMA,MUR,20,7.53125,4.79375,10.493749999999999,percent,estimable
+McGill,far_5pct,random,8,0.05,Guarded EMA,malicious_updates,20,0.6025,0.378,0.8305124999999999,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Guarded EMA,mean_delta,20,0.0010899726132684512,0.0004671940068314486,0.0019482004527461955,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Guarded EMA,sigma_delta,20,-0.0001910847388107804,-0.0014246810380817217,0.0016965072858965168,score_or_count,estimable
+McGill,far_5pct,random,8,0.05,Guarded EMA,threshold_delta,20,0.0037333358293755543,0.0009116076901403976,0.00872994981313565,score_or_count,estimable
+McGill,reference,boundary,0,,Frozen,post_ASR,18,12.3705013249111,6.700517379141595,18.71312279523436,percent,estimable
+McGill,reference,boundary,0,,Frozen,post_FRR,18,76.52121389009284,60.66653242411384,89.8247692796741,percent,estimable
+McGill,reference,boundary,0,,Frozen,HTER,18,44.44585760750197,36.55075851615705,51.66110252487536,percent,estimable
+McGill,reference,boundary,0,,Frozen,poison_accept_rate,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,0,,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,0,,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Blind EMA,post_ASR,18,12.3705013249111,6.893228029570434,18.6189605790234,percent,estimable
+McGill,reference,boundary,0,,Blind EMA,post_FRR,18,76.52121389009284,60.66102448019034,90.19686088965969,percent,estimable
+McGill,reference,boundary,0,,Blind EMA,HTER,18,44.44585760750197,36.70268472876838,51.51848345878742,percent,estimable
+McGill,reference,boundary,0,,Blind EMA,poison_accept_rate,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,0,,Blind EMA,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,0,,Blind EMA,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Blind EMA,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Blind EMA,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Blind EMA,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Guarded EMA,post_ASR,18,12.3705013249111,6.807956418938704,18.63372743912567,percent,estimable
+McGill,reference,boundary,0,,Guarded EMA,post_FRR,18,76.52121389009284,61.27285101918275,90.02426859049423,percent,estimable
+McGill,reference,boundary,0,,Guarded EMA,HTER,18,44.44585760750197,36.60180688093605,51.56898895206176,percent,estimable
+McGill,reference,boundary,0,,Guarded EMA,poison_accept_rate,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,0,,Guarded EMA,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,0,,Guarded EMA,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Guarded EMA,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Guarded EMA,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,0,,Guarded EMA,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,1,,Frozen,post_ASR,18,12.3705013249111,6.759705124881391,18.572613717327236,percent,estimable
+McGill,reference,boundary,1,,Frozen,post_FRR,18,76.52121389009284,60.82562310238462,90.12045859237745,percent,estimable
+McGill,reference,boundary,1,,Frozen,HTER,18,44.44585760750197,36.76147727961799,51.32948132138559,percent,estimable
+McGill,reference,boundary,1,,Frozen,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,1,,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,1,,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,1,,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,1,,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,1,,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,1,,Blind EMA,post_ASR,18,18.49831798967544,9.197257244893072,30.924143923174192,percent,estimable
+McGill,reference,boundary,1,,Blind EMA,post_FRR,18,70.6471790333744,52.86043384531257,86.50342349080235,percent,estimable
+McGill,reference,boundary,1,,Blind EMA,HTER,18,44.57274851152492,36.88768383408668,51.48102298620433,percent,estimable
+McGill,reference,boundary,1,,Blind EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,1,,Blind EMA,MUR,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,1,,Blind EMA,malicious_updates,18,1.0,1.0,1.0,score_or_count,estimable
+McGill,reference,boundary,1,,Blind EMA,mean_delta,18,-0.005330288841083099,-0.007516827743103198,-0.0033408189005143395,score_or_count,estimable
+McGill,reference,boundary,1,,Blind EMA,sigma_delta,18,0.0017193432134919137,-0.0002471073768451381,0.003779288636874458,score_or_count,estimable
+McGill,reference,boundary,1,,Blind EMA,threshold_delta,18,-0.010777580139076681,-0.016661062563165976,-0.005416703614985977,score_or_count,estimable
+McGill,reference,boundary,1,,Guarded EMA,post_ASR,18,12.37413369652966,6.861322174124765,18.50894780902731,percent,estimable
+McGill,reference,boundary,1,,Guarded EMA,post_FRR,18,76.51298702210988,60.882086602078175,89.98081655804582,percent,estimable
+McGill,reference,boundary,1,,Guarded EMA,HTER,18,44.443560359319775,36.7195395677828,51.569407013959534,percent,estimable
+McGill,reference,boundary,1,,Guarded EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,1,,Guarded EMA,MUR,18,16.106779913480942,3.546950853651884,32.37464387464388,percent,estimable
+McGill,reference,boundary,1,,Guarded EMA,malicious_updates,18,0.16106779913480943,0.03475827532528564,0.32195095304180354,score_or_count,estimable
+McGill,reference,boundary,1,,Guarded EMA,mean_delta,18,-0.0003002594288285465,-0.000735107244706668,3.2828123444592233e-05,score_or_count,estimable
+McGill,reference,boundary,1,,Guarded EMA,sigma_delta,18,-0.0004284300631177628,-0.00112151953787369,6.13596078156536e-05,score_or_count,estimable
+McGill,reference,boundary,1,,Guarded EMA,threshold_delta,18,-0.00031758736110336903,-0.0009166088367554993,6.005319309232452e-05,score_or_count,estimable
+McGill,reference,boundary,2,,Frozen,post_ASR,18,12.3705013249111,6.659612072220308,18.654629802147436,percent,estimable
+McGill,reference,boundary,2,,Frozen,post_FRR,18,76.52121389009284,60.66289188948774,90.11626475351424,percent,estimable
+McGill,reference,boundary,2,,Frozen,HTER,18,44.44585760750197,36.4949270897306,51.46835596157233,percent,estimable
+McGill,reference,boundary,2,,Frozen,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,2,,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,2,,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,2,,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,2,,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,2,,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,2,,Blind EMA,post_ASR,18,21.62866132038328,10.629055662315738,34.876431007632036,percent,estimable
+McGill,reference,boundary,2,,Blind EMA,post_FRR,18,70.27329824059925,52.398394025414504,86.16036978376161,percent,estimable
+McGill,reference,boundary,2,,Blind EMA,HTER,18,45.95097978049127,38.87300828321668,52.43904156888273,percent,estimable
+McGill,reference,boundary,2,,Blind EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,2,,Blind EMA,MUR,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,2,,Blind EMA,malicious_updates,18,2.0,2.0,2.0,score_or_count,estimable
+McGill,reference,boundary,2,,Blind EMA,mean_delta,18,-0.010217001062157154,-0.0145111124324934,-0.006532641551960778,score_or_count,estimable
+McGill,reference,boundary,2,,Blind EMA,sigma_delta,18,0.0026387967359896357,-0.0009254587754541374,0.0063404210013462805,score_or_count,estimable
+McGill,reference,boundary,2,,Blind EMA,threshold_delta,18,-0.019414513026623722,-0.030257012613298283,-0.009663361958451026,score_or_count,estimable
+McGill,reference,boundary,2,,Guarded EMA,post_ASR,18,12.378575035211794,6.8018310192854186,18.822652031576006,percent,estimable
+McGill,reference,boundary,2,,Guarded EMA,post_FRR,18,76.49943688660852,61.341232748020694,90.02057348125308,percent,estimable
+McGill,reference,boundary,2,,Guarded EMA,HTER,18,44.43900596091016,36.56667670952182,51.57726629771909,percent,estimable
+McGill,reference,boundary,2,,Guarded EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,2,,Guarded EMA,MUR,18,19.02772008442112,5.380284186985219,35.380274300441826,percent,estimable
+McGill,reference,boundary,2,,Guarded EMA,malicious_updates,18,0.38055440168842236,0.10665242165242167,0.7020949999790206,score_or_count,estimable
+McGill,reference,boundary,2,,Guarded EMA,mean_delta,18,-0.0008160404723312063,-0.0019475181226107827,3.598557822251018e-05,score_or_count,estimable
+McGill,reference,boundary,2,,Guarded EMA,sigma_delta,18,-0.0008196427575158433,-0.002232813445492302,0.0002600432503358781,score_or_count,estimable
+McGill,reference,boundary,2,,Guarded EMA,threshold_delta,18,-0.0009987046915993791,-0.0029839532029322996,0.00013132403838746228,score_or_count,estimable
+McGill,reference,boundary,4,,Frozen,post_ASR,18,12.3705013249111,6.833232820618639,18.70804689452846,percent,estimable
+McGill,reference,boundary,4,,Frozen,post_FRR,18,76.52121389009284,60.58204259943365,89.94070728034238,percent,estimable
+McGill,reference,boundary,4,,Frozen,HTER,18,44.44585760750197,36.52555527686579,51.51877159722073,percent,estimable
+McGill,reference,boundary,4,,Frozen,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,4,,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,4,,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,4,,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,4,,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,4,,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,4,,Blind EMA,post_ASR,18,28.33637410986065,13.777258559420808,45.029050490227796,percent,estimable
+McGill,reference,boundary,4,,Blind EMA,post_FRR,18,65.33740126987688,46.07145134764685,82.94696927755687,percent,estimable
+McGill,reference,boundary,4,,Blind EMA,HTER,18,46.83688768986875,39.82510017084041,53.0269494172019,percent,estimable
+McGill,reference,boundary,4,,Blind EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,4,,Blind EMA,MUR,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,4,,Blind EMA,malicious_updates,18,4.0,4.0,4.0,score_or_count,estimable
+McGill,reference,boundary,4,,Blind EMA,mean_delta,18,-0.018507486476477774,-0.026836799643013734,-0.011469230385555319,score_or_count,estimable
+McGill,reference,boundary,4,,Blind EMA,sigma_delta,18,0.0026389000961807504,-0.0032639935778147984,0.008805543677862187,score_or_count,estimable
+McGill,reference,boundary,4,,Blind EMA,threshold_delta,18,-0.03125758674318671,-0.049747080293221155,-0.015272199683412344,score_or_count,estimable
+McGill,reference,boundary,4,,Guarded EMA,post_ASR,18,12.383595517266127,6.769038697450867,18.653680866205637,percent,estimable
+McGill,reference,boundary,4,,Guarded EMA,post_FRR,18,76.52077936439015,60.86842785744429,89.92428422323485,percent,estimable
+McGill,reference,boundary,4,,Guarded EMA,HTER,18,44.45218744082815,36.79326679467723,51.43117576121876,percent,estimable
+McGill,reference,boundary,4,,Guarded EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,4,,Guarded EMA,MUR,18,24.014788571489603,8.846926669327871,41.739715168216016,percent,estimable
+McGill,reference,boundary,4,,Guarded EMA,malicious_updates,18,0.9605915428595841,0.3512944627918855,1.6682241261824597,score_or_count,estimable
+McGill,reference,boundary,4,,Guarded EMA,mean_delta,18,-0.0016714023445525527,-0.0037673792402336693,-5.405091142331799e-05,score_or_count,estimable
+McGill,reference,boundary,4,,Guarded EMA,sigma_delta,18,-0.0020881794040415497,-0.0047528614420003935,-0.00010237548601921613,score_or_count,estimable
+McGill,reference,boundary,4,,Guarded EMA,threshold_delta,18,-0.001348778564193823,-0.004286187285270292,0.0003510317539481795,score_or_count,estimable
+McGill,reference,boundary,8,,Frozen,post_ASR,18,12.3705013249111,6.796267960527761,18.62745154368278,percent,estimable
+McGill,reference,boundary,8,,Frozen,post_FRR,18,76.52121389009284,60.90100612506328,90.17511221647855,percent,estimable
+McGill,reference,boundary,8,,Frozen,HTER,18,44.44585760750197,36.435100577437005,51.59964134728978,percent,estimable
+McGill,reference,boundary,8,,Frozen,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,8,,Frozen,MUR,18,0.0,0.0,0.0,percent,estimable
+McGill,reference,boundary,8,,Frozen,malicious_updates,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,8,,Frozen,mean_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,8,,Frozen,sigma_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,8,,Frozen,threshold_delta,18,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,boundary,8,,Blind EMA,post_ASR,18,32.09227049177825,16.20141007296871,50.0134188341948,percent,estimable
+McGill,reference,boundary,8,,Blind EMA,post_FRR,18,60.75800224428064,42.362693323999956,78.51251337121869,percent,estimable
+McGill,reference,boundary,8,,Blind EMA,HTER,18,46.42513636802945,39.773539651077314,52.62241023154173,percent,estimable
+McGill,reference,boundary,8,,Blind EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,8,,Blind EMA,MUR,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,8,,Blind EMA,malicious_updates,18,8.0,8.0,8.0,score_or_count,estimable
+McGill,reference,boundary,8,,Blind EMA,mean_delta,18,-0.03001345518044725,-0.04506491416723921,-0.016796976119586558,score_or_count,estimable
+McGill,reference,boundary,8,,Blind EMA,sigma_delta,18,-0.001023987569604502,-0.009705082676673644,0.0077508379165839225,score_or_count,estimable
+McGill,reference,boundary,8,,Blind EMA,threshold_delta,18,-0.04167199847070019,-0.06968066936636033,-0.01790642223533468,score_or_count,estimable
+McGill,reference,boundary,8,,Guarded EMA,post_ASR,18,12.475813753256453,6.727279283303973,18.670088279337232,percent,estimable
+McGill,reference,boundary,8,,Guarded EMA,post_FRR,18,76.58356785186275,61.37284587931382,90.03029683626077,percent,estimable
+McGill,reference,boundary,8,,Guarded EMA,HTER,18,44.52969080255961,36.68581760696972,51.64883155168466,percent,estimable
+McGill,reference,boundary,8,,Guarded EMA,poison_accept_rate,18,100.0,100.0,100.0,percent,estimable
+McGill,reference,boundary,8,,Guarded EMA,MUR,18,32.22280223117851,15.527735346737709,50.950977252749155,percent,estimable
+McGill,reference,boundary,8,,Guarded EMA,malicious_updates,18,2.5778241784942812,1.2189553322457103,3.992890819089273,score_or_count,estimable
+McGill,reference,boundary,8,,Guarded EMA,mean_delta,18,-0.0022678213186993223,-0.004882203906761,-5.086695360809771e-05,score_or_count,estimable
+McGill,reference,boundary,8,,Guarded EMA,sigma_delta,18,-0.005483667206929355,-0.010442896339184916,-0.001610909638660343,score_or_count,estimable
+McGill,reference,boundary,8,,Guarded EMA,threshold_delta,18,0.0003230961518976879,-0.0018462199740381512,0.0028556094723796123,score_or_count,estimable
+McGill,reference,random,0,,Frozen,post_ASR,20,12.201234634634613,7.317035204727551,17.847859366693104,percent,estimable
+McGill,reference,random,0,,Frozen,post_FRR,20,78.80909250108355,64.05735954155315,91.23572305464455,percent,estimable
+McGill,reference,random,0,,Frozen,HTER,20,45.505163567859086,38.31532404810656,51.937613018322146,percent,estimable
+McGill,reference,random,0,,Frozen,poison_accept_rate,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,0,,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,0,,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Blind EMA,post_ASR,20,12.201234634634613,7.317390454304956,17.834599216042736,percent,estimable
+McGill,reference,random,0,,Blind EMA,post_FRR,20,78.80909250108355,64.19178358206547,91.2871262154069,percent,estimable
+McGill,reference,random,0,,Blind EMA,HTER,20,45.505163567859086,38.49345535038937,51.73840117760996,percent,estimable
+McGill,reference,random,0,,Blind EMA,poison_accept_rate,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,0,,Blind EMA,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,0,,Blind EMA,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Blind EMA,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Blind EMA,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Blind EMA,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Guarded EMA,post_ASR,20,12.201234634634613,7.35638708840583,17.652028746880237,percent,estimable
+McGill,reference,random,0,,Guarded EMA,post_FRR,20,78.80909250108355,64.10102883447007,91.17877876646064,percent,estimable
+McGill,reference,random,0,,Guarded EMA,HTER,20,45.505163567859086,38.41117516181811,51.862844622087565,percent,estimable
+McGill,reference,random,0,,Guarded EMA,poison_accept_rate,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,0,,Guarded EMA,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,0,,Guarded EMA,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Guarded EMA,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Guarded EMA,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,0,,Guarded EMA,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,1,,Frozen,post_ASR,20,12.201234634634613,7.382006946094005,17.80472659438636,percent,estimable
+McGill,reference,random,1,,Frozen,post_FRR,20,78.80909250108355,64.05318282718173,90.9667492291657,percent,estimable
+McGill,reference,random,1,,Frozen,HTER,20,45.505163567859086,38.44987059820134,51.81990318484539,percent,estimable
+McGill,reference,random,1,,Frozen,poison_accept_rate,20,12.8,8.0,18.0,percent,estimable
+McGill,reference,random,1,,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,1,,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,1,,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,1,,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,1,,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,1,,Blind EMA,post_ASR,20,12.494944968602244,7.602158479502926,18.04862123270004,percent,estimable
+McGill,reference,random,1,,Blind EMA,post_FRR,20,78.50809686635334,64.03710894483723,91.18001729051394,percent,estimable
+McGill,reference,random,1,,Blind EMA,HTER,20,45.50152091747779,38.46644373628146,51.90637445385515,percent,estimable
+McGill,reference,random,1,,Blind EMA,poison_accept_rate,20,12.8,8.0,18.149999999999995,percent,estimable
+McGill,reference,random,1,,Blind EMA,MUR,20,12.8,8.05,18.05,percent,estimable
+McGill,reference,random,1,,Blind EMA,malicious_updates,20,0.128,0.07999999999999999,0.1795,score_or_count,estimable
+McGill,reference,random,1,,Blind EMA,mean_delta,20,-2.0779303661936103e-05,-0.00017311793655046877,0.00012753547102054626,score_or_count,estimable
+McGill,reference,random,1,,Blind EMA,sigma_delta,20,-2.6735571642426578e-05,-0.00020634526276039778,0.00020924386612194976,score_or_count,estimable
+McGill,reference,random,1,,Blind EMA,threshold_delta,20,2.1290576475936873e-05,-0.0002116132265196719,0.00020756457963462354,score_or_count,estimable
+McGill,reference,random,1,,Guarded EMA,post_ASR,20,12.186729824733911,7.335427159296677,17.743373732321068,percent,estimable
+McGill,reference,random,1,,Guarded EMA,post_FRR,20,78.81403138503147,64.214103008987,91.48993493790498,percent,estimable
+McGill,reference,random,1,,Guarded EMA,HTER,20,45.50038060488269,38.335379371472925,51.84024754171638,percent,estimable
+McGill,reference,random,1,,Guarded EMA,poison_accept_rate,20,12.8,8.05,18.05,percent,estimable
+McGill,reference,random,1,,Guarded EMA,MUR,20,11.349999999999998,7.000000000000001,16.25,percent,estimable
+McGill,reference,random,1,,Guarded EMA,malicious_updates,20,0.11349999999999998,0.07,0.1625,score_or_count,estimable
+McGill,reference,random,1,,Guarded EMA,mean_delta,20,8.745555737236237e-05,-1.706316041844755e-06,0.0002004038731472557,score_or_count,estimable
+McGill,reference,random,1,,Guarded EMA,sigma_delta,20,-7.739612694070567e-05,-0.00025012298936313816,0.00016615718614107285,score_or_count,estimable
+McGill,reference,random,1,,Guarded EMA,threshold_delta,20,0.00024349442364656658,0.00011146333661676436,0.00038625699724055985,score_or_count,estimable
+McGill,reference,random,2,,Frozen,post_ASR,20,12.201234634634613,7.345168333536269,17.699052836146237,percent,estimable
+McGill,reference,random,2,,Frozen,post_FRR,20,78.80909250108355,64.35429728581032,91.26800564229134,percent,estimable
+McGill,reference,random,2,,Frozen,HTER,20,45.505163567859086,38.52863233592988,51.93411739912076,percent,estimable
+McGill,reference,random,2,,Frozen,poison_accept_rate,20,13.05,7.899999999999999,18.525,percent,estimable
+McGill,reference,random,2,,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,2,,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,2,,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,2,,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,2,,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,2,,Blind EMA,post_ASR,20,12.66475722354474,7.739499672584977,18.15519592350002,percent,estimable
+McGill,reference,random,2,,Blind EMA,post_FRR,20,78.35972628838472,64.11651820947372,90.65835727535955,percent,estimable
+McGill,reference,random,2,,Blind EMA,HTER,20,45.51224175596473,38.48353484087893,51.93116709123306,percent,estimable
+McGill,reference,random,2,,Blind EMA,poison_accept_rate,20,13.15,8.125,18.849999999999998,percent,estimable
+McGill,reference,random,2,,Blind EMA,MUR,20,13.15,8.1,18.824999999999996,percent,estimable
+McGill,reference,random,2,,Blind EMA,malicious_updates,20,0.263,0.1615,0.3785124999999998,score_or_count,estimable
+McGill,reference,random,2,,Blind EMA,mean_delta,20,-5.407103089857949e-05,-0.00039296705657946586,0.0002435453473945153,score_or_count,estimable
+McGill,reference,random,2,,Blind EMA,sigma_delta,20,-9.046492576256145e-05,-0.00046052483074052436,0.0003636861306258939,score_or_count,estimable
+McGill,reference,random,2,,Blind EMA,threshold_delta,20,6.305813597565862e-05,-0.0005048994388949916,0.0005317179758997193,score_or_count,estimable
+McGill,reference,random,2,,Guarded EMA,post_ASR,20,12.181289065188565,7.269680848879975,17.811732249029696,percent,estimable
+McGill,reference,random,2,,Guarded EMA,post_FRR,20,78.82053149595374,64.36977295347187,91.27396755986584,percent,estimable
+McGill,reference,random,2,,Guarded EMA,HTER,20,45.50091028057116,38.3537365993562,51.80893909120324,percent,estimable
+McGill,reference,random,2,,Guarded EMA,poison_accept_rate,20,13.049999999999997,7.999999999999999,18.624999999999996,percent,estimable
+McGill,reference,random,2,,Guarded EMA,MUR,20,11.524999999999999,6.925000000000001,16.775,percent,estimable
+McGill,reference,random,2,,Guarded EMA,malicious_updates,20,0.23049999999999998,0.1385,0.3355124999999998,score_or_count,estimable
+McGill,reference,random,2,,Guarded EMA,mean_delta,20,0.00017560399030415572,3.6917563712730396e-06,0.0003762532618076363,score_or_count,estimable
+McGill,reference,random,2,,Guarded EMA,sigma_delta,20,-0.00018914370301567908,-0.0005301792287131731,0.000256139210730618,score_or_count,estimable
+McGill,reference,random,2,,Guarded EMA,threshold_delta,20,0.000511652739624138,0.0002220532138100126,0.0008577974416733805,score_or_count,estimable
+McGill,reference,random,4,,Frozen,post_ASR,20,12.201234634634613,7.235011117887419,17.762760856541973,percent,estimable
+McGill,reference,random,4,,Frozen,post_FRR,20,78.80909250108355,64.4578161103389,91.14127934667614,percent,estimable
+McGill,reference,random,4,,Frozen,HTER,20,45.505163567859086,38.13027847274847,51.969960730573284,percent,estimable
+McGill,reference,random,4,,Frozen,poison_accept_rate,20,12.737499999999999,8.0375,17.75,percent,estimable
+McGill,reference,random,4,,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,4,,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,4,,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,4,,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,4,,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,4,,Blind EMA,post_ASR,20,12.979276985437222,7.81712282007997,18.77963004736653,percent,estimable
+McGill,reference,random,4,,Blind EMA,post_FRR,20,78.06110758541227,63.66677694359062,90.51522402205202,percent,estimable
+McGill,reference,random,4,,Blind EMA,HTER,20,45.52019228542474,38.345076594922304,51.91290183687356,percent,estimable
+McGill,reference,random,4,,Blind EMA,poison_accept_rate,20,13.0375,8.3871875,18.062499999999996,percent,estimable
+McGill,reference,random,4,,Blind EMA,MUR,20,13.0375,8.375,18.112500000000004,percent,estimable
+McGill,reference,random,4,,Blind EMA,malicious_updates,20,0.5215,0.3325,0.7280000000000001,score_or_count,estimable
+McGill,reference,random,4,,Blind EMA,mean_delta,20,-0.00013758481871234177,-0.0009655539931924158,0.0005542818619931105,score_or_count,estimable
+McGill,reference,random,4,,Blind EMA,sigma_delta,20,-3.9755568204918285e-05,-0.0007912421222545037,0.0009002001953956115,score_or_count,estimable
+McGill,reference,random,4,,Blind EMA,threshold_delta,20,-9.082128343089016e-05,-0.0014887652824093608,0.0008971912754815002,score_or_count,estimable
+McGill,reference,random,4,,Guarded EMA,post_ASR,20,12.169138449944613,7.363079315917418,17.847355465648,percent,estimable
+McGill,reference,random,4,,Guarded EMA,post_FRR,20,78.83317087750802,64.57607805547127,91.29246379632801,percent,estimable
+McGill,reference,random,4,,Guarded EMA,HTER,20,45.50115466372632,38.47480471295255,51.94971559438161,percent,estimable
+McGill,reference,random,4,,Guarded EMA,poison_accept_rate,20,12.737499999999999,8.2125,17.849999999999998,percent,estimable
+McGill,reference,random,4,,Guarded EMA,MUR,20,11.187500000000002,6.9625,15.812500000000002,percent,estimable
+McGill,reference,random,4,,Guarded EMA,malicious_updates,20,0.44750000000000006,0.27799999999999997,0.6370000000000001,score_or_count,estimable
+McGill,reference,random,4,,Guarded EMA,mean_delta,20,0.0004244101778256182,5.8391993683369506e-05,0.0008804090125476624,score_or_count,estimable
+McGill,reference,random,4,,Guarded EMA,sigma_delta,20,-0.00027343784414131747,-0.0009645609585961065,0.0006949728981317691,score_or_count,estimable
+McGill,reference,random,4,,Guarded EMA,threshold_delta,20,0.0009850237853283334,0.000429509276892966,0.0016386694578849998,score_or_count,estimable
+McGill,reference,random,8,,Frozen,post_ASR,20,12.201234634634613,7.392227017756123,17.746730376647317,percent,estimable
+McGill,reference,random,8,,Frozen,post_FRR,20,78.80909250108355,64.12716824503354,91.2163946087187,percent,estimable
+McGill,reference,random,8,,Frozen,HTER,20,45.505163567859086,38.379390808421164,51.90352247040039,percent,estimable
+McGill,reference,random,8,,Frozen,poison_accept_rate,20,13.01875,7.9,18.3690625,percent,estimable
+McGill,reference,random,8,,Frozen,MUR,20,0.0,0.0,0.0,percent,estimable
+McGill,reference,random,8,,Frozen,malicious_updates,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,8,,Frozen,mean_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,8,,Frozen,sigma_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,8,,Frozen,threshold_delta,20,0.0,0.0,0.0,score_or_count,estimable
+McGill,reference,random,8,,Blind EMA,post_ASR,20,13.711586049500667,8.32011741978682,19.680430596473755,percent,estimable
+McGill,reference,random,8,,Blind EMA,post_FRR,20,77.33718944688326,63.23042013394375,89.77869759388737,percent,estimable
+McGill,reference,random,8,,Blind EMA,HTER,20,45.52438774819197,38.36459958235299,51.90337999082265,percent,estimable
+McGill,reference,random,8,,Blind EMA,poison_accept_rate,20,13.668750000000001,8.64984375,19.049999999999997,percent,estimable
+McGill,reference,random,8,,Blind EMA,MUR,20,13.668750000000001,8.643749999999999,19.08796874999999,percent,estimable
+McGill,reference,random,8,,Blind EMA,malicious_updates,20,1.0935000000000001,0.6874874999999999,1.536,score_or_count,estimable
+McGill,reference,random,8,,Blind EMA,mean_delta,20,-0.0006402506882115039,-0.0032367377902346502,0.0012051668708422127,score_or_count,estimable
+McGill,reference,random,8,,Blind EMA,sigma_delta,20,0.00010740640789824031,-0.001494895317234987,0.002226433319190608,score_or_count,estimable
+McGill,reference,random,8,,Blind EMA,threshold_delta,20,-0.0008311884292954584,-0.004992287553471763,0.0017405117857709795,score_or_count,estimable
+McGill,reference,random,8,,Guarded EMA,post_ASR,20,12.107581273633938,7.236051049589458,17.68361169661495,percent,estimable
+McGill,reference,random,8,,Guarded EMA,post_FRR,20,78.87644288376376,64.47744816174911,91.36754172491027,percent,estimable
+McGill,reference,random,8,,Guarded EMA,HTER,20,45.492012078698856,38.36051572974733,51.90082081483228,percent,estimable
+McGill,reference,random,8,,Guarded EMA,poison_accept_rate,20,12.987500000000002,8.02484375,18.39390625,percent,estimable
+McGill,reference,random,8,,Guarded EMA,MUR,20,11.4375,6.943750000000001,16.443906249999998,percent,estimable
+McGill,reference,random,8,,Guarded EMA,malicious_updates,20,0.915,0.5565,1.3195000000000001,score_or_count,estimable
+McGill,reference,random,8,,Guarded EMA,mean_delta,20,0.0009129776640525144,0.0001409301879293677,0.0019034331042174144,score_or_count,estimable
+McGill,reference,random,8,,Guarded EMA,sigma_delta,20,-0.0004951224357509444,-0.0019030773001366204,0.0015050248708357748,score_or_count,estimable
+McGill,reference,random,8,,Guarded EMA,threshold_delta,20,0.001983176108199071,0.0009336924778999933,0.0032048335903247984,score_or_count,estimable

@@ -1,0 +1,167 @@
+{
+  "bootstrap_draws": 10000,
+  "cohort_definitions": {
+    "boundary_curves": "condition-specific common K8-feasible paths",
+    "hmog_reference": "legacy common boundary-K8-feasible cohort for both strategies",
+    "mcgill_reference": "all random paths and boundary-K8-feasible paths",
+    "random": "all structurally valid planned paths"
+  },
+  "command": "src/paper3_operating_point_sensitivity.py --project-dir /Users/madigali/Documents/PythoProjects/q1 --mode full --repeats 100 --bootstrap-draws 10000 --output-dir /Users/madigali/Documents/PythoProjects/q1/results/paper3_operating_point_sensitivity_20261004_v1",
+  "conditions_evaluated": [
+    "reference",
+    "far_5pct",
+    "far_1pct"
+  ],
+  "created_at": "2026-10-03T21:04:34.147167+00:00",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "platform": "macOS-14.3-arm64-arm-64bit-Mach-O",
+    "pyarrow": "21.0.0",
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]"
+  },
+  "error": null,
+  "figures": [
+    "figures/calibration_vs_heldout_far.png",
+    "figures/calibration_vs_heldout_far.pdf",
+    "figures/boundary_k8_effects.png",
+    "figures/boundary_k8_effects.pdf",
+    "figures/boundary_feasibility.png",
+    "figures/boundary_feasibility.pdf",
+    "figures/guarded_gate_diagnostics.png",
+    "figures/guarded_gate_diagnostics.pdf"
+  ],
+  "generated_files": {
+    "calibration_by_claimant.csv": {
+      "bytes": 375546,
+      "sha256": "6d7a538b7e32e9211249d61335f9c2d9eccd4a024c6f6977e504668dfdb2cf94"
+    },
+    "effects_by_subject.csv": {
+      "bytes": 8268116,
+      "sha256": "1c1090994c52d5ea47142f66b019082e2f2de03b91b91a5bb8ed68848cbb4276"
+    },
+    "eligibility_by_path.csv": {
+      "bytes": 31677972,
+      "sha256": "7c0383b293ed84c610e1c141b8ed06e2152700053137216b11b5b9f35de1a7fa"
+    },
+    "eligibility_summary.csv": {
+      "bytes": 2467,
+      "sha256": "113a12ba632d25c5711bb2ad6d148e17a532c809e0c754f5a04a47de02e17e43"
+    },
+    "figures/boundary_feasibility.pdf": {
+      "bytes": 19152,
+      "sha256": "c654f1832dd626e2efc9ae5836e7a9bc07a522793bd3489ca98ccf85bed688e9"
+    },
+    "figures/boundary_feasibility.png": {
+      "bytes": 121771,
+      "sha256": "f438f3416244c2d818b1ff9513f79a2c07d9c2e304fd4be093638f4b8fb203c3"
+    },
+    "figures/boundary_k8_effects.pdf": {
+      "bytes": 18069,
+      "sha256": "e7193bc47f9b5fa3d84d834f1d07a23aceeba657ca669770dcad3058b9a0dedd"
+    },
+    "figures/boundary_k8_effects.png": {
+      "bytes": 70158,
+      "sha256": "6518378e724cd93f0be7b09a99da57e7ade9bac7732967c2edbbccae50604c83"
+    },
+    "figures/calibration_vs_heldout_far.pdf": {
+      "bytes": 16021,
+      "sha256": "53f6d132b3cd023d38b277e9bf2e0e5862af467753b61ff3fb40466626506854"
+    },
+    "figures/calibration_vs_heldout_far.png": {
+      "bytes": 129100,
+      "sha256": "4e575d2180989d38f03e20d55bd79d2f411e5927e7f6f97aa11e8eba6b52c704"
+    },
+    "figures/guarded_gate_diagnostics.pdf": {
+      "bytes": 23272,
+      "sha256": "4400da4ba4b1f94473cc5ef61f61c2b65d19524881b70a8941c73fd2c64e3eb5"
+    },
+    "figures/guarded_gate_diagnostics.png": {
+      "bytes": 146074,
+      "sha256": "76b78c8ccfcda355dfb62e68d8a3814f777c4ba470a3faef738460486dff098c"
+    },
+    "gate_diagnostics.csv": {
+      "bytes": 9193,
+      "sha256": "d88ffbcd5416f704d36b4e1a1d8c422cdda37407c1f67cf3cbfa5f0c72006954"
+    },
+    "operating_point_summary.csv": {
+      "bytes": 187591,
+      "sha256": "b6696c5280b6c909330588eb6f112834fc776b8d9bc934392cbbec0b89e5db6d"
+    },
+    "outcomes_by_path.parquet": {
+      "bytes": 38753603,
+      "sha256": "3215ac3918fd7c42fb59b2b74e51649f5790cc09fa6107590ee428812b105549"
+    },
+    "paired_effects_bootstrap.csv": {
+      "bytes": 269522,
+      "sha256": "3b6e8c4b293a600fe9eba697a78b129d84457e7ff7a7494625a9924f052edc5d"
+    },
+    "probe_outcomes_by_source.parquet": {
+      "bytes": 1421413,
+      "sha256": "b8ce7fc83d27eb851725bce8af0024aff07fb39c7db762ad9166f371c86501db"
+    },
+    "reference_reproduction.csv": {
+      "bytes": 2381,
+      "sha256": "033edc64e58feccf78f62530804b4f849422e1b87628403feaa93244b914b3d1"
+    },
+    "report.md": {
+      "bytes": 2615,
+      "sha256": "6a100dabe3acf522d2ec99b8d73047575cdff08578fa4475122128b523ef082b"
+    },
+    "two_way_sensitivity.csv": {
+      "bytes": 686,
+      "sha256": "562538f29cdfd0e79a6a4edd27b65462030abec9b6aebcef9bf17f8d359873cd"
+    }
+  },
+  "git_revision": "517746fbe6e89268a603fceebefe558409eabb33",
+  "input_cache_sha256": {
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold1_D0.0.npz": "969cbad2e13dc656ddf69c1ea9e5584e58a532a8744a16adaefc25e99ce172d4",
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold1_base.npz": "90c426e7151d863acea5f18c431afd0d075a0e604df06116b4f8729737b1a3f9",
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold2_D0.0.npz": "32a3df6253465601eb01de6ad6a0f48556662c991a97a813a638a25d2b314152",
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold2_base.npz": "81d001122bdd34126e1280f697f80dca9ca2b6014955fdeaa5a87542fdb6fb8a",
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold3_D0.0.npz": "cbb47f41feb0cb79495184cd0e9b279c9b69de0a182242701f78cc8badafb23b",
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold3_base.npz": "ffbc06e89c4b456e74dd1bdc9fc7088d781f26156e8edf19c62545dc5942ff1d",
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold4_D0.0.npz": "1f3c7f3fd8e623223d0a7d26ea8cab334ba1a568af7ca336233b80eb7d51facf",
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold4_base.npz": "ca09afa025d49da943cff0d3d528a20ae253f67912d12eea723a281c92297db0",
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold5_D0.0.npz": "601c0486b77b23d3b896e4abdea12a96004ee303d8af5c80975f35c9d9ff2dc4",
+    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold5_base.npz": "89fe8aeff078a4eb30196618121870ae8376a223e81aa17e24e29810cbda1b3d",
+    "/Users/madigali/Downloads/McGillGait/paper3_external_cache_v1/scores_mcgill_day2.npz": "3f390ab19fbea15582fbb5a646cf7e631b77b744ab101e97d83edb533717a79b"
+  },
+  "mode": "full",
+  "output_schemas": {
+    "eligibility_by_path.csv": "one row per dataset/condition/planned path",
+    "outcomes_by_path.parquet": "one method outcome per dataset/condition/path/strategy/K",
+    "probe_outcomes_by_source.parquet": "primary HMOG far_1pct boundary K8 source counts"
+  },
+  "output_units": {
+    "granular_rates": "fractions",
+    "summary_rates": "percent_or_percentage_points"
+  },
+  "post_run_actions": [
+    {
+      "action": "figures regenerated from frozen CSV tables only; no outcomes or statistics recomputed",
+      "git_revision": "6a04f24d4c68d8d48edec75289987d54c59f48af",
+      "reason": "removed lines connecting different operating-point-specific eligible cohorts and shortened a clipped title",
+      "source_sha256": "ad60757e59a402b6c574af042bcc40aaf15ecd6c0e1d42c70db9ea734ede9002",
+      "timestamp": "2026-10-03T21:09:49.949061+00:00"
+    }
+  ],
+  "protocol_id": "paper3-operating-point-sensitivity-v1",
+  "protocol_path": "experiments/paper3_operating_point_sensitivity.json",
+  "protocol_sha256": "5a849bb5ef756e829a45c15b3332f07513a442ad6be2550c24f7e7c417126ff2",
+  "reference_reproduction_status": "pass",
+  "repeats": 100,
+  "row_counts": {
+    "calibration": 1560,
+    "eligibility": 156000,
+    "outcomes_by_path": 4028340,
+    "probe_outcomes_by_source": 2605332
+  },
+  "seeds": {
+    "attack": 4242,
+    "bootstrap": 20261004
+  },
+  "source_path": "src/paper3_operating_point_sensitivity.py",
+  "source_sha256": "fbcb564380b0728317fac66fbca7c7070653c09f80e2afdfc577b54b7977d859",
+  "status": "complete"
+}
