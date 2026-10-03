@@ -532,7 +532,10 @@ def load_trained_model(cache_dir: Path, protocol_path: Path) -> tuple[McGillLSTM
     expected_hash = sha256_file(protocol_path)
     if manifest.get("protocol_sha256") != expected_hash:
         raise ProtocolError("Protocol changed after Day-1 training")
-    payload = torch.load(cache_dir / "model_day1.pt", map_location="cpu", weights_only=True)
+    # This checkpoint is created locally by ``run_training`` after the locked
+    # Day-1 validation gate. It also contains NumPy normalization arrays, which
+    # PyTorch's restricted weights-only loader intentionally rejects.
+    payload = torch.load(cache_dir / "model_day1.pt", map_location="cpu", weights_only=False)
     if payload.get("protocol_sha256") != expected_hash:
         raise ProtocolError("Checkpoint protocol hash mismatch")
     cfg = payload["model_config"]
