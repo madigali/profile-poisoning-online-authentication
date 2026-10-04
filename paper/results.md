@@ -64,7 +64,7 @@ Oracle-all HTER gains relative to Frozen were -0.39, -0.28, and +0.26 points at 
 
 [INSERT FIGURE 3 HERE]
 
-**Figure 3.** HMOG late FAR-FRR operating points under claimant-only synthetic shift \(D=2\). Points are subject-macro estimates for Frozen, Blind EMA, Guarded EMA (\(\lambda=0.25\)), Oracle-all, and TQ-EMA v1; bars are paired subject-bootstrap 95% intervals after subject-level aggregation. Lower values on both axes are preferable.
+**Figure 3.** HMOG late FAR-FRR operating points under claimant-only synthetic shift \(D=2\). Points are subject-macro estimates for Frozen, Blind EMA, Guarded EMA (\(\lambda=0.25\)), Oracle-all, and TQ-EMA v1. Bars are 95% subject-bootstrap percentile intervals for each method's absolute late FAR (horizontal) and late FRR (vertical), after subject-level fold aggregation; paired intervals for between-method differences are reported in the text. Lower values on both axes are preferable.
 
 [INSERT FIGURE 4 HERE]
 
