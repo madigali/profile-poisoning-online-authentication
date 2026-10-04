@@ -1,0 +1,292 @@
+\begin{thebibliography}{999}
+
+\bibitem[Mahfouz et~al.(2017)Mahfouz, Mahmoud, and
+  Eldin]{Mahfouz2017SmartphoneSurvey}
+Mahfouz, A.; Mahmoud, T.M.; Eldin, A.S.
+\newblock A Survey on Behavioral Biometric Authentication on Smartphones.
+\newblock {\em Journal of Information Security and Applications} {\bf 2017},
+  {\em 37},~28--37.
+\newblock {\url{https://doi.org/10.1016/j.jisa.2017.10.002}}.
+
+\bibitem[Abuhamad et~al.(2021)Abuhamad, Abusnaina, Nyang, and
+  Mohaisen]{Abuhamad2021SensorSurvey}
+Abuhamad, M.; Abusnaina, A.; Nyang, D.; Mohaisen, D.
+\newblock Sensor-Based Continuous Authentication of Smartphones' Users Using
+  Behavioral Biometrics: A Contemporary Survey.
+\newblock {\em IEEE Internet of Things Journal} {\bf 2021}, {\em 8},~65--84.
+\newblock {\url{https://doi.org/10.1109/JIOT.2020.3020076}}.
+
+\bibitem[Stylios et~al.(2021)Stylios, Kokolakis, Thanou, and
+  Chatzis]{Stylios2021MobileSurvey}
+Stylios, I.; Kokolakis, S.; Thanou, O.; Chatzis, S.
+\newblock Behavioral Biometrics and Continuous User Authentication on Mobile
+  Devices: A Survey.
+\newblock {\em Information Fusion} {\bf 2021}, {\em 66},~76--99.
+\newblock {\url{https://doi.org/10.1016/j.inffus.2020.08.021}}.
+
+\bibitem[Frank et~al.(2013)Frank, Biedert, Ma, Martinovic, and
+  Song]{Frank2013Touchalytics}
+Frank, M.; Biedert, R.; Ma, E.; Martinovic, I.; Song, D.
+\newblock Touchalytics: On the Applicability of Touchscreen Input as a
+  Behavioral Biometric for Continuous Authentication.
+\newblock {\em IEEE Transactions on Information Forensics and Security} {\bf
+  2013}, {\em 8},~136--148.
+\newblock {\url{https://doi.org/10.1109/TIFS.2012.2225048}}.
+
+\bibitem[Sitova et~al.(2016)Sitova, Sedenka, Yang, Peng, Zhou, Gasti, and
+  Balagani]{Sitova2016HMOG}
+Sitova, Z.; Sedenka, J.; Yang, Q.; Peng, G.; Zhou, G.; Gasti, P.; Balagani,
+  K.S.
+\newblock {HMOG}: New Behavioral Biometric Features for Continuous
+  Authentication of Smartphone Users.
+\newblock {\em IEEE Transactions on Information Forensics and Security} {\bf
+  2016}, {\em 11},~877--892.
+\newblock {\url{https://doi.org/10.1109/TIFS.2015.2506542}}.
+
+\bibitem[Fereidooni et~al.(2023)Fereidooni, Koenig, Rieger, Chilese, Goekbakan,
+  Finke, Dmitrienko, and Sadeghi]{Fereidooni2023AuthentiSense}
+Fereidooni, H.; Koenig, J.; Rieger, P.; Chilese, M.; Goekbakan, B.; Finke, M.;
+  Dmitrienko, A.; Sadeghi, A.R.
+\newblock {AuthentiSense}: A Scalable Behavioral Biometrics Authentication
+  Scheme Using Few-Shot Learning for Mobile Platforms.
+\newblock In Proceedings of the Network and Distributed System Security
+  Symposium. Internet Society,  2023.
+\newblock {\url{https://doi.org/10.14722/ndss.2023.23194}}.
+
+\bibitem[Rattani et~al.(2009)Rattani, Freni, Marcialis, and
+  Roli]{Rattani2009TemplateUpdate}
+Rattani, A.; Freni, B.; Marcialis, G.L.; Roli, F.
+\newblock Template Update Methods in Adaptive Biometric Systems: A Critical
+  Review.
+\newblock In Proceedings of the Advances in Biometrics. Springer,  2009, pp.
+  847--856.
+\newblock {\url{https://doi.org/10.1007/978-3-642-01793-3_86}}.
+
+\bibitem[Didaci et~al.(2014)Didaci, Marcialis, and
+  Roli]{Didaci2014UnsupervisedUpdate}
+Didaci, L.; Marcialis, G.L.; Roli, F.
+\newblock Analysis of Unsupervised Template Update in Biometric Recognition
+  Systems.
+\newblock {\em Pattern Recognition Letters} {\bf 2014}, {\em 37},~151--160.
+\newblock {\url{https://doi.org/10.1016/j.patrec.2013.05.021}}.
+
+\bibitem[Biggio et~al.(2012)Biggio, Fumera, Roli, and
+  Didaci]{Biggio2012PoisoningAdaptive}
+Biggio, B.; Fumera, G.; Roli, F.; Didaci, L.
+\newblock Poisoning Adaptive Biometric Systems.
+\newblock In Proceedings of the Structural, Syntactic, and Statistical Pattern
+  Recognition. Springer,  2012, pp. 417--425.
+\newblock {\url{https://doi.org/10.1007/978-3-642-34166-3_46}}.
+
+\bibitem[Biggio et~al.(2013)Biggio, Didaci, Fumera, and
+  Roli]{Biggio2013FacePoisoning}
+Biggio, B.; Didaci, L.; Fumera, G.; Roli, F.
+\newblock Poisoning Attacks to Compromise Face Templates.
+\newblock In Proceedings of the 2013 International Conference on Biometrics.
+  IEEE,  2013, pp. 1--7.
+\newblock {\url{https://doi.org/10.1109/ICB.2013.6613006}}.
+
+\bibitem[Lovisotto et~al.(2020)Lovisotto, Eberz, and
+  Martinovic]{Lovisotto2020BiometricBackdoors}
+Lovisotto, G.; Eberz, S.; Martinovic, I.
+\newblock Biometric Backdoors: A Poisoning Attack Against Unsupervised Template
+  Updating.
+\newblock In Proceedings of the 2020 IEEE European Symposium on Security and
+  Privacy. IEEE,  2020, pp. 184--197.
+\newblock {\url{https://doi.org/10.1109/EuroSP48549.2020.00020}}.
+
+\bibitem[Xue et~al.(2020)Xue, He, Wang, and Liu]{Xue2020LOPA}
+Xue, M.; He, C.; Wang, J.; Liu, W.
+\newblock {LOPA}: A Linear Offset Based Poisoning Attack Method Against
+  Adaptive Fingerprint Authentication System.
+\newblock {\em Computers \& Security} {\bf 2020}, {\em 99},~102046.
+\newblock {\url{https://doi.org/10.1016/j.cose.2020.102046}}.
+
+\bibitem[Lakkaraju et~al.(2017)Lakkaraju, Kleinberg, Leskovec, Ludwig, and
+  Mullainathan]{Lakkaraju2017SelectiveLabels}
+Lakkaraju, H.; Kleinberg, J.; Leskovec, J.; Ludwig, J.; Mullainathan, S.
+\newblock The Selective Labels Problem: Evaluating Algorithmic Predictions in
+  the Presence of Unobservables.
+\newblock In Proceedings of the 23rd ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining. ACM,  2017, pp. 275--284.
+\newblock {\url{https://doi.org/10.1145/3097983.3098066}}.
+
+\bibitem[Arazo et~al.(2020)Arazo, Ortego, Albert, O'Connor, and
+  McGuinness]{Arazo2020ConfirmationBias}
+Arazo, E.; Ortego, D.; Albert, P.; O'Connor, N.E.; McGuinness, K.
+\newblock Pseudo-Labeling and Confirmation Bias in Deep Semi-Supervised
+  Learning.
+\newblock In Proceedings of the 2020 International Joint Conference on Neural
+  Networks. IEEE,  2020, pp. 1--8.
+\newblock {\url{https://doi.org/10.1109/IJCNN48605.2020.9207304}}.
+
+\bibitem[Perdomo et~al.(2020)Perdomo, Zrnic, Mendler-Duenner, and
+  Hardt]{Perdomo2020PerformativePrediction}
+Perdomo, J.C.; Zrnic, T.; Mendler-Duenner, C.; Hardt, M.
+\newblock Performative Prediction.
+\newblock In Proceedings of the 37th International Conference on Machine
+  Learning. PMLR,  2020, Vol. 119, {\em Proceedings of Machine Learning
+  Research}, pp. 7599--7609.
+
+\bibitem[Giot et~al.(2011)Giot, Dorizzi, and
+  Rosenberger]{Giot2011KeystrokeUpdate}
+Giot, R.; Dorizzi, B.; Rosenberger, C.
+\newblock Analysis of Template Update Strategies for Keystroke Dynamics.
+\newblock In Proceedings of the 2011 IEEE Workshop on Computational
+  Intelligence in Biometrics and Identity Management. IEEE,  2011, pp. 21--28.
+\newblock {\url{https://doi.org/10.1109/CIBIM.2011.5949216}}.
+
+\bibitem[Ryu et~al.(2023)Ryu, Yeom, Herbert, and
+  Dermoudy]{Ryu2023AdaptiveBiometrics}
+Ryu, R.; Yeom, S.; Herbert, D.; Dermoudy, J.
+\newblock The Design and Evaluation of Adaptive Biometric Authentication
+  Systems: Current Status, Challenges and Future Direction.
+\newblock {\em ICT Express} {\bf 2023}, {\em 9},~1183--1197.
+\newblock {\url{https://doi.org/10.1016/j.icte.2023.04.003}}.
+
+\bibitem[Gali et~al.(2026)Gali, Kassenkhan, Chinibayev, Abshukirova, and
+  Serbin]{Gali2026SystematicReview}
+Gali, M.; Kassenkhan, A.; Chinibayev, Y.; Abshukirova, A.; Serbin, V.
+\newblock Behavioral Biometric Continuous Authentication for Mobile Devices
+  with an Intelligent Personal Agent: A Systematic Review.
+\newblock {\em Technologies} {\bf 2026}, {\em 14},~451.
+\newblock {\url{https://doi.org/10.3390/technologies14070451}}.
+
+\bibitem[Serbin et~al.(2026)Serbin, Gali, and Iavich]{Serbin2026AdaptiveLSTM}
+Serbin, V.; Gali, M.; Iavich, M.
+\newblock Continuous Behavioral Authentication for Mobile Devices Using an
+  Adaptive {LSTM}-Based Intelligent Agent.
+\newblock In Proceedings of the 17th International Conference on Emerging
+  Ubiquitous Systems and Pervasive Networks (EUSPN 2026),  2026.
+\newblock Conference manuscript/proof in Procedia Computer Science format;
+  final volume, pages, and DOI not yet verified.
+
+\bibitem[Frank et~al.()Frank, Mannor, and Precup]{Frank2010McGillGaitDataset}
+Frank, J.; Mannor, S.; Precup, D.
+\newblock Data Sets: Mobile Phone Gait Recognition Data.
+\newblock Available online:
+  \url{https://www.cs.mcgill.ca/~jfrank8/data/gait-dataset.html} (accessed on
+  2026-10-03).
+\newblock McGill University School of Computer Science, 2010. Official dataset
+  page.
+
+\bibitem[Bo et~al.(2013)Bo, Zhang, Li, Huang, and Wang]{Bo2013SilentSense}
+Bo, C.; Zhang, L.; Li, X.Y.; Huang, Q.; Wang, Y.
+\newblock {SilentSense}: Silent User Identification via Touch and Movement
+  Behavioral Biometrics.
+\newblock In Proceedings of the 19th Annual International Conference on Mobile
+  Computing \& Networking. ACM,  2013, pp. 187--190.
+\newblock {\url{https://doi.org/10.1145/2500423.2504572}}.
+
+\bibitem[Shen et~al.(2022)Shen, Li, Zhao, and Zou]{Shen2022MMAuth}
+Shen, Z.; Li, S.; Zhao, X.; Zou, J.
+\newblock {MMAuth}: A Continuous Authentication Framework on Smartphones Using
+  Multiple Modalities.
+\newblock {\em IEEE Transactions on Information Forensics and Security} {\bf
+  2022}, {\em 17},~1450--1465.
+\newblock {\url{https://doi.org/10.1109/TIFS.2022.3160361}}.
+
+\bibitem[Jiang et~al.(2024)Jiang, Zhu, Chang, and Li]{Jiang2024MAUTH}
+Jiang, Y.; Zhu, H.; Chang, S.; Li, B.
+\newblock {MAUTH}: Continuous User Authentication Based on Subtle Intrinsic
+  Muscular Tremors.
+\newblock {\em IEEE Transactions on Mobile Computing} {\bf 2024}, {\em
+  23},~1930--1941.
+\newblock {\url{https://doi.org/10.1109/TMC.2023.3243687}}.
+
+\bibitem[Ross and Jain(2003)]{Ross2003InformationFusion}
+Ross, A.; Jain, A.K.
+\newblock Information Fusion in Biometrics.
+\newblock {\em Pattern Recognition Letters} {\bf 2003}, {\em 24},~2115--2125.
+\newblock {\url{https://doi.org/10.1016/S0167-8655(03)00079-5}}.
+
+\bibitem[Frank et~al.(2010)Frank, Mannor, and Precup]{Frank2010ActivityGait}
+Frank, J.; Mannor, S.; Precup, D.
+\newblock Activity and Gait Recognition with Time-Delay Embeddings.
+\newblock {\em Proceedings of the AAAI Conference on Artificial Intelligence}
+  {\bf 2010}, {\em 24},~1581--1586.
+\newblock {\url{https://doi.org/10.1609/AAAI.V24I1.7724}}.
+
+\bibitem[Muaaz and Mayrhofer(2017)]{Muaaz2017GaitImitation}
+Muaaz, M.; Mayrhofer, R.
+\newblock Smartphone-Based Gait Recognition: From Authentication to Imitation.
+\newblock {\em IEEE Transactions on Mobile Computing} {\bf 2017}, {\em
+  16},~3209--3221.
+\newblock {\url{https://doi.org/10.1109/TMC.2017.2686855}}.
+
+\bibitem[Zou et~al.(2020)Zou, Wang, Wang, Zhao, and Li]{Zou2020WhuGait}
+Zou, Q.; Wang, Y.; Wang, Q.; Zhao, Y.; Li, Q.
+\newblock Deep Learning-Based Gait Recognition Using Smartphones in the Wild.
+\newblock {\em IEEE Transactions on Information Forensics and Security} {\bf
+  2020}, {\em 15},~3197--3212.
+\newblock {\url{https://doi.org/10.1109/TIFS.2020.2985628}}.
+
+\bibitem[Pisani et~al.(2017)Pisani, Lorena, and
+  de~Carvalho]{Pisani2017AccelerometerAdaptation}
+Pisani, P.H.; Lorena, A.C.; de~Carvalho, A.C.P.L.F.
+\newblock Adaptive Algorithms Applied to Accelerometer Biometrics in a Data
+  Stream Context.
+\newblock {\em Intelligent Data Analysis} {\bf 2017}, {\em 21},~353--370.
+\newblock {\url{https://doi.org/10.3233/IDA-150403}}.
+
+\bibitem[Baaqeel and Olatunji(2022)]{Baaqeel2022AdaptiveSpoofingSurvey}
+Baaqeel, H.; Olatunji, S.O.
+\newblock Spoofing Detection on Adaptive Authentication System---A Survey.
+\newblock {\em IET Biometrics} {\bf 2022}, {\em 11},~87--96.
+\newblock First published online in 2021,
+  {\url{https://doi.org/10.1049/bme2.12060}}.
+
+\bibitem[Abdullahi et~al.(2024)Abdullahi, Sun, Wang, Wei, and
+  Wang]{Abdullahi2024TemplateAttacks}
+Abdullahi, S.M.; Sun, S.; Wang, B.; Wei, N.; Wang, H.
+\newblock Biometric Template Attacks and Recent Protection Mechanisms: A
+  Survey.
+\newblock {\em Information Fusion} {\bf 2024}, {\em 103},~102144.
+\newblock {\url{https://doi.org/10.1016/j.inffus.2023.102144}}.
+
+\bibitem[Zhang et~al.(2020)Zhang, Zhu, and Lessard]{Zhang2020OnlinePoisoning}
+Zhang, X.; Zhu, X.; Lessard, L.
+\newblock Online Data Poisoning Attacks.
+\newblock In Proceedings of the 2nd Conference on Learning for Dynamics and
+  Control. PMLR,  2020, Vol. 120, {\em Proceedings of Machine Learning
+  Research}, pp. 201--210.
+
+\bibitem[Riva et~al.(2012)Riva, Qin, Strauss, and
+  Lymberopoulos]{Riva2012ProgressiveAuthentication}
+Riva, O.; Qin, C.; Strauss, K.; Lymberopoulos, D.
+\newblock Progressive Authentication: Deciding When to Authenticate on Mobile
+  Phones.
+\newblock In Proceedings of the 21st USENIX Security Symposium. USENIX
+  Association,  2012, pp. 301--316.
+
+\bibitem[Hayashi et~al.(2013)Hayashi, Das, Amini, Hong, and
+  Oakley]{Hayashi2013CASA}
+Hayashi, E.; Das, S.; Amini, S.; Hong, J.; Oakley, I.
+\newblock {CASA}: Context-Aware Scalable Authentication.
+\newblock In Proceedings of the Ninth Symposium on Usable Privacy and Security.
+  ACM,  2013, pp. 1--10.
+\newblock {\url{https://doi.org/10.1145/2501604.2501607}}.
+
+\bibitem[Crawford et~al.(2013)Crawford, Renaud, and
+  Storer]{Crawford2013ContinuousFramework}
+Crawford, H.; Renaud, K.; Storer, T.
+\newblock A Framework for Continuous, Transparent Mobile Device Authentication.
+\newblock {\em Computers \& Security} {\bf 2013}, {\em 39},~127--136.
+\newblock Part B, {\url{https://doi.org/10.1016/j.cose.2013.05.005}}.
+
+\bibitem[Jain et~al.(2004)Jain, Ross, and
+  Prabhakar]{Jain2004BiometricRecognition}
+Jain, A.K.; Ross, A.; Prabhakar, S.
+\newblock An Introduction to Biometric Recognition.
+\newblock {\em IEEE Transactions on Circuits and Systems for Video Technology}
+  {\bf 2004}, {\em 14},~4--20.
+\newblock {\url{https://doi.org/10.1109/TCSVT.2003.818349}}.
+
+\bibitem[Joshi and Raval(2020)]{Joshi2020AdaptiveThreshold}
+Joshi, V.B.; Raval, M.S.
+\newblock Adaptive Threshold for Fingerprint Recognition System Based on Threat
+  Level and System Load.
+\newblock {\em Procedia Computer Science} {\bf 2020}, {\em 171},~498--507.
+\newblock {\url{https://doi.org/10.1016/j.procs.2020.04.053}}.
+
+\end{thebibliography}
