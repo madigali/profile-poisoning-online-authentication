@@ -76,6 +76,8 @@ The frozen Day-1 McGill classifier attained 58.12% validation top-1 accuracy and
 
 In the Day-2 temporal stream, Guarded late FRR was 81.00% versus 78.00% for Frozen, while Oracle-all FRR was 12.75%. Oracle-all FAR reached 75.05%, compared with 11.46% for Frozen and 10.29% for Guarded. The results reproduce the reference-point directions under a difficult cross-day setting but do not establish comparable absolute performance or isolate behavioral drift. Frozen McGill figures are retained in Supplementary Results S6.
 
+The McGill implementation used the actual unclipped decision threshold \(\mu-k\sigma\). The subject-macro Oracle-all threshold in Figure S6 became negative because individual Oracle-all profiles were permitted to move below zero under that executed rule. The plotted line averages saved individual thresholds after each adaptation step; it is not reconstructed from aggregated moments. No clipped counterfactual was run, and the McGill results are interpreted under this documented dataset-specific policy.
+
 Guarded-minus-Frozen late FRR was +3.00 points (95% CI [0.00, +7.00]). Oracle-all-minus-Frozen FRR was -65.25 points (95% CI [-83.75, -45.50]), while Oracle-all-minus-Guarded FAR was +64.76 points (95% CI [+48.93, +79.24]). These large opposing changes explain why the three late HTER values were much closer than their separate FAR and FRR components.
 
 | McGill analysis | Cohort | Frozen | Blind EMA | Guarded EMA | Oracle-all | Paired effect [95% CI], pp |

@@ -22,7 +22,7 @@ Five outer folds assigned sessions by \(g(r)=(r-1)\bmod5\). One group was test, 
 
 The model was trained with cross-entropy and Adam, with early stopping on the validation partition. Neither the LSTM nor the fitting-only scaler was updated during poisoning or temporal adaptation. All adaptive methods operated on the same cached scalar claimant probabilities within a fold.
 
-McGill contained raw smartphone recordings from 20 participants on two collection days. The replication used accelerometer \(x,y,z\) and gravity-adjusted magnitude in non-overlapping 128-sample windows, approximately 5.12 s at the recorded median interval. Day 1 supplied model fitting, early-stopping validation, enrollment, normalization, and threshold calibration; Day 2 remained held out for poisoning and temporal evaluation. Within each identity, Day-1 windows were divided chronologically into 60% fitting, 20% validation, and 20% enrollment/calibration. A fitting-only per-channel normalization and one-layer 64-unit LSTM produced 20-class claimant probabilities. McGill used accelerometer-derived inputs only, whereas HMOG used accelerometer and gyroscope. Supplementary Methods S5 provides optimizer, viability-gate, and preprocessing details.
+McGill contained raw smartphone recordings from 20 participants on two collection days. The replication used the archive-supplied accelerometer \(x,y,z\) fields and gravity-adjusted magnitude field in non-overlapping 128-sample windows, approximately 5.12 s at the recorded median interval. The executed pipeline did not recompute magnitude. Day 1 supplied model fitting, early-stopping validation, enrollment, normalization, and threshold calibration; Day 2 remained held out for poisoning and temporal evaluation. Within each identity, Day-1 windows were divided chronologically into 60% fitting, 20% validation, and 20% enrollment/calibration. A fitting-only per-channel normalization and one-layer 64-unit LSTM produced 20-class claimant probabilities. McGill used accelerometer-derived inputs only, whereas HMOG used accelerometer and gyroscope. Supplementary Methods S5 provides field definitions, recorded counts, optimizer, viability-gate, and preprocessing details.
 
 The McGill run had to pass a prespecified viability gate before Day-2 scores were loaded: finite training, at least 16 validation classes, validation top-1 accuracy of at least 20%, and successful protocol checks. This gate assessed whether the frozen classifier was usable for the planned mechanism study; it was not a performance-selection search on Day 2.
 
@@ -42,7 +42,13 @@ with \(\epsilon=10^{-4}\). The claimant-specific initial threshold \(\tau_{u,0}\
 k_u=\frac{\mu_{u,0}-\tau_{u,0}}{\sigma_{u,0}}
 \]
 
-made the derived threshold equal to that calibration. McGill used minimum HTER on Day-1 enrollment scores and then computed \(k_u\) from the same identity. Each method applied the common authentication rule form \(a_t=\mathbb{1}[s_t\geq\tau_{u,t}]\) to its own current state and threshold. Different update histories could therefore produce different later thresholds and decisions.
+made the derived threshold equal to that calibration. McGill used minimum HTER on Day-1 enrollment scores and then computed \(k_u\) from the same identity, but its executed decision threshold was the *unclipped* expression
+
+\[
+\tau^{\mathrm{McGill}}_{u,t}=\mu_{u,t}-k_u\sigma_{u,t}.
+\]
+
+Thus the two datasets shared the moment state, sigma floor, claimant-specific \(k_u\), and comparator, but not the HMOG zero lower clamp. This implementation difference was not presented as a planned intervention. Each method applied the rule \(a_t=\mathbb{1}[s_t\geq\tau_{u,t}]\) to its own current state and dataset-specific threshold. Different update histories could therefore produce different later thresholds and decisions.
 
 The reference thresholds served as mechanistic operating points rather than deployment targets. In particular, HMOG's validation-calibrated approximate-EER rule admitted a substantial fraction of held-out impostor observations. Frozen comparisons measure changes attributable to online state updating within that operating point and feasible cohort; they do not certify the underlying classifier or threshold for deployment.
 
@@ -81,7 +87,21 @@ and, for the evaluated \(\lambda\geq0\), the additional margin was
 \lambda\max(\mu_{u,0}-\tau^{\mathrm{auth}}_{u,t},0).
 \]
 
-The gate added no restriction beyond authentication when \(\tau^{\mathrm{auth}}_{u,t}\geq\mu_{u,0}\). This equation describes the executed rule; no margin floor or clipping was added.
+The gate added no restriction beyond authentication when \(\tau^{\mathrm{auth}}_{u,t}\geq\mu_{u,0}\). This equation describes the executed update gate: no separate margin floor or clipping was added. Authentication-threshold clipping remained dataset specific as stated above.
+
+For one permitted canonical EMA update, direct substitution gives
+
+\[
+\sigma_{t+1}^2=(1-\alpha)\left[\sigma_t^2+\alpha(s_t-\mu_t)^2\right].
+\]
+
+If \(s_t\) lies exactly on the current *raw* boundary \(\mu_t-k\sigma_t\), \(k\) is fixed, and neither sigma flooring nor threshold clipping is active before or after the transition, then
+
+\[
+\Delta\tau=k\sigma_t\!\left[(1-\alpha)-\sqrt{(1-\alpha)(1+\alpha k^2)}\right].
+\]
+
+For \(0<\alpha<1\) and \(\sigma_t>0\), this local change is negative for \(k>0\), positive for \(k<0\), and zero for \(k=0\). This conditional identity does not predict an arbitrary accepted update or an eight-step ASR effect: attack candidates were ranked around the initial, not the evolving, boundary; margins were nonzero; Guarded could reject updates; and operating-point cohorts differed. Supplementary Methods S3 gives the derivation and assumptions.
 
 Guarded was evaluated at \(\lambda\in\{0,0.25,0.50,0.75,1.00\}\) in an exploratory HMOG sweep. The main comparison carried \(\lambda=0.25\) forward to clean HMOG and McGill protocols. The \(\lambda=0\) implementation was checked against Blind at granular output level. This consistency check applies to that parameter condition and does not make Guarded and Blind equivalent at other \(\lambda\) values.
 
@@ -93,7 +113,7 @@ The protected object was the claimant's online score-profile state and its deriv
 
 For each HMOG fold, victim, and repeat, whole \((\mathrm{source\ identity},\mathrm{session})\) groups were assigned before attack selection to either poisoning or held-out probe pools, with approximately half reserved for probes. No source-session group crossed pools, although source identities could. Dataset identity labels were used offline to define claimant, impostor, poison, and probe sets, but were not exposed to the Blind or Guarded online updater. Random attack sequences were sampled without replacement. The boundary strategy assumed claimant-score access, retained candidates accepted at the initial threshold, and ranked them by smallest non-negative margin \(s-\tau_{u,0}\); ranking used scores and margins, not model gradients or ground-truth genuineness labels. Its budget \(K\in\{0,1,2,4,8\}\) counted nested selected attempts presented to the updater; reconnaissance, candidate screening, and total query cost were unmeasured. It is therefore a score-informed benchmark rather than a demonstrated binary-feedback attack. Ground-truth labels were exposed online only to the explicitly diagnostic Oracle controls.
 
-Compared methods received the same poison sequence and probes within a path. After \(K\) presentations, profile state was frozen before future impostor and genuine evaluation. Post-poison attack success rate (ASR) was held-out impostor acceptance. Post-poison false rejection rate (FRR) used held-out genuine observations; \(\mathrm{HTER}=(\mathrm{ASR}+\mathrm{FRR})/2\). Malicious update rate (MUR) was the fraction of presented malicious observations incorporated. A separate genuine replay measured genuine update rate without altering the poisoning endpoints.
+Compared methods received the same poison sequence and probes within a path. After \(K\) presentations, profile state was frozen before future impostor and genuine evaluation. Post-poison attack success rate (ASR) was held-out impostor acceptance. Post-poison false rejection rate (FRR) used held-out genuine observations; \(\mathrm{HTER}=(\mathrm{ASR}+\mathrm{FRR})/2\). Malicious update rate (MUR) was the fraction of presented malicious observations incorporated. It is an attack-oriented counterpart of the previously defined Impostor Update Selection Rate, not a new metric family \cite{Giot2012HybridTemplateUpdate}. A separate genuine replay measured genuine update rate (GUR) without altering the poisoning endpoints. Under identical observation units and denominators, \(1-\mathrm{GUR}\) corresponds to the Genuine Update Miss Rate; those equivalences need not hold across differently aggregated protocols.
 
 HMOG used five folds, 100 repeats, and a fixed approximately 50% probe allocation. Reference boundary curves required eight initially accepted candidates; 49,889 of 50,000 planned paths were eligible. Boundary estimates are conditional on this feasibility rule. McGill used 100 repeats and identity-disjoint poison/probe sources; only the first temporal half of poison-source Day-2 windows supplied attack candidates and the second half of probe-source windows supplied future probes. Further threat-model and exclusion details are in Supplementary Methods S3.
 
@@ -123,11 +143,13 @@ Calibration summaries and held-out outcomes used different observations and aggr
 
 ## 3.6. Clean temporal protocols and Oracle diagnostic
 
-HMOG clean adaptation used synthetic standardized-feature shifts \(D\in\{0,1,2\}\). A fold-specific random unit direction was ramped across each subject's test sequence and applied to every time step. The magnitudes were not calibrated to natural behavioral change, and the nonlinear score response need not have been identical across subjects. In the global scenario, claimant and impostor scores came from the same \(D\); in the primary claimant-only scenario, genuine adaptation and checkpoints used the selected \(D\), while impostor probes remained at \(D=0\).
+HMOG clean adaptation used synthetic standardized-feature shifts \(D\in\{0,1,2\}\). For public folds 1--5, seeds 42--46 generated one normalized 36-dimensional Gaussian direction per fold using \(v/(\lVert v\rVert_2+10^{-12})\). Within each subject and fold, all standardized test sequences—not only later adaptation candidates—were ordered by numeric session and within-session start. Sequence \(j\) of \(n\) received displacement \(D[j/(n-1)]v\), identically at each of its ten time steps. Only after score caching were `within=0` and `within=10` selected. The magnitudes were not calibrated to natural behavioral change, and the nonlinear score response need not have been identical across subjects. In the global scenario, claimant and impostor scores came from the same \(D\); in the primary claimant-only scenario, genuine adaptation and checkpoints used the selected \(D\), while impostor probes came from the \(D=0\) cache. Supplementary Methods S2 records indexing, counts, and provenance.
 
 Sessions were ordered by their recorded numeric identifiers. Within each retained session, the sequence beginning at `within=0` was an adaptation candidate and the disjoint sequence beginning at `within=10` was an evaluation-only checkpoint. Checkpoints never updated state. At least four complete session pairs were required. The first two checkpoints defined early endpoints and the last two defined late endpoints; an available middle checkpoint was retained only for trajectories. Impostor FAR used other identities at the matched session number and `within=10`, measured at the same profile state and macro-averaged across source identities. Late HTER combined temporally matched late FRR and FAR. The available source confirms this replay order but does not independently validate numeric session identifiers as natural behavioral chronology.
 
-The temporal comparison included Frozen, Blind, Guarded, and Oracle-all. Outputs included early and late FRR/FAR, late HTER, GUR, update counts, and changes in mean, scale, and threshold. Adaptation gain was Frozen late FRR minus method late FRR. McGill selected 160 approximately equally spaced Day-2 windows per subject and formed 80 ordered adaptation-checkpoint pairs; the first and last 20 pairs defined early and late endpoints. Matched impostor checkpoints never updated a profile. Day separation reflects cross-day change but does not isolate behavior from placement, context, acquisition, or model-transfer effects.
+The temporal comparison included Frozen, Blind, Guarded, and Oracle-all. Outputs included early and late FRR/FAR, late HTER, GUR, update counts, and changes in mean, scale, and threshold. Adaptation gain was Frozen late FRR minus method late FRR. HMOG provided only four or five permitted adaptation opportunities per included victim-fold path. With canonical \(\alpha=0.05\), the initial mean retains coefficient \((1-\alpha)^n\): \(0.95^5\approx0.774\), and the coefficient first falls below one half after 14 permitted updates. This is an algebraic property of the mean recurrence, not wall-clock recovery time, threshold convergence, or a statement about bounded alternatives; accepted-only methods can update fewer times. The HMOG experiment is therefore a short replay, and lack of late-FRR improvement is not evidence that a method can never recover.
+
+McGill selected 160 approximately equally spaced Day-2 windows per subject and formed 80 ordered adaptation-checkpoint pairs; the first and last 20 pairs defined early and late endpoints. Matched impostor checkpoints never updated a profile. Day separation reflects cross-day change but does not isolate behavior from placement, context, acquisition, or model-transfer effects. Oracle-all changes both the composition of update observations and the number and frequency of permitted updates. The comparison is therefore diagnostic evidence about the combined availability intervention, not a count-matched isolation of censoring composition.
 
 ## 3.7. Aggregation and uncertainty
 

@@ -29,7 +29,15 @@ Five outer folds used \(g(r)=(r-1)\bmod5\). For fold \(f\), group \(f\) was test
 
 The LSTM accepted \(10\times36\) inputs. It contained two recurrent layers with 64 hidden units each, layer normalization, a 32-unit ReLU layer, dropout 0.30, and a 100-class softmax. Training used cross-entropy, Adam with learning rate \(10^{-3}\), batch size 256, at most 20 epochs, and early-stopping patience 4. The canonical code also used `ReduceLROnPlateau` with factor 0.5 and patience 2. The claimant score was the corresponding softmax probability. A separate Paper 3 cache-generation run executed this canonical procedure, trained one fold-specific LSTM per fold, and saved its checkpoint, scaler, validation scores, and drift-specific test scores. The resulting caches were then held fixed and hash-identified across the method comparisons; the attack and adaptation runners did not retrain the LSTM. This was protocol-matched regeneration, not verified byte-identical reuse of the weights or score predictions reported in the previous study. The cache-generation metadata did not preserve a Git revision, a hash of the cache-builder source or input sequence archive, or the complete package environment, so that earlier generation invocation is not cryptographically closed even though downstream frozen manifests identify the exact resulting cache files.
 
-The clean temporal replay ordered sessions by recorded numeric identifier and sequences by within-session position. The source confirms this executed order but does not independently establish that numeric session identifiers encode a validated natural behavioral chronology.
+The clean temporal replay ordered sessions by recorded numeric identifier and sequences by within-session position. Public fold numbers 1--5 corresponded to internal zero-based indices 0--4 and drift seeds 42--46. For each fold, the canonical transform sampled one vector \(z\sim\mathcal{N}(0,I_{36})\) and used \(v=z/(\lVert z\rVert_2+10^{-12})\). The same fold direction was used for every subject and for \(D=1\) and \(D=2\). For subject-specific chronological sequence rank \(j=0,\ldots,n-1\), every one of the ten time steps received the same displacement
+
+\[
+\Delta X_j=D\frac{j}{n-1}v.
+\]
+
+The rank covered all original standardized test sequences. The replay selected `within=0` as adaptation and `within=10` as checkpoint only after drift scores had been cached; the ramp was not reconstructed over adaptation candidates alone. The global scenario used the selected-\(D\) cache for claimant and impostor scores. The claimant-only scenario combined selected-\(D\) genuine scores with \(D=0\) impostor scores. The source confirms this executed order but does not independently establish that numeric session identifiers encode a validated natural behavioral chronology.
+
+Across the five test positions, 500 victim-fold paths contained 2,392 complete source session pairs: 394 paths had five pairs, 104 had four, and two had three. Requiring at least four retained 498 paths and 2,386 adaptation-checkpoint pairs; the two excluded test paths were subject 57 in public folds 4 and 5. The early and late endpoints each contained 996 unique genuine checkpoints. Counts are observation inventories, not independent inferential units. The hash-matched canonical injection source is retained, while the authoritative temporal manifest records the executed runner hash without retaining byte-identical runner source; this limits cryptographic reconstruction of that invocation.
 
 ## S3. Calibration, threat model, and attack implementation
 
@@ -59,6 +67,37 @@ For HMOG, whole source-identity/session groups were assigned to poison or probe 
 
 For operating-point sensitivity, random summaries used all 50,000 structurally valid HMOG paths and all 2,000 McGill paths. Each boundary condition used its own common \(K=8\)-feasible cohort. HMOG eligibility was 49,889, 49,753, and 9,088 paths at reference, nominal 5%, and nominal 1%; corresponding victim-fold counts were 500, 500, and 302. McGill eligibility was 1,456, 1,369, and 1,001 paths across 18, 18, and 17 victims. Infeasible paths were exclusions, not zero-ASR outcomes.
 
+### S3.3. Local canonical EMA boundary transition
+
+For one permitted canonical update, let \(d=s_t-\mu_t\). From
+
+\[
+\mu_{t+1}=(1-\alpha)\mu_t+\alpha s_t,
+\qquad
+q_{t+1}=(1-\alpha)q_t+\alpha s_t^2,
+\]
+
+expansion of \(q_{t+1}-\mu_{t+1}^2\) gives
+
+\[
+\sigma_{t+1}^2=(1-\alpha)\left(\sigma_t^2+\alpha d^2\right).
+\]
+
+For an observation exactly at the current raw boundary, \(s_t=\mu_t-k\sigma_t\), this becomes
+
+\[
+\sigma_{t+1}^2=(1-\alpha)\sigma_t^2(1+\alpha k^2),
+\]
+
+and, with fixed \(k\),
+
+\[
+\Delta\tau
+=k\sigma_t\left[(1-\alpha)-\sqrt{(1-\alpha)(1+\alpha k^2)}\right].
+\]
+
+The result assumes \(0<\alpha<1\), \(\sigma_t>0\), a permitted update, an admissible score, and inactive sigma-floor and threshold-clipping branches both before and after the transition. Under those assumptions the bracket is negative, so \(\Delta\tau<0\) for \(k>0\), \(\Delta\tau>0\) for \(k<0\), and \(\Delta\tau=0\) for \(k=0\). This presubmission derivation is explanatory rather than a new empirical result. Attack candidates were selected near the initial boundary, later candidates need not lie on the current boundary, margins were nonzero, Guarded could deny updates, and operating-point cohorts changed. The identity therefore does not by itself determine the sign of a multi-update mean ASR effect.
+
 ## S4. Endpoints, uncertainty, and reproducibility
 
 Post-poison ASR was held-out impostor acceptance after the state was frozen. FRR used held-out genuine observations evaluated at that frozen state, and \(\mathrm{HTER}=(\mathrm{ASR}+\mathrm{FRR})/2\). MUR divided incorporated malicious observations by presented malicious observations. The poisoning-experiment GUR replay used a copy of the post-poison state, so it measured update availability and could not change ASR, FRR, or HTER already recorded.
@@ -86,13 +125,13 @@ The operating-point manifest records an initial source hash and a later figure-o
 
 ## S5. McGill classifier and protocol
 
-The official McGill archive supplied timestamped recordings from subjects `w001` to `w020` on two days. Magnetometer, orientation, and temperature channels were excluded. The four retained channels were accelerometer \(x,y,z\) and gravity-adjusted magnitude. Median sample interval was 40 ms, approximately 25 Hz. No interpolation was applied. Inputs were non-overlapping 128-sample windows, approximately 5.12 s, with shape \(128\times4\).
+The official McGill archive supplied timestamped recordings from subjects `w001` to `w020` on two days. Magnetometer, orientation, and temperature channels were excluded. The executed reader selected the supplied fields `accel_x`, `accel_y`, `accel_z`, and `accel_mag`; it did not recompute the fourth channel. The archive documentation defines `accel_mag` as \(\sqrt{x^2+y^2+z^2}-9.8066\), with acceleration fields in \(\mathrm{m/s^2}\). Median sample interval was 40 ms, approximately 25 Hz. No interpolation was applied. Inputs were non-overlapping 128-sample windows, approximately 5.12 s, with shape \(128\times4\).
 
-One pooled per-channel z-score transform was fitted to Day-1 training windows. Within each subject, Day-1 windows were split chronologically into 60% fitting, 20% early-stopping validation, and 20% enrollment/calibration using floor-valued cut points. The classifier was a one-layer unidirectional LSTM with input size 4, hidden size 64, final-hidden-state classification, and a 20-class linear head. Training used class-weighted cross-entropy, Adam with learning rate 0.001 and weight decay 0.0001, batch size 128, at most 30 epochs, and validation-loss early stopping with patience 5.
+One pooled per-channel z-score transform was fitted over all time samples in Day-1 training windows using population standard deviations; any value below (10^{-8}) would have been replaced by 1.0. The frozen transform was applied to enrollment and Day 2. Within each subject, Day-1 windows were split chronologically into 60% fitting, 20% early-stopping validation, and 20% enrollment/calibration using floor-valued cut points. Recorded Day-1 counts were 2,840 fitting, 948 validation, and 958 enrollment/calibration windows across 20 subjects. The classifier was a one-layer unidirectional LSTM with input size 4, hidden size 64, final-hidden-state classification, and a 20-class linear head. Training used class-weighted cross-entropy, Adam with learning rate 0.001 and weight decay 0.0001, batch size 128, at most 30 epochs, and validation-loss early stopping with patience 5.
 
-The profile used \(\alpha=0.05\) and sigma floor \(10^{-4}\). Guarded \(\lambda=0.25\) transferred from HMOG without a McGill sweep or Day-2 tuning. Poisoning used 100 repeats, nested \(K\), and an identity-disjoint poison/probe split as close to 50/50 as possible. Boundary reference \(K=8\) retained 1,456 paths across 18 victims; random retained all 2,000 paths. Profiles were frozen before probe and genuine evaluation.
+The profile used \(\alpha=0.05\), sigma \(\max(\sqrt{\max(q-\mu^2,0)},10^{-4})\), and the *unclipped* authentication threshold \(\tau=\mu-k\sigma\). Day-1 enrollment genuine scores set \(\mu_0\) and \(q_0\); the threshold minimizing pooled Day-1 HTER set \(\tau_0\), with exact ties resolved toward the higher threshold; and \(k=(\mu_0-\tau_0)/\sigma_0\). Access used `score >= threshold`. Guarded \(\lambda=0.25\) transferred from HMOG without a McGill sweep or Day-2 tuning, but HMOG's zero lower clamp on the authentication threshold did not transfer. The executed protocol did not record this difference as a planned intervention. Poisoning used 100 repeats, nested \(K\), and an identity-disjoint poison/probe split as close to 50/50 as possible. Boundary reference \(K=8\) retained 1,456 paths across 18 victims; random retained all 2,000 paths. Profiles were frozen before probe and genuine evaluation.
 
-The temporal protocol selected 160 approximately equally spaced Day-2 windows per subject and formed 80 pairs, each containing an adaptation observation followed by an evaluation-only checkpoint. The first and last 20 pairs defined early and late endpoints. Matched impostor checkpoints did not update state.
+The temporal protocol selected 160 approximately equally spaced Day-2 windows per subject and formed 80 pairs, each containing an adaptation observation followed by an evaluation-only checkpoint. The first and last 20 pairs defined early and late endpoints. All 20 subjects contributed exactly 80 units, for 1,600 unique adaptation candidates and 1,600 unique genuine checkpoints; early and late each contained 400 checkpoints. For each unit, authentication and update eligibility used the pre-update threshold, a permitted adaptation update was applied, and the disjoint checkpoint was then evaluated. Saved `mean`, `sigma`, and `threshold` fields therefore describe the post-adaptation state used for that checkpoint. Matched impostor checkpoints did not update state.
 
 Before any Day-2 score was loaded, the run stopped if training was non-finite, fewer than 16 classes appeared in validation, top-1 validation accuracy was below 20%, or protocol checks and a synthetic smoke run failed. The fixed classifier achieved 58.12% validation top-1 accuracy and passed. Day-1/Day-2 separation does not isolate behavioral drift from activity, placement, acquisition, or model-transfer change.
 

@@ -6,15 +6,15 @@ TQ-EMA v1 reached its permitted outer evaluation in claimant-only HMOG \(D=2\). 
 
 The 99-victim complete-five-fold cohort did not reverse the decision: its late-FRR-gain CI lower bound was -1.92 points. The \(D=2\) audit recorded 1,404 trusted updates and 49 confirmed recovery updates. These totals are not independent observations.
 
-| Fold | Validation subjects | Selected configuration | Band / \(\sigma_{\mathrm{enroll}}\) | Confirmation sessions | Recovery \(\alpha\) | Anchor / \(\sigma_{\mathrm{enroll}}\) | Validation late-FRR gain, pp | Late-FAR change, pp | HTER change, pp |
-|---:|---:|---|---:|---:|---:|---:|---:|---:|---:|
-| 1 | 100 | `b0.25_m3_a0.025_A0.10` | 0.25 | 3 | 0.025 | 0.10 | 0.00 | -0.38 | -0.19 |
-| 2 | 100 | `b0.50_m2_a0.025_A0.10` | 0.50 | 2 | 0.025 | 0.10 | -0.50 | -0.29 | +0.10 |
-| 3 | 99 | `b0.25_m2_a0.050_A0.10` | 0.25 | 2 | 0.050 | 0.10 | -1.01 | +0.07 | +0.54 |
-| 4 | 99 | `b0.25_m3_a0.025_A0.10` | 0.25 | 3 | 0.025 | 0.10 | 0.00 | -1.22 | -0.61 |
-| 5 | 100 | `b0.25_m2_a0.025_A0.10` | 0.25 | 2 | 0.025 | 0.10 | -2.00 | +0.08 | +1.04 |
+| Fold | Validation subjects | Band / \(\sigma_{\mathrm{enroll}}\) | Confirmation sessions | Recovery \(\alpha\) | Anchor / \(\sigma_{\mathrm{enroll}}\) | Validation late-FRR gain, pp | Late-FAR change, pp | HTER change, pp |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 100 | 0.25 | 3 | 0.025 | 0.10 | 0.00 | -0.38 | -0.19 |
+| 2 | 100 | 0.50 | 2 | 0.025 | 0.10 | -0.50 | -0.29 | +0.10 |
+| 3 | 99 | 0.25 | 2 | 0.050 | 0.10 | -1.01 | +0.07 | +0.54 |
+| 4 | 99 | 0.25 | 3 | 0.025 | 0.10 | 0.00 | -1.22 | -0.61 |
+| 5 | 100 | 0.25 | 2 | 0.025 | 0.10 | -2.00 | +0.08 | +1.04 |
 
-**Table S1.** Fold-specific TQ-v1 validation selections. Rows document selection inputs and are not pooled outer estimates. Subject 57 was excluded in folds 3 and 4 because fewer than four complete adaptation-checkpoint session pairs were available. Source: `results/paper3_tq_clean_drift_20261001_v1/`.
+**Table S1.** Fold-specific TQ-v1 validation selections. Rows document selection inputs and are not pooled outer estimates. The redundant encoded configuration identifier is omitted because every selected parameter it encoded is shown separately. Subject 57 was excluded from validation folds 3 and 4 because fewer than four complete adaptation-checkpoint session pairs were available. Source: `results/paper3_tq_clean_drift_20261001_v1/`.
 
 ## S2. TQ-EMA v2 validation stopping
 
@@ -44,6 +44,15 @@ Oracle-all reduced the additional FRR deficit associated with accepted-only elig
 
 **Table S3.** Evaluation status of supporting recovery and state probes. Outcomes apply to the frozen implementations and parameter grids and do not reject their broader method families.
 
+| Dataset / partition | Recorded source inventory | Included temporal observations | Recorded temporal exclusions |
+|---|---|---|---|
+| HMOG test replay | 500 victim-fold paths; 2,392 complete session pairs (394×5, 104×4, 2×3) | 498 paths; 2,386 adaptation candidates and 2,386 checkpoints; 996 early and 996 late checkpoints | Subject 57 in public folds 4 and 5 |
+| HMOG genuine calibration | 500 claimant-fold profiles; 4,784 genuine scores (394×10, 104×8, 2×6) | 4,770 scores for 498 temporally eligible profiles | Same two test-path exclusions when forming the temporal cohort |
+| McGill Day 1 | 4,746 windows across 20 subjects | 2,840 fitting; 948 validation; 958 enrollment/calibration | None at subject level |
+| McGill Day 2 temporal | 4,976 source windows; 3,200 selected windows | 1,600 adaptation candidates and 1,600 checkpoints; 400 early and 400 late checkpoints | None; 544 reference boundary attack exclusions are separate |
+
+**Table S4.** Recorded partition and temporal-observation counts. Values come from frozen metadata and output inventories. Counts are not multiplied across methods, drift levels, or scenarios and are not treated as independent inferential units. HMOG nominal session counts are distinguished from the recorded complete-pair inventory.
+
 ## S4. Operating-point diagnostics
 
 The primary paired operating-point effect figure remains in the main article. Three frozen diagnostics remain supplementary because their aggregation units differ from the victim-macro effect table.
@@ -54,7 +63,7 @@ The primary paired operating-point effect figure remains in the main article. Th
 
 [INSERT FIGURE S2 HERE]
 
-**Figure S2.** Boundary-\(K=8\) feasibility across operating points. Fractions use all planned paths as the denominator. Excluded paths lacked eight initially accepted candidates and were not assigned zero ASR. Source: `results/paper3_operating_point_sensitivity_20261004_v1/figures/boundary_feasibility.pdf`.
+**Figure S2.** Per-budget boundary feasibility across operating points. Each point is the fraction of all planned paths with at least \(K\) initially accepted candidates for the displayed \(K\). The operating-point effect curves use the common \(K=8\)-feasible cohort within each condition; infeasible paths were excluded rather than assigned zero ASR. Source: `results/paper3_operating_point_sensitivity_20261004_v1/figures/boundary_feasibility.pdf`.
 
 [INSERT FIGURE S3 HERE]
 
@@ -78,4 +87,4 @@ The main article retains McGill numerical evidence in its Results and Table 3. T
 
 [INSERT FIGURE S6 HERE]
 
-**Figure S6.** McGill Day-2 trajectories across 80 adaptation-checkpoint pairs. Panels show subject-macro profile mean, threshold, evaluation-only FRR, and update rate. Adaptation observations precede disjoint checkpoints, and matched impostor checkpoints do not update profiles. Source: `results/paper3_external_mcgill_20261003_v1/figures/external_selection_bias_trajectory.pdf`.
+**Figure S6.** McGill Day-2 trajectories across 80 adaptation-checkpoint pairs. The threshold panel is the arithmetic subject-macro mean of individual *unclipped authentication thresholds* \(\mu-k\sigma\), not a threshold reconstructed from aggregated moments. Authentication and update eligibility use the pre-update state; displayed profile mean, sigma-derived threshold, checkpoint FRR, and update event are saved after the adaptation step and before or at the disjoint checkpoint evaluation. All 20 subjects contribute to every unit. Negative Oracle-all thresholds are therefore executed decision thresholds, not an artwork-only raw diagnostic. Matched impostor checkpoints do not update profiles. Source: `results/paper3_external_mcgill_20261003_v1/temporal_checkpoints.csv` and its frozen figure.

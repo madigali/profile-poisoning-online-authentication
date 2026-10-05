@@ -1,21 +1,22 @@
 # MDPI-style working manuscript package
 
-This directory is a derived presentation package for Paper 3. It preserves the frozen scientific content at Git revision `ad00fb0254f166c146638bfc5c1457552f9593f5` and assembles it with the official MDPI LaTeX template. It does not replace the Markdown sources in `paper/` or the repository-level `references.bib`.
+This directory is a derived presentation package for Paper 3. The targeted presubmission revision starts from repository revision `b18e9fb117828f31a01f5efcce5b0be57081fa07` and assembles clarified reporting with the official MDPI LaTeX template. It does not replace the Markdown sources in `paper/` or the repository-level `references.bib`.
 
 This is **not submission-ready**. The target journal, final title, author identities and order, affiliations, corresponding-author details, ORCID identifiers, keywords, and all author declarations still require confirmation. Pending fields are visible rather than silently invented.
 
 ## Package layout
 
 - `paper3_mdpi.tex`: readable main manuscript source containing the complete main text, four main figures, and three main tables.
-- `paper3_supplementary.tex`: separate Supplementary Materials source containing Supplementary Methods S1--S10, Supplementary Results S1--S6, Tables S1--S3, and Figures S1--S6.
+- `paper3_supplementary.tex`: separate Supplementary Materials source containing Supplementary Methods S1--S10, Supplementary Results S1--S6, Tables S1--S4, and Figures S1--S6.
 - `metadata.tex`: provisional title, visible author metadata placeholders, working keywords, and the frozen abstract.
 - `declarations.tex`: MDPI declaration fields; all unverified author declarations are explicitly pending.
 - `references.bib`: byte-identical copy of the repository-level bibliography.
 - `references_mdpi.bib`: documented MDPI-compatible derived bibliography used for the build.
 - `paper3_mdpi.bbl`: resolved numeric bibliography for the main manuscript.
 - `Definitions/`: official MDPI class, bibliography styles, logos, and support files.
-- `figures/`: byte-preserving copies of the ten authoritative PDF figures.
-- `build/`: the two verified output PDFs in the distributed package. A local rebuild also places auxiliary files here.
+- `figures/`: byte-preserving copies of the ten authoritative baseline PDF figures.
+- `figures_revision_20261005/`: four presentation-only copies rendered from frozen plot-data/state tables, with label or layout changes recorded in `artwork_registry.json`.
+- `deliverables/targeted_revision_20261005_v1/`: versioned revised PDFs and source archive; the reviewed baseline files under `build/` remain unchanged.
 - `source_manifest.json`: provenance, hashes, transformations, toolchain, and output inventory.
 - `paper3_mdpi_source.zip`: portable source archive; it excludes generated build auxiliaries and compiled PDFs.
 
@@ -36,18 +37,20 @@ The official archive contained no standalone license file. Original copyright an
 
 Requirements: a TeX Live installation containing `latexmk`, pdfLaTeX, BibTeX, and the standard packages loaded by the MDPI class.
 
-From this directory, run:
+To rebuild the targeted revision without overwriting the reviewed baseline PDFs, run:
 
 ```sh
-./build.sh
+./build_targeted_revision.sh
 ```
 
 The script produces:
 
 ```text
-build/paper3_mdpi.pdf
-build/paper3_supplementary.pdf
+deliverables/targeted_revision_20261005_v1/paper3_mdpi.pdf
+deliverables/targeted_revision_20261005_v1/paper3_supplementary.pdf
 ```
+
+The historical `build.sh` is retained for provenance but writes to `build/`; it is not used for this revision.
 
 The main manuscript alone uses a BibTeX-generated bibliography. The portable archive includes the resolved `paper3_mdpi.bbl`; `latexmk` can regenerate it from `references_mdpi.bib` when required. The Supplement has no independent citations or bibliography and is built directly with pdfLaTeX through `latexmk`.
 
@@ -59,8 +62,8 @@ The main manuscript alone uses a BibTeX-generated bibliography. The portable arc
 2. represents `Frank2010McGillGaitDataset` as `@www`, retaining its institution, year, URL, access date (`2026-10-03`), and note;
 3. removes redundant leading `Proceedings of` or `Proceedings of the` text from six conference `booktitle` fields because the MDPI bibliography style supplies that phrase.
 
-No citation was added, removed, or reordered. The main manuscript resolves 63 citation occurrences to 36 unique bibliography entries. The incomplete publication metadata for `Serbin2026AdaptiveLSTM` is deliberately preserved rather than guessed.
+Two verified direct-precedent entries were added: Giot et al.'s BTAS 2012 hybrid updater and its IBPC 2012 evaluation paper. Existing bibliography entries were otherwise retained. The incomplete publication metadata for `Serbin2026AdaptiveLSTM` is deliberately preserved rather than guessed.
 
 ## Verification status
 
-Both files compile successfully. The verified outputs contain 22 main-manuscript pages and 13 Supplement pages. Every page was rendered and visually inspected. The final logs contain no LaTeX errors, undefined references, undefined citations, or overfull boxes. One harmless underfull-box notice remains in the Supplement where a long provenance path is line-broken. The source ZIP was rebuilt in a fresh directory as a portability check.
+The baseline outputs under `build/` are retained unchanged. Verification status for the targeted revision is recorded in `targeted_revision_audit.md` and the versioned source manifest after compilation, full-page visual inspection, and clean-extract rebuilding.

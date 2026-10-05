@@ -136,6 +136,23 @@ Giot, R.; Dorizzi, B.; Rosenberger, C.
   Intelligence in Biometrics and Identity Management. IEEE,  2011, pp. 21--28.
 \newblock {\url{https://doi.org/10.1109/CIBIM.2011.5949216}}.
 
+\bibitem[Giot et~al.(2012{\natexlab{a}})Giot, Rosenberger, and
+  Dorizzi]{Giot2012HybridTemplateUpdate}
+Giot, R.; Rosenberger, C.; Dorizzi, B.
+\newblock Hybrid Template Update System for Unimodal Biometric Systems.
+\newblock In Proceedings of the 2012 IEEE Fifth International Conference on
+  Biometrics: Theory, Applications and Systems (BTAS). IEEE,  2012, pp. 1--7.
+\newblock {\url{https://doi.org/10.1109/BTAS.2012.6374539}}.
+
+\bibitem[Giot et~al.(2012{\natexlab{b}})Giot, Rosenberger, and
+  Dorizzi]{Giot2012TemplateUpdateEvaluation}
+Giot, R.; Rosenberger, C.; Dorizzi, B.
+\newblock Performance Evaluation of Biometric Template Update.
+\newblock In Proceedings of the International Biometric Performance Testing
+  Conference 2012 (IBPC 2012), Gaithersburg, MD, USA,  March 2012; pp. 1--6,
+  \href{http://arxiv.org/abs/1203.1502}{{\normalfont [arXiv:cs.OH/1203.1502]}}.
+\newblock Conference supporting paper; also available as arXiv:1203.1502.
+
 \bibitem[Ryu et~al.(2023)Ryu, Yeom, Herbert, and
   Dermoudy]{Ryu2023AdaptiveBiometrics}
 Ryu, R.; Yeom, S.; Herbert, D.; Dermoudy, J.

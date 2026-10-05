@@ -1,10 +1,11 @@
 {
-  "schema_version": 1,
-  "package_status": "MDPI-style working manuscript package; not submission-ready",
-  "assembled_on": "2026-10-04",
+  "schema_version": 2,
+  "package_status": "Targeted pre-submission revision; scientifically frozen but not administratively submission-ready",
+  "assembled_on": "2026-10-05",
   "source_repository": "/Users/madigali/Documents/PythoProjects/q1",
-  "source_git_revision": "ad00fb0254f166c146638bfc5c1457552f9593f5",
+  "baseline_git_revision": "b18e9fb117828f31a01f5efcce5b0be57081fa07",
   "source_branch": "paper3-external-replication",
+  "revision_scope": "Literature/source tracing, analytical clarification, reporting edits, presentation-only artwork, and packaging; no training, scoring, replay, metric recomputation, bootstrap, or new experiment.",
   "pending_author_decisions": [
     "target journal",
     "final title",
@@ -52,13 +53,13 @@
   },
   "sources": {
     "paper/manuscript_full.md": {
-      "sha256": "91cfb3df5dfa1259b9898b38786d7fcba1082886e71c8937824561db8386fd9c"
+      "sha256": "30894fecd3aa5b45739c587b71233244c02955e63b2ec16cfde9f8624a66a299"
     },
     "paper/supplementary_methods.md": {
-      "sha256": "e21aa2eca445aca247ef7f313d32812cd3ceccec023ef4becb632587b1223745"
+      "sha256": "e4c87ec95048c06369a0ee7759c00eff31ea354855cb7157710727bdbc244a96"
     },
     "paper/supplementary_results.md": {
-      "sha256": "41fecd5e48eb1923ae4d756648bc8299feda1a7c1bbbb379b900f2f455679792"
+      "sha256": "2585b3e1ffc13b9249ea860b32af2ca475f71169efc14c504296f9076717a3b1"
     },
     "paper/notes.md": {
       "sha256": "f3879c7f7a9ae50f024aa728d6e5d36a07726bbd4a69c028776eaa9ae37cef03"
@@ -66,33 +67,36 @@
     "paper/technical_closeout_audit.md": {
       "sha256": "f9a478871c655f1e2c7c1afbcbf897eb402109ddcfcf9c1317d8dd28f126f9bf"
     },
+    "paper/independent_review_response.md": {
+      "sha256": "d0af2dbe84d7f8451faf52546a38e5918e4b53b3432d095bf1940a22cd739662"
+    },
     "references.bib": {
-      "sha256": "d904dbe214499758eacf3f0aec0e48d6a28c2562265a6fecd71e673523c3c7c0"
+      "sha256": "54941e7d414518bfeec784b30b532221e4e2b2c7af543b987d51a6f20b2e5839"
     }
   },
   "bibliography": {
     "root_copy": {
       "path": "references.bib",
-      "sha256": "d904dbe214499758eacf3f0aec0e48d6a28c2562265a6fecd71e673523c3c7c0",
+      "sha256": "54941e7d414518bfeec784b30b532221e4e2b2c7af543b987d51a6f20b2e5839",
       "byte_identical_to_repository_root": true,
-      "entry_count": 39
+      "entry_count": 41
     },
     "derived_build_bibliography": {
       "path": "references_mdpi.bib",
-      "sha256": "69b2db61025693e82b8b79aecda864c5adc53fc2e1417efc449b16f6ce6ce4fd",
+      "sha256": "a0a9fc8748302bbc02701e959fd26c7b092209b9d5a67ef656a98af9e8a0723b",
       "transformations": [
         "eid mapped to pages for Gali2026SystematicReview, Xue2020LOPA, and Abdullahi2024TemplateAttacks",
         "Frank2010McGillGaitDataset represented as @www while retaining institution, year, URL, access date, and note",
         "redundant leading Proceedings of / Proceedings of the removed from six conference booktitle fields"
       ],
-      "citation_occurrences": 63,
-      "unique_cited_entries": 36,
+      "citation_occurrences": 40,
+      "unique_cited_entries": 38,
       "unresolved_citations": 0
     },
     "resolved_bbl": {
       "path": "paper3_mdpi.bbl",
-      "sha256": "5fe1603f8d052dd763fd1108c7f068bed954c3fbd154eb5f7162bff7500d0668",
-      "bibitems": 36
+      "sha256": "8d06899384312150b6f0c5e0d1588bd99d152cd9200de4b2372277b641296ed3",
+      "bibitems": 38
     }
   },
   "figures": [
@@ -157,6 +161,36 @@
       "byte_identical_to_source": true
     }
   ],
+  "presentation_figures": [
+    {
+      "path": "figures_revision_20261005/figure1_poisoning_asr.pdf",
+      "sha256": "9d8bc62a08cc28dbdd4eda2a966c965be38fa05710f433ba7f3f6c1b82d9a5c0",
+      "change": "x-axis wording and publication layout only",
+      "numeric_source": "results/paper3_final_analysis_20261002_v2/paper3_final_poisoning_plot_data.csv"
+    },
+    {
+      "path": "figures_revision_20261005/figure4_selection_bias_mechanism.pdf",
+      "sha256": "ca605b422a679897d1cf7cc35875acc18c56835763cbb6f1735154ed8a5e6954",
+      "change": "title, font sizing, and legend spacing only",
+      "numeric_source": "results/paper3_final_analysis_20261002_v2/paper3_final_selection_bias_plot_data.csv"
+    },
+    {
+      "path": "figures_revision_20261005/figureS2_boundary_feasibility.pdf",
+      "sha256": "1a54d248ecfc78eba086035c2b1b5b15d2602afe559993e83e4cabc8d8153e0d",
+      "change": "x-axis wording, ticks, and publication layout only",
+      "numeric_source": "results/paper3_operating_point_sensitivity_20261004_v1/eligibility_summary.csv"
+    },
+    {
+      "path": "figures_revision_20261005/figureS6_external_selection_bias_trajectory.pdf",
+      "sha256": "eb1cb95a13c2ddcd0bbf6ad1f93a1263af6a0e6621737cf7b08dbb6501414434",
+      "change": "threshold-panel title, font sizing, and publication layout only",
+      "numeric_source": "results/paper3_external_mcgill_20261003_v1/temporal_checkpoints.csv"
+    }
+  ],
+  "artwork_registry": {
+    "path": "figures_revision_20261005/artwork_registry.json",
+    "sha256": "adee5245b3b85537ad4c469da6026cd5afd5c86b2b8a9f332c5a646276e57d09"
+  },
   "official_template_files": [
     {
       "path": "Definitions/journalnames.tex",
@@ -201,62 +235,83 @@
   ],
   "derived_sources": {
     "paper3_mdpi.tex": {
-      "sha256": "c197e145539cb7da59039ced5bfae59ccd3e8bcec944d248664648876633a78d"
+      "sha256": "00b07f21f0e35e684c3b011117cd28a87368958a953da44bda9c36ffe04a1796"
     },
     "paper3_supplementary.tex": {
-      "sha256": "6bd9b7b9f5fb0618a2fd2e3d4cf399914d08a0556acffc8db42c4b1f39426b04"
+      "sha256": "32bfe292137eb0f44168a1f9ff98d64ddaf619338a3659e7cba5c40082304943"
     },
     "metadata.tex": {
-      "sha256": "3d4c9ea3be042ad1c4b67c99b0f6d409d04ec4ed2b040a9ce4e2f93f7753694d"
+      "sha256": "d22485dfb2e26030dc0d3a7d53e3e8c2591b70afbb154d60c64628ec19b2a829"
     },
     "declarations.tex": {
-      "sha256": "d2a143d59cb40131715c84dd876eb68580d7bf4afb0234b8cb30c97545525bb4"
+      "sha256": "e1f7381452100c6a8138a768fbaec0e0528146d9e6972aff28ff205222caa2cc"
     },
     "build.sh": {
       "sha256": "2634af1a247fbbc02986f36bd400daab93b0aef60fe3358aaf4c6409c626cca0"
     },
     "README.md": {
-      "sha256": "86c4561ad7c3117a2b3c8e6397e24f90634ca7def50fd4f9c0f4aee137f0100b"
+      "sha256": "e4f278d03b00c9f4f76a1c706a92ade30537b1780d73bbaa391040e0ba46f007"
+    },
+    "build_targeted_revision.sh": {
+      "sha256": "2756fd0d332e48e1f3201aa7543e866dd79edb9a37305a3780020b0e9e211599"
+    },
+    "render_publication_figures.py": {
+      "sha256": "af25d5be92a0ccb4b7c55cd012732e317231be69011d132adf18de856e5af5fa"
     }
   },
   "outputs": {
-    "main_pdf": {
+    "baseline_main_pdf": {
       "path": "build/paper3_mdpi.pdf",
       "sha256": "9b466df586a99dd56530894911f803a7050ee32c1a6680f9317d476256986acc",
-      "pages": 22,
+      "preserved_unchanged": true
+    },
+    "baseline_supplement_pdf": {
+      "path": "build/paper3_supplementary.pdf",
+      "sha256": "cc2011c7a6850da1c70571a29cc94cb26f9d51dfd2c17c3ff6f2c2dc5ff39098",
+      "preserved_unchanged": true
+    },
+    "main_pdf": {
+      "path": "deliverables/targeted_revision_20261005_v1/paper3_mdpi.pdf",
+      "sha256": "320cafa5dc416b9f53f49440432ac4b7edfbfb632d48e6f368dea1af66554e60",
+      "pages": 24,
       "figures": 4,
       "tables": 3
     },
     "supplement_pdf": {
-      "path": "build/paper3_supplementary.pdf",
-      "sha256": "cc2011c7a6850da1c70571a29cc94cb26f9d51dfd2c17c3ff6f2c2dc5ff39098",
-      "pages": 13,
+      "path": "deliverables/targeted_revision_20261005_v1/paper3_supplementary.pdf",
+      "sha256": "7591154087bc2a8034296437a38edf2ac1f3abb4ca9445dc0e353e792083eb2d",
+      "pages": 14,
       "figures": 6,
-      "tables": 3
+      "tables": 4
+    },
+    "source_archive": {
+      "path": "deliverables/targeted_revision_20261005_v1/paper3_mdpi_source.zip",
+      "sha256": "recorded in paper/targeted_revision_audit.md after archive creation"
     }
   },
   "verification": {
-    "main_citation_sequence_matches_frozen_markdown": true,
+    "main_citation_sequence_matches_revised_markdown": true,
     "repository_bibliography_copy_is_byte_identical": true,
-    "all_figure_copies_are_byte_identical": true,
+    "authoritative_original_figures_unchanged": true,
+    "presentation_only_figures_have_hash_registry": true,
     "main_and_supplement_compile": true,
     "undefined_citations": 0,
     "undefined_references": 0,
     "overfull_boxes": 0,
     "underfull_boxes": {
       "main": 0,
-      "supplement": 1,
-      "assessment": "harmless long provenance path"
+      "supplement": 2,
+      "assessment": "visually harmless wide-table alignment and long provenance path"
     },
     "visual_pages_inspected": {
-      "main": "1-22",
-      "supplement": "S1-S13"
+      "main": "1-24",
+      "supplement": "S1-S14"
     },
     "clean_extract_rebuild": {
       "status": "passed",
-      "scope": "final source archive extracted to a fresh temporary directory and rebuilt with ./build.sh",
-      "main_pages": 22,
-      "supplement_pages": 13,
+      "scope": "final source archive extracted to a fresh temporary directory and rebuilt with ./build_targeted_revision.sh",
+      "main_pages": 24,
+      "supplement_pages": 14,
       "note": "PDF byte hashes may vary across clean builds because the TeX engine records compilation metadata; page counts, logs, and rendered content were checked."
     }
   }
