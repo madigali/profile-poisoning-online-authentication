@@ -137,10 +137,22 @@ Versioned update outputs:
 - Supplement PDF SHA-256: `cac685f0550ce0428f28c1956ea852a6319d0a99afd29e95c134b0b01abaaf54`;
 - source ZIP SHA-256: `79c8cde1fc5a7f157935e500e1e2665524854bfbac184bed15471ea845741a1b`.
 
+### Complete ORCID update (v2)
+
+The three subsequently supplied identifiers were added to the existing author records: Madi Gali (`0009-0006-2621-0454`), Vassiliy Serbin (`0000-0002-5807-3873`), and Aray Kassenkhan (`0000-0002-6355-9544`). Together with the three identifiers already supplied in the author table, the main manuscript and Supplement now display six ORCID icons. All six PDF link targets were inspected programmatically and matched the recorded identifiers.
+
+The v2 main manuscript and Supplement compiled successfully to 24 and 14 pages. Their first pages were rendered at 170 dpi and visually inspected; the six icons, author names, affiliation markers, and surrounding text were legible and unclipped. The v2 source archive was extracted into a fresh directory and rebuilt successfully with its included build script.
+
+Versioned v2 outputs:
+
+- main PDF SHA-256: `9d807e5c4040591cfe3295fa1d86d36a4e77c3d71225619cfc2ffab28197af17`;
+- Supplement PDF SHA-256: `a1b57cef5abd937c012406a73fe08a1922cf627fe71e9e2a6ab4700f28bab0b6`;
+- source ZIP SHA-256: `c60b74d4c96112f6ddec42d396cd0363f8413b3c163e7f5480e0e2be728939cf`.
+
 ## Unresolved author decisions
 
-On 2026-10-18, the author confirmed the following order: Madi Gali, Vassiliy Serbin, Aray Kassenkhan, Aliya Turegeldinova, Bakytzhan Amralinova, and Shyndauyl Nugumanov. Affiliations for the first three authors were carried forward from the verified primary Paper 1 metadata; the supplied author table provided the affiliations, e-mail addresses, and ORCID identifiers for Turegeldinova, Amralinova, and Nugumanov. The author also supplied the final BR28713099 funding statement. These administrative edits did not alter any experiment, endpoint, result, or interpretation.
+On 2026-10-18, the author confirmed the following order: Madi Gali, Vassiliy Serbin, Aray Kassenkhan, Aliya Turegeldinova, Bakytzhan Amralinova, and Shyndauyl Nugumanov. Affiliations for the first three authors were carried forward from the verified primary Paper 1 metadata; the supplied author table provided the affiliations, e-mail addresses, and ORCID identifiers for Turegeldinova, Amralinova, and Nugumanov. The author subsequently supplied ORCID identifiers for Gali (`0009-0006-2621-0454`), Serbin (`0000-0002-5807-3873`), and Kassenkhan (`0000-0002-6355-9544`). The established publication names Madi Gali, Vassiliy Serbin, and Aray Kassenkhan were retained in the article; academic titles and positions were used to verify the existing departmental affiliations but were not added to the MDPI author line. The author also supplied the final BR28713099 funding statement. These administrative edits did not alter any experiment, endpoint, result, or interpretation.
 
-The target journal and title remain unapproved. Corresponding-author designation, ORCID identifiers for the first three authors, final keywords, contributions, ethics review, consent, conflicts, acknowledgments, and AI-use disclosure require author confirmation. Raw datasets are not redistributed. The code/results repository is private, and no public archive or DOI is currently assigned; the final availability route requires an author decision.
+The target journal and title remain unapproved. Corresponding-author designation, final keywords, contributions, ethics review, consent, conflicts, acknowledgments, and AI-use disclosure require author confirmation. Raw datasets are not redistributed. The code/results repository is private, and no public archive or DOI is currently assigned; the final availability route requires an author decision.
 
 There is no evidence-integrity blocker arising from M2 if the article reports the executed dataset-specific policy. Requiring identical zero clipping across HMOG and McGill would create a new experiment and would require replacement of the affected McGill outcomes.

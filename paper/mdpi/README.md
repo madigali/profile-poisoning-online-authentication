@@ -2,7 +2,7 @@
 
 This directory is a derived presentation package for Paper 3. The targeted presubmission revision starts from repository revision `b18e9fb117828f31a01f5efcce5b0be57081fa07` and assembles clarified reporting with the official MDPI LaTeX template. It does not replace the Markdown sources in `paper/` or the repository-level `references.bib`.
 
-This is **not submission-ready**. The author-provided author order and affiliations have been inserted, together with the three ORCID identifiers supplied in the author table and the confirmed BR28713099 funding statement. The target journal, final title, corresponding-author designation, ORCID identifiers for the first three authors, keywords, and the remaining author declarations still require confirmation. Pending fields are visible rather than silently invented.
+This is **not submission-ready**. The author-provided author order and affiliations have been inserted, together with ORCID identifiers for all six authors and the confirmed BR28713099 funding statement. The target journal, final title, corresponding-author designation, keywords, and the remaining author declarations still require confirmation. Pending fields are visible rather than silently invented.
 
 ## Package layout
 
@@ -18,6 +18,7 @@ This is **not submission-ready**. The author-provided author order and affiliati
 - `figures_revision_20261005/`: four presentation-only copies rendered from frozen plot-data/state tables, with label or layout changes recorded in `artwork_registry.json`.
 - `deliverables/targeted_revision_20261005_v1/`: versioned revised PDFs and source archive; the reviewed baseline files under `build/` remain unchanged.
 - `deliverables/authorship_funding_update_20261018_v1/`: versioned PDFs and source archive after the author-list, funding, and project-linkage update.
+- `deliverables/authorship_orcid_update_20261018_v2/`: versioned PDFs and source archive after completing the six-author ORCID metadata.
 - `source_manifest.json`: provenance, hashes, transformations, toolchain, and output inventory.
 - `paper3_mdpi_source.zip`: portable source archive; it excludes generated build auxiliaries and compiled PDFs.
 
@@ -50,6 +51,12 @@ To rebuild the later authorship/funding update, run:
 ./build_authorship_funding_update.sh
 ```
 
+To rebuild the complete ORCID update, run:
+
+```sh
+./build_authorship_orcid_update.sh
+```
+
 The script produces:
 
 ```text
@@ -57,6 +64,8 @@ deliverables/targeted_revision_20261005_v1/paper3_mdpi.pdf
 deliverables/targeted_revision_20261005_v1/paper3_supplementary.pdf
 deliverables/authorship_funding_update_20261018_v1/paper3_mdpi.pdf
 deliverables/authorship_funding_update_20261018_v1/paper3_supplementary.pdf
+deliverables/authorship_orcid_update_20261018_v2/paper3_mdpi.pdf
+deliverables/authorship_orcid_update_20261018_v2/paper3_supplementary.pdf
 ```
 
 The historical `build.sh` is retained for provenance but writes to `build/`; it is not used for this revision.
