@@ -56,4 +56,6 @@ The boundary and temporal studies were also separate. TQ-v1 was not tested in a 
 
 No production deployment measured latency, memory, energy, step-up frequency, or user burden. Larger multi-day studies should retain natural chronology, support victim- and impostor-source uncertainty, and evaluate legitimate change together with adversarial contamination. Future methods could test independently trusted recovery evidence or richer adaptive representations under parameters fixed before outer evaluation.
 
+Within project BR28713099, future work may examine how trustworthy continuous-authentication evidence can support secure personalized credit services intended to strengthen citizens' financial resilience and reduce economic inequality.
+
 The tested state was limited to scalar score location and scale. Feature normalization, embedding adaptation, uncertainty-aware state models, or explicit change detection may respond differently, but they would inherit the same need for trusted update evidence and held-out adversarial evaluation. Field studies should also report how often recovery invokes explicit authentication and whether rollback or rate limits create unacceptable friction.

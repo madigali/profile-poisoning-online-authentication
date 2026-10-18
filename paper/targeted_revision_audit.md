@@ -125,8 +125,22 @@ Final targeted-revision outputs:
 - source ZIP SHA-256: `7189d5a8d737b8e1b5eb801e1dba86b542bae7217355e53f1363a64452f050b0`;
 - source-manifest SHA-256: `2cdd4e4493a24381aa4c40c8e1942d697400f4d1bc98c883fe99b9a46b555fa8`.
 
+## Authorship and funding update (2026-10-18)
+
+The author list, affiliations, three supplied ORCID identifiers, BR28713099 funding statement, and one explicitly prospective Discussion sentence were added without changing experimental data or results. The supplied Word author table had SHA-256 `2ad3657f04bbf74be383946d32d7f43902d3affa728b1ea8068087b098663cca` and was used as a source rather than committed to the repository.
+
+The updated main manuscript and Supplement compiled successfully to 24 and 14 pages. Their final logs contained no LaTeX error, fatal error, undefined citation, undefined reference, or overfull box. The first pages of both documents, main Discussion page 21, and main declarations page 22 were rendered at 160 dpi and visually inspected; the author block, ORCID icons, future-work sentence, and funding statement were legible and unclipped. The new source archive was extracted into a fresh directory and rebuilt successfully with the included update script.
+
+Versioned update outputs:
+
+- main PDF SHA-256: `d45716043706c9b17c828440d46160965898b5a28ee5d7fa987dfbde0ad0b3c0`;
+- Supplement PDF SHA-256: `cac685f0550ce0428f28c1956ea852a6319d0a99afd29e95c134b0b01abaaf54`;
+- source ZIP SHA-256: `79c8cde1fc5a7f157935e500e1e2665524854bfbac184bed15471ea845741a1b`.
+
 ## Unresolved author decisions
 
-The target journal and title remain unapproved. Author identities/order, affiliations, correspondence, ORCID, final keywords, contributions, funding, ethics review, consent, conflicts, acknowledgments, and AI-use disclosure require author confirmation. Raw datasets are not redistributed. The code/results repository is private, and no public archive or DOI is currently assigned; the final availability route requires an author decision.
+On 2026-10-18, the author confirmed the following order: Madi Gali, Vassiliy Serbin, Aray Kassenkhan, Aliya Turegeldinova, Bakytzhan Amralinova, and Shyndauyl Nugumanov. Affiliations for the first three authors were carried forward from the verified primary Paper 1 metadata; the supplied author table provided the affiliations, e-mail addresses, and ORCID identifiers for Turegeldinova, Amralinova, and Nugumanov. The author also supplied the final BR28713099 funding statement. These administrative edits did not alter any experiment, endpoint, result, or interpretation.
+
+The target journal and title remain unapproved. Corresponding-author designation, ORCID identifiers for the first three authors, final keywords, contributions, ethics review, consent, conflicts, acknowledgments, and AI-use disclosure require author confirmation. Raw datasets are not redistributed. The code/results repository is private, and no public archive or DOI is currently assigned; the final availability route requires an author decision.
 
 There is no evidence-integrity blocker arising from M2 if the article reports the executed dataset-specific policy. Requiring identical zero clipping across HMOG and McGill would create a new experiment and would require replacement of the affected McGill outcomes.

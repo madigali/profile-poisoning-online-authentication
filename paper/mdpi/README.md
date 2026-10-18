@@ -2,14 +2,14 @@
 
 This directory is a derived presentation package for Paper 3. The targeted presubmission revision starts from repository revision `b18e9fb117828f31a01f5efcce5b0be57081fa07` and assembles clarified reporting with the official MDPI LaTeX template. It does not replace the Markdown sources in `paper/` or the repository-level `references.bib`.
 
-This is **not submission-ready**. The target journal, final title, author identities and order, affiliations, corresponding-author details, ORCID identifiers, keywords, and all author declarations still require confirmation. Pending fields are visible rather than silently invented.
+This is **not submission-ready**. The author-provided author order and affiliations have been inserted, together with the three ORCID identifiers supplied in the author table and the confirmed BR28713099 funding statement. The target journal, final title, corresponding-author designation, ORCID identifiers for the first three authors, keywords, and the remaining author declarations still require confirmation. Pending fields are visible rather than silently invented.
 
 ## Package layout
 
 - `paper3_mdpi.tex`: readable main manuscript source containing the complete main text, four main figures, and three main tables.
 - `paper3_supplementary.tex`: separate Supplementary Materials source containing Supplementary Methods S1--S10, Supplementary Results S1--S6, Tables S1--S4, and Figures S1--S6.
-- `metadata.tex`: provisional title, visible author metadata placeholders, working keywords, and the frozen abstract.
-- `declarations.tex`: MDPI declaration fields; all unverified author declarations are explicitly pending.
+- `metadata.tex`: provisional title, author-provided author order and affiliations, supplied ORCID identifiers, a visible correspondence placeholder, working keywords, and the frozen abstract.
+- `declarations.tex`: MDPI declaration fields; the author-confirmed funding statement is populated and all other unverified declarations are explicitly pending.
 - `references.bib`: byte-identical copy of the repository-level bibliography.
 - `references_mdpi.bib`: documented MDPI-compatible derived bibliography used for the build.
 - `paper3_mdpi.bbl`: resolved numeric bibliography for the main manuscript.
@@ -17,6 +17,7 @@ This is **not submission-ready**. The target journal, final title, author identi
 - `figures/`: byte-preserving copies of the ten authoritative baseline PDF figures.
 - `figures_revision_20261005/`: four presentation-only copies rendered from frozen plot-data/state tables, with label or layout changes recorded in `artwork_registry.json`.
 - `deliverables/targeted_revision_20261005_v1/`: versioned revised PDFs and source archive; the reviewed baseline files under `build/` remain unchanged.
+- `deliverables/authorship_funding_update_20261018_v1/`: versioned PDFs and source archive after the author-list, funding, and project-linkage update.
 - `source_manifest.json`: provenance, hashes, transformations, toolchain, and output inventory.
 - `paper3_mdpi_source.zip`: portable source archive; it excludes generated build auxiliaries and compiled PDFs.
 
@@ -43,11 +44,19 @@ To rebuild the targeted revision without overwriting the reviewed baseline PDFs,
 ./build_targeted_revision.sh
 ```
 
+To rebuild the later authorship/funding update, run:
+
+```sh
+./build_authorship_funding_update.sh
+```
+
 The script produces:
 
 ```text
 deliverables/targeted_revision_20261005_v1/paper3_mdpi.pdf
 deliverables/targeted_revision_20261005_v1/paper3_supplementary.pdf
+deliverables/authorship_funding_update_20261018_v1/paper3_mdpi.pdf
+deliverables/authorship_funding_update_20261018_v1/paper3_supplementary.pdf
 ```
 
 The historical `build.sh` is retained for provenance but writes to `build/`; it is not used for this revision.

@@ -1,27 +1,32 @@
 {
-  "schema_version": 2,
-  "package_status": "Targeted pre-submission revision; scientifically frozen but not administratively submission-ready",
-  "assembled_on": "2026-10-05",
+  "schema_version": 3,
+  "package_status": "Authorship and funding update; scientifically frozen but not yet administratively submission-ready",
+  "assembled_on": "2026-10-18",
   "source_repository": "/Users/madigali/Documents/PythoProjects/q1",
   "baseline_git_revision": "b18e9fb117828f31a01f5efcce5b0be57081fa07",
   "source_branch": "paper3-external-replication",
-  "revision_scope": "Literature/source tracing, analytical clarification, reporting edits, presentation-only artwork, and packaging; no training, scoring, replay, metric recomputation, bootstrap, or new experiment.",
+  "revision_scope": "Literature/source tracing, analytical clarification, reporting edits, presentation-only artwork, packaging, and a later author-supplied authorship/funding update with one future-work linkage sentence; no training, scoring, replay, metric recomputation, bootstrap, or new experiment.",
   "pending_author_decisions": [
     "target journal",
     "final title",
-    "author identities and order",
-    "affiliations",
     "corresponding author",
-    "ORCID identifiers",
+    "ORCID identifiers for Madi Gali, Vassiliy Serbin, and Aray Kassenkhan",
     "keywords",
     "author contributions",
-    "funding",
     "institutional review",
     "informed consent",
     "data availability",
     "acknowledgments and AI-assisted-tool disclosure",
     "conflicts of interest"
   ],
+  "administrative_update": {
+    "date": "2026-10-18",
+    "base_git_revision": "854b65ca6df03f09087b182da8a1413e9e6802aa",
+    "author_table_source": "/Users/madigali/Downloads/доп авторы.docx",
+    "author_table_sha256": "2ad3657f04bbf74be383946d32d7f43902d3affa728b1ea8068087b098663cca",
+    "scope": "Inserted the author-confirmed order and affiliations, the three supplied ORCID identifiers, the supplied BR28713099 funding statement, and one explicitly prospective Discussion sentence linking future work to the funded project.",
+    "scientific_results_changed": false
+  },
   "template": {
     "official_page": "https://www.mdpi.com/authors/latex",
     "archive_url": "https://res.mdpi.com/data/MDPI_template_ACS.zip?v=20260911",
@@ -53,7 +58,7 @@
   },
   "sources": {
     "paper/manuscript_full.md": {
-      "sha256": "30894fecd3aa5b45739c587b71233244c02955e63b2ec16cfde9f8624a66a299"
+      "sha256": "dc22f654720ebec2f7a61e6267e7bcf29a96a85a9bc9dda9b86191a5a5a1bb1f"
     },
     "paper/supplementary_methods.md": {
       "sha256": "e4c87ec95048c06369a0ee7759c00eff31ea354855cb7157710727bdbc244a96"
@@ -235,25 +240,28 @@
   ],
   "derived_sources": {
     "paper3_mdpi.tex": {
-      "sha256": "00b07f21f0e35e684c3b011117cd28a87368958a953da44bda9c36ffe04a1796"
+      "sha256": "376f497af9f34fe23544474b71f73cf01a5cb16cd9138f0e363258fddde23d40"
     },
     "paper3_supplementary.tex": {
       "sha256": "32bfe292137eb0f44168a1f9ff98d64ddaf619338a3659e7cba5c40082304943"
     },
     "metadata.tex": {
-      "sha256": "d22485dfb2e26030dc0d3a7d53e3e8c2591b70afbb154d60c64628ec19b2a829"
+      "sha256": "3d1d15c67b2f4f510093b06cebfb0484ef90a41be843306e94c99eab0dcd86b9"
     },
     "declarations.tex": {
-      "sha256": "e1f7381452100c6a8138a768fbaec0e0528146d9e6972aff28ff205222caa2cc"
+      "sha256": "a77c94e32d03b07146d8c35f40ba27042d653e8175cf1a7fa6d14767022b33dc"
     },
     "build.sh": {
       "sha256": "2634af1a247fbbc02986f36bd400daab93b0aef60fe3358aaf4c6409c626cca0"
     },
     "README.md": {
-      "sha256": "e4f278d03b00c9f4f76a1c706a92ade30537b1780d73bbaa391040e0ba46f007"
+      "sha256": "906ff521cf79231d7539b71f6afaa9ad4ad24599305216fbdff775684112d8e3"
     },
     "build_targeted_revision.sh": {
       "sha256": "2756fd0d332e48e1f3201aa7543e866dd79edb9a37305a3780020b0e9e211599"
+    },
+    "build_authorship_funding_update.sh": {
+      "sha256": "1160766ab390d13431239225a0ea060df8af83e1c5294d24761477fbc35cbe2a"
     },
     "render_publication_figures.py": {
       "sha256": "af25d5be92a0ccb4b7c55cd012732e317231be69011d132adf18de856e5af5fa"
@@ -287,6 +295,20 @@
     "source_archive": {
       "path": "deliverables/targeted_revision_20261005_v1/paper3_mdpi_source.zip",
       "sha256": "recorded in paper/targeted_revision_audit.md after archive creation"
+    },
+    "authorship_update_main_pdf": {
+      "path": "deliverables/authorship_funding_update_20261018_v1/paper3_mdpi.pdf",
+      "sha256": "d45716043706c9b17c828440d46160965898b5a28ee5d7fa987dfbde0ad0b3c0",
+      "pages": 24
+    },
+    "authorship_update_supplement_pdf": {
+      "path": "deliverables/authorship_funding_update_20261018_v1/paper3_supplementary.pdf",
+      "sha256": "cac685f0550ce0428f28c1956ea852a6319d0a99afd29e95c134b0b01abaaf54",
+      "pages": 14
+    },
+    "authorship_update_source_archive": {
+      "path": "deliverables/authorship_funding_update_20261018_v1/paper3_mdpi_source.zip",
+      "sha256": "recorded in paper/targeted_revision_audit.md after archive creation"
     }
   },
   "verification": {
@@ -313,6 +335,20 @@
       "main_pages": 24,
       "supplement_pages": 14,
       "note": "PDF byte hashes may vary across clean builds because the TeX engine records compilation metadata; page counts, logs, and rendered content were checked."
+    },
+    "authorship_funding_update": {
+      "main_and_supplement_compile": true,
+      "undefined_citations": 0,
+      "undefined_references": 0,
+      "overfull_boxes": 0,
+      "main_pages": 24,
+      "supplement_pages": 14,
+      "focused_visual_pages_inspected": [
+        "main 1",
+        "main 21",
+        "main 22",
+        "supplement S1"
+      ]
     }
   }
 }
