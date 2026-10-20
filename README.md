@@ -10,13 +10,13 @@ impostor samples to poison its state.
 ## MDPI submission snapshot
 
 The journal-facing repository snapshot is frozen by the Git tag
-[`paper3-mdpi-submission-2026-10-21`](https://github.com/madigali/paper3-poisoning-resistant-adaptation/tree/paper3-mdpi-submission-2026-10-21).
+[`paper3-mdpi-submission-2026-10-21-v2`](https://github.com/madigali/paper3-poisoning-resistant-adaptation/tree/paper3-mdpi-submission-2026-10-21-v2).
 It contains the manuscript sources, Supplementary Materials, protocol records,
 tests, and the derived result tables and figures used in the article.
 
-- Main manuscript: [`paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi.pdf`](paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi.pdf)
-- Supplementary Materials: [`paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_supplementary.pdf`](paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_supplementary.pdf)
-- Portable LaTeX package: [`paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi_source.zip`](paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi_source.zip)
+- Main manuscript: [`paper/mdpi/deliverables/authoritative_submission_20261021_v4/paper3_mdpi.pdf`](paper/mdpi/deliverables/authoritative_submission_20261021_v4/paper3_mdpi.pdf)
+- Supplementary Materials: [`paper/mdpi/deliverables/authoritative_submission_20261021_v4/paper3_supplementary.pdf`](paper/mdpi/deliverables/authoritative_submission_20261021_v4/paper3_supplementary.pdf)
+- Portable LaTeX package: [`paper/mdpi/deliverables/authoritative_submission_20261021_v4/paper3_mdpi_source.zip`](paper/mdpi/deliverables/authoritative_submission_20261021_v4/paper3_mdpi_source.zip)
 - Reproducibility and provenance: [`paper/mdpi/source_manifest.json`](paper/mdpi/source_manifest.json)
 
 The repository remains private during manuscript preparation. Editors or

@@ -188,3 +188,48 @@ Versioned repository-link outputs:
 - source-manifest SHA-256: `c1f30e1f1142e671da8693736fafedd72f2ef38ab62f8404556fff85c70f965a`.
 
 There is no evidence-integrity blocker arising from M2 if the article reports the executed dataset-specific policy. Requiring identical zero clipping across HMOG and McGill would create a new experiment and would require replacement of the affected McGill outcomes.
+
+## Authoritative source reconciliation (2026-10-21)
+
+The author identified `/Users/madigali/Downloads/paper3_mdpi_source (2).zip`
+as the latest source package. Its SHA-256 was
+`8e2ed7e328857034361cb79ca0b35e88a66fcee0e8dd951754d7e75bc5727e2c`.
+Relative to the repository source, its scientific manuscript, Supplement,
+bibliography, figures, and template files were unchanged. The substantive
+changes were confined to `metadata.tex` and `declarations.tex`: the final title
+and keywords, a seventh author (Yersain Chinibayev), seven ORCID identifiers,
+two corresponding authors, contribution roles, ethics and consent statements,
+acknowledgments including the AI-assistance disclosure, and the conflict-of-
+interest statement.
+
+Those author-supplied fields were adopted. The Data Availability statement was
+reconciled rather than replaced: it retains the two provider URLs and raw-data
+redistribution restriction from the latest archive while adding the immutable
+GitHub route
+`https://github.com/madigali/paper3-poisoning-resistant-adaptation/tree/paper3-mdpi-submission-2026-10-21-v2`.
+The incoming archive's generated `build/` and empty `tmp/` directories were not
+carried into the clean source package.
+
+This reconciliation changed administrative metadata and declarations only. It
+did not alter the abstract, manuscript body, Supplement, experimental results,
+figures, tables, bibliography, or scientific interpretation.
+
+The reconciled main manuscript and Supplement compiled successfully to 24 and
+14 pages. Their final logs contained no LaTeX error, fatal error, undefined
+citation, undefined reference, or overfull box. Seven ORCID destinations and
+the new GitHub tag destination were verified programmatically. Main pages 1,
+22, and 23 and Supplement page S1 were rendered at 180 dpi and visually
+inspected; the seven-author block, correspondence line, declarations, provider
+links, repository URL, and reference transition were legible and unclipped.
+
+The clean source archive contains neither the incoming generated `build/`
+directory nor `tmp/`. It passed ZIP integrity testing and a clean-extract
+rebuild with the included authoritative build script, again producing 24 main
+pages and 14 Supplement pages.
+
+Versioned authoritative outputs:
+
+- main PDF SHA-256: `80793025b7417016b2b3f76cefc032ec8636ce4f7d8b53e20eb4dd319eda5b29`;
+- Supplement PDF SHA-256: `19c3b6fe1ea9d188bb37231bd0dfba2dedd95fd2260e2ba3aac2259c50bf39c3`;
+- source ZIP SHA-256: `7a2ba0e5302c735995e1dc1c2c3f601098ece0d156229f0d16cf5019ed67f02d`;
+- source-manifest SHA-256: `cf3586c00f9e267029ef1b5a4f34bdf950b343d1965ae565bd42806ed520465e`.

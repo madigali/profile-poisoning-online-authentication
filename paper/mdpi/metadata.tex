@@ -1,23 +1,23 @@
-% Provisional title: author confirmation pending.
-% Author identities, order, and affiliations were supplied by the author on
-% 2026-10-18. Corresponding-author designation remains pending.
-% Keywords below are a working proposal and require author approval.
-\newcommand{\PaperTitle}{Poisoning and Selective-Update Bias in Online Behavioral Biometric Authentication}
+% Final title and keywords confirmed by the author on 2026-10-20.
+% Author identities, order, and affiliations were supplied by the author and
+% updated on 2026-10-20. Corresponding authors: Vassiliy Serbin and Aray Kassenkhan.
+\newcommand{\PaperTitle}{Profile Poisoning and Selective-Update Bias in Online Behavioral Biometric Authentication}
 \newcommand{\orcidauthorA}{0009-0006-2621-0454}
 \newcommand{\orcidauthorB}{0000-0002-5807-3873}
 \newcommand{\orcidauthorC}{0000-0002-6355-9544}
 \newcommand{\orcidauthorD}{0000-0003-1042-1530}
 \newcommand{\orcidauthorE}{0000-0003-0716-5265}
 \newcommand{\orcidauthorF}{0009-0002-4089-9332}
-\newcommand{\PaperAuthors}{Madi Gali $^{1}$\orcidA{}, Vassiliy Serbin $^{2}$\orcidB{}, Aray Kassenkhan $^{3}$\orcidC{}, Aliya Turegeldinova $^{4}$\orcidD{}, Bakytzhan Amralinova $^{5}$\orcidE{} and Shyndauyl Nugumanov $^{5}$\orcidF{}}
-\newcommand{\PaperAuthorNames}{Madi Gali, Vassiliy Serbin, Aray Kassenkhan, Aliya Turegeldinova, Bakytzhan Amralinova and Shyndauyl Nugumanov}
+\newcommand{\orcidauthorG}{0009-0009-8985-5892}
+\newcommand{\PaperAuthors}{Madi Gali $^{1}$\orcidA{}, Vassiliy Serbin $^{2,*}$\orcidB{}, Aray Kassenkhan $^{3,*}$\orcidC{}, Aliya Turegeldinova $^{4}$\orcidD{}, Bakytzhan Amralinova $^{5}$\orcidE{}, Shyndauyl Nugumanov $^{5}$\orcidF{} and Yersain Chinibayev $^{3}$\orcidG{}}
+\newcommand{\PaperAuthorNames}{Madi Gali, Vassiliy Serbin, Aray Kassenkhan, Aliya Turegeldinova, Bakytzhan Amralinova, Shyndauyl Nugumanov and Yersain Chinibayev}
 \newcommand{\PaperAffiliations}{%
 $^{1}$ \quad Department of Cybersecurity, Institute of Automation and Information Technologies, Satbayev University, Almaty 050013, Kazakhstan; \href{mailto:gali.m@stud.satbayev.university}{gali.m@stud.satbayev.university}\\
 $^{2}$ \quad Department of Information Systems, Institute of Automation and Information Technologies, Satbayev University, Almaty 050013, Kazakhstan; \href{mailto:v.serbin@satbayev.university}{v.serbin@satbayev.university}\\
-$^{3}$ \quad Department of Software Engineering, Institute of Automation and Information Technologies, Satbayev University, Almaty 050013, Kazakhstan; \href{mailto:a.kassenkhan@satbayev.university}{a.kassenkhan@satbayev.university}\\
+$^{3}$ \quad Department of Software Engineering, Institute of Automation and Information Technologies, Satbayev University, Almaty 050013, Kazakhstan; \href{mailto:a.kassenkhan@satbayev.university}{a.kassenkhan@satbayev.university} (A.K.); \href{mailto:y.chinibayev@satbayev.university}{y.chinibayev@satbayev.university} (Y.C.)\\
 $^{4}$ \quad Department of Management and Mathematical Economics, Satbayev University, Almaty, Kazakhstan; \href{mailto:a.turegeldinova@satbayev.university}{a.turegeldinova@satbayev.university}\\
 $^{5}$ \quad Project Management Institute, Satbayev University, Almaty, Kazakhstan; \href{mailto:b.amralinova@satbayev.university}{b.amralinova@satbayev.university} (B.A.); \href{mailto:s.nugumanov@satbayev.university}{s.nugumanov@satbayev.university} (S.N.)
 }
-\newcommand{\PaperCorrespondence}{Corresponding-author details pending confirmation}
-\newcommand{\PaperKeywords}{behavioral biometrics; continuous authentication; online adaptation; profile poisoning; selective-update bias; mobile security}
+\newcommand{\PaperCorrespondence}{Correspondence: \href{mailto:v.serbin@satbayev.university}{v.serbin@satbayev.university} (V.S.); \href{mailto:a.kassenkhan@satbayev.university}{a.kassenkhan@satbayev.university} (A.K.)}
+\newcommand{\PaperKeywords}{behavioral biometrics; continuous authentication; template update; online adaptation; profile poisoning; selective-update bias; mobile security; adversarial machine learning}
 \newcommand{\PaperAbstract}{Behavioral continuous authentication can update a user's profile during operation, but accepted-only adaptation links access errors to future model state. Prior biometric work established separate authentication and update thresholds and quantified erroneous impostor inclusion and genuine-update misses. We examine their coupled security and adaptation consequences in score-level mobile authentication using frozen HMOG long short-term memory scores, a synthetic feature-space shift, and an independent two-day McGill Gait protocol. Poisoning samples were separated from future impostor probes. The strongest benchmark assumed access to claimant scores and presented up to eight initially accepted samples ranked near the authentication boundary; reconnaissance and candidate screening were not counted. At the reference operating points, Blind exponential moving-average (EMA) updating increased post-poison attack success rate from 22.92\% to 53.96\% on HMOG and from 12.37\% to 32.09\% on McGill. An enrollment-anchored Guarded EMA condition kept the reference-point result close to Frozen. This direction did not persist across recalibrated policies. Under the nominal-1\% calibration condition, the mean Blind-minus-Frozen effect was negative on both datasets for the tested boundary strategy. On the same HMOG conditional cohort, Blind EMA reduced attack success by 0.447 percentage points but increased false rejection by 6.89 points and half total error rate by 3.22 points. Full-cohort false rejection at this strict condition was 80.79\% on HMOG and 90.25\% on McGill. The Guarded rule added no update margin when the current authentication threshold reached or exceeded the enrollment mean. In separate temporal evaluations, Guarded did not improve late genuine acceptance relative to Frozen. A label-aware, non-deployable Oracle-all diagnostic changed profile trajectories and reduced false rejection, but increased false acceptance. The results show that poisoning effects, genuine rejection, update-gate activity, calibration transfer, and attack feasibility depend on the operating point and should be evaluated together.}

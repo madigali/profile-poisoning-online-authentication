@@ -1,22 +1,15 @@
 {
   "schema_version": 3,
-  "package_status": "Complete six-author ORCID and tagged GitHub availability update; scientifically frozen but not yet administratively submission-ready",
+  "package_status": "Author-designated latest seven-author metadata and declarations reconciled with the tagged GitHub route; scientifically frozen",
   "assembled_on": "2026-10-21",
   "source_repository": "/Users/madigali/Documents/PythoProjects/q1",
   "baseline_git_revision": "b18e9fb117828f31a01f5efcce5b0be57081fa07",
   "source_branch": "paper3-external-replication",
-  "revision_scope": "Literature/source tracing, analytical clarification, reporting edits, presentation-only artwork, packaging, author-supplied authorship/funding metadata, and a tagged GitHub availability route; no training, scoring, replay, metric recomputation, bootstrap, or new experiment.",
+  "revision_scope": "Literature/source tracing, analytical clarification, reporting edits, presentation-only artwork, packaging, author-supplied seven-author metadata and declarations, and a tagged GitHub availability route; no training, scoring, replay, metric recomputation, bootstrap, or new experiment.",
   "pending_author_decisions": [
-    "target journal",
-    "final title",
-    "corresponding author",
-    "keywords",
-    "author contributions",
-    "institutional review",
-    "informed consent",
-    "repository visibility at publication",
-    "acknowledgments and AI-assisted-tool disclosure",
-    "conflicts of interest"
+    "target MDPI journal and journal-specific class option",
+    "all-author approval of contribution roles and declarations",
+    "repository visibility at publication"
   ],
   "administrative_update": {
     "date": "2026-10-18",
@@ -42,6 +35,28 @@
     "visibility_at_assembly": "private",
     "article_wording": "Private during manuscript preparation; editorial access available from the authors upon reasonable request",
     "raw_datasets_redistributed": false,
+    "scientific_results_changed": false
+  },
+  "authoritative_reconciliation": {
+    "date": "2026-10-21",
+    "source_archive": "/Users/madigali/Downloads/paper3_mdpi_source (2).zip",
+    "source_archive_sha256": "8e2ed7e328857034361cb79ca0b35e88a66fcee0e8dd951754d7e75bc5727e2c",
+    "author_designated_as_latest": true,
+    "adopted_files": [
+      "metadata.tex",
+      "declarations.tex"
+    ],
+    "author_count": 7,
+    "corresponding_authors": [
+      "Vassiliy Serbin",
+      "Aray Kassenkhan"
+    ],
+    "new_author": {
+      "name": "Yersain Chinibayev",
+      "orcid": "0009-0009-8985-5892"
+    },
+    "frozen_tag": "paper3-mdpi-submission-2026-10-21-v2",
+    "incoming_build_and_tmp_excluded": true,
     "scientific_results_changed": false
   },
   "template": {
@@ -263,16 +278,16 @@
       "sha256": "32bfe292137eb0f44168a1f9ff98d64ddaf619338a3659e7cba5c40082304943"
     },
     "metadata.tex": {
-      "sha256": "dff5f4f1a69dc242b4e33b814e598046bca993bf716175062400a8974b2173cc"
+      "sha256": "e91b8e7045be65f748c59915e1578bd73f71ce17fa577c1ee691532d3afb30f0"
     },
     "declarations.tex": {
-      "sha256": "0c1eeac4d23fd1b2122e44e42a63639d531169e2f3f0bfc557bbdf63facae136"
+      "sha256": "bdfa696897a1e7dee8ce06f64b57ad0e4415a3559906bc5ef6201af02fa732f7"
     },
     "build.sh": {
       "sha256": "2634af1a247fbbc02986f36bd400daab93b0aef60fe3358aaf4c6409c626cca0"
     },
     "README.md": {
-      "sha256": "531c945766d993b950d93d0906bda8f9542b29d83bd01ea0643dd200d49c8a50"
+      "sha256": "f9fbf01d9cfe864974679195f32a9e5e5f2b50f7212b266665b28ae84c27f394"
     },
     "build_targeted_revision.sh": {
       "sha256": "2756fd0d332e48e1f3201aa7543e866dd79edb9a37305a3780020b0e9e211599"
@@ -285,6 +300,9 @@
     },
     "build_mdpi_repository_link_update.sh": {
       "sha256": "c19c222f7a6d21ef8c2bf1d5d64896d9e1ec015dd00a5bbb91229174ae4a894e"
+    },
+    "build_authoritative_submission.sh": {
+      "sha256": "937a6ec3255b0fcb1e9b1180fdab5608e18069d4677b86f53beaf3764c6566c8"
     },
     "render_publication_figures.py": {
       "sha256": "af25d5be92a0ccb4b7c55cd012732e317231be69011d132adf18de856e5af5fa"
@@ -360,6 +378,20 @@
     "mdpi_repository_link_source_archive": {
       "path": "deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi_source.zip",
       "sha256": "recorded in paper/targeted_revision_audit.md after archive creation"
+    },
+    "authoritative_submission_main_pdf": {
+      "path": "deliverables/authoritative_submission_20261021_v4/paper3_mdpi.pdf",
+      "sha256": "80793025b7417016b2b3f76cefc032ec8636ce4f7d8b53e20eb4dd319eda5b29",
+      "pages": 24
+    },
+    "authoritative_submission_supplement_pdf": {
+      "path": "deliverables/authoritative_submission_20261021_v4/paper3_supplementary.pdf",
+      "sha256": "19c3b6fe1ea9d188bb37231bd0dfba2dedd95fd2260e2ba3aac2259c50bf39c3",
+      "pages": 14
+    },
+    "authoritative_submission_source_archive": {
+      "path": "deliverables/authoritative_submission_20261021_v4/paper3_mdpi_source.zip",
+      "sha256": "recorded in paper/targeted_revision_audit.md after archive creation"
     }
   },
   "verification": {
@@ -424,6 +456,22 @@
       "tagged_url_rendered_and_clickable": true,
       "focused_visual_pages_inspected": [
         "main 22"
+      ]
+    },
+    "authoritative_submission_update": {
+      "main_and_supplement_compile": true,
+      "undefined_citations": 0,
+      "undefined_references": 0,
+      "overfull_boxes": 0,
+      "main_pages": 24,
+      "supplement_pages": 14,
+      "orcid_links_verified": 7,
+      "tagged_url_rendered_and_clickable": true,
+      "focused_visual_pages_inspected": [
+        "main 1",
+        "main 22",
+        "main 23",
+        "supplement S1"
       ]
     }
   }

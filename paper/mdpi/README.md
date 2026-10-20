@@ -2,7 +2,7 @@
 
 This directory is a derived presentation package for Paper 3. The targeted presubmission revision starts from repository revision `b18e9fb117828f31a01f5efcce5b0be57081fa07` and assembles clarified reporting with the official MDPI LaTeX template. It does not replace the Markdown sources in `paper/` or the repository-level `references.bib`.
 
-This is **not yet administratively submission-ready**. The author-provided author order and affiliations have been inserted, together with ORCID identifiers for all six authors, the confirmed BR28713099 funding statement, and the tagged GitHub availability route. The target journal, final title, corresponding-author designation, keywords, and the remaining author declarations still require confirmation. Pending fields are visible rather than silently invented.
+This package incorporates the author-designated latest title, seven-author list, seven ORCID identifiers, two corresponding authors, keywords, declarations, BR28713099 funding statement, and tagged GitHub availability route. The target MDPI journal and therefore the journal-specific class option remain to be selected. Contribution roles and declarations must be approved by all authors before submission.
 
 ## Package layout
 
@@ -20,6 +20,7 @@ This is **not yet administratively submission-ready**. The author-provided autho
 - `deliverables/authorship_funding_update_20261018_v1/`: versioned PDFs and source archive after the author-list, funding, and project-linkage update.
 - `deliverables/authorship_orcid_update_20261018_v2/`: versioned PDFs and source archive after completing the six-author ORCID metadata.
 - `deliverables/mdpi_repository_link_20261021_v3/`: versioned PDFs and source archive containing the tagged GitHub Data Availability route.
+- `deliverables/authoritative_submission_20261021_v4/`: versioned PDFs and clean source archive reconciling the author-designated latest metadata and declarations with the tagged GitHub route.
 - `source_manifest.json`: provenance, hashes, transformations, toolchain, and output inventory.
 - `paper3_mdpi_source.zip`: portable source archive; it excludes generated build auxiliaries and compiled PDFs.
 
@@ -64,6 +65,12 @@ To rebuild the MDPI repository-link update, run:
 ./build_mdpi_repository_link_update.sh
 ```
 
+To rebuild the authoritative reconciled package, run:
+
+```sh
+./build_authoritative_submission.sh
+```
+
 The script produces:
 
 ```text
@@ -75,6 +82,8 @@ deliverables/authorship_orcid_update_20261018_v2/paper3_mdpi.pdf
 deliverables/authorship_orcid_update_20261018_v2/paper3_supplementary.pdf
 deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi.pdf
 deliverables/mdpi_repository_link_20261021_v3/paper3_supplementary.pdf
+deliverables/authoritative_submission_20261021_v4/paper3_mdpi.pdf
+deliverables/authoritative_submission_20261021_v4/paper3_supplementary.pdf
 ```
 
 The historical `build.sh` is retained for provenance but writes to `build/`; it is not used for this revision.
