@@ -233,3 +233,12 @@ Versioned authoritative outputs:
 - Supplement PDF SHA-256: `19c3b6fe1ea9d188bb37231bd0dfba2dedd95fd2260e2ba3aac2259c50bf39c3`;
 - source ZIP SHA-256: `7a2ba0e5302c735995e1dc1c2c3f601098ece0d156229f0d16cf5019ed67f02d`;
 - source-manifest SHA-256: `cf3586c00f9e267029ef1b5a4f34bdf950b343d1965ae565bd42806ed520465e`.
+
+## Technologies portal package (2026-10-21)
+
+- The target journal was fixed as **Technologies** (ISSN 2227-7080).
+- The MDPI class option was changed from the neutral `notspecified` option to `technologies` in both the main manuscript and Supplementary Materials sources.
+- A journal-specific cover letter was added. Its scope paragraph explicitly connects the work to emerging mobile intelligent systems, behavioral biometrics, adaptive machine learning, and cybersecurity.
+- The portal package keeps the main source archive and Supplementary Materials separate. `Technologies_manuscript_main.zip` contains the main manuscript, required MDPI support files, bibliography, and the four main figures only; it excludes the Supplementary Materials source and PDF.
+- `UNPACK_FIRST_Technologies_submission_kit.zip` is a transport bundle, not a manuscript upload. The included `UPLOAD_MAP.txt` identifies the correct portal field for every required file.
+- This was an administrative and presentation-layer change only. No experiment, metric, bootstrap, result, or scientific interpretation was changed.

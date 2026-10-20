@@ -1,0 +1,31 @@
+TECHNOLOGIES / MDPI UPLOAD MAP
+
+1. Manuscript Files > Manuscript
+   Upload: Technologies_manuscript_main.zip
+   This ZIP contains only the main LaTeX manuscript and the files required to compile it.
+   It does NOT contain the Supplementary Materials.
+
+2. Cover Letter > Cover Letter Files
+   Upload: Technologies_cover_letter.pdf
+   Alternative: paste the contents of Technologies_cover_letter.txt into the text field.
+
+3. Supplementary File(s)
+   Upload: Technologies_supplementary.pdf
+
+4. Graphical Abstract
+   Leave empty unless the journal editor specifically requests one.
+
+5. Video Abstract
+   Leave empty.
+
+6. Figures, Graphics, Images
+   Leave empty for the initial submission because the four main figures are embedded in the manuscript source ZIP.
+
+7. Copyright Permission
+   Leave empty: the manuscript does not reproduce third-party copyrighted figures or tables requiring separate permission.
+
+8. Non-published Material
+   Leave empty unless you intentionally provide additional material for editorial review only.
+
+IMPORTANT: UNPACK_FIRST_Technologies_submission_kit.zip is only a convenience bundle.
+Do not upload that outer ZIP to the Manuscript field. Unpack it and upload the three files listed above to their separate fields.

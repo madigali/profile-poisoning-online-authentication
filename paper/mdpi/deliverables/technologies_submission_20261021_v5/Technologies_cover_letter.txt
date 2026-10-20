@@ -1,0 +1,20 @@
+Dear Editors,
+
+On behalf of the authors, we submit the Article entitled “Profile Poisoning and Selective-Update Bias in Online Behavioral Biometric Authentication” for consideration in Technologies.
+
+The manuscript is directly linked to the scope of Technologies because it examines an emerging technical problem at the intersection of mobile intelligent systems, behavioral biometrics, adaptive machine learning, and cybersecurity. In particular, it studies how online profile adaptation changes both security and usability when an authentication system encounters adversarial profile poisoning or legitimate temporal change. The work therefore addresses the design and evaluation of trustworthy adaptive technologies for continuous mobile authentication.
+
+The study contributes a paired held-out protocol that separates poisoning observations from future impostor probes; evaluates Frozen, Blind EMA, confidence-gated Guarded EMA, and label-aware diagnostic controls; quantifies operating-point sensitivity and update-gate activity; and tests whether the observed mechanisms recur in an independent two-day McGill Gait protocol. The results show that update authorization can reduce malicious state contamination at the evaluated reference operating points, while accepted-only feedback can censor low-score genuine evidence. Oracle-all controls show that restoring such evidence changes profile tracking but can incur a substantial false-acceptance cost. The article reports these security–adaptation trade-offs, negative validation-gated branches, and limitations without claiming a universally secure operating point.
+
+The manuscript uses previously collected, anonymized HMOG and McGill Gait data and reports no new participant recruitment or data collection. Raw datasets are not redistributed. The analysis code, protocol records, and derived results are preserved in a tagged private GitHub repository; editorial access is available from the corresponding authors upon reasonable request. The authors declare no conflicts of interest, and all authors have approved the submitted manuscript and its authorship declarations.
+
+We believe the paper will interest readers of Technologies working on mobile security, biometric systems, adaptive artificial intelligence, adversarial machine learning, and rigorous evaluation of emerging intelligent technologies.
+
+Thank you for considering our manuscript.
+
+Sincerely,
+
+Vassiliy Valerievich Serbin and Aray Meyrambaykyzy Kassenkhan
+Corresponding Authors
+Satbayev University
+v.serbin@satbayev.university; a.kassenkhan@satbayev.university

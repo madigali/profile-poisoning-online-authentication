@@ -1,16 +1,24 @@
 {
   "schema_version": 3,
-  "package_status": "Author-designated latest seven-author metadata and declarations reconciled with the tagged GitHub route; scientifically frozen",
+  "package_status": "Technologies-specific seven-author submission package; scientifically frozen",
   "assembled_on": "2026-10-21",
   "source_repository": "/Users/madigali/Documents/PythoProjects/q1",
   "baseline_git_revision": "b18e9fb117828f31a01f5efcce5b0be57081fa07",
   "source_branch": "paper3-external-replication",
-  "revision_scope": "Literature/source tracing, analytical clarification, reporting edits, presentation-only artwork, packaging, author-supplied seven-author metadata and declarations, and a tagged GitHub availability route; no training, scoring, replay, metric recomputation, bootstrap, or new experiment.",
+  "revision_scope": "Literature/source tracing, analytical clarification, reporting edits, presentation-only artwork, packaging, author-supplied seven-author metadata and declarations, journal selection, cover-letter assembly, and a tagged GitHub availability route; no training, scoring, replay, metric recomputation, bootstrap, or new experiment.",
   "pending_author_decisions": [
-    "target MDPI journal and journal-specific class option",
     "all-author approval of contribution roles and declarations",
     "repository visibility at publication"
   ],
+  "journal_selection": {
+    "journal": "Technologies",
+    "issn": "2227-7080",
+    "selected_on": "2026-10-21",
+    "main_class_option": "technologies,article,submit,moreauthors",
+    "supplement_class_option": "technologies,supfile,submit,moreauthors",
+    "portal_packaging": "Main source ZIP, cover letter PDF, and Supplementary Materials PDF are uploaded separately",
+    "scientific_results_changed": false
+  },
   "administrative_update": {
     "date": "2026-10-18",
     "base_git_revision": "854b65ca6df03f09087b182da8a1413e9e6802aa",
@@ -59,6 +67,15 @@
     "incoming_build_and_tmp_excluded": true,
     "scientific_results_changed": false
   },
+  "technologies_submission": {
+    "date": "2026-10-21",
+    "journal": "Technologies",
+    "frozen_tag": "paper3-technologies-submission-2026-10-21",
+    "main_source_zip_excludes_supplement": true,
+    "cover_letter_explains_journal_link": true,
+    "outer_bundle_requires_unpacking": true,
+    "scientific_results_changed": false
+  },
   "template": {
     "official_page": "https://www.mdpi.com/authors/latex",
     "archive_url": "https://res.mdpi.com/data/MDPI_template_ACS.zip?v=20260911",
@@ -66,13 +83,13 @@
     "archive_sha256": "62744425fbcec9cd3e58147cbee65bdec2e2ff0440f29792c26edc97a11b6c70",
     "class_version": "2026-09-11 v6.5a",
     "main_options": [
-      "notspecified",
+      "technologies",
       "article",
       "submit",
       "moreauthors"
     ],
     "supplement_options": [
-      "notspecified",
+      "technologies",
       "supfile",
       "submit",
       "moreauthors"
@@ -392,6 +409,29 @@
     "authoritative_submission_source_archive": {
       "path": "deliverables/authoritative_submission_20261021_v4/paper3_mdpi_source.zip",
       "sha256": "recorded in paper/targeted_revision_audit.md after archive creation"
+    },
+    "technologies_main_preview_pdf": {
+      "path": "deliverables/technologies_submission_20261021_v5/Technologies_main_manuscript_preview.pdf",
+      "sha256": "842fc642fbb7ce9eb02b25afe7c6dacd27e9226841bddf72879f461256277c59",
+      "pages": 24
+    },
+    "technologies_supplement_pdf": {
+      "path": "deliverables/technologies_submission_20261021_v5/Technologies_supplementary.pdf",
+      "sha256": "037baea116f62263f1c5d766f6f869267c57f4538e688327b3a7a32ebe753107",
+      "pages": 14
+    },
+    "technologies_cover_letter_pdf": {
+      "path": "deliverables/technologies_submission_20261021_v5/Technologies_cover_letter.pdf",
+      "sha256": "71423d62efac176190b0419a036fdbdee5d46d680674f4bab9695de087549e04",
+      "pages": 1
+    },
+    "technologies_main_source_zip": {
+      "path": "deliverables/technologies_submission_20261021_v5/Technologies_manuscript_main.zip",
+      "sha256": "cf3a82c12708eeee95e7204e29163ae497bdf10f7e386fb818c86af8e8e20565"
+    },
+    "technologies_outer_upload_kit": {
+      "path": "deliverables/technologies_submission_20261021_v5/UNPACK_FIRST_Technologies_submission_kit.zip",
+      "sha256": "b9c2050533c34be1c3b3a96df9bf8eb8c085511a64de8a86e0982477e341b168"
     }
   },
   "verification": {
@@ -472,6 +512,25 @@
         "main 22",
         "main 23",
         "supplement S1"
+      ]
+    },
+    "technologies_submission_update": {
+      "main_and_supplement_compile": true,
+      "cover_letter_compiles": true,
+      "undefined_citations": 0,
+      "undefined_references": 0,
+      "overfull_boxes": 0,
+      "main_pages": 24,
+      "supplement_pages": 14,
+      "cover_letter_pages": 1,
+      "main_source_zip_excludes_supplement": true,
+      "clean_extract_main_rebuild": "passed",
+      "focused_visual_pages_inspected": [
+        "main 1",
+        "main 24",
+        "supplement S1",
+        "supplement S14",
+        "cover letter 1"
       ]
     }
   }

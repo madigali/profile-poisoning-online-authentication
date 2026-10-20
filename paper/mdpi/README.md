@@ -2,7 +2,7 @@
 
 This directory is a derived presentation package for Paper 3. The targeted presubmission revision starts from repository revision `b18e9fb117828f31a01f5efcce5b0be57081fa07` and assembles clarified reporting with the official MDPI LaTeX template. It does not replace the Markdown sources in `paper/` or the repository-level `references.bib`.
 
-This package incorporates the author-designated latest title, seven-author list, seven ORCID identifiers, two corresponding authors, keywords, declarations, BR28713099 funding statement, and tagged GitHub availability route. The target MDPI journal and therefore the journal-specific class option remain to be selected. Contribution roles and declarations must be approved by all authors before submission.
+This package incorporates the author-designated latest title, seven-author list, seven ORCID identifiers, two corresponding authors, keywords, declarations, BR28713099 funding statement, and tagged GitHub availability route. The selected journal is *Technologies*; the main and Supplementary Materials sources use the official `technologies` class option. Contribution roles and declarations must be approved by all authors before submission.
 
 ## Package layout
 
@@ -21,6 +21,7 @@ This package incorporates the author-designated latest title, seven-author list,
 - `deliverables/authorship_orcid_update_20261018_v2/`: versioned PDFs and source archive after completing the six-author ORCID metadata.
 - `deliverables/mdpi_repository_link_20261021_v3/`: versioned PDFs and source archive containing the tagged GitHub Data Availability route.
 - `deliverables/authoritative_submission_20261021_v4/`: versioned PDFs and clean source archive reconciling the author-designated latest metadata and declarations with the tagged GitHub route.
+- `deliverables/technologies_submission_20261021_v5/`: journal-specific main-manuscript ZIP, separate Supplementary Materials PDF, cover letter, upload map, previews, and an outer convenience bundle that must be unpacked before portal upload.
 - `source_manifest.json`: provenance, hashes, transformations, toolchain, and output inventory.
 - `paper3_mdpi_source.zip`: portable source archive; it excludes generated build auxiliaries and compiled PDFs.
 
@@ -30,10 +31,10 @@ This package incorporates the author-designated latest title, seven-author list,
 - Downloaded archive: <https://res.mdpi.com/data/MDPI_template_ACS.zip?v=20260911>
 - Archive SHA-256: `62744425fbcec9cd3e58147cbee65bdec2e2ff0440f29792c26edc97a11b6c70`
 - MDPI class: version `2026-09-11`, `v6.5a`
-- Class options: `notspecified,article,submit,moreauthors` for the main file and `notspecified,supfile,submit,moreauthors` for the Supplement.
+- Class options: `technologies,article,submit,moreauthors` for the main file and `technologies,supfile,submit,moreauthors` for the Supplement.
 - Engine: pdfLaTeX through `latexmk`; bibliography backend: BibTeX with `Definitions/mdpi.bst`.
 
-No journal was selected during assembly. The neutral official `notspecified` option is therefore intentional. The generic class would synthesize a DOI footer from class-internal volume, issue, and article placeholders; the two manuscript sources clear only that unassigned footer. No class or style file was edited.
+The journal selection was fixed as *Technologies* on 2026-10-21. The class can synthesize a DOI footer from class-internal volume, issue, and article placeholders; the two manuscript sources clear only that unassigned footer. No class or style file was edited.
 
 The official archive contained no standalone license file. Original copyright and license notices embedded in the distributed MDPI files are retained verbatim, and `source_manifest.json` records their upstream archive.
 
@@ -71,6 +72,12 @@ To rebuild the authoritative reconciled package, run:
 ./build_authoritative_submission.sh
 ```
 
+To rebuild the journal-specific Technologies portal package, run:
+
+```sh
+./build_technologies_submission.sh
+```
+
 The script produces:
 
 ```text
@@ -84,6 +91,10 @@ deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi.pdf
 deliverables/mdpi_repository_link_20261021_v3/paper3_supplementary.pdf
 deliverables/authoritative_submission_20261021_v4/paper3_mdpi.pdf
 deliverables/authoritative_submission_20261021_v4/paper3_supplementary.pdf
+deliverables/technologies_submission_20261021_v5/Technologies_manuscript_main.zip
+deliverables/technologies_submission_20261021_v5/Technologies_supplementary.pdf
+deliverables/technologies_submission_20261021_v5/Technologies_cover_letter.pdf
+deliverables/technologies_submission_20261021_v5/UNPACK_FIRST_Technologies_submission_kit.zip
 ```
 
 The historical `build.sh` is retained for provenance but writes to `build/`; it is not used for this revision.
