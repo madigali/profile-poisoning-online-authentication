@@ -7,6 +7,23 @@ The repository studies a central security–adaptation trade-off: an online
 profile should follow legitimate behavioral drift without allowing accepted
 impostor samples to poison its state.
 
+## MDPI submission snapshot
+
+The journal-facing repository snapshot is frozen by the Git tag
+[`paper3-mdpi-submission-2026-10-21`](https://github.com/madigali/paper3-poisoning-resistant-adaptation/tree/paper3-mdpi-submission-2026-10-21).
+It contains the manuscript sources, Supplementary Materials, protocol records,
+tests, and the derived result tables and figures used in the article.
+
+- Main manuscript: [`paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi.pdf`](paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi.pdf)
+- Supplementary Materials: [`paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_supplementary.pdf`](paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_supplementary.pdf)
+- Portable LaTeX package: [`paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi_source.zip`](paper/mdpi/deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi_source.zip)
+- Reproducibility and provenance: [`paper/mdpi/source_manifest.json`](paper/mdpi/source_manifest.json)
+
+The repository remains private during manuscript preparation. Editors or
+reviewers therefore need repository access from the authors; the link alone is
+not anonymously accessible until the repository is made public. Raw HMOG and
+McGill Gait data, trained weights, and local score caches are not redistributed.
+
 ## Current status
 
 The HMOG method-development phase is frozen. The completed evidence shows:
@@ -28,7 +45,8 @@ different sensor setting rather than a numerically identical HMOG reproduction.
 
 The experimental phase is closed for the first submission. No third dataset,
 new adaptation method, or post-result parameter sweep is planned; active work
-has moved to manuscript Methods and Results from the frozen packages.
+has moved to final administrative confirmation and journal submission from the
+frozen packages.
 
 ## Repository layout
 

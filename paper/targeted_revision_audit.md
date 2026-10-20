@@ -155,4 +155,36 @@ On 2026-10-18, the author confirmed the following order: Madi Gali, Vassiliy Ser
 
 The target journal and title remain unapproved. Corresponding-author designation, final keywords, contributions, ethics review, consent, conflicts, acknowledgments, and AI-use disclosure require author confirmation. Raw datasets are not redistributed. The code/results repository is private, and no public archive or DOI is currently assigned; the final availability route requires an author decision.
 
+## MDPI repository-link update (2026-10-21)
+
+The journal-facing code and derived-results route was frozen as the Git tag
+`paper3-mdpi-submission-2026-10-21` at
+`https://github.com/madigali/paper3-poisoning-resistant-adaptation/tree/paper3-mdpi-submission-2026-10-21`.
+The root README now provides direct entry points to the versioned manuscript,
+Supplementary Materials, portable LaTeX archive, and provenance manifest. The
+Data Availability statement names the same immutable tagged revision and states
+that the repository remains private during manuscript preparation, with access
+available from the authors upon reasonable request. No public availability or
+repository DOI is claimed, and no raw HMOG or McGill Gait data are redistributed.
+
+This was an administrative and reproducibility-linkage update only. It did not
+change a scientific method, experimental result, figure, table, citation, or
+interpretation.
+
+The versioned main manuscript and Supplement compiled successfully to 24 and
+14 pages. Their final logs contained no LaTeX error, fatal error, undefined
+citation, undefined reference, or overfull box. Main page 22 was rendered at
+180 dpi and visually inspected; the tagged URL wrapped cleanly, remained
+legible, and did not collide with line numbers or surrounding declarations. The
+portable source archive passed integrity testing and a clean-extract rebuild
+with the included repository-link build script, again producing 24 and 14
+pages.
+
+Versioned repository-link outputs:
+
+- main PDF SHA-256: `40364fdaa9a9cb2f84f28cba8120c4216e335ffe559b33c816d1f4cd1b26fa23`;
+- Supplement PDF SHA-256: `122dc4f7499b81146ddb1266836e862c19860611efbafc6319aa5b9acbb82afb`;
+- source ZIP SHA-256: `43ce103248c7c65aab1f7d2a50c97a7018e5d7ffee6f26e234e0f32131dc590d`;
+- source-manifest SHA-256: `c1f30e1f1142e671da8693736fafedd72f2ef38ab62f8404556fff85c70f965a`.
+
 There is no evidence-integrity blocker arising from M2 if the article reports the executed dataset-specific policy. Requiring identical zero clipping across HMOG and McGill would create a new experiment and would require replacement of the affected McGill outcomes.

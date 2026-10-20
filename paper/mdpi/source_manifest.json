@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "package_status": "Complete six-author ORCID update; scientifically frozen but not yet administratively submission-ready",
-  "assembled_on": "2026-10-18",
+  "package_status": "Complete six-author ORCID and tagged GitHub availability update; scientifically frozen but not yet administratively submission-ready",
+  "assembled_on": "2026-10-21",
   "source_repository": "/Users/madigali/Documents/PythoProjects/q1",
   "baseline_git_revision": "b18e9fb117828f31a01f5efcce5b0be57081fa07",
   "source_branch": "paper3-external-replication",
-  "revision_scope": "Literature/source tracing, analytical clarification, reporting edits, presentation-only artwork, packaging, and a later author-supplied authorship/funding update with one future-work linkage sentence; no training, scoring, replay, metric recomputation, bootstrap, or new experiment.",
+  "revision_scope": "Literature/source tracing, analytical clarification, reporting edits, presentation-only artwork, packaging, author-supplied authorship/funding metadata, and a tagged GitHub availability route; no training, scoring, replay, metric recomputation, bootstrap, or new experiment.",
   "pending_author_decisions": [
     "target journal",
     "final title",
@@ -14,7 +14,7 @@
     "author contributions",
     "institutional review",
     "informed consent",
-    "data availability",
+    "repository visibility at publication",
     "acknowledgments and AI-assisted-tool disclosure",
     "conflicts of interest"
   ],
@@ -32,6 +32,16 @@
       "Bakytzhan Amralinova": "0000-0003-0716-5265",
       "Shyndauyl Nugumanov": "0009-0002-4089-9332"
     },
+    "scientific_results_changed": false
+  },
+  "repository_link_update": {
+    "date": "2026-10-21",
+    "repository_url": "https://github.com/madigali/paper3-poisoning-resistant-adaptation",
+    "frozen_tag": "paper3-mdpi-submission-2026-10-21",
+    "tagged_url": "https://github.com/madigali/paper3-poisoning-resistant-adaptation/tree/paper3-mdpi-submission-2026-10-21",
+    "visibility_at_assembly": "private",
+    "article_wording": "Private during manuscript preparation; editorial access available from the authors upon reasonable request",
+    "raw_datasets_redistributed": false,
     "scientific_results_changed": false
   },
   "template": {
@@ -256,13 +266,13 @@
       "sha256": "dff5f4f1a69dc242b4e33b814e598046bca993bf716175062400a8974b2173cc"
     },
     "declarations.tex": {
-      "sha256": "a77c94e32d03b07146d8c35f40ba27042d653e8175cf1a7fa6d14767022b33dc"
+      "sha256": "0c1eeac4d23fd1b2122e44e42a63639d531169e2f3f0bfc557bbdf63facae136"
     },
     "build.sh": {
       "sha256": "2634af1a247fbbc02986f36bd400daab93b0aef60fe3358aaf4c6409c626cca0"
     },
     "README.md": {
-      "sha256": "c7789c9574c7b963db3826efd8d57a3e564482a0c4b7a6ce0c32bcfb9526ffb9"
+      "sha256": "531c945766d993b950d93d0906bda8f9542b29d83bd01ea0643dd200d49c8a50"
     },
     "build_targeted_revision.sh": {
       "sha256": "2756fd0d332e48e1f3201aa7543e866dd79edb9a37305a3780020b0e9e211599"
@@ -272,6 +282,9 @@
     },
     "build_authorship_orcid_update.sh": {
       "sha256": "d4ba25a61a0a6b90a787dfbf4a7b54b866ca79dafe73d5a5b896c922f9962197"
+    },
+    "build_mdpi_repository_link_update.sh": {
+      "sha256": "c19c222f7a6d21ef8c2bf1d5d64896d9e1ec015dd00a5bbb91229174ae4a894e"
     },
     "render_publication_figures.py": {
       "sha256": "af25d5be92a0ccb4b7c55cd012732e317231be69011d132adf18de856e5af5fa"
@@ -333,6 +346,20 @@
     "authorship_orcid_update_source_archive": {
       "path": "deliverables/authorship_orcid_update_20261018_v2/paper3_mdpi_source.zip",
       "sha256": "recorded in paper/targeted_revision_audit.md after archive creation"
+    },
+    "mdpi_repository_link_main_pdf": {
+      "path": "deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi.pdf",
+      "sha256": "40364fdaa9a9cb2f84f28cba8120c4216e335ffe559b33c816d1f4cd1b26fa23",
+      "pages": 24
+    },
+    "mdpi_repository_link_supplement_pdf": {
+      "path": "deliverables/mdpi_repository_link_20261021_v3/paper3_supplementary.pdf",
+      "sha256": "122dc4f7499b81146ddb1266836e862c19860611efbafc6319aa5b9acbb82afb",
+      "pages": 14
+    },
+    "mdpi_repository_link_source_archive": {
+      "path": "deliverables/mdpi_repository_link_20261021_v3/paper3_mdpi_source.zip",
+      "sha256": "recorded in paper/targeted_revision_audit.md after archive creation"
     }
   },
   "verification": {
@@ -385,6 +412,18 @@
       "focused_visual_pages_inspected": [
         "main 1",
         "supplement S1"
+      ]
+    },
+    "mdpi_repository_link_update": {
+      "main_and_supplement_compile": true,
+      "undefined_citations": 0,
+      "undefined_references": 0,
+      "overfull_boxes": 0,
+      "main_pages": 24,
+      "supplement_pages": 14,
+      "tagged_url_rendered_and_clickable": true,
+      "focused_visual_pages_inspected": [
+        "main 22"
       ]
     }
   }
