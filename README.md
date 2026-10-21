@@ -1,6 +1,7 @@
-# Poisoning-Resistant Online Adaptation for Mobile Authentication
+# Profile Poisoning and Selective-Update Bias in Online Behavioral Biometric Authentication
 
-Research code, frozen HMOG results, and a locked external replication for Paper 3 of a PhD project on
+Research code, protocol specifications, frozen derived results, manuscript
+sources, and an independent McGill Gait replication for a study of
 behavioral-biometric continuous authentication.
 
 The repository studies a central security–adaptation trade-off: an online
@@ -9,8 +10,8 @@ impostor samples to poison its state.
 
 ## MDPI submission snapshot
 
-The Technologies-facing repository snapshot is frozen by the Git tag
-[`paper3-technologies-submission-2026-10-21`](https://github.com/madigali/paper3-poisoning-resistant-adaptation/tree/paper3-technologies-submission-2026-10-21).
+The public Technologies submission snapshot is available from the Git reference
+[`technologies-submission-v1.0.0`](https://github.com/madigali/profile-poisoning-online-authentication/tree/technologies-submission-v1.0.0).
 It contains the manuscript sources, Supplementary Materials, protocol records,
 tests, and the derived result tables and figures used in the article.
 
@@ -20,10 +21,13 @@ tests, and the derived result tables and figures used in the article.
 - Upload map: [`paper/mdpi/deliverables/technologies_submission_20261021_v5/UPLOAD_MAP.txt`](paper/mdpi/deliverables/technologies_submission_20261021_v5/UPLOAD_MAP.txt)
 - Reproducibility and provenance: [`paper/mdpi/source_manifest.json`](paper/mdpi/source_manifest.json)
 
-The repository remains private during manuscript preparation. Editors or
-reviewers therefore need repository access from the authors; the link alone is
-not anonymously accessible until the repository is made public. Raw HMOG and
+The repository and submission snapshot are publicly accessible. Raw HMOG and
 McGill Gait data, trained weights, and local score caches are not redistributed.
+The H-MOG dataset is available from its
+[provider](https://hmog-dataset.github.io/hmog/) subject to the provider's terms;
+the College of William and Mary bears no responsibility for the authors'
+analysis or interpretation. The McGill Gait dataset is available from its
+[provider](https://www.cs.mcgill.ca/~jfrank8/data/gait-dataset.html).
 
 ## Current status
 
@@ -44,7 +48,7 @@ was weaker and its central confidence interval included zero. McGill contains
 accelerometer but no gyroscope, so this is a mechanism replication under a
 different sensor setting rather than a numerically identical HMOG reproduction.
 
-The experimental phase is closed for the first submission. No third dataset,
+The experimental phase is closed for this submission. No third dataset,
 new adaptation method, or post-result parameter sweep is planned; active work
 has moved to final administrative confirmation and journal submission from the
 frozen packages.
@@ -115,7 +119,7 @@ directory and refuses to overwrite a non-empty directory.
 ## Reproducibility and provenance
 
 - Method freeze tag: `paper3-method-freeze-2026-10-02`
-- Default random seed for Paper 3 score-level experiments: `4242`
+- Default random seed for the score-level experiments: `4242`
 - McGill protocol freeze commit: `f5ef301`
 - McGill locked score-cache SHA-256:
   `3f390ab19fbea15582fbb5a646cf7e631b77b744ab101e97d83edb533717a79b`
@@ -123,6 +127,3 @@ directory and refuses to overwrite a non-empty directory.
   `outer_test_loaded=false` in their saved records.
 - Historical and superseded development artifacts remain recoverable from Git
   history but are not present in the clean default branch.
-
-Before manuscript submission, inherited Paper 1 and Paper 2 statements must be
-checked against their primary manuscripts, as recorded in `paper/notes.md`.

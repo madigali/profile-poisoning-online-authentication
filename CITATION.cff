@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite the associated article."
+title: "Profile Poisoning and Selective-Update Bias in Online Behavioral Biometric Authentication"
+type: software
+version: 1.0.0
+date-released: 2026-10-21
+repository-code: "https://github.com/madigali/profile-poisoning-online-authentication"
+authors:
+  - family-names: Gali
+    given-names: Madi
+    orcid: "https://orcid.org/0009-0006-2621-0454"
+  - family-names: Serbin
+    given-names: Vassiliy
+    orcid: "https://orcid.org/0000-0002-5807-3873"
+  - family-names: Kassenkhan
+    given-names: Aray
+    orcid: "https://orcid.org/0000-0002-6355-9544"
+  - family-names: Turegeldinova
+    given-names: Aliya
+    orcid: "https://orcid.org/0000-0003-1042-1530"
+  - family-names: Amralinova
+    given-names: Bakytzhan
+    orcid: "https://orcid.org/0000-0003-0716-5265"
+  - family-names: Nugumanov
+    given-names: Shyndauyl
+    orcid: "https://orcid.org/0009-0002-4089-9332"
+  - family-names: Chinibayev
+    given-names: Yersain
+    orcid: "https://orcid.org/0009-0009-8985-5892"
