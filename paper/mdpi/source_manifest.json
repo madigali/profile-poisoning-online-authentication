@@ -37,8 +37,8 @@
   "repository_link_update": {
     "date": "2026-10-21",
     "repository_url": "https://github.com/madigali/profile-poisoning-online-authentication",
-    "frozen_tag": "technologies-submission-v1.0.0",
-    "tagged_url": "https://github.com/madigali/profile-poisoning-online-authentication/tree/technologies-submission-v1.0.0",
+    "frozen_tag": "technologies-submission-v1.0.1",
+    "tagged_url": "https://github.com/madigali/profile-poisoning-online-authentication/tree/technologies-submission-v1.0.1",
     "visibility_at_assembly": "public",
     "article_wording": "Analysis code, protocol specifications, and derived results are openly available in the public tagged repository",
     "raw_datasets_redistributed": false,
@@ -69,7 +69,7 @@
   "technologies_submission": {
     "date": "2026-10-21",
     "journal": "Technologies",
-    "frozen_tag": "technologies-submission-v1.0.0",
+    "frozen_tag": "technologies-submission-v1.0.1",
     "main_source_zip_excludes_supplement": true,
     "cover_letter_explains_journal_link": true,
     "outer_bundle_requires_unpacking": true,
@@ -411,26 +411,26 @@
     },
     "technologies_main_preview_pdf": {
       "path": "deliverables/technologies_submission_20261021_v5/Technologies_main_manuscript_preview.pdf",
-      "sha256": "2747b3b9e85b961d0ff49dc4cb945182f61e01184261bf482e262c53be4322b2",
+      "sha256": "cb315ba3e125af14755d2eb108b2a22e5665527f208ffc6a5caaa933938fa1d9",
       "pages": 24
     },
     "technologies_supplement_pdf": {
       "path": "deliverables/technologies_submission_20261021_v5/Technologies_supplementary.pdf",
-      "sha256": "d2dc9ea9e33291f6f0450bd5d22a17c8fb889ea02e45eee3dbec7a073add00bd",
+      "sha256": "4a0a8f0a2a2dcc3f53e3a35281de07a64e920120ba943f952d800f2678f7c818",
       "pages": 14
     },
     "technologies_cover_letter_pdf": {
       "path": "deliverables/technologies_submission_20261021_v5/Technologies_cover_letter.pdf",
-      "sha256": "6b283d441e4caba9e60e2ac14420f3f2a6bd2bd2e9a6496b2b896557fc2d9133",
+      "sha256": "f42c2337bf16d9f69df88621d389dc13cf2bee2ac830953566798cedc7fd53dd",
       "pages": 1
     },
     "technologies_main_source_zip": {
       "path": "deliverables/technologies_submission_20261021_v5/Technologies_manuscript_main.zip",
-      "sha256": "e3c66edd6171578c9e627bafe9e84e3d2ce4c2cfb46357877a25c73902c85b8a"
+      "sha256": "7ba2e6009d670a784310889a555718891f9d56f5fed16971744f2166fea723d8"
     },
     "technologies_outer_upload_kit": {
       "path": "deliverables/technologies_submission_20261021_v5/UNPACK_FIRST_Technologies_submission_kit.zip",
-      "sha256": "77ac70faa3668764c050f0a644dce82ab0c67994192c1694ec57f897ac0624fd"
+      "sha256": "19239365ed295c90b20e9b86b12e0c842336a3b45709907a20ad7895f82efb9e"
     }
   },
   "verification": {

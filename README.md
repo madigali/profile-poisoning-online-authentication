@@ -11,7 +11,7 @@ impostor samples to poison its state.
 ## MDPI submission snapshot
 
 The public Technologies submission snapshot is available from the Git reference
-[`technologies-submission-v1.0.0`](https://github.com/madigali/profile-poisoning-online-authentication/tree/technologies-submission-v1.0.0).
+[`technologies-submission-v1.0.1`](https://github.com/madigali/profile-poisoning-online-authentication/tree/technologies-submission-v1.0.1).
 It contains the manuscript sources, Supplementary Materials, protocol records,
 tests, and the derived result tables and figures used in the article.
 
@@ -127,3 +127,13 @@ directory and refuses to overwrite a non-empty directory.
   `outer_test_loaded=false` in their saved records.
 - Historical and superseded development artifacts remain recoverable from Git
   history but are not present in the clean default branch.
+
+## License
+
+Original software code in `src/`, `tests/`, and `experiments/` is licensed
+under the [BSD 3-Clause License](LICENSE). The software license does not apply
+to the manuscript, article figures, Supplementary Materials, or third-party
+files under `paper/mdpi/Definitions/`; those materials retain their respective
+copyright and publishing terms. The third-party H-MOG and McGill Gait datasets
+are not redistributed by this repository and remain subject to their providers'
+terms.
