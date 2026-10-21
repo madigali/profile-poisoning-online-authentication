@@ -26,7 +26,7 @@
     "fold5_base.npz": "89fe8aeff078a4eb30196618121870ae8376a223e81aa17e24e29810cbda1b3d",
     "fold5_model.pt": "8937968f1d73133ec6a3226f49e83b1e96277dca853269aa0d0b858d3e45fe85"
   },
-  "command": "paper3_robust_quantile.py --source-dir /Users/madigali/Documents/PythoProjects/q1 --bootstrap-replicates 10000 --validation-only --skip-plots --output-dir results/paper3_quantile_validation_failed_20261001_v1",
+  "command": "paper3_robust_quantile.py --source-dir . --bootstrap-replicates 10000 --validation-only --skip-plots --output-dir results/paper3_quantile_validation_failed_20261001_v1",
   "created_utc": "2026-10-01T18:55:15.051485+00:00",
   "outer_test_loaded": false,
   "platform": "macOS-14.3-arm64-arm-64bit-Mach-O",

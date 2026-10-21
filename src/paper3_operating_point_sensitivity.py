@@ -1436,7 +1436,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--project-dir", default=".")
     parser.add_argument(
         "--mcgill-cache",
-        default="/Users/madigali/Downloads/McGillGait/paper3_external_cache_v1/scores_mcgill_day2.npz",
+        default="data/McGillGait/paper3_external_cache_v1/scores_mcgill_day2.npz",
     )
     parser.add_argument("--mode", choices=("reference", "full"), default="full")
     parser.add_argument("--repeats", type=int, default=100)

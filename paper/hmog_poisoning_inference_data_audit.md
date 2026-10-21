@@ -32,7 +32,7 @@ The granular file contains 3,991,120 data rows plus its header. Its columns are:
 
 The granular file is retained at:
 
-`/Users/madigali/.codex/.chatgpt-projects/g-p-6abba505c7a0819184b45c7f142edb0d/q1-third-article/results/20260930-guarded-full-r100/subject_repeat_metrics.csv`
+`results/20260930-guarded-full-r100/subject_repeat_metrics.csv`
 
 SHA-256:
 

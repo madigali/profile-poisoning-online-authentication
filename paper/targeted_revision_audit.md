@@ -159,13 +159,11 @@ The target journal and title remain unapproved. Corresponding-author designation
 
 The journal-facing code and derived-results route was frozen as the Git tag
 `paper3-mdpi-submission-2026-10-21` at
-`https://github.com/madigali/paper3-poisoning-resistant-adaptation/tree/paper3-mdpi-submission-2026-10-21`.
+`https://github.com/madigali/profile-poisoning-online-authentication/tree/technologies-submission-v1.0.0`.
 The root README now provides direct entry points to the versioned manuscript,
 Supplementary Materials, portable LaTeX archive, and provenance manifest. The
-Data Availability statement names the same immutable tagged revision and states
-that the repository remains private during manuscript preparation, with access
-available from the authors upon reasonable request. No public availability or
-repository DOI is claimed, and no raw HMOG or McGill Gait data are redistributed.
+Data Availability statement names the same immutable tagged revision. The
+repository is public, and no raw HMOG or McGill Gait data are redistributed.
 
 This was an administrative and reproducibility-linkage update only. It did not
 change a scientific method, experimental result, figure, table, citation, or
@@ -191,7 +189,7 @@ There is no evidence-integrity blocker arising from M2 if the article reports th
 
 ## Authoritative source reconciliation (2026-10-21)
 
-The author identified `/Users/madigali/Downloads/paper3_mdpi_source (2).zip`
+The author identified `paper3_mdpi_source (2).zip`
 as the latest source package. Its SHA-256 was
 `8e2ed7e328857034361cb79ca0b35e88a66fcee0e8dd951754d7e75bc5727e2c`.
 Relative to the repository source, its scientific manuscript, Supplement,
@@ -206,7 +204,7 @@ Those author-supplied fields were adopted. The Data Availability statement was
 reconciled rather than replaced: it retains the two provider URLs and raw-data
 redistribution restriction from the latest archive while adding the immutable
 GitHub route
-`https://github.com/madigali/paper3-poisoning-resistant-adaptation/tree/paper3-mdpi-submission-2026-10-21-v2`.
+`https://github.com/madigali/profile-poisoning-online-authentication/tree/technologies-submission-v1.0.0`.
 The incoming archive's generated `build/` and empty `tmp/` directories were not
 carried into the clean source package.
 

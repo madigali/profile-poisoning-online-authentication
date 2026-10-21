@@ -1,6 +1,6 @@
 {
-  "source_dir": "/Users/madigali/Documents/PythoProjects/q1",
-  "cache_dir": "/Users/madigali/Documents/PythoProjects/q1/paper3_cache",
+  "source_dir": ".",
+  "cache_dir": "paper3_cache",
   "folds": [
     1,
     2,

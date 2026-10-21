@@ -26,7 +26,7 @@
     "fold5_base.npz": "89fe8aeff078a4eb30196618121870ae8376a223e81aa17e24e29810cbda1b3d",
     "fold5_model.pt": "8937968f1d73133ec6a3226f49e83b1e96277dca853269aa0d0b858d3e45fe85"
   },
-  "command": "paper3_temporal_recovery_v2.py --source-dir /Users/madigali/Documents/PythoProjects/q1 --folds 1,2,3,4,5 --bootstrap-replicates 10000 --skip-plots --output-dir results/20261001-tq-v2-validation-gate-final-v2",
+  "command": "paper3_temporal_recovery_v2.py --source-dir . --folds 1,2,3,4,5 --bootstrap-replicates 10000 --skip-plots --output-dir results/20261001-tq-v2-validation-gate-final-v2",
   "created_utc": "2026-10-01T18:35:12.460388+00:00",
   "platform": "macOS-14.3-arm64-arm-64bit-Mach-O",
   "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",

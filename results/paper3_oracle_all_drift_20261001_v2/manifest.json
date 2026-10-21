@@ -21,7 +21,7 @@
     "fold5_D2.0.npz": "85a30f5dbecc0b21f7d04d4be73ed66ad2cfba9e2b9eca89ebfb5b3f856eaa60",
     "fold5_base.npz": "89fe8aeff078a4eb30196618121870ae8376a223e81aa17e24e29810cbda1b3d"
   },
-  "command": "paper3_guarded_drift.py --source-dir /Users/madigali/Documents/PythoProjects/q1 --bootstrap-replicates 10000 --output-dir results/20261001-oracle-all-drift-full-v2",
+  "command": "paper3_guarded_drift.py --source-dir . --bootstrap-replicates 10000 --output-dir results/20261001-oracle-all-drift-full-v2",
   "created_utc": "2026-09-30T19:10:55.778203+00:00",
   "platform": "macOS-14.3-arm64-arm-64bit-Mach-O",
   "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",

@@ -11,7 +11,7 @@
     "fold5_D0.0.npz": "601c0486b77b23d3b896e4abdea12a96004ee303d8af5c80975f35c9d9ff2dc4",
     "fold5_base.npz": "89fe8aeff078a4eb30196618121870ae8376a223e81aa17e24e29810cbda1b3d"
   },
-  "command": "paper3_guarded_adaptation.py --source-dir /Users/madigali/Documents/PythoProjects/q1 --repeats 100 --output-dir results/20260930-guarded-full-r100",
+  "command": "paper3_guarded_adaptation.py --source-dir . --repeats 100 --output-dir results/20260930-guarded-full-r100",
   "created_utc": "2026-09-30T18:14:14.680849+00:00",
   "platform": "macOS-14.3-arm64-arm-64bit-Mach-O",
   "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",

@@ -6,7 +6,7 @@
     "mcgill_reference": "all random paths and boundary-K8-feasible paths",
     "random": "all structurally valid planned paths"
   },
-  "command": "src/paper3_operating_point_sensitivity.py --project-dir /Users/madigali/Documents/PythoProjects/q1 --mode full --repeats 100 --bootstrap-draws 10000 --output-dir /Users/madigali/Documents/PythoProjects/q1/results/paper3_operating_point_sensitivity_20261004_v1",
+  "command": "src/paper3_operating_point_sensitivity.py --project-dir . --mode full --repeats 100 --bootstrap-draws 10000 --output-dir results/paper3_operating_point_sensitivity_20261004_v1",
   "conditions_evaluated": [
     "reference",
     "far_5pct",
@@ -115,17 +115,17 @@
   },
   "git_revision": "517746fbe6e89268a603fceebefe558409eabb33",
   "input_cache_sha256": {
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold1_D0.0.npz": "969cbad2e13dc656ddf69c1ea9e5584e58a532a8744a16adaefc25e99ce172d4",
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold1_base.npz": "90c426e7151d863acea5f18c431afd0d075a0e604df06116b4f8729737b1a3f9",
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold2_D0.0.npz": "32a3df6253465601eb01de6ad6a0f48556662c991a97a813a638a25d2b314152",
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold2_base.npz": "81d001122bdd34126e1280f697f80dca9ca2b6014955fdeaa5a87542fdb6fb8a",
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold3_D0.0.npz": "cbb47f41feb0cb79495184cd0e9b279c9b69de0a182242701f78cc8badafb23b",
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold3_base.npz": "ffbc06e89c4b456e74dd1bdc9fc7088d781f26156e8edf19c62545dc5942ff1d",
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold4_D0.0.npz": "1f3c7f3fd8e623223d0a7d26ea8cab334ba1a568af7ca336233b80eb7d51facf",
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold4_base.npz": "ca09afa025d49da943cff0d3d528a20ae253f67912d12eea723a281c92297db0",
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold5_D0.0.npz": "601c0486b77b23d3b896e4abdea12a96004ee303d8af5c80975f35c9d9ff2dc4",
-    "/Users/madigali/Documents/PythoProjects/q1/paper3_cache/fold5_base.npz": "89fe8aeff078a4eb30196618121870ae8376a223e81aa17e24e29810cbda1b3d",
-    "/Users/madigali/Downloads/McGillGait/paper3_external_cache_v1/scores_mcgill_day2.npz": "3f390ab19fbea15582fbb5a646cf7e631b77b744ab101e97d83edb533717a79b"
+    "paper3_cache/fold1_D0.0.npz": "969cbad2e13dc656ddf69c1ea9e5584e58a532a8744a16adaefc25e99ce172d4",
+    "paper3_cache/fold1_base.npz": "90c426e7151d863acea5f18c431afd0d075a0e604df06116b4f8729737b1a3f9",
+    "paper3_cache/fold2_D0.0.npz": "32a3df6253465601eb01de6ad6a0f48556662c991a97a813a638a25d2b314152",
+    "paper3_cache/fold2_base.npz": "81d001122bdd34126e1280f697f80dca9ca2b6014955fdeaa5a87542fdb6fb8a",
+    "paper3_cache/fold3_D0.0.npz": "cbb47f41feb0cb79495184cd0e9b279c9b69de0a182242701f78cc8badafb23b",
+    "paper3_cache/fold3_base.npz": "ffbc06e89c4b456e74dd1bdc9fc7088d781f26156e8edf19c62545dc5942ff1d",
+    "paper3_cache/fold4_D0.0.npz": "1f3c7f3fd8e623223d0a7d26ea8cab334ba1a568af7ca336233b80eb7d51facf",
+    "paper3_cache/fold4_base.npz": "ca09afa025d49da943cff0d3d528a20ae253f67912d12eea723a281c92297db0",
+    "paper3_cache/fold5_D0.0.npz": "601c0486b77b23d3b896e4abdea12a96004ee303d8af5c80975f35c9d9ff2dc4",
+    "paper3_cache/fold5_base.npz": "89fe8aeff078a4eb30196618121870ae8376a223e81aa17e24e29810cbda1b3d",
+    "data/McGillGait/paper3_external_cache_v1/scores_mcgill_day2.npz": "3f390ab19fbea15582fbb5a646cf7e631b77b744ab101e97d83edb533717a79b"
   },
   "mode": "full",
   "output_schemas": {

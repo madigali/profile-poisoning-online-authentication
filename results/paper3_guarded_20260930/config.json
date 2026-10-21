@@ -6,7 +6,7 @@
     4,
     8
   ],
-  "cache_dir": "/Users/madigali/Documents/PythoProjects/q1/paper3_cache",
+  "cache_dir": "paper3_cache",
   "drift": 0.0,
   "gur_definition": "chronological genuine clean replay on copied post-poison state",
   "lambdas": [
@@ -20,5 +20,5 @@
   "probe_fraction": 0.5,
   "repeats": 100,
   "seed": 4242,
-  "source_dir": "/Users/madigali/Documents/PythoProjects/q1"
+  "source_dir": "."
 }

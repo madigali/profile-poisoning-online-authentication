@@ -1,6 +1,6 @@
 {
-  "source_dir": "/Users/madigali/Documents/PythoProjects/q1",
-  "cache_dir": "/Users/madigali/Documents/PythoProjects/q1/paper3_cache",
+  "source_dir": ".",
+  "cache_dir": "paper3_cache",
   "folds": [
     1,
     2,
@@ -263,7 +263,7 @@
       "trusted_lambda": 0.25
     }
   ],
-  "v1_selection_csv": "/Users/madigali/Documents/PythoProjects/q1/results/paper3_tq_clean_drift_20261001_v1/paper3_tq_selected_by_fold.csv",
+  "v1_selection_csv": "results/paper3_tq_clean_drift_20261001_v1/paper3_tq_selected_by_fold.csv",
   "primary_test": "claimant-only D=2, TQ-EMA v2 versus Frozen late-FRR gain",
   "bootstrap_replicates": 10000,
   "bootstrap_seed": 4242,

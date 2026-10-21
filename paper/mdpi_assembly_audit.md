@@ -8,7 +8,7 @@ The package is not submission-ready. Journal choice and author-controlled metada
 
 Assembly source state:
 
-- repository: `/Users/madigali/Documents/PythoProjects/q1`
+- repository: repository root
 - branch: `paper3-external-replication`
 - source revision: `ad00fb0254f166c146638bfc5c1457552f9593f5`
 - assembly date: 2026-10-04
